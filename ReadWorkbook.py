@@ -90,20 +90,21 @@ for i, row in enumerate(rows)
 		print("ALERT", i)
 
 	elif row_values[header['shot number']] == last_shot_num:
-		#same shot,
+
+		# same shot,
 		last_shot = scenes[row_values[0]].shots[-1]
 
 		if row_values[header['Action Number']] != last_action_num:
 			# new action
 			last_shot.actions.append(Action(action_params))
 		else:
-			# then load argument
+			# new action argument
 			last_shot.update(row_values)
 	else:
-		#new shot
+		# new shot
 		new_shot = Shot(Action(action_params), dict(zip(header, row_values)))
 		scenes[row[0].value].append(new_shot)
-		last_shot_num +=1
+		last_shot_num += 1
 
 print('stop')
 #
