@@ -49,7 +49,7 @@ action_start, action_stop = header.fromTo('actionnumber', "conclusionstatus")
 class Scene:
 	#name, ordered list of shots, entities
 
-	def __init__(self):
+	def __init__(self, name):
 		self._shots = []
 
 	def __len__(self):
@@ -72,6 +72,11 @@ class Scene:
 	def addShot(self, shot):
 		self.shots.append(shot)
 
+	def __repr__(self):
+		shots = [''.join('str([shot for shot in self])
+		return 'Scene: ' + ''.join(shot for shot in shots)
+
+
 class Action:
 
 	def __init__(self, **kwargs):
@@ -85,7 +90,12 @@ class Action:
 	def __len__(self):
 		return len(self._args)
 
-scenes = defaultdict(Scene)
+	def __getitem__(self, item):
+		return self._args[item]
+
+	def __repr__(self):
+		args = str([arg for arg in self])
+		return '{}'.format(self.type) + args
 
 
 #store by scene name
@@ -102,10 +112,33 @@ class Shot:
 		arg = row_values[header['arguments']]
 		self.actions[-1].appendArg(arg)
 
+	def __repr__(self):
+		actions = [' '.join('\t' + str(i) + ': ' + str(action) for action in self.actions)]
+		return 'Shots: \n' + ''.join(['{}'.format(action) for action in actions])
+
+
+class SceneLib:
+	def __init__(self, names):
+		self._scenes = defaultdict(Scene)
+		for name in scene_names:
+			self._scenes[name] = Scene(name)
+
+	def __len__(self):
+		return len(self._scenes)
+
+	def __getitem__(self, item):
+		return self._scenes[item]
+
+	def __repr__(self):
+		scenes = [''.join('\n' + str(key) + ' : ' + str(value) for key,value in self)]
+		return 'All Scenes: ' + '\n' + ''.join(['{}'.format(scene) for scene in scenes])
+
+
+#Scene Lib
 scene_names = {clean(s.value) for s in list(ws.columns)[0][1:]}
+scenes = SceneLib(scene_names)
 
-
-print('stop')
+print('starting parsing')
 
 last_shot_num = 0
 last_action_num = 0
@@ -117,7 +150,7 @@ for row in rows:
 	action_params = dict(zip(header.namesFromTo(action_start, action_stop), row_values[action_start:action_stop]))
 
 	if len(row_values) != len(header):
-		print("ALERT")
+		print("ALERT, |row_values| != |header|")
 
 	elif row_values[header['shotnumber']] == last_shot_num:
 
@@ -146,6 +179,8 @@ for row in rows:
 			last_shot_num += 1
 
 		last_action_num = 1
+
+
 
 print('stop')
 #
