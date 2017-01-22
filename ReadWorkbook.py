@@ -5,6 +5,7 @@
 
 from openpyxl import load_workbook
 from collections import defaultdict
+from collections import MutableMapping as MM
 
 def clean(s):
 	if not isinstance(s, str):
@@ -17,8 +18,6 @@ ws = wb.worksheets[0]
 rows = list(ws.rows)
 header_rows = [clean(r.value) for r in rows[0]]
 rows = [list(r) for r in rows[1:]]
-
-
 
 class Header:
 	def __init__(self, row_0):
@@ -73,7 +72,7 @@ class Scene:
 		self.shots.append(shot)
 
 	def __repr__(self):
-		shots = [''.join('str([shot for shot in self])
+		shots = [''.join(str(shot) for shot in self)]
 		return 'Scene: ' + ''.join(shot for shot in shots)
 
 
@@ -83,6 +82,8 @@ class Action:
 		self.type = kwargs['actionpredicates']
 		self._args = [kwargs['arguments']]
 		self.concluded = kwargs['conclusionstatus']
+		for key in kwargs:
+			setattr(self, key, kwargs[key])
 
 	def appendArg(self, arg):
 		self._args.append(arg)
@@ -104,7 +105,8 @@ class Shot:
 
 	def __init__(self, first_action, **kwargs):
 		#self.__dict__.update(kwargs)
-		self.shot_values = kwargs
+		for key in kwargs:
+			setattr(self, key, kwargs[key])
 		self.actions = [first_action]
 
 	def update(self, row_values):
@@ -117,21 +119,38 @@ class Shot:
 		return 'Shots: \n' + ''.join(['{}'.format(action) for action in actions])
 
 
-class SceneLib:
+class SceneLib(MM):
+	#A mutable mapping / dictionary typed object
+	# 'fromKeys' not implemented
+	# need to test .keys() and .values() and .items()
+
 	def __init__(self, names):
-		self._scenes = defaultdict(Scene)
-		for name in scene_names:
-			self._scenes[name] = Scene(name)
+		self._scenes = {name : Scene(name) for name in names}
 
 	def __len__(self):
 		return len(self._scenes)
 
-	def __getitem__(self, item):
-		return self._scenes[item]
+	def __getitem__(self, name):
+		return self._scenes[name]
+
+	def __setitem__(self, key, value):
+		self._scenes[key] = value
+
+	def __contains__(self, item):
+		return item in self.keys()
+
+	def __delitem__(self, key):
+		del self._scenes[key]
+
+	def __iter__(self):
+		return iter(self._scenes)
+
+	def __str__(self):
+		return str(self._scenes)
 
 	def __repr__(self):
-		scenes = [''.join('\n' + str(key) + ' : ' + str(value) for key,value in self)]
-		return 'All Scenes: ' + '\n' + ''.join(['{}'.format(scene) for scene in scenes])
+		members = [''.join('\n' + str(key) + ' : ' + str(value) for key, value in self)]
+		return 'All Scenes: ' + '\n' + ''.join(['{}'.format(scene) for scene in members])
 
 
 #Scene Lib
