@@ -180,55 +180,59 @@ class SceneLib:
 		return 'All Scenes: ' + '\n' + ''.join(['{}'.format(scene) for scene in members])
 
 
-#Scene Lib
-scene_names = {clean(s.value) for s in list(ws.columns)[0][1:]}
-scenes = SceneLib(scene_names)
 
-print('starting parsing')
 
-last_shot_num = 0
-last_action_num = 0
-for row in rows:
 
-	row_values = [clean(r.value) for r in row]
-	scene_name = row_values[0]
+def parse():
+	# Scene Lib
+	scene_names = {clean(s.value) for s in list(ws.columns)[0][1:]}
+	scenes = SceneLib(scene_names)
 
-	action_params = dict(zip(header.namesFromTo(action_start, action_stop), row_values[action_start:action_stop]))
+	print('starting parsing')
 
-	if len(row_values) != len(header):
-		print("ALERT, |row_values| != |header|")
+	last_shot_num = 0
+	last_action_num = 0
+	for row in rows:
 
-	elif toNumber(row_values[header['shotnumber']]) == last_shot_num:
+		row_values = [clean(r.value) for r in row]
+		scene_name = row_values[0]
 
-		# same shot,
-		last_shot = scenes[row_values[0]][-1]
+		action_params = dict(zip(header.namesFromTo(action_start, action_stop), row_values[action_start:action_stop]))
 
-		action_num = row_values[header['actionnumber']]
-		if action_num != last_action_num:
-			# new action
-			last_shot.actions.append(Action(**action_params))
-			last_action_num += 1
+		if len(row_values) != len(header):
+			print("ALERT, |row_values| != |header|")
 
+		elif toNumber(row_values[header['shotnumber']]) == last_shot_num:
+
+			# same shot,
+			last_shot = scenes[row_values[0]][-1]
+
+			action_num = row_values[header['actionnumber']]
+			if action_num != last_action_num:
+				# new action
+				last_shot.actions.append(Action(**action_params))
+				last_action_num += 1
+
+			else:
+				# new action argument
+				last_shot.update(row_values)
 		else:
-			# new action argument
-			last_shot.update(row_values)
-	else:
-		# new shot, first action
-		first_action = Action(**action_params)
-		new_shot = Shot(first_action, **dict(zip(header.names, row_values)))
-		scenes[scene_name].append(new_shot)
+			# new shot, first action
+			first_action = Action(**action_params)
+			new_shot = Shot(first_action, **dict(zip(header.names, row_values)))
+			scenes[scene_name].append(new_shot)
 
-		if toNumber(row_values[header['shotnumber']]) == 1 and not last_shot_num == 0:
-			#new scene, reset counter
-			last_shot_num = 1
-		else:
-			last_shot_num += 1
+			if toNumber(row_values[header['shotnumber']]) == 1 and not last_shot_num == 0:
+				#new scene, reset counter
+				last_shot_num = 1
+			else:
+				last_shot_num += 1
 
-		last_action_num = 1
+			last_action_num = 1
 
-print(scenes)
-save_scenes(scenes)
-print('stop')
-#
-# def readRows(self, rows):
-# 	for row in rows:
+	print(scenes)
+	save_scenes(scenes)
+	print('stop')
+
+#parse()
+
