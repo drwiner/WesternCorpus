@@ -6,12 +6,19 @@
 from openpyxl import load_workbook
 from collections import defaultdict
 
+def clean(s):
+	if not isinstance(s, str):
+		return s
+	return ''.join(s.split()).lower()
+
 wb = load_workbook(filename='Western_duel_corpus.xlsx', data_only=True)
 #first worksheet
 ws = wb.worksheets[0]
 rows = list(ws.rows)
-header_rows = [r.value for r in rows[0]]
+header_rows = [clean(r.value) for r in rows[0]]
 rows = [list(r) for r in rows[1:]]
+
+
 
 class Header:
 	def __init__(self, row_0):
@@ -21,20 +28,38 @@ class Header:
 		return len(self._header)
 
 	def __getitem__(self, name):
-		return self._header.index()
+		return self._header.index(name)
+
+	@property
+	def names(self):
+		return self._header
 
 	def fromTo(self, _from, _to):
-		return (self[_from], self[_to])
+		return (self[_from], self[_to]+1)
+
+	def namesFromTo(self, _from, _to):
+		return self._header[_from:_to]
+
+	def __repr__(self):
+		return self._header.__repr__()
 
 header = Header(header_rows)
-
+action_start, action_stop = header.fromTo('actionnumber', "conclusionstatus")
 
 class Scene:
 	#name, ordered list of shots, entities
 
-	def __init__(self, name):
-		self.name = name
-		self.shots = []
+	def __init__(self):
+		self._shots = []
+
+	def __len__(self):
+		return len(self._shots)
+
+	def __getitem__(self, item):
+		return self._shots[item]
+
+	def append(self, item):
+		self._shots.append(item)
 
 	def __getattribute__(self, name):
 
@@ -48,10 +73,11 @@ class Scene:
 		self.shots.append(shot)
 
 class Action:
-	def __init__(self, type, arg, arg_num, concluded):
-		self.type = type
-		self._args = [arg]
-		self.concluded = concluded
+
+	def __init__(self, **kwargs):
+		self.type = kwargs['actionpredicates']
+		self._args = [kwargs['arguments']]
+		self.concluded = kwargs['conclusionstatus']
 
 	def appendArg(self, arg):
 		self._args.append(arg)
@@ -60,51 +86,66 @@ class Action:
 		return len(self._args)
 
 scenes = defaultdict(Scene)
+
+
 #store by scene name
 
 class Shot:
 
 	def __init__(self, first_action, **kwargs):
-		self.__dict__.update({key: value for key, value in kwargs})
+		#self.__dict__.update(kwargs)
+		self.shot_values = kwargs
 		self.actions = [first_action]
 
 	def update(self, row_values):
 		#thus far, only update is to add argument to action
-		arg = row_values[header['Arguments']]
+		arg = row_values[header['arguments']]
 		self.actions[-1].appendArg(arg)
 
-scene_names = {s.value for s in list(ws.columns)[0][1:]}
+scene_names = {clean(s.value) for s in list(ws.columns)[0][1:]}
 
 
 print('stop')
 
 last_shot_num = 0
 last_action_num = 0
-for i, row in enumerate(rows)
+for row in rows:
 
-	row_values = [r.value for r in row]
-	start, stop = header.fromTo('Action Number', "Argument Number")
-	action_params = row_values[start:stop]
+	row_values = [clean(r.value) for r in row]
+	scene_name = row_values[0]
+
+	action_params = dict(zip(header.namesFromTo(action_start, action_stop), row_values[action_start:action_stop]))
 
 	if len(row_values) != len(header):
-		print("ALERT", i)
+		print("ALERT")
 
-	elif row_values[header['shot number']] == last_shot_num:
+	elif row_values[header['shotnumber']] == last_shot_num:
 
 		# same shot,
 		last_shot = scenes[row_values[0]].shots[-1]
 
-		if row_values[header['Action Number']] != last_action_num:
+		action_num = row_values[header['actionnumber']]
+		if action_num != last_action_num:
 			# new action
-			last_shot.actions.append(Action(action_params))
+			last_shot.actions.append(Action(**action_params))
+			last_action_num += 1
+
 		else:
 			# new action argument
 			last_shot.update(row_values)
 	else:
-		# new shot
-		new_shot = Shot(Action(action_params), dict(zip(header, row_values)))
-		scenes[row[0].value].append(new_shot)
-		last_shot_num += 1
+		# new shot, first action
+		first_action = Action(**action_params)
+		new_shot = Shot(first_action, **dict(zip(header.names, row_values)))
+		scenes[scene_name].append(new_shot)
+
+		if row_values[header['shotnumber']] == 1 and not last_shot_num == 0:
+			#new scene, reset counter
+			last_shot_num = 1
+		else:
+			last_shot_num += 1
+
+		last_action_num = 1
 
 print('stop')
 #
