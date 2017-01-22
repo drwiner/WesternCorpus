@@ -12,6 +12,15 @@ def clean(s):
 		return s
 	return ''.join(s.split()).lower()
 
+def toNumber(s):
+	if s is None:
+		return
+	if not isinstance(s, str):
+		print('not a string toNumber', s)
+		return
+	num_array = [int(i) for i in s if i.isdigit()]
+	return int(''.join(str(i) for i in num_array))
+
 wb = load_workbook(filename='Western_duel_corpus.xlsx', data_only=True)
 #first worksheet
 ws = wb.worksheets[0]
@@ -50,6 +59,7 @@ class Scene:
 
 	def __init__(self, name):
 		self._shots = []
+		self.name = name
 
 	def __len__(self):
 		return len(self._shots)
@@ -60,26 +70,26 @@ class Scene:
 	def append(self, item):
 		self._shots.append(item)
 
+	def addShot(self, shot):
+		self._shots.append(shot)
+
 	def __getattribute__(self, name):
 
-		if name is 'shot' and not self.shots:
+		if name is 'shot' and not self._shots:
 			print('no shot')
 			return -1
 		else:
 			return object.__getattribute__(self, name)
 
-	def addShot(self, shot):
-		self.shots.append(shot)
-
 	def __repr__(self):
-		shots = [''.join(str(shot) for shot in self)]
-		return 'Scene: ' + ''.join(shot for shot in shots)
+		shots = ['\n' + str(i) + ':' + str(shot) for i, shot in enumerate(self)]
+		return '\nSCENE:' + str(self.name) + '\n' + ''.join(shot for shot in shots)
 
 
 class Action:
 
 	def __init__(self, **kwargs):
-		self.type = kwargs['actionpredicates']
+		self.type = kwargs['action']
 		self._args = [kwargs['arguments']]
 		self.concluded = kwargs['conclusionstatus']
 		for key in kwargs:
@@ -115,11 +125,11 @@ class Shot:
 		self.actions[-1].appendArg(arg)
 
 	def __repr__(self):
-		actions = [' '.join('\t' + str(i) + ': ' + str(action) for action in self.actions)]
-		return 'Shots: \n' + ''.join(['{}'.format(action) for action in actions])
+		actions = [' '.join('\t' + str(i) + ': ' + str(action) for i, action in enumerate(self.actions))]
+		return '\n' + ''.join(['{}'.format(action) for action in actions])
 
 
-class SceneLib(MM):
+class SceneLib:
 	#A mutable mapping / dictionary typed object
 	# 'fromKeys' not implemented
 	# need to test .keys() and .values() and .items()
@@ -137,19 +147,28 @@ class SceneLib(MM):
 		self._scenes[key] = value
 
 	def __contains__(self, item):
-		return item in self.keys()
+		return item in self._scenes.keys()
 
 	def __delitem__(self, key):
 		del self._scenes[key]
 
 	def __iter__(self):
-		return iter(self._scenes)
+		return iter(self._scenes.items())
 
 	def __str__(self):
 		return str(self._scenes)
 
+	def keys(self):
+		return self._scenes.keys()
+
+	def values(self):
+		return self._scenes.values()
+
+	def items(self):
+		return self._scenes.items()
+
 	def __repr__(self):
-		members = [''.join('\n' + str(key) + ' : ' + str(value) for key, value in self)]
+		members = ['\nScene:' + str(key) + '\n' + str(value) for key, value in self]
 		return 'All Scenes: ' + '\n' + ''.join(['{}'.format(scene) for scene in members])
 
 
@@ -171,10 +190,10 @@ for row in rows:
 	if len(row_values) != len(header):
 		print("ALERT, |row_values| != |header|")
 
-	elif row_values[header['shotnumber']] == last_shot_num:
+	elif toNumber(row_values[header['shotnumber']]) == last_shot_num:
 
 		# same shot,
-		last_shot = scenes[row_values[0]].shots[-1]
+		last_shot = scenes[row_values[0]][-1]
 
 		action_num = row_values[header['actionnumber']]
 		if action_num != last_action_num:
@@ -191,7 +210,7 @@ for row in rows:
 		new_shot = Shot(first_action, **dict(zip(header.names, row_values)))
 		scenes[scene_name].append(new_shot)
 
-		if row_values[header['shotnumber']] == 1 and not last_shot_num == 0:
+		if toNumber(row_values[header['shotnumber']]) == 1 and not last_shot_num == 0:
 			#new scene, reset counter
 			last_shot_num = 1
 		else:
@@ -199,7 +218,7 @@ for row in rows:
 
 		last_action_num = 1
 
-
+print(scenes)
 
 print('stop')
 #
