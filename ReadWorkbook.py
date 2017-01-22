@@ -63,11 +63,10 @@ scenes = defaultdict(Scene)
 #store by scene name
 
 class Shot:
-	action_value_types = ['Action Number', 'Action Predicates', 'Action Start in shot']
 
-	def __init__(self, action_params, **kwargs):
+	def __init__(self, first_action, **kwargs):
 		self.__dict__.update({key: value for key, value in kwargs})
-		self.actions = [Action(action_params)]
+		self.actions = [first_action]
 
 	def update(self, row_values):
 		#thus far, only update is to add argument to action
@@ -78,21 +77,31 @@ scene_names = {s.value for s in list(ws.columns)[0][1:]}
 
 
 print('stop')
+
 last_shot_num = 0
+last_action_num = 0
 for i, row in enumerate(rows)
+
 	row_values = [r.value for r in row]
 	start, stop = header.fromTo('Action Number', "Argument Number")
 	action_params = row_values[start:stop]
 
 	if len(row_values) != len(header):
 		print("ALERT", i)
+
 	elif row_values[header['shot number']] == last_shot_num:
-		#same shot, then load argument
+		#same shot,
 		last_shot = scenes[row_values[0]].shots[-1]
-		last_shot.update(row_values)
+
+		if row_values[header['Action Number']] != last_action_num:
+			# new action
+			last_shot.actions.append(Action(action_params))
+		else:
+			# then load argument
+			last_shot.update(row_values)
 	else:
 		#new shot
-		new_shot = Shot(action_params, dict(zip(header, row_values)))
+		new_shot = Shot(Action(action_params), dict(zip(header, row_values)))
 		scenes[row[0].value].append(new_shot)
 		last_shot_num +=1
 
