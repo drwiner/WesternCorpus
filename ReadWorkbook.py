@@ -4,8 +4,7 @@
 # save and load data with pickle
 
 from openpyxl import load_workbook
-from collections import defaultdict
-from collections import MutableMapping as MM
+import pickle
 
 def clean(s):
 	if not isinstance(s, str):
@@ -21,8 +20,18 @@ def toNumber(s):
 	num_array = [int(i) for i in s if i.isdigit()]
 	return int(''.join(str(i) for i in num_array))
 
+def save_scenes(scene_lib):
+	output = open('scenelib.pkl', 'wb')
+	pickle.dump(dict(scene_lib), output, protocol=pickle.HIGHEST_PROTOCOL)
+	output.close()
+
+def load(d='scenelib.pkl'):
+	pkl_file = open(d, 'rb')
+	scene_lib = pickle.load(pkl_file)
+	print(scene_lib)
+	return scene_lib
+
 wb = load_workbook(filename='Western_duel_corpus.xlsx', data_only=True)
-#first worksheet
 ws = wb.worksheets[0]
 rows = list(ws.rows)
 header_rows = [clean(r.value) for r in rows[0]]
@@ -128,14 +137,13 @@ class Shot:
 		actions = [' '.join('\t' + str(i) + ': ' + str(action) for i, action in enumerate(self.actions))]
 		return '\n' + ''.join(['{}'.format(action) for action in actions])
 
-
 class SceneLib:
 	#A mutable mapping / dictionary typed object
 	# 'fromKeys' not implemented
 	# need to test .keys() and .values() and .items()
 
 	def __init__(self, names):
-		self._scenes = {name : Scene(name) for name in names}
+		self._scenes = {name: Scene(name) for name in names}
 
 	def __len__(self):
 		return len(self._scenes)
@@ -155,8 +163,8 @@ class SceneLib:
 	def __iter__(self):
 		return iter(self._scenes.items())
 
-	def __str__(self):
-		return str(self._scenes)
+	# def __str__(self):
+	# 	return str(self._scenes)
 
 	def keys(self):
 		return self._scenes.keys()
@@ -168,7 +176,7 @@ class SceneLib:
 		return self._scenes.items()
 
 	def __repr__(self):
-		members = ['\nScene:' + str(key) + '\n' + str(value) for key, value in self]
+		members = ['\n' + str(value) for value in self.values()]
 		return 'All Scenes: ' + '\n' + ''.join(['{}'.format(scene) for scene in members])
 
 
@@ -219,7 +227,7 @@ for row in rows:
 		last_action_num = 1
 
 print(scenes)
-
+save_scenes(scenes)
 print('stop')
 #
 # def readRows(self, rows):
