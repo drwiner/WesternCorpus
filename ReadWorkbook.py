@@ -5,6 +5,7 @@
 
 from openpyxl import load_workbook
 import pickle
+from clockdeco import clock
 
 def clean(s):
 	if not isinstance(s, str):
@@ -25,6 +26,7 @@ def save_scenes(scene_lib):
 	pickle.dump(dict(scene_lib), output, protocol=pickle.HIGHEST_PROTOCOL)
 	output.close()
 
+@clock
 def load(d='scenelib.pkl'):
 	pkl_file = open(d, 'rb')
 	scene_lib = pickle.load(pkl_file)
@@ -230,9 +232,21 @@ def parse():
 
 			last_action_num = 1
 
+
+
 	print(scenes)
 	save_scenes(scenes)
 	print('stop')
+
+def spit():
+	print(len(wb.worksheets))
+	n = 2 # should be whatever length is
+	new_worksheet = wb.create_sheet('system output', n)
+	scene_lib = load()
+	start_x, start_y = ('A', 1)
+	for scene in scene_lib:
+		pass
+spit()
 
 #parse()
 
