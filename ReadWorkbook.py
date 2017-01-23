@@ -28,10 +28,7 @@ def save_scenes(scene_lib):
 
 @clock
 def load(d='scenelib.pkl'):
-	pkl_file = open(d, 'rb')
-	scene_lib = pickle.load(pkl_file)
-	print(scene_lib)
-	return scene_lib
+	return pickle.load(open(d, 'rb'))
 
 wb = load_workbook(filename='Western_duel_corpus.xlsx', data_only=True)
 ws = wb.worksheets[0]
@@ -145,7 +142,7 @@ class SceneLib:
 	# need to test .keys() and .values() and .items()
 
 	def __init__(self, names):
-		self._scenes = {name: Scene(name) for name in names}
+		self._scenes = {name: Scene(str(name)) for name in names}
 
 	def __len__(self):
 		return len(self._scenes)
@@ -231,22 +228,65 @@ def parse():
 				last_shot_num += 1
 
 			last_action_num = 1
-
-
-
 	print(scenes)
 	save_scenes(scenes)
 	print('stop')
 
-def spit():
-	print(len(wb.worksheets))
-	n = 2 # should be whatever length is
-	new_worksheet = wb.create_sheet('system output', n)
-	scene_lib = load()
-	start_x, start_y = ('A', 1)
-	for scene in scene_lib:
-		pass
-spit()
 
+from copy import deepcopy
+from collections import defaultdict
+class Cell:
+	def __init__(self, r, c):
+		self._cell = [r, c]
+		self.ledger = defaultdict()
+	def __str__(self):
+		return toStr(self._cell)
+	def shiftRight(self):
+		#self.setLast(deepcopy(self._cell))
+		self._cell[0] = chr(ord(self._cell[0]) + 1)
+	def shiftDown(self):
+		#self.setLast(deepcopy(self._cell))
+		self._cell[1] += 1
+	def shiftDownRight(self):
+		self.shiftRight()
+		self.shiftDown()
+	def remember(self, name, cell):
+		self.ledger[name] = deepcopy(cell)
+	def go(self, name):
+		self._cell = self.ledger[name]
+
+def toStr(tup):
+	return str(tup[0]+str(tup[1]))
+
+def spit():
+
+	newark = wb.create_sheet('system output', len(wb.worksheets)+1)
+	scene_lib = load()
+	cell = Cell('A', 1)
+
+	for scene_name, scene in scene_lib.items():
+		newark[str(cell)] = scene_name
+		cell.shiftDownRight()
+	#	shot_number = 1
+		next_shot = cell
+		print(cell)
+		for i, shot in enumerate(scene):
+			cell = next_shot
+			next_shot = deepcopy(cell)
+			next_shot.shiftDown()
+			cell.shiftDownRight()
+			print(cell)
+			for i, action in enumerate(shot.actions):
+				newark[str(cell)] = str(action.type)
+				cell.shiftRight()
+				for arg in action:
+					newark[str(cell)] = arg
+					cell.shiftRight()
+
+
+#parse()
+
+#spit()
+#wb.save()
 #parse()
 
