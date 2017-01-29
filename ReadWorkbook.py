@@ -121,11 +121,12 @@ class Action:
 
 class Shot:
 
-	def __init__(self, first_action, **kwargs):
+	def __init__(self, first_action, sentence, **kwargs):
 		#self.__dict__.update(kwargs)
 		for key in kwargs:
 			setattr(self, key, kwargs[key])
 		self.actions = [first_action]
+		self.sentence = sentence
 
 	def update(self, row_values):
 		#thus far, only update is to add argument to action
@@ -218,7 +219,8 @@ def parse():
 		else:
 			# new shot, first action
 			first_action = Action(**action_params)
-			new_shot = Shot(first_action, **dict(zip(header.names, row_values)))
+			shot_desc = row[header['eventdescription']].value
+			new_shot = Shot(first_action, shot_desc, **dict(zip(header.names, row_values)))
 			scenes[scene_name].append(new_shot)
 
 			if toNumber(row_values[header['shotnumber']]) == 1 and not last_shot_num == 0:
