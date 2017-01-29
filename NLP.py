@@ -14,4 +14,18 @@ for name, scene in scene_lib.items():
 	for shot in scene:
 		documents[name].append(shot.sentence)
 
+
+story_text = dict()
+for doc_name, sentences  in documents.items():
+	story_text[doc_name] = '. '.join(sentences)
+	print(story_text[doc_name])
+
 print('ok')
+
+import spacy
+nlp = spacy.load('en')
+for doc_name, para in story_text.items():
+	doc = nlp(para)
+	for proc in nlp.pipeline:
+		proc(doc)
+	print('ok')
