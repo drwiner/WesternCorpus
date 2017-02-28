@@ -29,6 +29,8 @@ for name, scene in scene_lib.items():
 			if action.type not in encountered:
 				actions_across_scenes[action.type] +=1
 				encountered.add(action.type)
+				if str(action.type) == 'billy':
+					print('here')
 
 			# how many times does the actino occur
 			action_count[action.type] +=1
@@ -41,3 +43,6 @@ print('\n')
 print(actions_across_scenes)
 print('\n')
 print(action_count)
+print('\n')
+for action, count in action_count.items():
+	print(action, count)

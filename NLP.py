@@ -23,9 +23,25 @@ for doc_name, sentences  in documents.items():
 print('ok')
 
 import spacy
+
+def processScene(scene_text):
+	# extract important lexical information
+	# extract by sentence
+	# NER
+	# coreference resolution
+	return None
+
+
 nlp = spacy.load('en')
 for doc_name, para in story_text.items():
 	doc = nlp(para)
 	for proc in nlp.pipeline:
 		proc(doc)
-	print('ok')
+
+	lexical_items = processScene(doc)
+
+print('ok')
+
+
+
+# read in entity types.
