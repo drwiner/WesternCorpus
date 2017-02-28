@@ -30,7 +30,9 @@ for name, scene in scene_lib.items():
 				actions_across_scenes[action.type] +=1
 				encountered.add(action.type)
 				if str(action.type) == 'billy':
-					print('here')
+					action.type = 'stare-at'
+				if str(action.type) == 'pestoso':
+					action.type = 'stare-at'
 
 			# how many times does the actino occur
 			action_count[action.type] +=1

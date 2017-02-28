@@ -190,5 +190,4 @@ lasso 2 - None
 thank 1 - None
 reactto 9 - None
 crouch 8 - None
-billy 1 - None
 firegun 130 - fire-gun
