@@ -25,7 +25,7 @@ drop 3 - drop
 fireat 3 - fire-gun
 clap 3 - cheer
 gaspv 3 - wince
-moveto 3 - walk
+moveto 3 - drop
 whimper 4 - wince
 stumble 13 - None
 inspectbody 3 - look-at
@@ -51,7 +51,7 @@ embrace 6 - None
 lightcig 3 - None
 searchc 7 - None
 confess 8 - None
-movefrom 10 - walk
+movefrom 10 - pick-up
 stepright 3 - side-step
 leanon 8 - None
 passgun 9 - give
@@ -83,7 +83,7 @@ walkfromtov 2 - walk
 standv 2 - stand-up
 die 32 - die
 notice 7 - look-at
-move 4 - walk
+move 4 - None
 arrestv 1 - arrest
 joe 1 - None
 None 42 - None
@@ -172,7 +172,7 @@ drink 4 - None
 pushup 1 - None
 clapv 3 - None
 aimgun 53 - aim-gun
-movefromto 41 - walk
+movefromto 41 - pick-up, drop
 stepback 3 - side-step
 toast 2 - None
 console 3 - None

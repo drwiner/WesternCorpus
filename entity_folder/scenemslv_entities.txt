@@ -1,0 +1,14 @@
+ransehead
+pole
+ransearm
+ranse
+libertygun
+door
+street
+building
+crowd
+liberty
+pot
+shop
+sidewalk
+ransegun

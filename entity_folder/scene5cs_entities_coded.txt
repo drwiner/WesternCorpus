@@ -1,0 +1,12 @@
+morgan - dueler
+morganbody
+ruddbody
+road - duel-location
+ruddbible
+ruddbiblepage
+tree
+biblegun - duel-weapon
+morgangun - duel-weapon
+rudd - dueler
+ruddgun - duel-weapon
+ruddcarriage

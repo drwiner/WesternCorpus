@@ -1,0 +1,21 @@
+bess&mrbanner
+housedoor
+bardbody
+benbody
+benbelt
+road
+brazoshorse
+brazosgun - duel-weapon
+bengun - duel-weapon
+bess - observer
+mr.banner
+porch - duel-location
+ben - dueler
+brazos - dueler
+bardgun
+house
+bardbelt - holster
+wagon
+bard
+mrbannergun
+benarms

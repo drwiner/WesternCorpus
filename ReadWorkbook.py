@@ -68,6 +68,7 @@ class Scene:
 	def __init__(self, name):
 		self._shots = []
 		self.name = name
+		self.entities = set()
 
 	def __len__(self):
 		return len(self._shots)
@@ -180,7 +181,11 @@ class SceneLib:
 		return 'All Scenes: ' + '\n' + ''.join(['{}'.format(scene) for scene in members])
 
 
-
+def compileEntities(scene_lib):
+	for scene in scene_lib.values():
+		for shot in scene:
+			for action in shot.actions:
+				scene.entities.update({arg for arg in action._args if arg is not None})
 
 
 def parse():
@@ -230,9 +235,10 @@ def parse():
 				last_shot_num += 1
 
 			last_action_num = 1
-	print(scenes)
+	# print(scenes)
+	print('compiling scene entities')
+	compileEntities(scenes)
 	save_scenes(scenes)
-	print('stop')
 
 
 from copy import deepcopy
@@ -279,16 +285,24 @@ def spit():
 			cell.shiftDownRight()
 			print(cell)
 			for i, action in enumerate(shot.actions):
-				newark[str(cell)] = str(action.type)
+				try:
+					newark[str(cell)] = str(action.type)
+				except:
+					print('exception')
+					print(cell)
+					print(action.type)
+
 				cell.shiftRight()
 				for arg in action:
 					newark[str(cell)] = arg
 					cell.shiftRight()
 
 
-#parse()
+if __name__ == '__main__':
+	parse()
+# parse()
 
-#spit()
-#wb.save()
+# spit()
+# wb.save()
 #parse()
 
