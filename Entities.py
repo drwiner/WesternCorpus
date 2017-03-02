@@ -2,15 +2,7 @@ from ReadWorkbook import SceneLib, Scene, Action, Shot
 import pickle
 
 EXCLUDE_SCENES = ['tg']
-
-def load(d='scenelib.pkl'):
-	return pickle.load(open(d, 'rb'))
-
-
-print('loading scene library')
-scene_lib = load()
-print(scene_lib)
-
+scene_lib = None
 entity_path = 'entity_folder/'
 
 # a class for an entity object
@@ -68,5 +60,15 @@ def assignRoles():
 		rd = readEntityRoles(scene_entity_file)
 		scene.substituteEntities(rd)
 
+	print(scene_lib)
+
 if __name__ == '__main__':
+	def load(d='scenelib.pkl'):
+		return pickle.load(open(d, 'rb'))
+
+
+	print('loading scene library')
+	scene_lib = load()
+	print(scene_lib)
+
 	assignRoles()
