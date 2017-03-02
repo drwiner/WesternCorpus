@@ -1,5 +1,5 @@
 import SceneDataStructs as SDS
-from SceneDataStructs import Scene, Shot, Action, ActionType, SceneLib
+
 import pickle
 from collections import Counter
 
@@ -9,7 +9,7 @@ actions_across_scenes = Counter()
 action_args = dict()
 # scene_entities = ][\]
 
-def analyzeActions():
+def analyzeActions(scene_lib):
 	for name, scene in scene_lib.items():
 		encountered = set()
 		print(name)
@@ -43,19 +43,18 @@ def analyzeActions():
 
 	return action_count
 
-
+# import collections
 
 def readActionTypes(action_map_file):
 	action_dict = dict()
 	for line in action_map_file:
 		line_split = line.split()
 		new_type = line_split[-1].lower()
-		if new_type == 'none':
-			new_type = None
-		action_dict[line_split[0].lower()] = SDS.ActionType(line_split[0].lower(), line_split[1].lower(), new_type)
+		orig_name = line_split[0].lower()
+		action_dict[orig_name] = SDS.ActionType(new_type, line_split[1].lower(), orig_name)
 	return action_dict
 
-def assignActionTypes(action_count):
+def assignActionTypes(scene_lib, action_count):
 	print('assigning action Types')
 	for sc_name, scene in scene_lib.items():
 		if sc_name is None or sc_name in SDS.EXCLUDE_SCENES:
@@ -67,10 +66,12 @@ def assignActionTypes(action_count):
 
 
 if __name__ == '__main__':
+	from SceneDataStructs import Scene, Shot, Action, ActionType, SceneLib
+	from Entities import Entity
 
 	scene_lib = SDS.load()
 	print('here')
 	print(scene_lib)
-
-	action_count = analyzeActions()
-	assignActionTypes(action_count)
+	action_count = analyzeActions(scene_lib)
+	assignActionTypes(scene_lib, action_count)
+	SDS.save_scenes(scene_lib)

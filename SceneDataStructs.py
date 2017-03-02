@@ -134,7 +134,12 @@ class Action:
 
 		print('substituting entities {} in action {}\n'.format(ents, self._type))
 		print(self._args)
-		self._args = [e for e in ents for arg in self if e.name == arg]
+		try:
+			self._args = [e for e in ents for arg in self if e.name == arg]
+		except:
+			for e in ents:
+				print(e)
+			AttributeError('this should end it')
 		print('\n')
 		print(self._args)
 		print('\n')
@@ -170,13 +175,13 @@ class Shot:
 		self.actions[-1].appendArg(arg)
 
 	def substituteEntities(self, ents):
-		ents = []
+		shot_ents = []
 		# gather up the accepted substitutions in each action.
 		for action in self.actions:
-			accepted_ents = action.substiteEntities(self, ents)
-			ents.extend(accepted_ents)
+			accepted_ents = action.substituteEntities(ents)
+			shot_ents.extend(accepted_ents)
 		# should be sorta sorted by the order each entity is observed.
-		self.entities = ents
+		self.entities = shot_ents
 
 	def __repr__(self):
 		actions = [' '.join('\t' + str(i) + ': ' + str(action) for i, action in enumerate(self.actions))]
@@ -204,7 +209,7 @@ class Scene:
 
 	def substituteEntities(self, role_dict):
 		print('substituting entities in scene {}'.format(self.name))
-		self.entities = {role_dict[e] for e in self.entities if len(role_dict[e]) == 1}
+		self.entities = [role_dict[e][0] for e in self.entities if len(role_dict[e]) == 1]
 		for shot in self:
 			shot.substituteEntities(self.entities)
 
@@ -215,13 +220,16 @@ class Scene:
 				# action_type(ActionType)
 				# action._type(string type of Action)
 				ac = action_count[action]
-				if action._type in action_dict.values() and action._type not in action_dict.keys():
-					action_type = ActionType(action._type, ac, action._type)
-				else:
+
+				if action._type in action_dict.keys():
 					action_type = action_dict[action._type]
-					action_type.num_apperances = ac
-				if action_type.type_name is None:
-					action_type.type_name = action_type
+					action_type.num_appearances = ac
+				else:
+					if action._type is None or action._type == 'None' or action._type == 'none':
+						action_type = ActionType(None, ac, action._type)
+					else:
+						action_type = ActionType(action._type, ac, action._type)
+
 				action._type = action_type
 
 	def __getattribute__(self, name):
@@ -299,8 +307,9 @@ def parse(ws):
 	action_start, action_stop = header.fromTo('actionnumber', "conclusionstatus")
 
 	# Scene Lib
+	# global scene_lib
 	scene_names = {clean(s.value) for s in list(ws.columns)[0][1:]}
-	scenes = SceneLib(scene_names)
+	scene_lib = SceneLib(scene_names)
 
 	print('starting parsing')
 
@@ -319,7 +328,7 @@ def parse(ws):
 		elif toNumber(row_values[header['shotnumber']]) == last_shot_num:
 
 			# same shot,
-			last_shot = scenes[row_values[0]][-1]
+			last_shot = scene_lib[row_values[0]][-1]
 
 			action_num = row_values[header['actionnumber']]
 			if action_num != last_action_num:
@@ -335,7 +344,7 @@ def parse(ws):
 			first_action = Action(**action_params)
 			shot_desc = row[header['eventdescription']].value
 			new_shot = Shot(first_action, shot_desc, **dict(zip(header.names, row_values)))
-			scenes[scene_name].append(new_shot)
+			scene_lib[scene_name].append(new_shot)
 
 			if toNumber(row_values[header['shotnumber']]) == 1 and not last_shot_num == 0:
 				#new scene, reset counter
@@ -346,8 +355,9 @@ def parse(ws):
 			last_action_num = 1
 	# print(scenes)
 	print('compiling scene entities')
-	compileEntities(scenes)
-	save_scenes(scenes)
+	compileEntities(scene_lib)
+	# save_scenes(scene_lib)
+	return scene_lib
 
 def readCorpus(file_name='Western_duel_corpus.xlsx'):
 	wb = load_workbook(filename=file_name, data_only=True)

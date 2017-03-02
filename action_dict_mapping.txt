@@ -172,7 +172,7 @@ drink 4 - None
 pushup 1 - None
 clapv 3 - None
 aimgun 53 - aim-gun
-movefromto 41 - pick-up, drop
+movefromto 41 - pick-up+drop
 stepback 3 - side-step
 toast 2 - None
 console 3 - None
