@@ -6,9 +6,59 @@
 from openpyxl import load_workbook
 import pickle
 from clockdeco import clock
-
+from copy import deepcopy
+from collections import defaultdict
 
 EXCLUDE_SCENES = ['tg']
+rows = list()
+action_start, action_stop = None, None
+
+class Cell:
+	def __init__(self, r, c):
+		self._cell = [r, c]
+		self.ledger = defaultdict()
+	def __str__(self):
+		return toStr(self._cell)
+	def shiftRight(self):
+		#self.setLast(deepcopy(self._cell))
+		self._cell[0] = chr(ord(self._cell[0]) + 1)
+	def shiftDown(self):
+		#self.setLast(deepcopy(self._cell))
+		self._cell[1] += 1
+	def shiftDownRight(self):
+		self.shiftRight()
+		self.shiftDown()
+	def remember(self, name, cell):
+		self.ledger[name] = deepcopy(cell)
+	def go(self, name):
+		self._cell = self.ledger[name]
+
+def toStr(tup):
+	return str(tup[0]+str(tup[1]))
+
+# an attempt to spit out new worksheet - needs improvement
+def spit():
+	newark = wb.create_sheet('system output', len(wb.worksheets)+1)
+	scene_lib = load()
+	cell = Cell('A', 1)
+	for scene_name, scene in scene_lib.items():
+		newark[str(cell)] = scene_name
+		cell.shiftDownRight()
+		next_shot = cell
+		print(cell)
+		for i, shot in enumerate(scene):
+			cell = next_shot
+			next_shot = deepcopy(cell)
+			next_shot.shiftDown()
+			cell.shiftDownRight()
+			print(cell)
+			for i, action in enumerate(shot.actions):
+				newark[str(cell)] = str(action._type)
+				cell.shiftRight()
+				for arg in action:
+					newark[str(cell)] = arg
+					cell.shiftRight()
+
 
 def clean(s):
 	if not isinstance(s, str):
@@ -29,15 +79,8 @@ def save_scenes(scene_lib):
 	pickle.dump(dict(scene_lib), output, protocol=pickle.HIGHEST_PROTOCOL)
 	output.close()
 
-@clock
-def load(d='scenelib.pkl'):
-	return pickle.load(open(d, 'rb'))
 
-wb = load_workbook(filename='Western_duel_corpus.xlsx', data_only=True)
-ws = wb.worksheets[0]
-rows = list(ws.rows)
-header_rows = [clean(r.value) for r in rows[0]]
-rows = [list(r) for r in rows[1:]]
+
 
 class Header:
 	def __init__(self, row_0):
@@ -61,9 +104,6 @@ class Header:
 
 	def __repr__(self):
 		return self._header.__repr__()
-
-header = Header(header_rows)
-action_start, action_stop = header.fromTo('actionnumber', "conclusionstatus")
 
 
 class ActionType:
@@ -144,52 +184,55 @@ class Shot:
 		actions = [' '.join('\t' + str(i) + ': ' + str(action) for i, action in enumerate(self.actions))]
 		return '\n' + ''.join(['{}'.format(action) for action in actions])
 
-	class Scene:
-		# name, ordered list of shots, entities
+class Scene:
+	# name, ordered list of shots, entities
 
-		def __init__(self, name):
-			self._shots = []
-			self.name = name
-			self.entities = set()
+	def __init__(self, name):
+		self._shots = []
+		self.name = name
+		self.entities = set()
 
-		def __len__(self):
-			return len(self._shots)
+	def __len__(self):
+		return len(self._shots)
 
-		def __getitem__(self, item):
-			return self._shots[item]
+	def __getitem__(self, item):
+		return self._shots[item]
 
-		def append(self, item):
-			self._shots.append(item)
+	def append(self, item):
+		self._shots.append(item)
 
-		def addShot(self, shot):
-			self._shots.append(shot)
+	def addShot(self, shot):
+		self._shots.append(shot)
 
-		def substituteEntities(self, role_dict):
-			print('substituting entities in scene {}'.format(self.name))
-			self.entities = {role_dict[e] for e in self.entities if len(role_dict[e]) == 1}
-			for shot in self:
-				shot.substituteEntities(self.entities)
+	def substituteEntities(self, role_dict):
+		print('substituting entities in scene {}'.format(self.name))
+		self.entities = {role_dict[e] for e in self.entities if len(role_dict[e]) == 1}
+		for shot in self:
+			shot.substituteEntities(self.entities)
 
-		def substituteActionTypes(self, action_dict):
-			print('substituting action types in scenes {}'.format(self.name))
-			for shot in self:
-				for action in shot.actions:
-					action_type = action_dict[action._type]
-					if action_type.type_name is None:
-						action_type.type_name = action_type
-					action._type = swapper
+	def substituteActionTypes(self, action_dict, action_count):
+		print('substituting action types in scenes {}'.format(self.name))
+		for shot in self:
+			for action in shot.actions:
+				# action_type(ActionType)
+				ac = action_count[action]
+				action_type = action_dict[action._type]
+				action_type.num_apperances = ac
+				if action_type.type_name is None:
+					action_type.type_name = action_type
+				action._type = action_type
 
-		def __getattribute__(self, name):
+	def __getattribute__(self, name):
 
-			if name is 'shot' and not self._shots:
-				print('no shot')
-				return -1
-			else:
-				return object.__getattribute__(self, name)
+		if name is 'shot' and not self._shots:
+			print('no shot')
+			return -1
+		else:
+			return object.__getattribute__(self, name)
 
-		def __repr__(self):
-			shots = ['\n' + str(i) + ':' + str(shot) for i, shot in enumerate(self)]
-			return '\nSCENE:' + str(self.name) + '\n' + ''.join(shot for shot in shots)
+	def __repr__(self):
+		shots = ['\n' + str(i) + ':' + str(shot) for i, shot in enumerate(self)]
+		return '\nSCENE:' + str(self.name) + '\n' + ''.join(shot for shot in shots)
 
 # A class for storing scenes, can be forgotten and treated as a dictionary
 class SceneLib:
@@ -235,6 +278,8 @@ class SceneLib:
 		members = ['\n' + str(value) for value in self.values()]
 		return 'All Scenes: ' + '\n' + ''.join(['{}'.format(scene) for scene in members])
 
+def load(d='scenelib.pkl'):
+	return pickle.load(open(d, 'rb'))
 
 def compileEntities(scene_lib):
 	for scene in scene_lib.values():
@@ -295,69 +340,20 @@ def parse():
 	compileEntities(scenes)
 	save_scenes(scenes)
 
-
-from copy import deepcopy
-from collections import defaultdict
-class Cell:
-	def __init__(self, r, c):
-		self._cell = [r, c]
-		self.ledger = defaultdict()
-	def __str__(self):
-		return toStr(self._cell)
-	def shiftRight(self):
-		#self.setLast(deepcopy(self._cell))
-		self._cell[0] = chr(ord(self._cell[0]) + 1)
-	def shiftDown(self):
-		#self.setLast(deepcopy(self._cell))
-		self._cell[1] += 1
-	def shiftDownRight(self):
-		self.shiftRight()
-		self.shiftDown()
-	def remember(self, name, cell):
-		self.ledger[name] = deepcopy(cell)
-	def go(self, name):
-		self._cell = self.ledger[name]
-
-def toStr(tup):
-	return str(tup[0]+str(tup[1]))
-
-def spit():
-
-	newark = wb.create_sheet('system output', len(wb.worksheets)+1)
-	scene_lib = load()
-	cell = Cell('A', 1)
-
-	for scene_name, scene in scene_lib.items():
-		newark[str(cell)] = scene_name
-		cell.shiftDownRight()
-	#	shot_number = 1
-		next_shot = cell
-		print(cell)
-		for i, shot in enumerate(scene):
-			cell = next_shot
-			next_shot = deepcopy(cell)
-			next_shot.shiftDown()
-			cell.shiftDownRight()
-			print(cell)
-			for i, action in enumerate(shot.actions):
-				try:
-					newark[str(cell)] = str(action._type)
-				except:
-					print('exception')
-					print(cell)
-					print(action._type)
-
-				cell.shiftRight()
-				for arg in action:
-					newark[str(cell)] = arg
-					cell.shiftRight()
-
+def readCorpus(file_name='Western_duel_corpus.xlsx'):
+	wb = load_workbook(filename=file_name, data_only=True)
+	ws = wb.worksheets[0]
+	global rows
+	rows = list(ws.rows)
+	header_rows = [clean(r.value) for r in rows[0]]
+	rows = [list(r) for r in rows[1:]]
+	global header
+	header = Header(header_rows)
+	global action_start, action_stop
+	action_start, action_stop = header.fromTo('actionnumber', "conclusionstatus")
 
 if __name__ == '__main__':
+	readCorpus()
 	parse()
-# parse()
 
-# spit()
-# wb.save()
-#parse()
 

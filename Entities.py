@@ -51,10 +51,9 @@ def readEntityRoles(scene_file):
 
 def assignRoles():
 	print('assigning entities to roles')
-	global EXCLUDE_SCENES
 
 	for sc_name, scene in scene_lib.items():
-		if sc_name is None or sc_name in EXCLUDE_SCENES:
+		if sc_name is None or sc_name in SceneDataStructs.EXCLUDE_SCENES:
 			continue
 		print(sc_name)
 		scene_entity_file = open(entity_path + 'scene' + sc_name + '_entities.txt')
@@ -63,13 +62,12 @@ def assignRoles():
 
 	print(scene_lib)
 
-if __name__ == '__main__':
-	def load(d='scenelib.pkl'):
-		return pickle.load(open(d, 'rb'))
 
+
+if __name__ == '__main__':
 
 	print('loading scene library')
-	scene_lib = load()
+	scene_lib = SceneDataStructs.load()
 	print(scene_lib)
 
 	assignRoles()
