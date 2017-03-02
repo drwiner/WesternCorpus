@@ -225,7 +225,7 @@
 	:precondition (alive ?side-stepper)
 	:effect ()
 	:agents (?side-stepper))
-	
+
   
   (:action assent
 	:parameters (?ger - char ?gee - char ?loc - place ?duel-place - place)

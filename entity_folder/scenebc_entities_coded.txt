@@ -1,0 +1,24 @@
+assisstantgun
+waterhole - duel-location
+jameshead
+duelgun1 - duel-weapon
+duelgun1&2
+wagon
+assistantgun
+wagonwheel
+james&buck
+crowd - observer
+ground
+buckchest
+jean - observer
+rufusgun
+buck - dueler
+rufus - amigo
+duelgun2 - duel-weapon
+james - dueler
+james&jean
+assistant
+
+_
+duelgun1&2 = duelgun1 duelgun2
+james&buck = james buck

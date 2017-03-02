@@ -1,0 +1,30 @@
+doc&rider3
+wyatt&doc&rider3&rider4&rider5
+andy - dueler
+wyatthorse
+thugb&thugc
+wyattgun - duel-weapon
+wyatt - dueler
+thugahorse
+pen - duel-location
+thugc - thug
+thugb - thug
+thuga - thug
+unknown
+doc - observer
+ride4rifle
+andygun - duel-weapon
+andyhorse
+rider3 - amigo
+rider4 - amigo
+rider5 - amigo
+thuga&thugahorse
+andybody
+andyholster
+gate
+
+_
+doc&rider3 = doc rider3
+thugb&thugc = thugb thugc
+thuga&thugahorse = thuga thugahorse
+wyatt&doc&rider3&rider4&rider5 = wyatt doc rider3 rider4 rider 5

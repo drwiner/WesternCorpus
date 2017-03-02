@@ -1,0 +1,33 @@
+johnnyhat
+woodrowgun - duel-weapon
+benhat
+rebecca&ben
+johnny&ben
+counter
+saloonwindow
+bottle1
+saloonwall
+ben - observer
+johnny - dueler
+saloon - duel-location
+bartender - bartender
+johnnygun - duel-weapon
+piano
+thugb - thug
+woodrow - dueler
+thugbcoat
+bottle3
+woodrowchest
+woodrowhead
+rebecca - observer
+woodrowshirt
+thugbgun
+crowd
+bar
+bottle2
+bottles1&2
+window
+
+_
+rebecca&ben = rebecca ben
+johnny&ben = johnny ben

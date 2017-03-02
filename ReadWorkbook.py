@@ -82,6 +82,13 @@ class Scene:
 	def addShot(self, shot):
 		self._shots.append(shot)
 
+	def substituteEntities(self, role_dict):
+		print('substituting entities in scene {}'.format(self.name))
+		self.entities = {role_dict[e] for e in self.entities if len(role_dict[e]) == 1}
+		for shot in self:
+			shot.substituteEntities(self.entities)
+
+
 	def __getattribute__(self, name):
 
 		if name is 'shot' and not self._shots:
@@ -100,12 +107,24 @@ class Action:
 	def __init__(self, **kwargs):
 		self.type = kwargs['action']
 		self._args = [kwargs['arguments']]
-		self.concluded = kwargs['conclusionstatus']
+		self.starts = None
+		self.finishes = kwargs['conclusionstatus']
 		for key in kwargs:
 			setattr(self, key, kwargs[key])
 
 	def appendArg(self, arg):
 		self._args.append(arg)
+
+	def substituteEntities(self, ents):
+
+		print('substituting entities {} in action {}\n'.format(ents, self.type))
+		print(self._args)
+		self._args = [e for e in ents for arg in self if e.name == arg]
+		print('\n')
+		print(self._args)
+		print('\n')
+		return self._args
+
 
 	def __len__(self):
 		return len(self._args)
@@ -127,21 +146,33 @@ class Shot:
 		for key in kwargs:
 			setattr(self, key, kwargs[key])
 		self.actions = [first_action]
-		self.sentence = sentence
+		self.orig_sentence = sentence
+		self.nlp_sentence = None
 
 	def update(self, row_values):
 		#thus far, only update is to add argument to action
 		arg = row_values[header['arguments']]
 		self.actions[-1].appendArg(arg)
 
+	def substituteEntities(self, ents):
+		ents = []
+		# gather up the accepted substitutions in each action.
+		for action in self.actions:
+			accepted_ents = action.substiteEntities(self, ents)
+			ents.extend(accepted_ents)
+		# should be sorta sorted by the order each entity is observed.
+		self.entities = ents
+
 	def __repr__(self):
 		actions = [' '.join('\t' + str(i) + ': ' + str(action) for i, action in enumerate(self.actions))]
 		return '\n' + ''.join(['{}'.format(action) for action in actions])
 
+# A class for storing scenes, can be forgotten and treated as a dictionary
 class SceneLib:
-	#A mutable mapping / dictionary typed object
-	# 'fromKeys' not implemented
-	# need to test .keys() and .values() and .items()
+	""" A mutable mapping / dictionary typed object
+	# :warning ('fromKeys' not implemented)
+	# :methods (.keys() and .values() and .items())
+	"""
 
 	def __init__(self, names):
 		self._scenes = {name: Scene(str(name)) for name in names}

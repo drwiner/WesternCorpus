@@ -1,0 +1,24 @@
+jdhorse
+jdsaddle
+henchman&alonzo
+pole
+kane - dueler
+jdbody
+jdgun - duel-weapon
+amy
+street - duel-location
+building
+crowd - observer
+jdrifle
+jd - dueler
+kane&jd
+henchmen - observer
+kanegun - duel-weapon
+alonzo - amigo
+kanecoat
+jd&henchman
+
+_
+jd&henchman = jd henchman
+kane&jd = kane jd
+henchman&alonzo = henchman alonzo

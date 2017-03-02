@@ -1,0 +1,14 @@
+ransehead
+pole
+ransearm
+ranse - dueler
+libertygun - duel-weapon
+door
+street - duel-location
+building
+crowd - observer
+liberty - dueler
+pot
+shop
+sidewalk
+ransegun - duel-weapon

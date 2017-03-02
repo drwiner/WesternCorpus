@@ -1,0 +1,24 @@
+citizen
+cross - amigo
+fighterchest
+fighterhat
+bud - observer
+tenneray - dueler
+photographer1
+photographer2
+street - duel-location
+crowd - observer
+marshal - amigo
+cross&tenneray
+photographer
+fightergun - duel-location
+tenneraygun - duel-weapon
+fighter - dueler
+nora&bud
+nora - observer
+tenneray&fighter
+marshalshoulder
+
+_
+nora&bud
+tenneray&fighter

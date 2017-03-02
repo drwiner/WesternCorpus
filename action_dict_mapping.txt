@@ -191,3 +191,6 @@ thank 1 - None
 reactto 9 - None
 crouch 8 - None
 firegun 130 - fire-gun
+time-is 90 - None
+throws - None
+none - None

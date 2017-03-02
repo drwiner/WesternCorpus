@@ -1,0 +1,18 @@
+samgun - duel-weapon
+sambody
+shirtpocket
+mchandlesgun - duel-weapon
+bottle
+door
+tables
+crowd - observer
+soda
+bar
+ringbox
+ring
+cigarette
+sam - dueler
+zeke - bartender
+mouth
+backbar - duel-location
+mchandles - dueler

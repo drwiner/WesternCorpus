@@ -3,19 +3,19 @@ housedoor
 bardbody
 benbody
 benbelt
-road
+road - duel-location
 brazoshorse
 brazosgun - duel-weapon
 bengun - duel-weapon
-bess - observer
+bess - amigo
 mr.banner
-porch - duel-location
+porch
 ben - dueler
 brazos - dueler
 bardgun
 house
 bardbelt - holster
 wagon
-bard
-mrbannergun
+bard - amigo
+mrbannergun - thug
 benarms

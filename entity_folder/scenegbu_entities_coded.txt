@@ -1,0 +1,20 @@
+sentenza&tuco
+tucogun - duel-weapon
+blondiebullet
+blondie&sentenza
+grave
+sentenzagun - duel-weapon
+ground
+stone
+tuco - dueler
+sentenzahat
+blondie&tuco
+sentenza - dueler
+blondie - dueler
+sentenzabody
+blondiegun - duel-weapon
+
+_
+blondie&tuco = blonie tuco
+blondie&sentenza = blondie sentenza
+sentenza&tuco = sentenza tuco

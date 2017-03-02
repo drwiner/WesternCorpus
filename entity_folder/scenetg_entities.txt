@@ -1,6 +1,6 @@
-banditsgun
-laboeuf
-mattie
+banditsgun - duel-weapon
+laboeuf - amigo
+mattie - observer
 nedhorse&banditshorses
 rooster&ned
 ned&bandits
@@ -9,21 +9,21 @@ roosterguns
 banditshorse
 mattie&laboeuf
 roostermouth
-nedrifle
+nedrifle - duel-weapon
 roosterhorseneck
-banditsrifle
+banditsrifle - duel-weapon
 banditchest
-bandit
+bandit - thug
 banditshorses
 roosterhands
-nedgun
+nedgun - duel-weapon
 nedchest
 nedstomach
-ned
-bandits
+ned - dueler
+bandits - thug
 roosterhorse
 nedbody
-rooster
+rooster - dueler
 horse
 laboeufrifle
 roostershoulder
@@ -31,5 +31,13 @@ haroldchest
 roosterleg
 roosterreigns
 nedhorse
-harold
-roostergun
+harold - dueler
+roostergun - duel-weapon
+
+_
+ned&bandits = ned bandits
+rooster&ned&bandits = rooster ned bandits
+rooster&ned = rooster ned
+mattie&laboeuf = mattie laboeuf
+nedhorse&banditshorses = nedhorse banditshorses
+roosterguns = roostergun roosterrifle

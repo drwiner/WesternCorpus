@@ -1,0 +1,20 @@
+lylegun&thugsgun
+thuggun
+bartgun
+thugsgun
+lylegun - duel-weapon
+taggart&lyle&thugs
+thug - thug
+taggart - dueler
+crowd - observer
+jimgun - duel-weapon
+lyle - dueler
+lyle&thugs
+bart - observer
+thugs - thug
+jim - thug
+
+_
+lyle&thugs = lyle thugs
+lylegun&thugsgun = lylegun thugsgun
+taggart&lyle&thugs = taggart lyle thugs

@@ -1,0 +1,12 @@
+ringohead
+circle
+ringogun - duel-weapon
+trees
+badge
+coat
+wyatt
+tree
+forest - duel-location
+ringo - dueler
+doc - dueler
+docgun - duel-weapon

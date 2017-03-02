@@ -1,0 +1,17 @@
+sullivanshirt
+sullivan - observer
+peanut
+o'hanlon - dueler
+tables
+street
+bannister - dueler
+crowd - observer
+salooncorner
+bar
+saloon - duel-location
+saloondoor
+sullivanhand
+bartender - bartender
+ohanlongun - duel-weapon
+bannistergun - duel-weapon
+bannisterchest

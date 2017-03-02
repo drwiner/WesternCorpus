@@ -1,0 +1,22 @@
+stockburn - dueler
+stockburnhead
+preachergun1 - duel-weapon
+preachergun2
+coy - amigo
+coyrifle
+door2
+door1
+preacherhorse
+stockburnchest
+preacherhat
+thuggun
+barn
+window
+hullrifle
+stockburngun - duel-weapon
+horse
+thug - thug
+hull - thug
+crowd - observer
+preacher - dueler
+coybody

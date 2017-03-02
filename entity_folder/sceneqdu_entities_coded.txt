@@ -1,0 +1,19 @@
+quigleybelt
+oflynngun
+marstongun - duel-weapon
+quigleygun - duel-weapon
+o'flynn - thug
+marstonfinger
+dobkingun
+quigleyhand
+dobkin - thug
+oflynnhead
+quigleyglove
+marston - dueler
+dobkinchest
+dobkin&o'flynn
+marstonchest
+quigley - dueler
+
+_
+dobkin&o'flynn = dobkin o'flynn

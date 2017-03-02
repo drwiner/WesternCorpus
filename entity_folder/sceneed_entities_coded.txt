@@ -1,0 +1,15 @@
+billygun - duel-weapon
+billycoat
+vangun
+pestosohead
+billy - dueler
+street - duel-location
+bystander - observer
+billyrighthand
+spur
+pestoso - dueler
+eldiablo
+pestosobelt
+van - amigo
+tower
+pestosogun - duel-weapon

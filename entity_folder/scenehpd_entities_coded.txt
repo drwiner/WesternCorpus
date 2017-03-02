@@ -1,0 +1,18 @@
+thuggun - duel-weapon
+buildingb
+buildinga
+mordecaigun
+unknownhand
+unknowngun
+street - duel-location
+thug - dueler
+unknown
+stranger - dueler
+darkness
+barmanback
+strangergun - duel-weapon
+barmangun
+lantern
+thugchest
+mordecai - amigo
+barman - thug

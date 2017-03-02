@@ -4,19 +4,19 @@ barrels
 renoglass
 saloondoor
 renobody
-jed
+jed - dueler
 renowallet
 jedssaddle
 jedmatches
 cig
 jedshirt
-jedgun
+jedgun - duel-weapon
 renoalcohol
-reno
+reno - dueler
 horse
 porch
 bar
-saloon
-renogun
+saloon - duel-location
+renogun - duel-weapon
 bottle
 jedmouth

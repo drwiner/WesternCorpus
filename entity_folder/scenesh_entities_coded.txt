@@ -1,0 +1,32 @@
+door
+shane - dueler
+kettle
+shane&jack
+rufus&bartender
+saloondoor
+table
+jackgun - duel-weapon
+street
+patrons
+rufusgun
+riflemanbody
+bartender - bartender
+rifleman - thug
+jackbody
+jackmouth
+boy - observer
+jackmug
+dogb
+rufusbody
+shanegun - duel-weapon
+riflemangun
+bar
+jack - dueler
+saloon - duel-location
+boy&dog
+rufus - thug
+
+_
+rufus&bartender = rufus bartender
+shane&jack = shane jack
+boy&dog = boy dogb

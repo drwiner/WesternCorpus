@@ -1,0 +1,15 @@
+paydengun - duel-weapon
+porchb
+cobbhat
+cobbchair
+townroada
+cobbgun - duel-weapon
+stella - observer
+alley
+post
+cobbhead
+porcha
+cobb - dueler
+cobbcoat
+townroadb - duel-location
+payden - dueler

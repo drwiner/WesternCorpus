@@ -1,0 +1,26 @@
+thugsbodies
+thugcgun - duel-weapon
+undertaker - observer
+john - observer
+thugagun - duel-weapon
+john&antonio
+street - duel-location
+mansion
+fence - duel-location
+hotel
+joegun - duel-weapon
+crowda - observer
+crowdb - observer
+thugcoffin
+thugs - dueler
+johnbadge
+thugsgun
+joeponcho
+coffin
+thugbgun - duel-weapon
+joe - dueler
+saloon
+
+_
+john&antonio = john antonio
+thugsgun = thugagun thugbgun thugcgun

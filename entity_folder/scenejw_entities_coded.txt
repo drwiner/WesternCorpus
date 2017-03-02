@@ -1,0 +1,11 @@
+joseygun - duel-weapon
+partner - thug
+door
+street - duel-location
+crowd - observer
+dog
+huntergun - duel-weapon
+saloon
+josey - dueler
+bartender - bartender
+hunter - dueler

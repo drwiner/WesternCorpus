@@ -1,0 +1,19 @@
+shepbody
+horse
+jubalhat
+table2
+table
+shep - dueler
+outside
+jubal - dueler
+bartender - bartender
+barcorner
+crowd - observer
+red - amigo
+bar
+saloon - duel-location
+redgun - duel-weapon
+saloondoor
+crowdhorse
+shepgun - duel-location
+table1

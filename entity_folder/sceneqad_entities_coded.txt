@@ -1,17 +1,17 @@
 ellen
-cortgun
+cortgun - duel-weapon
 building
 spottedhorsefacepain
 cortcuffs
 ellenhorse
 cortcollar
-street
+street - duel-location
 town
-herod
-spottedhorsegun
-cort
+herod - observer
+spottedhorsegun - duel-weapon
+cort - dueler
 cortcoat
-ratsy
+ratsy - amigo
 unknown
 cortbullet
 cortshirt
@@ -20,10 +20,10 @@ doc
 clock
 cort&spottedhorse
 spottedhorsehead
-spottedhorse
+spottedhorse - dueler
 noonposition
 unknowngun
-blindboy
-crowd
+blindboy - amigo
+crowd - observer
 clockhand
 11:59position
