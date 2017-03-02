@@ -1,4 +1,4 @@
-bandit2gun - prop
+bandit2gun
 bandit3 - thug
 bandit2 - thug
 german - dueler
@@ -18,7 +18,7 @@ lucky - amigo
 bandit3body
 german2 - thug
 knife
-stage - location
+stage
 german2gun
 nedbelt
 crowd - observer
@@ -30,4 +30,4 @@ nedholster
 _
 german1 = german
 german1gun = germangun
-ned&jefe
+ned&jefe = ned jefe

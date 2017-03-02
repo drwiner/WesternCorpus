@@ -20,5 +20,5 @@ tenneray&fighter
 marshalshoulder
 
 _
-nora&bud
-tenneray&fighter
+nora&bud = nora bud
+tenneray&fighter = tenneray fighter
