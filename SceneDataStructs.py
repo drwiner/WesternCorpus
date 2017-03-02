@@ -7,6 +7,9 @@ from openpyxl import load_workbook
 import pickle
 from clockdeco import clock
 
+
+EXCLUDE_SCENES = ['tg']
+
 def clean(s):
 	if not isinstance(s, str):
 		return s
@@ -62,50 +65,24 @@ class Header:
 header = Header(header_rows)
 action_start, action_stop = header.fromTo('actionnumber', "conclusionstatus")
 
-class Scene:
-	#name, ordered list of shots, entities
 
-	def __init__(self, name):
-		self._shots = []
-		self.name = name
-		self.entities = set()
+class ActionType:
+	def __init__(self, type_name, quant, old_name):
+		self.type_name = type_name
+		self.num_appearances = quant
+		self._orig_name = old_name
 
-	def __len__(self):
-		return len(self._shots)
-
-	def __getitem__(self, item):
-		return self._shots[item]
-
-	def append(self, item):
-		self._shots.append(item)
-
-	def addShot(self, shot):
-		self._shots.append(shot)
-
-	def substituteEntities(self, role_dict):
-		print('substituting entities in scene {}'.format(self.name))
-		self.entities = {role_dict[e] for e in self.entities if len(role_dict[e]) == 1}
-		for shot in self:
-			shot.substituteEntities(self.entities)
-
-
-	def __getattribute__(self, name):
-
-		if name is 'shot' and not self._shots:
-			print('no shot')
-			return -1
-		else:
-			return object.__getattribute__(self, name)
+	def updateQuant(self, new_quant_data):
+		if self.type_name in new_quant_data.keys():
+			self.num_appearances = int(new_quant_data[self.type_name])
 
 	def __repr__(self):
-		shots = ['\n' + str(i) + ':' + str(shot) for i, shot in enumerate(self)]
-		return '\nSCENE:' + str(self.name) + '\n' + ''.join(shot for shot in shots)
-
+		return str(self.type_name)
 
 class Action:
 
 	def __init__(self, **kwargs):
-		self.type = kwargs['action']
+		self._type = kwargs['action']
 		self._args = [kwargs['arguments']]
 		self.starts = None
 		self.finishes = kwargs['conclusionstatus']
@@ -117,7 +94,7 @@ class Action:
 
 	def substituteEntities(self, ents):
 
-		print('substituting entities {} in action {}\n'.format(ents, self.type))
+		print('substituting entities {} in action {}\n'.format(ents, self._type))
 		print(self._args)
 		self._args = [e for e in ents for arg in self if e.name == arg]
 		print('\n')
@@ -134,7 +111,7 @@ class Action:
 
 	def __repr__(self):
 		args = str([arg for arg in self])
-		return '{}'.format(self.type) + args
+		return '{}'.format(self._type) + args
 
 
 #store by scene name
@@ -166,6 +143,53 @@ class Shot:
 	def __repr__(self):
 		actions = [' '.join('\t' + str(i) + ': ' + str(action) for i, action in enumerate(self.actions))]
 		return '\n' + ''.join(['{}'.format(action) for action in actions])
+
+	class Scene:
+		# name, ordered list of shots, entities
+
+		def __init__(self, name):
+			self._shots = []
+			self.name = name
+			self.entities = set()
+
+		def __len__(self):
+			return len(self._shots)
+
+		def __getitem__(self, item):
+			return self._shots[item]
+
+		def append(self, item):
+			self._shots.append(item)
+
+		def addShot(self, shot):
+			self._shots.append(shot)
+
+		def substituteEntities(self, role_dict):
+			print('substituting entities in scene {}'.format(self.name))
+			self.entities = {role_dict[e] for e in self.entities if len(role_dict[e]) == 1}
+			for shot in self:
+				shot.substituteEntities(self.entities)
+
+		def substituteActionTypes(self, action_dict):
+			print('substituting action types in scenes {}'.format(self.name))
+			for shot in self:
+				for action in shot.actions:
+					action_type = action_dict[action._type]
+					if action_type.type_name is None:
+						action_type.type_name = action_type
+					action._type = swapper
+
+		def __getattribute__(self, name):
+
+			if name is 'shot' and not self._shots:
+				print('no shot')
+				return -1
+			else:
+				return object.__getattribute__(self, name)
+
+		def __repr__(self):
+			shots = ['\n' + str(i) + ':' + str(shot) for i, shot in enumerate(self)]
+			return '\nSCENE:' + str(self.name) + '\n' + ''.join(shot for shot in shots)
 
 # A class for storing scenes, can be forgotten and treated as a dictionary
 class SceneLib:
@@ -317,11 +341,11 @@ def spit():
 			print(cell)
 			for i, action in enumerate(shot.actions):
 				try:
-					newark[str(cell)] = str(action.type)
+					newark[str(cell)] = str(action._type)
 				except:
 					print('exception')
 					print(cell)
-					print(action.type)
+					print(action._type)
 
 				cell.shiftRight()
 				for arg in action:

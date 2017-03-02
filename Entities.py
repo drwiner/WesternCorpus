@@ -1,7 +1,6 @@
-from ReadWorkbook import SceneLib, Scene, Action, Shot
+import SceneDataStructs
 import pickle
 
-EXCLUDE_SCENES = ['tg']
 scene_lib = None
 entity_path = 'entity_folder/'
 
@@ -52,6 +51,8 @@ def readEntityRoles(scene_file):
 
 def assignRoles():
 	print('assigning entities to roles')
+	global EXCLUDE_SCENES
+
 	for sc_name, scene in scene_lib.items():
 		if sc_name is None or sc_name in EXCLUDE_SCENES:
 			continue

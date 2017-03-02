@@ -1,4 +1,4 @@
-from ReadWorkbook import SceneLib, Scene, Action, Shot
+from SceneDataStructs import SceneLib, Scene, Action, Shot
 import pickle
 def load(d='scenelib.pkl'):
 	return pickle.load(open(d, 'rb'))

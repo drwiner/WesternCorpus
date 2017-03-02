@@ -1,4 +1,4 @@
-from ReadWorkbook import SceneLib, Scene, Action, Shot
+from SceneDataStructs import SceneLib, Scene, Action, Shot, ActionType
 import pickle
 from collections import Counter
 
@@ -20,16 +20,16 @@ def analyzeActions():
 					continue
 
 				# count of actions only if in new scene (out of 30)
-				if action.type not in encountered:
-					actions_across_scenes[action.type] += 1
-					encountered.add(action.type)
+				if action._type not in encountered:
+					actions_across_scenes[action._type] += 1
+					encountered.add(action._type)
 
 				# how many times does the actino occur
-				action_count[action.type] +=1
+				action_count[action._type] +=1
 
 				# how many arguments in the action
-				if action.type not in action_args:
-					action_args.update({action.type: len(action)})
+				if action._type not in action_args:
+					action_args.update({action._type: len(action)})
 
 	print(action_args)
 	print('\n')
@@ -40,25 +40,30 @@ def analyzeActions():
 	for action, count in action_count.items():
 		print(action, count)
 
-class ActionType:
-	def __init__(self, type_name, quant, old_name):
-		self.type_name = type_name
-		self.num_appearances = quant
-		self._orig_name = old_name
 
-	def updateQuant(self, new_quant_data):
-		if self.type_name in new_quant_data.keys():
-			self.num_appearances = int(new_quant_data[self.type_name])
 
-	def __repr__(self):
-		return str(self.type_name)
+def readActionTypes(action_map_file):
 
-def readActionTypes():
-	action_map = open('action_dict_mapping.txt')
 	action_dict = dict()
-	for line in action_map:
+	for line in action_map_file:
 		line_split = line.split()
-		action_dict[line_split[0]] = ActionType(line_split[0], line_split[1], line_split[-1])
+		new_type = line_split[-1].lower()
+		if new_type == 'none':
+			new_type = None
+		action_dict[line_split[0].lower()] = ActionType(line_split[0].lower(), line_split[1].lower(), new_type)
+	return action_dict
+
+global EXCLUDE_SCENES
+
+def assignActionTypes():
+	for sc_name, scene in scene_lib.items():
+		if sc_name is None or sc_name in EXCLUDE_SCENES:
+			continue
+		print(sc_name)
+		action_map_file = open('action_dict_mapping.txt')
+		ad = readActionTypes(action_map_file)
+		scene.substituteActionTypes(ad)
+
 
 if __name__ == '__main__':
 
