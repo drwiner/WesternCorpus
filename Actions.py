@@ -1,4 +1,5 @@
 import SceneDataStructs as SDS
+from SceneDataStructs import Scene, Shot, Action, ActionType, SceneLib
 import pickle
 from collections import Counter
 
@@ -66,7 +67,6 @@ def assignActionTypes(action_count):
 
 
 if __name__ == '__main__':
-
 
 	scene_lib = SDS.load()
 	print('here')

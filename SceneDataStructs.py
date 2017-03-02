@@ -10,8 +10,6 @@ from copy import deepcopy
 from collections import defaultdict
 
 EXCLUDE_SCENES = ['tg']
-rows = list()
-action_start, action_stop = None, None
 
 class Cell:
 	def __init__(self, r, c):
@@ -157,7 +155,7 @@ class Action:
 #store by scene name
 
 class Shot:
-
+	header = None
 	def __init__(self, first_action, sentence, **kwargs):
 		#self.__dict__.update(kwargs)
 		for key in kwargs:
@@ -168,7 +166,7 @@ class Shot:
 
 	def update(self, row_values):
 		#thus far, only update is to add argument to action
-		arg = row_values[header['arguments']]
+		arg = row_values[self.header['arguments']]
 		self.actions[-1].appendArg(arg)
 
 	def substituteEntities(self, ents):
@@ -215,9 +213,13 @@ class Scene:
 		for shot in self:
 			for action in shot.actions:
 				# action_type(ActionType)
+				# action._type(string type of Action)
 				ac = action_count[action]
-				action_type = action_dict[action._type]
-				action_type.num_apperances = ac
+				if action._type in action_dict.values() and action._type not in action_dict.keys():
+					action_type = ActionType(action._type, ac, action._type)
+				else:
+					action_type = action_dict[action._type]
+					action_type.num_apperances = ac
 				if action_type.type_name is None:
 					action_type.type_name = action_type
 				action._type = action_type
@@ -288,7 +290,14 @@ def compileEntities(scene_lib):
 				scene.entities.update({arg for arg in action._args if arg is not None})
 
 
-def parse():
+def parse(ws):
+	rows = list(ws.rows)
+	header_rows = [clean(r.value) for r in rows[0]]
+	header = Header(header_rows)
+	Shot.header = header
+	rows = [list(r) for r in rows[1:]]
+	action_start, action_stop = header.fromTo('actionnumber', "conclusionstatus")
+
 	# Scene Lib
 	scene_names = {clean(s.value) for s in list(ws.columns)[0][1:]}
 	scenes = SceneLib(scene_names)
@@ -342,18 +351,10 @@ def parse():
 
 def readCorpus(file_name='Western_duel_corpus.xlsx'):
 	wb = load_workbook(filename=file_name, data_only=True)
-	ws = wb.worksheets[0]
-	global rows
-	rows = list(ws.rows)
-	header_rows = [clean(r.value) for r in rows[0]]
-	rows = [list(r) for r in rows[1:]]
-	global header
-	header = Header(header_rows)
-	global action_start, action_stop
-	action_start, action_stop = header.fromTo('actionnumber', "conclusionstatus")
+	return wb.worksheets[0]
 
 if __name__ == '__main__':
-	readCorpus()
-	parse()
+	rc = readCorpus()
+	parse(rc)
 
 
