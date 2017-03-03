@@ -194,6 +194,7 @@ class Scene:
 		self._shots = []
 		self.name = name
 		self.entities = set()
+		self.sentences = None
 
 	def __len__(self):
 		return len(self._shots)
@@ -360,6 +361,7 @@ def parse(ws):
 	return scene_lib
 
 def readCorpus(file_name='Western_duel_corpus.xlsx'):
+	print('loading workbook')
 	wb = load_workbook(filename=file_name, data_only=True)
 	return wb.worksheets[0]
 

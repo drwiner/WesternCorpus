@@ -14,6 +14,6 @@ def readAndSaveFromScratch():
 
 
 if __name__ == '__main__':
-	# readAndSaveFromScratch()
-	scene_lib = SDS.load()
-	print(scene_lib)
+	readAndSaveFromScratch()
+	# scene_lib = SDS.load()
+	# print(scene_lib)
