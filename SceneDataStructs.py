@@ -78,8 +78,6 @@ def save_scenes(scene_lib):
 	output.close()
 
 
-
-
 class Header:
 	def __init__(self, row_0):
 		self._header = row_0
