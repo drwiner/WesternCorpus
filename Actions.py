@@ -43,6 +43,31 @@ def analyzeActions(scene_lib):
 
 	return action_count
 
+
+def temporalizeActions(scene_lib):
+	for scene_name, scene in scene_lib.items():
+		for i, shot in enumerate(scene):
+			for action in shot.actions:
+				if action.actionpredicates is None:
+					action.starts = None
+					action.finishes = None
+					continue
+				sp = action.actionpredicates.split('_')
+				if len(sp) < 2:
+					action.starts = 1
+					action.finishes = 1
+				else:
+					if sp[1].lower() == 'continues':
+						action.starts = 0
+						action.finishes = 0
+					if sp[1].lower() == 'notconcluded':
+						action.finishes = 0
+						action.starts = 1
+					if sp[1].lower() == 'concluded':
+						action.starts = 0
+						action.finishes = 1
+
+
 # import collections
 
 def readActionTypes(action_map_file):
@@ -71,7 +96,7 @@ if __name__ == '__main__':
 
 	scene_lib = SDS.load()
 	print('here')
-	print(scene_lib)
+	# print(scene_lib)
 	action_count = analyzeActions(scene_lib)
 	assignActionTypes(scene_lib, action_count)
 	SDS.save_scenes(scene_lib)

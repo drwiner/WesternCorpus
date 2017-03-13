@@ -7,11 +7,21 @@ entity_path = 'entity_folder\\'
 class Entity:
 	def __init__(self, entity_name, types=None, role=None):
 		self.name = entity_name
-		self.types =types
+		self.types = types
 		self.role = role
 
 	def __hash__(self):
 		return hash(str(self.name) + str(self.role))
+
+	def __eq__(self, other):
+		if hasattr(other, name):
+			if self.name == other.name:
+				return True
+			return False
+		else:
+			if self.name == other:
+				return True
+			return False
 
 	def __str__(self):
 		return str(self.name) + '_' + str(self.role)
@@ -54,12 +64,13 @@ def assignRoles(scene_lib):
 	print('assigning entities to roles')
 
 	for sc_name, scene in scene_lib.items():
-		if sc_name is None or sc_name in SceneDataStructs.EXCLUDE_SCENES:
+		if sc_name in SceneDataStructs.EXCLUDE_SCENES:
 			continue
-		print(sc_name)
+		# print(sc_name)
 		scene_entity_file = open(entity_path + 'scene' + sc_name + '_entities_coded.txt')
 		rd = readEntityRoles(scene_entity_file)
 		scene.substituteEntities(rd)
+		scene_entity_file.close()
 
 	print(scene_lib)
 
@@ -69,7 +80,7 @@ if __name__ == '__main__':
 	from SceneDataStructs import Scene, SceneLib, Shot, Action, ActionType
 	print('loading scene library')
 	scene_lib = SceneDataStructs.load()
-	print(scene_lib)
+	# print(scene_lib)
 
 	assignRoles(scene_lib)
 	SceneDataStructs.save_scenes(scene_lib)

@@ -1,6 +1,6 @@
 wince 10 - wince
 spotv 2 - look-at
-runfrom 4 - walk
+runfrom 4 - flee
 defer 1 - de-escalate
 climbdown 3 - None
 chitchat 12 - None
@@ -66,7 +66,7 @@ holstergun 23 - holster-gun
 walkfromto 166 - walk
 pose 1 - None
 build 1 - None
-walkfrom 19 - walk
+walkfrom 19 - leave
 nod 3 - None
 stand 2 - stand-up
 lowergun 17 - lower-gun
@@ -94,7 +94,7 @@ turnfromto 18 - face-at
 focuscamera 1 - None
 taunt 50 - taunt
 shove 2 - provoke
-scatter 20 - run
+scatter 20 - flee
 highfive 1 - None
 holdgun 7 - raise-gun
 grab 15 - pick-up
@@ -105,7 +105,7 @@ carryfromto 2 - None
 takepicture 8 - None
 argue 9 - provoke
 runfromto 5 - run
-hidev 1 - run
+hidev 1 - flee
 lean 1 - None
 assistv 2 - None
 jump 2 - None
@@ -168,6 +168,7 @@ order 4 - ask-for
 turnfromtov 1 - face-at
 arrest 3 - arrest
 walksfromto 1 - walk
+walks 1 - walk
 drink 4 - None
 pushup 1 - None
 clapv 3 - None

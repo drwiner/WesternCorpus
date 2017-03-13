@@ -1,0 +1,53 @@
+import SceneDataStructs as SDS
+from SceneDataStructs import readCorpus, parse
+from SceneDataStructs import Scene, Shot, Action, ActionType, SceneLib
+from Entities import Entity, assignRoles
+from Actions import assignActionTypes, analyzeActions, temporalizeActions
+# from NLP import readSentences
+
+
+def readAndSaveFromScratch():
+	print('reading corpus')
+	rc = readCorpus()
+	scene_lib = parse(rc)
+	action_count = analyzeActions(scene_lib)
+	assignActionTypes(scene_lib, action_count)
+	assignRoles(scene_lib)
+	temporalizeActions(scene_lib)
+	# readSentences(scene_lib)
+	SDS.save_scenes(scene_lib)
+
+import collections
+def byactiontype_dic(scene_lib):
+	action_instance_dict = collections.defaultdict(list)
+	for s_name, scene in scene_lib.items():
+		if s_name in SDS.EXCLUDE_SCENES:
+			continue
+		for shot in scene:
+			for action in shot.actions:
+				action_instance_dict[action._type.type_name].append(action)
+	for action_type, instance in action_instance_dict.items():
+		with open('action_types\\' + str(action_type), 'w') as atfile:
+			for inst in instance:
+				atfile.write(str(inst) + '\n')
+
+def write_to_file(scene_lib):
+	scene_lib_file = open('scene_lib_file', 'w')
+	for scene_name, scene in scene_lib.items():
+		if scene_name in SDS.EXCLUDE_SCENES:
+			continue
+		for i, shot in enumerate(scene):
+			for action in shot.actions:
+				scene_lib_file.write('{}\t{}\t{}\t'.format(scene_name, str(i), str(action._type)) + '\t'.join(
+					str(arg) for arg in action._args) + '\t{}\t{}\n'.format(str(action.starts), str(action.finishes)))
+	scene_lib_file.close()
+
+if __name__ == '__main__':
+	readAndSaveFromScratch()
+	scene_lib = SDS.load()
+	# byactiontype_dic(scene_lib)
+
+
+	"""
+	Agenda: output scene file
+	"""

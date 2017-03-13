@@ -27,4 +27,4 @@ _
 doc&rider3 = doc rider3
 thugb&thugc = thugb thugc
 thuga&thugahorse = thuga thugahorse
-wyatt&doc&rider3&rider4&rider5 = wyatt doc rider3 rider4 rider 5
+wyatt&doc&rider3&rider4&rider5 = wyatt doc rider3 rider4 rider5

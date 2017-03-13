@@ -28,6 +28,4 @@ guapo - thug
 nedholster
 
 _
-german1 = german
-german1gun = germangun
 ned&jefe = ned jefe

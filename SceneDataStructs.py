@@ -9,7 +9,7 @@ from clockdeco import clock
 from copy import deepcopy
 from collections import defaultdict
 
-EXCLUDE_SCENES = ['tg']
+EXCLUDE_SCENES = ['tg', None, 'none', 'None']
 
 class Cell:
 	def __init__(self, r, c):
@@ -131,18 +131,26 @@ class Action:
 	def substituteEntities(self, ents):
 
 		print('substituting entities {} in action {}\n'.format(ents, self._type))
-		print(self._args)
+		# print(self._args)
 		try:
-			self._args = [e for e in ents for arg in self if e.name == arg]
+			new_args = []
+			for arg in self:
+				for e in ents:
+					if e.name == arg:
+						new_args.append(e)
+						break
+			self._args = new_args
 		except:
 			for e in ents:
 				print(e)
 			AttributeError('this should end it')
-		print('\n')
-		print(self._args)
-		print('\n')
 		return self._args
 
+	def swap_arg(self, old_arg, new_arg):
+		k = len(self._args)
+		self._args = [arg if arg != old_arg else new_arg for arg in self]
+		if len(self._args) != k:
+			AssertionError('missing arg after swap: {}/{}'.format(old_arg, new_arg))
 
 	def __len__(self):
 		return len(self._args)
@@ -156,6 +164,7 @@ class Action:
 
 
 #store by scene name
+import copy
 
 class Shot:
 	header = None
@@ -180,6 +189,23 @@ class Shot:
 			shot_ents.extend(accepted_ents)
 		# should be sorta sorted by the order each entity is observed.
 		self.entities = shot_ents
+
+	def substituteConjunctionEntities(self, conj_ent_dict):
+
+		for i, action in enumerate(self.actions):
+			for arg in action:
+				if arg in conj_ent_dict.keys():
+					new_ents = conj_ent_dict[arg]
+					for k, ent in enumerate(new_ents[1:]):
+						new_action = copy.deepcopy(action)
+						new_action.swap_arg(arg, ent)
+						self.insert_action(i+k+1, new_action)
+					# swap the ent in the first action by default.
+					action.swap_arg(arg, new_ents[0])
+
+
+	def insert_action(self, action, position):
+		self.actions.insert(action, position)
 
 	def __repr__(self):
 		actions = [' '.join('\t' + str(i) + ': ' + str(action) for i, action in enumerate(self.actions))]
@@ -208,9 +234,20 @@ class Scene:
 
 	def substituteEntities(self, role_dict):
 		print('substituting entities in scene {}'.format(self.name))
-		self.entities = [role_dict[e][0] for e in self.entities if len(role_dict[e]) == 1]
+		# self.conjunction_entities = [role_dict[e] for e in self.entities if len(role_dict[e]) > 1]
+		conj_ents_dict = {e: role_dict[e] for e in self.entities if len(role_dict[e]) > 1}
+		if self.name == 'ffd':
+			print('here')
+		if conj_ents_dict:
+			for shot in self:
+				shot.substituteConjunctionEntities(conj_ents_dict)
+
+		self.entities = [elm[0] for elm in role_dict.values() if len(elm) == 1]
+		# self.entities = [role_dict[e][0] for e in self.entities if len(role_dict[e]) == 1]
+
 		for shot in self:
 			shot.substituteEntities(self.entities)
+		# handle entities which are conjunctions
 
 	def substituteActionTypes(self, action_dict, action_count):
 		print('substituting action types in scenes {}'.format(self.name))

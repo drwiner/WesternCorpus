@@ -30,6 +30,5 @@ daveshotgun
 
 _
 gang = billy doc dave chavez
-billy&gang
-thuga&thugb
-billy&ganghorses
+billy&gang = billy gang
+thuga&thugb = thuga thugb

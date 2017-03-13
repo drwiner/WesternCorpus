@@ -20,6 +20,7 @@ coffin
 thugbgun - duel-weapon
 joe - dueler
 saloon
+antonio
 
 _
 john&antonio = john antonio

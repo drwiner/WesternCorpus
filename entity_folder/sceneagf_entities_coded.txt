@@ -22,3 +22,4 @@ marshalshoulder
 _
 nora&bud = nora bud
 tenneray&fighter = tenneray fighter
+cross&tenneray = cross tenneray

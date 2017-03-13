@@ -23,6 +23,5 @@ harmonicagun - duel-weapon
 horses
 
 _
-thuga&thugc
-thugb&thuga&thugc
-harmonicagun
+thuga&thugc = thuga thugc
+thugb&thuga&thugc = thugb thuga thugc

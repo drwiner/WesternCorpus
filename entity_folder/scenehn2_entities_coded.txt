@@ -17,6 +17,7 @@ kanegun - duel-weapon
 alonzo - amigo
 kanecoat
 jd&henchman
+henchman - thug
 
 _
 jd&henchman = jd henchman
