@@ -1,13 +1,13 @@
-reveal[stockburn_dueler]
-reveal[marston_dueler, dobkin_thug, dobkingun_None, quigley_dueler]
-reveal[marston_dueler]
-reveal[doc_dueler, ringo_dueler, badge_None]
-reveal[jack_dueler]
-reveal[john_observer, joe_dueler, johnbadge_None]
-reveal[stranger_dueler]
-reveal[pestoso_dueler]
-reveal[billy_dueler]
-reveal[billy_dueler]
-reveal[billy_dueler]
-reveal[woodrow_dueler]
-reveal[sam_dueler, zeke_bartender]
+reveal	doc_dueler	ringo_dueler	badge_None
+reveal	marston_dueler	dobkin_thug	dobkingun_None	quigley_dueler
+reveal	marston_dueler
+reveal	pestoso_dueler
+reveal	billy_dueler
+reveal	billy_dueler
+reveal	billy_dueler
+reveal	jack_dueler
+reveal	stranger_dueler
+reveal	john_observer	joe_dueler	johnbadge_None
+reveal	sam_dueler	zeke_bartender
+reveal	woodrow_dueler
+reveal	stockburn_dueler

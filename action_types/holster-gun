@@ -1,24 +1,24 @@
-holster-gun[preacher_dueler, preachergun1_duel-weapon]
-holster-gun[jed_dueler, jedgun_duel-weapon]
-holster-gun[cort_dueler, cortgun_duel-weapon]
-holster-gun[cort_dueler, cortgun_duel-weapon]
-holster-gun[payden_dueler, paydengun_duel-weapon]
-holster-gun[quigley_dueler, quigleygun_duel-weapon]
-holster-gun[fighter_dueler, fightergun_duel-location]
-holster-gun[tenneray_dueler, tenneraygun_duel-weapon]
-holster-gun[doc_dueler, docgun_duel-weapon]
-holster-gun[indio_dueler, indiogun_duel-weapon]
-holster-gun[mortimer_dueler, moncogun_None]
-holster-gun[shane_dueler, shanegun_duel-weapon]
-holster-gun[shane_dueler, shanegun_duel-weapon]
-holster-gun[joegun_duel-weapon, joegun_duel-weapon]
-holster-gun[joe_dueler, joegun_duel-weapon]
-holster-gun[kane_dueler, kanegun_duel-weapon]
-holster-gun[ned_dueler, bandit2gun_None]
-holster-gun[ned_dueler, bandit2gun_None]
-holster-gun[billy_dueler, billygun_duel-weapon]
-holster-gun[brazos_dueler, brazosgun_duel-weapon]
-holster-gun[morgan_dueler, morgangun_duel-weapon]
-holster-gun[johnny_dueler, johnnygun_duel-weapon]
-holster-gun[johnny_dueler, johnnygun_duel-weapon]
-holster-gun[mchandles_dueler, mchandlesgun_duel-weapon]
+holster-gun	billy_dueler	billygun_duel-weapon
+holster-gun	doc_dueler	docgun_duel-weapon
+holster-gun	jed_dueler	jedgun_duel-weapon
+holster-gun	cort_dueler	cortgun_duel-weapon
+holster-gun	cort_dueler	cortgun_duel-weapon
+holster-gun	ned_dueler	bandit2gun_None
+holster-gun	ned_dueler	bandit2gun_None
+holster-gun	quigley_dueler	quigleygun_duel-weapon
+holster-gun	fighter_dueler	fightergun_duel-location
+holster-gun	tenneray_dueler	tenneraygun_duel-weapon
+holster-gun	kane_dueler	kanegun_duel-weapon
+holster-gun	indio_dueler	indiogun_duel-weapon
+holster-gun	mortimer_dueler	moncogun_None
+holster-gun	payden_dueler	paydengun_duel-weapon
+holster-gun	shane_dueler	shanegun_duel-weapon
+holster-gun	shane_dueler	shanegun_duel-weapon
+holster-gun	brazos_dueler	brazosgun_duel-weapon
+holster-gun	morgan_dueler	morgangun_duel-weapon
+holster-gun	joegun_duel-weapon	joegun_duel-weapon
+holster-gun	joe_dueler	joegun_duel-weapon
+holster-gun	mchandles_dueler	mchandlesgun_duel-weapon
+holster-gun	johnny_dueler	johnnygun_duel-weapon
+holster-gun	johnny_dueler	johnnygun_duel-weapon
+holster-gun	preacher_dueler	preachergun1_duel-weapon

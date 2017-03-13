@@ -14,7 +14,7 @@ ben - dueler
 brazos - dueler
 bardgun
 house
-bardbelt - holster
+bardbelt
 wagon
 bard - amigo
 mrbannergun - thug

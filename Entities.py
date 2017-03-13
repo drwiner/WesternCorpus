@@ -9,6 +9,9 @@ class Entity:
 		self.name = entity_name
 		self.types = types
 		self.role = role
+		#
+		# # keys are shot numbers, value is pair of spatial positions (shotstart, shotend)
+		# self.spatial_dict = dict()
 
 	def __hash__(self):
 		return hash(str(self.name) + str(self.role))

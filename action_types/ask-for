@@ -1,4 +1,4 @@
-ask-for[johnny_dueler, bartender_bartender, bottles1&2_None]
-ask-for[johnny_dueler, bartender_bartender, bottle3_None]
-ask-for[sam_dueler, zeke_bartender, soda_None]
-ask-for[ring_None, sam_dueler, zeke_bartender]
+ask-for	sam_dueler	zeke_bartender	soda_None
+ask-for	ring_None	sam_dueler	zeke_bartender
+ask-for	johnny_dueler	bartender_bartender	bottles1&2_None
+ask-for	johnny_dueler	bartender_bartender	bottle3_None

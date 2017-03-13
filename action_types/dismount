@@ -1,5 +1,5 @@
-dismount[thuga_thug, thugahorse_None]
-dismount[wyatt_dueler, wyatthorse_None]
-dismount[wyatt_dueler, wyatthorse_None]
-dismount[billy_dueler, billyhorse_None]
-dismount[rudd_dueler, ruddcarriage_None, road_duel-location]
+dismount	billy_dueler	billyhorse_None
+dismount	rudd_dueler	ruddcarriage_None	road_duel-location
+dismount	thuga_thug	thugahorse_None
+dismount	wyatt_dueler	wyatthorse_None
+dismount	wyatt_dueler	wyatthorse_None

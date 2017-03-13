@@ -166,6 +166,7 @@ class Action:
 #store by scene name
 import copy
 
+
 class Shot:
 	header = None
 	def __init__(self, first_action, sentence, **kwargs):
@@ -175,6 +176,21 @@ class Shot:
 		self.actions = [first_action]
 		self.orig_sentence = sentence
 		self.nlp_sentence = None
+		self.assignSpatial()
+
+	def assignSpatial(self):
+		spatial_start = figure_split_machine(self.__dict__['figureobjs(shotstart)'])
+		spatial_end = figure_split_machine(self.__dict__['figureobjs(shotend)'])
+		spatials = spatial_start + spatial_end
+		self.foreground = []
+		self.background = []
+		for ent in spatials:
+			ground = ent[-1].split('-')[-1]
+			if ground == 'foreground':
+				self.foreground.append(ent[1:])
+			elif ground == 'background':
+				self.background.append(ent[1:])
+
 
 	def update(self, row_values):
 		#thus far, only update is to add argument to action
@@ -189,6 +205,14 @@ class Shot:
 			shot_ents.extend(accepted_ents)
 		# should be sorta sorted by the order each entity is observed.
 		self.entities = shot_ents
+
+		start_ents = [ent_list[1] for ent_list in self.spatial_start]
+		end_ents = [ent_list[1] for ent_list in self.spatial_end]
+		for ent in self.entities:
+			for ent_list in start_ents
+			if ent in start_ents:
+
+
 
 	def substituteConjunctionEntities(self, conj_ent_dict):
 
@@ -210,6 +234,31 @@ class Shot:
 	def __repr__(self):
 		actions = [' '.join('\t' + str(i) + ': ' + str(action) for i, action in enumerate(self.actions))]
 		return '\n' + ''.join(['{}'.format(action) for action in actions])
+
+def figure_split_machine(_str):
+	"""
+	:param _str: a figureobjs(shotstart) string
+	:return: a nested list where each primitive list is of the form ['type', 'ent_name', 'spatial position']
+	"""
+
+	ents = []
+	str_list = _str.split(',')
+	for i in str_list:
+		if i == '':
+			continue
+		z = i.split('(')
+		new_ent = []
+		for k in z:
+			if k == '':
+				continue
+			m = k.split(')')
+			for q in m:
+				if q == '':
+					continue
+				new_ent.append(q)
+		ents.append(new_ent)
+	return ents
+
 
 class Scene:
 	# name, ordered list of shots, entities
@@ -234,27 +283,21 @@ class Scene:
 
 	def substituteEntities(self, role_dict):
 		print('substituting entities in scene {}'.format(self.name))
-		# self.conjunction_entities = [role_dict[e] for e in self.entities if len(role_dict[e]) > 1]
+
 		conj_ents_dict = {e: role_dict[e] for e in self.entities if len(role_dict[e]) > 1}
-		if self.name == 'ffd':
-			print('here')
 		if conj_ents_dict:
 			for shot in self:
 				shot.substituteConjunctionEntities(conj_ents_dict)
 
 		self.entities = [elm[0] for elm in role_dict.values() if len(elm) == 1]
-		# self.entities = [role_dict[e][0] for e in self.entities if len(role_dict[e]) == 1]
 
 		for shot in self:
 			shot.substituteEntities(self.entities)
-		# handle entities which are conjunctions
 
 	def substituteActionTypes(self, action_dict, action_count):
 		print('substituting action types in scenes {}'.format(self.name))
 		for shot in self:
 			for action in shot.actions:
-				# action_type(ActionType)
-				# action._type(string type of Action)
 				ac = action_count[action]
 
 				if action._type in action_dict.keys():

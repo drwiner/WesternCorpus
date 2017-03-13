@@ -1,33 +1,33 @@
-die[stockburn_dueler]
-die[reno_dueler]
-die[sentenza_dueler]
-die[spottedhorse_dueler]
-die[cobb_dueler]
-die[dobkin_thug]
-die[o'flynn_thug]
-die[marston_dueler]
-die[fighter_dueler]
-die[andy_dueler]
-die[bannister_dueler]
-die[hunter_dueler]
-die[ringo_dueler]
-die[shep_dueler]
-die[liberty_dueler]
-die[indio_dueler]
-die[jack_dueler]
-die[rufus_thug]
-die[thugs_dueler]
-die[jd_dueler]
-die[jd_dueler]
-die[german2_thug]
-die[barman_thug]
-die[thugb_dueler]
-die[thuga_dueler]
-die[pestoso_dueler]
-die[thugb_dueler]
-die[thuga_dueler]
-die[ben_dueler]
-die[bard_amigo]
-die[buck_dueler]
-die[woodrow_dueler]
-die[sam_dueler]
+die	thugb_dueler
+die	thuga_dueler
+die	ringo_dueler
+die	reno_dueler
+die	sentenza_dueler
+die	buck_dueler
+die	spottedhorse_dueler
+die	german2_thug
+die	dobkin_thug
+die	o'flynn_thug
+die	marston_dueler
+die	pestoso_dueler
+die	thugb_dueler
+die	thuga_dueler
+die	fighter_dueler
+die	jd_dueler
+die	jd_dueler
+die	indio_dueler
+die	bannister_dueler
+die	cobb_dueler
+die	jack_dueler
+die	rufus_thug
+die	barman_thug
+die	ben_dueler
+die	bard_amigo
+die	hunter_dueler
+die	shep_dueler
+die	andy_dueler
+die	thugs_dueler
+die	sam_dueler
+die	woodrow_dueler
+die	liberty_dueler
+die	stockburn_dueler
