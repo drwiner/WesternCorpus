@@ -17,6 +17,10 @@ class ActionObs:
 		self.finishes = 'psi'
 		self.observed_at = []
 		self.shot_nums = []
+		# this will be transformed into a plan step?
+		self.preconditions = []
+		self.effects = []
+		self.consenters = []
 
 	def __eq__(self, other):
 		if self._id == other._id:
@@ -164,8 +168,15 @@ def induce_intervals(shot_dict):
 def get_last_timestep(end_dict):
 	return sorted(list(end_dict.keys()))[-1]
 
+def write_ais(sc_name, ais):
+	start_dict = {ai.starts: ai for ai in ais}
+	end_dict = {ai.finishes: ai for ai in ais}
+	with open('plot_inductions//' + sc_name, 'w') as pisc:
+		for i in range(int(get_last_timestep(end_dict))):
+			if i in start_dict.keys():
+				pisc.write(str(start_dict[i]) + '\t' + '\t'.join(str(sn) for sn in start_dict[i].shot_nums) + '\n')
 
-def induce_plot(scene_lib_file_name):
+def induce_plots(scene_lib_file_name):
 	scene_dict = defaultdict(list)
 
 	with open(scene_lib_file_name) as scene_lib_file:
@@ -175,18 +186,18 @@ def induce_plot(scene_lib_file_name):
 				continue
 			scene_dict[sp[0]].append(sp[1:])
 
+	ai_scene_dict = dict()
 	for sc_name, scene_list in scene_dict.items():
 		shot_dict = defaultdict(list)
 		for elm in scene_list:
 			shot_dict[elm[0]].append(elm[1:])
 		ais = induce_intervals(shot_dict)
 		# use these for orderings
-		start_dict = {ai.starts: ai for ai in ais}
-		end_dict = {ai.finishes: ai for ai in ais}
-		with open('plot_inductions//' + sc_name, 'w') as pisc:
-			for i in range(int(get_last_timestep(end_dict))):
-				if i in start_dict.keys():
-					pisc.write(str(start_dict[i]) + '\t' + '\t'.join(str(sn) for sn in start_dict[i].shot_nums) + '\n')
+		ai_scene_dict[sc_name] = ais
+	return ai_scene_dict
+
 
 if __name__ == '__main__':
-	induce_plot('scene_lib_file')
+	act_inst_dict = induce_plots('scene_lib_file')
+	for sc, act_instances in act_inst_dict.items():
+		write_ais(sc, act_instances)

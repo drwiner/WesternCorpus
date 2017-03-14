@@ -169,7 +169,7 @@ if __name__ == '__main__':
 
 	do_ent_arg  = False
 	do_ent      = False
-	do_ent_grid = True
+	do_ent_grid = False
 
 	# load scenes from memory
 	scene_lib = SDS.load()

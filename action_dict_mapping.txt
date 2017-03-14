@@ -158,7 +158,7 @@ scatterv 1 - None
 squareoff 43 - square-off
 removeclothing 2 - adjust-clothing
 shake 2 - None
-walkto 86 - walk
+walkto 86 - arrive
 idlev 2 - None
 hide 4 - None
 kickgun 1 - None
