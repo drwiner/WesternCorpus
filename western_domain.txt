@@ -255,7 +255,7 @@
 	:agents (?c1))
 	
   (:action close
-	:parameters (?c1 - char ?d = container ?p1 - place)
+	:parameters (?c1 - char ?d - container ?p1 - place)
 	:precondition (and (alive ?c1) (at ?c1 ?p1) (at ?d ?p1) (open ?d))
 	:effect (closed ?d)
 	:agents (?c1))
