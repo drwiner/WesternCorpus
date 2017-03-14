@@ -1,18 +1,5 @@
-stand-up	buck_dueler
-stand-up	spottedhorse_dueler
-stand-up	spottedhorse_dueler
-stand-up	spottedhorse_dueler	spottedhorse_dueler
-stand-up	spottedhorse_dueler
-stand-up	jefe_thug
-stand-up	german2_thug
-stand-up	german2_thug
-stand-up	german_dueler
-stand-up	guapo_thug	guapo_thug
-stand-up	jd_dueler
+stand-up	ranse_dueler
 stand-up	cobb_dueler
-stand-up	jack_dueler
-stand-up	patrons_None
-stand-up	boy_observer
 stand-up	shep_dueler	jubal_dueler
 stand-up	shep_dueler	jubal_dueler
 stand-up	jubal_dueler
@@ -21,16 +8,29 @@ stand-up	red_amigo
 stand-up	crowd_observer
 stand-up	red_amigo
 stand-up	jubal_dueler
+stand-up	spottedhorse_dueler
+stand-up	spottedhorse_dueler
+stand-up	spottedhorse_dueler	spottedhorse_dueler
+stand-up	spottedhorse_dueler
+stand-up	preacher_dueler
+stand-up	buck_dueler
 stand-up	morgan_dueler	road_duel-location
 stand-up	morgan_dueler	road_duel-location
 stand-up	rudd_dueler
 stand-up	morgan_dueler
-stand-up	thugb_thug
-stand-up	thugc_thug
 stand-up	bartender_bartender
 stand-up	woodrow_dueler
 stand-up	woodrow_dueler
 stand-up	woodrow_dueler
 stand-up	johnny_dueler
-stand-up	ranse_dueler
-stand-up	preacher_dueler
+stand-up	thugb_thug
+stand-up	thugc_thug
+stand-up	jefe_thug
+stand-up	german2_thug
+stand-up	german2_thug
+stand-up	german_dueler
+stand-up	guapo_thug	guapo_thug
+stand-up	jack_dueler
+stand-up	patrons_None
+stand-up	boy_observer
+stand-up	jd_dueler

@@ -1,0 +1,19 @@
+	thuggun	mordecaigun	lantern	thugchest	unknown	thug	street	stranger	barman	unknowngun	barmangun	darkness	unknownhand	barmanback	strangergun	buildinga	buildingb	mordecai
+thuggun	-	-	{'fire-gun'}	-	-	{'load-gun', 'drop-gun', 'fire-gun', 'raise-gun'}	-	-	-	-	-	-	-	-	-	-	-	-	
+mordecaigun	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'lower-gun'}	
+lantern	{'fire-gun'}	-	-	-	-	{'wince', 'fire-gun'}	-	-	-	-	-	-	-	-	-	-	-	-	
+thugchest	-	-	-	-	-	{'get-shot'}	-	-	-	-	-	-	-	-	-	-	-	-	
+unknown	-	-	-	-	-	{'look-at'}	-	-	-	{'fire-gun'}	-	-	-	-	-	-	-	-	
+thug	{'load-gun', 'drop-gun', 'fire-gun', 'raise-gun'}	-	{'wince', 'fire-gun'}	{'get-shot'}	{'look-at'}	{'fall'}	{'run', 'walk'}	{'look-at', 'identify', 'square-off', 'stare-at', 'fire-gun'}	-	-	-	{'stare-at'}	-	-	{'fire-gun'}	{'run', 'walk'}	-	-	
+street	-	-	-	-	-	{'run', 'walk'}	{'walk'}	{'walk'}	{'walk'}	-	-	-	-	-	-	{'run', 'walk'}	{'walk'}	-	
+stranger	-	-	-	-	-	{'look-at', 'identify', 'square-off', 'stare-at', 'fire-gun'}	{'walk'}	-	{'look-at'}	-	-	-	-	-	{'lower-gun', 'fire-gun', 'raise-gun', 'cock-gun'}	-	{'walk'}	{'look-at'}	
+barman	-	-	-	-	-	-	{'walk'}	{'look-at'}	-	-	{'raise-gun', 'aim-gun'}	-	-	{'get-shot'}	-	-	-	{'look-at'}	
+unknowngun	-	-	-	-	{'fire-gun'}	-	-	-	-	-	-	-	-	-	-	-	-	-	
+barmangun	-	-	-	-	-	-	-	-	{'raise-gun', 'aim-gun'}	-	-	-	-	-	-	-	-	-	
+darkness	-	-	-	-	-	{'stare-at'}	-	-	-	-	-	-	-	-	-	-	-	-	
+unknownhand	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+barmanback	-	-	-	-	-	-	-	-	{'get-shot'}	-	-	-	-	-	-	-	-	-	
+strangergun	-	-	-	-	-	{'fire-gun'}	-	{'lower-gun', 'fire-gun', 'raise-gun', 'cock-gun'}	-	-	-	-	-	-	-	-	-	-	
+buildinga	-	-	-	-	-	{'run', 'walk'}	{'run', 'walk'}	-	-	-	-	-	-	-	-	-	-	-	
+buildingb	-	-	-	-	-	-	{'walk'}	{'walk'}	-	-	-	-	-	-	-	-	-	-	
+mordecai	-	{'lower-gun'}	-	-	-	-	-	{'look-at'}	{'look-at'}	-	-	-	-	-	-	-	-	-	

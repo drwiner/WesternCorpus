@@ -206,11 +206,16 @@ class Shot:
 		# should be sorta sorted by the order each entity is observed.
 		self.entities = shot_ents
 
-		start_ents = [ent_list[1] for ent_list in self.spatial_start]
-		end_ents = [ent_list[1] for ent_list in self.spatial_end]
+		ent_dict = dict()
 		for ent in self.entities:
-			for ent_list in start_ents
-			if ent in start_ents:
+			ent_dict[ent.name.split('_')[0]] = ent
+
+		for ent in self.foreground:
+			if ent[0] in ent_dict.keys():
+				ent[0] = ent_dict[ent[0]]
+		for ent in self.background:
+			if ent[0] in ent_dict.keys():
+				ent[0] = ent_dict[ent[0]]
 
 
 
@@ -242,6 +247,8 @@ def figure_split_machine(_str):
 	"""
 
 	ents = []
+	if _str is None or _str == 'None' or _str == 'none':
+		return ''
 	str_list = _str.split(',')
 	for i in str_list:
 		if i == '':

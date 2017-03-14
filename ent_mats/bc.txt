@@ -1,0 +1,19 @@
+	james	wagonwheel	_	waterhole	wagon	assistantgun	jean	assistant	rufusgun	ground	duelgun2	duelgun1	buckchest	buck	crowd	jameshead	rufus	assisstantgun
+james	-	-	-	-	{'walk'}	-	{'look-at', 'stare-at', 'walk'}	{'look-at'}	-	{'fire-gun'}	{'look-at', 'fire-gun'}	{'drop-gun', 'look-at', 'cock-gun', 'aim-gun', 'lower-gun', 'give', 'fire-gun', 'raise-gun'}	-	{'face-at', 'look-at', 'leave', 'fire-gun', 'de-escalate', 'provoke', 'stare-at'}	{'walk'}	{'look-at', 'get-shot'}	{'look-at', 'de-escalate', 'assent', 'fire-gun', 'walk'}	-	
+wagonwheel	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+_	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+waterhole	-	-	-	-	-	-	-	-	-	-	-	-	-	{'walk'}	-	-	{'walk'}	-	
+wagon	{'walk'}	-	-	-	-	-	-	-	-	-	-	-	-	{'walk'}	-	-	{'walk'}	-	
+assistantgun	-	-	-	-	-	-	-	-	-	-	-	-	-	{'draw-gun'}	-	-	-	-	
+jean	{'look-at', 'stare-at', 'walk'}	-	-	-	-	-	-	{'look-at'}	-	-	-	-	-	{'look-at', 'stare-at'}	{'walk'}	-	-	-	
+assistant	{'look-at'}	-	-	-	-	-	{'look-at'}	-	-	-	-	{'give'}	-	{'look-at', 'walk'}	-	-	{'give', 'provoke'}	-	
+rufusgun	-	-	-	-	-	-	-	-	-	-	-	-	-	{'fire-gun'}	-	-	{'draw-gun', 'fire-gun'}	-	
+ground	{'fire-gun'}	-	-	-	-	-	-	-	-	-	-	{'fire-gun'}	-	-	-	-	-	-	
+duelgun2	{'look-at', 'fire-gun'}	-	-	-	-	-	-	-	-	-	-	-	-	{'look-at', 'give', 'fire-gun', 'aim-gun'}	-	-	{'load-gun', 'fire-gun'}	-	
+duelgun1	{'drop-gun', 'look-at', 'cock-gun', 'aim-gun', 'lower-gun', 'give', 'fire-gun', 'raise-gun'}	-	-	-	-	-	-	{'give'}	-	{'fire-gun'}	-	-	-	{'fire-gun'}	-	-	{'load-gun', 'give', 'fire-gun'}	-	
+buckchest	-	-	-	-	-	-	-	-	-	-	-	-	-	{'look-at', 'get-shot'}	-	-	-	-	
+buck	{'face-at', 'look-at', 'leave', 'fire-gun', 'de-escalate', 'provoke', 'stare-at'}	-	-	{'walk'}	{'walk'}	{'draw-gun'}	{'look-at', 'stare-at'}	{'look-at', 'walk'}	{'fire-gun'}	-	{'look-at', 'give', 'fire-gun', 'aim-gun'}	{'fire-gun'}	{'look-at', 'get-shot'}	-	-	-	{'walk', 'look-at', 'assent', 'leave', 'fire-gun', 'de-escalate', 'provoke', 'stare-at'}	{'drop-gun'}	
+crowd	{'walk'}	-	-	-	-	-	{'walk'}	-	-	-	-	-	-	-	-	-	-	-	
+jameshead	{'look-at', 'get-shot'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+rufus	{'look-at', 'de-escalate', 'assent', 'fire-gun', 'walk'}	-	-	{'walk'}	{'walk'}	-	-	{'give', 'provoke'}	{'draw-gun', 'fire-gun'}	-	{'load-gun', 'fire-gun'}	{'load-gun', 'give', 'fire-gun'}	-	{'walk', 'look-at', 'assent', 'leave', 'fire-gun', 'de-escalate', 'provoke', 'stare-at'}	-	-	-	{'draw-gun'}	
+assisstantgun	-	-	-	-	-	-	-	-	-	-	-	-	-	{'drop-gun'}	-	-	{'draw-gun'}	-	

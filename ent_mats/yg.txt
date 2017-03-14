@@ -1,0 +1,28 @@
+	dochorse	billyholster	chisum	thug	handkerchief	billyhorse	billygun	thugaholster	thugbbody	hendryrifle	chavez	docrifle	billy	hendrygun	porch	thugagun	house	billy&ganghorses	thugbholster	dave	_	hendry	daveshotgun	thugachest	thuga	thugb	doc
+dochorse	-	-	{'ride'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'ride'}	
+billyholster	-	-	-	-	-	-	-	-	-	-	-	-	{'adjust-clothing'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+chisum	{'ride'}	-	-	-	{'give'}	-	-	-	-	-	{'look-at', 'face-at', 'provoke', 'ride', 'walk'}	-	{'face-at', 'ride', 'taunt', 'look-at', 'walk', 'de-escalate', 'provoke', 'stare-at'}	-	{'walk'}	-	-	{'ride'}	-	{'look-at', 'face-at', 'provoke', 'ride', 'walk'}	-	{'look-at', 'identify', 'provoke', 'stare-at'}	-	-	{'look-at', 'give', 'de-escalate', 'face-at', 'walk'}	{'look-at', 'walk'}	{'face-at', 'ride', 'taunt', 'look-at', 'walk', 'de-escalate', 'provoke', 'stare-at'}	
+thug	-	-	-	-	-	-	-	-	-	-	-	-	{'drop-gun'}	-	-	-	-	-	-	-	-	-	-	-	{'drop-gun'}	-	-	
+handkerchief	-	-	{'give'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'give'}	-	-	
+billyhorse	-	-	-	-	-	-	-	-	-	-	-	-	{'leave', 'dismount'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+billygun	-	-	-	-	-	-	-	-	-	-	-	-	{'drop-gun', 'look-at', 'cock-gun', 'draw-gun', 'aim-gun', 'holster-gun'}	-	-	-	-	-	-	-	-	-	-	-	{'aim-gun'}	{'look-at'}	-	
+thugaholster	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'adjust-clothing'}	-	-	
+thugbbody	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'get-shot'}	-	
+hendryrifle	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'draw-gun'}	-	-	-	-	-	
+chavez	-	-	{'look-at', 'face-at', 'provoke', 'ride', 'walk'}	-	-	-	-	-	-	-	-	-	{'stare-at'}	-	{'walk'}	-	-	{'ride'}	-	-	-	-	-	-	{'look-at', 'face-at'}	{'look-at'}	-	
+docrifle	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'fire-gun'}	-	{'drop-gun', 'fire-gun', 'raise-gun'}	
+billy	-	{'adjust-clothing'}	{'face-at', 'ride', 'taunt', 'look-at', 'walk', 'de-escalate', 'provoke', 'stare-at'}	{'drop-gun'}	-	{'leave', 'dismount'}	{'drop-gun', 'look-at', 'cock-gun', 'draw-gun', 'aim-gun', 'holster-gun'}	-	-	-	{'stare-at'}	-	-	{'fire-gun'}	{'walk'}	{'drop-gun'}	-	{'ride'}	-	{'fire-gun'}	-	{'look-at', 'fire-gun'}	{'fire-gun'}	-	{'face-at', 'drop-gun', 'look-at', 'aim-gun', 'provoke', 'stare-at'}	{'look-at', 'assent', 'provoke', 'face-at', 'stare-at'}	{'look-at'}	
+hendrygun	-	-	-	-	-	-	-	-	-	-	-	-	{'fire-gun'}	-	-	-	-	-	-	-	-	{'draw-gun', 'fire-gun'}	-	-	-	-	-	
+porch	-	-	{'walk'}	-	-	-	-	-	-	-	{'walk'}	-	{'walk'}	-	-	-	-	-	-	{'walk'}	-	-	-	-	-	-	{'walk'}	
+thugagun	-	-	-	-	-	-	-	-	-	-	-	-	{'drop-gun'}	-	-	-	-	-	-	-	-	{'draw-gun'}	-	-	{'draw-gun', 'raise-gun', 'drop-gun', 'walk'}	-	-	
+house	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'face-at'}	-	-	
+billy&ganghorses	-	-	{'ride'}	-	-	-	-	-	-	-	{'ride'}	-	{'ride'}	-	-	-	-	-	-	{'ride'}	-	-	-	-	-	-	{'ride'}	
+thugbholster	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'adjust-clothing'}	-	
+dave	-	-	{'look-at', 'face-at', 'provoke', 'ride', 'walk'}	-	-	-	-	-	-	-	-	-	{'fire-gun'}	-	{'walk'}	-	-	{'ride'}	-	-	-	{'look-at'}	{'draw-gun', 'fire-gun', 'aim-gun'}	-	{'look-at', 'face-at', 'aim-gun'}	{'look-at', 'fire-gun', 'aim-gun'}	{'look-at'}	
+_	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+hendry	-	-	{'look-at', 'identify', 'provoke', 'stare-at'}	-	-	-	-	-	-	{'draw-gun'}	-	-	{'look-at', 'fire-gun'}	{'draw-gun', 'fire-gun'}	-	{'draw-gun'}	-	-	-	{'look-at'}	-	-	-	-	{'draw-gun'}	-	-	
+daveshotgun	-	-	-	-	-	-	-	-	-	-	-	-	{'fire-gun'}	-	-	-	-	-	-	{'draw-gun', 'fire-gun', 'aim-gun'}	-	-	-	-	{'aim-gun'}	{'fire-gun', 'aim-gun'}	-	
+thugachest	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'get-shot'}	-	-	
+thuga	-	-	{'look-at', 'give', 'de-escalate', 'face-at', 'walk'}	{'drop-gun'}	{'give'}	-	{'aim-gun'}	{'adjust-clothing'}	-	-	{'look-at', 'face-at'}	{'fire-gun'}	{'face-at', 'drop-gun', 'look-at', 'aim-gun', 'provoke', 'stare-at'}	-	-	{'draw-gun', 'raise-gun', 'drop-gun', 'walk'}	{'face-at'}	-	-	{'look-at', 'face-at', 'aim-gun'}	-	{'draw-gun'}	{'aim-gun'}	{'get-shot'}	-	{'face-at'}	{'look-at', 'fire-gun', 'face-at'}	
+thugb	-	-	{'look-at', 'walk'}	-	-	-	{'look-at'}	-	{'get-shot'}	-	{'look-at'}	-	{'look-at', 'assent', 'provoke', 'face-at', 'stare-at'}	-	-	-	-	-	{'adjust-clothing'}	{'look-at', 'fire-gun', 'aim-gun'}	-	-	{'fire-gun', 'aim-gun'}	-	{'face-at'}	-	{'look-at'}	
+doc	{'ride'}	-	{'face-at', 'ride', 'taunt', 'look-at', 'walk', 'de-escalate', 'provoke', 'stare-at'}	-	-	-	-	-	-	-	-	{'drop-gun', 'fire-gun', 'raise-gun'}	{'look-at'}	-	{'walk'}	-	-	{'ride'}	-	{'look-at'}	-	-	-	-	{'look-at', 'fire-gun', 'face-at'}	{'look-at'}	-	

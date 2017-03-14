@@ -1,21 +1,21 @@
-pick-up	dusty_amigo	knife_None
-pick-up	dusty_amigo	knife_None
-pick-up	billy_dueler	spur_None	billyrighthand_None	billycoat_None
-pick-up	sullivan_observer	o'hanlon_dueler
-pick-up	sullivan_observer	o'hanlon_dueler
 pick-up	jubal_dueler	shep_dueler
 pick-up	jubal_dueler	shep_dueler
 pick-up	red_amigo	jubalhat_None
+pick-up	preacher_dueler	preacherhat_None
 pick-up	rudd_dueler	ruddbible_None
 pick-up	morgan_dueler
 pick-up	ruddbible_None
 pick-up	rudd_dueler
 pick-up	morgan_dueler
 pick-up	ruddbible_None
-pick-up	andy_dueler	gate_None
-pick-up	zeke_bartender	samgun_duel-weapon	zeke_bartender	backbar_duel-location
-pick-up	sam_dueler	ringbox_None	shirtpocket_None
 pick-up	johnny_dueler	woodrowshirt_None
 pick-up	johnny_dueler	woodrowshirt_None
 pick-up	johnny_dueler	woodrow_dueler	woodrow_dueler
-pick-up	preacher_dueler	preacherhat_None
+pick-up	zeke_bartender	samgun_duel-weapon	zeke_bartender	backbar_duel-location
+pick-up	sam_dueler	ringbox_None	shirtpocket_None
+pick-up	sullivan_observer	o'hanlon_dueler
+pick-up	sullivan_observer	o'hanlon_dueler
+pick-up	andy_dueler	gate_None
+pick-up	dusty_amigo	knife_None
+pick-up	dusty_amigo	knife_None
+pick-up	billy_dueler	spur_None	billyrighthand_None	billycoat_None

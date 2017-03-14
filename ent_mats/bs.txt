@@ -1,0 +1,14 @@
+	thuggun	lyle	thug	jim	thugs	taggart	_	bartgun	thugsgun	crowd	lylegun	bart	jimgun
+thuggun	-	-	{'drop-gun'}	-	-	-	-	-	-	-	-	-	-	
+lyle	-	-	-	{'square-off', 'de-escalate', 'stare-at', 'taunt'}	{'fire-gun'}	{'fire-gun'}	-	-	{'cock-gun', 'fire-gun', 'aim-gun'}	-	{'cock-gun', 'draw-gun', 'fire-gun', 'drop-gun', 'aim-gun'}	{'fire-gun'}	-	
+thug	{'drop-gun'}	-	-	-	-	-	-	-	-	-	-	-	-	
+jim	-	{'square-off', 'de-escalate', 'stare-at', 'taunt'}	-	-	{'de-escalate', 'stare-at', 'square-off'}	-	-	-	{'fire-gun'}	-	{'fire-gun'}	-	{'draw-gun', 'fire-gun'}	
+thugs	-	{'fire-gun'}	-	{'de-escalate', 'stare-at', 'square-off'}	-	-	-	-	{'cock-gun', 'fire-gun', 'aim-gun'}	-	{'cock-gun', 'aim-gun'}	{'fire-gun'}	-	
+taggart	-	{'fire-gun'}	-	-	-	-	-	-	{'fire-gun'}	-	{'fire-gun'}	{'identify', 'de-escalate', 'provoke', 'fire-gun'}	-	
+_	-	-	-	-	-	-	-	-	-	-	-	-	-	
+bartgun	-	-	-	-	-	-	-	-	-	-	-	{'draw-gun'}	-	
+thugsgun	-	{'cock-gun', 'fire-gun', 'aim-gun'}	-	{'fire-gun'}	{'cock-gun', 'fire-gun', 'aim-gun'}	{'fire-gun'}	-	-	-	-	-	{'fire-gun'}	{'fire-gun'}	
+crowd	-	-	-	-	-	-	-	-	-	-	-	-	-	
+lylegun	-	{'cock-gun', 'draw-gun', 'fire-gun', 'drop-gun', 'aim-gun'}	-	{'fire-gun'}	{'cock-gun', 'aim-gun'}	{'fire-gun'}	-	-	-	-	-	{'fire-gun'}	{'fire-gun'}	
+bart	-	{'fire-gun'}	-	-	{'fire-gun'}	{'identify', 'de-escalate', 'provoke', 'fire-gun'}	-	{'draw-gun'}	{'fire-gun'}	-	{'fire-gun'}	-	-	
+jimgun	-	-	-	{'draw-gun', 'fire-gun'}	-	-	-	-	{'fire-gun'}	-	{'fire-gun'}	-	-	

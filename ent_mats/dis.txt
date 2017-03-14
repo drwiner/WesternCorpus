@@ -1,0 +1,19 @@
+	zeke	bottle	tables	bar	mchandlesgun	ring	cigarette	crowd	soda	sam	ringbox	shirtpocket	mchandles	backbar	door	mouth	samgun	sambody
+zeke	{'pick-up'}	{'drop'}	-	{'drop', 'walk'}	-	{'look-at', 'ask-for'}	-	-	{'drop', 'ask-for', 'walk'}	{'pick-up+drop', 'drop', 'ask-for', 'reveal', 'walk'}	-	-	-	{'pick-up+drop', 'pick-up', 'drop'}	-	-	{'pick-up+drop', 'pick-up', 'drop'}	-	
+bottle	{'drop'}	-	-	{'drop'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+tables	-	-	-	{'walk'}	-	-	-	{'walk'}	-	-	-	-	-	-	-	-	-	-	
+bar	{'drop', 'walk'}	{'drop'}	{'walk'}	-	-	-	-	{'walk'}	{'drop'}	{'drop', 'walk'}	-	-	{'walk'}	-	{'walk'}	-	{'drop'}	-	
+mchandlesgun	-	-	-	-	-	-	-	-	-	{'fire-gun'}	-	-	{'holster-gun', 'draw-gun', 'fire-gun'}	-	-	-	-	-	
+ring	{'look-at', 'ask-for'}	-	-	-	-	-	-	-	-	{'look-at', 'drop', 'ask-for'}	-	-	-	-	-	-	-	-	
+cigarette	-	-	-	-	-	-	-	-	-	-	-	{'smokes'}	{'smokes'}	-	-	{'smokes'}	-	-	
+crowd	-	-	{'walk'}	{'walk'}	-	-	-	-	-	-	-	-	{'provoke'}	-	-	-	-	-	
+soda	{'drop', 'ask-for', 'walk'}	-	-	{'drop'}	-	-	-	-	-	{'drop', 'ask-for', 'walk'}	-	-	-	{'drop'}	-	-	-	-	
+sam	{'pick-up+drop', 'drop', 'ask-for', 'reveal', 'walk'}	-	-	{'drop', 'walk'}	{'fire-gun'}	{'look-at', 'drop', 'ask-for'}	-	-	{'drop', 'ask-for', 'walk'}	-	{'open', 'pick-up'}	{'pick-up'}	{'square-off', 'taunt', 'walk', 'assent', 'fire-gun', 'de-escalate', 'provoke', 'stare-at'}	{'pick-up+drop', 'drop'}	-	-	{'pick-up+drop', 'drop', 'draw-gun'}	{'get-shot'}	
+ringbox	-	-	-	-	-	-	-	-	-	{'open', 'pick-up'}	-	{'pick-up'}	-	-	-	-	-	-	
+shirtpocket	-	-	-	-	-	-	{'smokes'}	-	-	{'pick-up'}	{'pick-up'}	-	{'smokes'}	-	-	{'smokes'}	-	-	
+mchandles	-	-	-	{'walk'}	{'holster-gun', 'draw-gun', 'fire-gun'}	-	{'smokes'}	{'provoke'}	-	{'square-off', 'taunt', 'walk', 'assent', 'fire-gun', 'de-escalate', 'provoke', 'stare-at'}	-	{'smokes'}	{'provoke', 'walk'}	-	{'walk'}	{'smokes'}	-	-	
+backbar	{'pick-up+drop', 'pick-up', 'drop'}	-	-	-	-	-	-	-	{'drop'}	{'pick-up+drop', 'drop'}	-	-	-	-	-	-	{'pick-up+drop', 'pick-up'}	-	
+door	-	-	-	{'walk'}	-	-	-	-	-	-	-	-	{'walk'}	-	-	-	-	-	
+mouth	-	-	-	-	-	-	{'smokes'}	-	-	-	-	{'smokes'}	{'smokes'}	-	-	-	-	-	
+samgun	{'pick-up+drop', 'pick-up', 'drop'}	-	-	{'drop'}	-	-	-	-	-	{'pick-up+drop', 'drop', 'draw-gun'}	-	-	-	{'pick-up+drop', 'pick-up'}	-	-	-	-	
+sambody	-	-	-	-	-	-	-	-	-	{'get-shot'}	-	-	-	-	-	-	-	-	

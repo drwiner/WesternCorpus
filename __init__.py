@@ -54,6 +54,7 @@ def write_to_file(scene_lib):
 	scene_lib_file.close()
 
 if __name__ == '__main__':
-	readAndSaveFromScratch()
-	# scene_lib = SDS.load()
+	# readAndSaveFromScratch()
+	scene_lib = SDS.load()
+	print('inspect')
 	# byactiontype_dic(scene_lib)

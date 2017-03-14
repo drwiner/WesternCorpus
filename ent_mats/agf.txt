@@ -1,0 +1,19 @@
+	marshal	fighterchest	marshalshoulder	photographer	fighterhat	street	nora	bud	cross	tenneray	tenneraygun	fightergun	crowd	photographer2	photographer1	_	citizen	fighter
+marshal	-	-	{'get-shot'}	-	-	-	-	-	{'look-at', 'help-up', 'provoke', 'walk'}	{'look-at', 'help-up', 'de-escalate', 'provoke', 'walk'}	-	{'fire-gun'}	-	-	-	-	-	{'square-off', 'walk', 'look-at', 'fire-gun', 'de-escalate', 'provoke', 'stare-at'}	
+fighterchest	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'get-shot'}	
+marshalshoulder	{'get-shot'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+photographer	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+fighterhat	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'adjust-clothing'}	
+street	-	-	-	-	-	-	{'walk'}	{'walk'}	{'leave'}	-	-	-	-	-	-	-	-	-	
+nora	-	-	-	-	-	{'walk'}	-	{'look-at'}	{'look-at'}	{'look-at'}	-	-	-	-	-	-	-	{'look-at'}	
+bud	-	-	-	-	-	{'walk'}	{'look-at'}	-	{'look-at'}	{'look-at'}	-	-	-	-	-	-	-	{'look-at'}	
+cross	{'look-at', 'help-up', 'provoke', 'walk'}	-	-	-	-	{'leave'}	{'look-at'}	{'look-at'}	-	{'look-at'}	-	-	-	-	-	-	{'identify'}	{'look-at', 'de-escalate', 'assent', 'stare-at', 'walk'}	
+tenneray	{'look-at', 'help-up', 'de-escalate', 'provoke', 'walk'}	-	-	-	-	-	{'look-at'}	{'look-at'}	{'look-at'}	-	{'holster-gun', 'draw-gun', 'fire-gun', 'raise-gun'}	-	-	-	-	-	{'identify'}	{'walk', 'look-at', 'assent', 'leave', 'stare-at', 'de-escalate', 'fire-gun'}	
+tenneraygun	-	-	-	-	-	-	-	-	-	{'holster-gun', 'draw-gun', 'fire-gun', 'raise-gun'}	-	-	-	-	-	-	-	{'fire-gun'}	
+fightergun	{'fire-gun'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'holster-gun', 'draw-gun', 'fire-gun', 'raise-gun'}	
+crowd	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+photographer2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+photographer1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+_	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+citizen	-	-	-	-	-	-	-	-	{'identify'}	{'identify'}	-	-	-	-	-	-	-	-	
+fighter	{'square-off', 'walk', 'look-at', 'fire-gun', 'de-escalate', 'provoke', 'stare-at'}	{'get-shot'}	-	-	{'adjust-clothing'}	-	{'look-at'}	{'look-at'}	{'look-at', 'de-escalate', 'assent', 'stare-at', 'walk'}	{'walk', 'look-at', 'assent', 'leave', 'stare-at', 'de-escalate', 'fire-gun'}	{'fire-gun'}	{'holster-gun', 'draw-gun', 'fire-gun', 'raise-gun'}	-	-	-	-	-	-	

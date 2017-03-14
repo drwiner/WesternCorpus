@@ -1,0 +1,13 @@
+	ringohead	coat	ringo	forest	badge	tree	ringogun	wyatt	trees	doc	circle	docgun
+ringohead	-	-	-	-	-	-	-	-	-	{'get-shot'}	-	-	
+coat	-	-	-	-	{'adjust-clothing'}	-	-	-	-	{'adjust-clothing'}	-	-	
+ringo	-	-	-	-	{'look-at', 'drop', 'reveal'}	{'walk'}	{'draw-gun', 'fire-gun'}	-	{'walk'}	{'square-off', 'taunt', 'look-at', 'walk', 'assent', 'reveal', 'fire-gun', 'identify', 'drop', 'provoke', 'stare-at'}	{'walk'}	{'fire-gun'}	
+forest	-	-	-	-	-	-	-	{'run'}	{'run'}	-	-	-	
+badge	-	{'adjust-clothing'}	{'look-at', 'drop', 'reveal'}	-	-	-	-	-	-	{'drop', 'reveal', 'adjust-clothing'}	-	-	
+tree	-	-	{'walk'}	-	-	-	-	-	-	{'walk'}	-	-	
+ringogun	-	-	{'draw-gun', 'fire-gun'}	-	-	-	-	-	-	-	-	-	
+wyatt	-	-	-	{'run'}	-	-	-	-	{'run', 'walk'}	{'look-at', 'de-escalate', 'walk'}	-	-	
+trees	-	-	{'walk'}	{'run'}	-	-	-	{'run', 'walk'}	-	{'walk'}	-	-	
+doc	{'get-shot'}	{'adjust-clothing'}	{'square-off', 'taunt', 'look-at', 'walk', 'assent', 'reveal', 'fire-gun', 'identify', 'drop', 'provoke', 'stare-at'}	-	{'drop', 'reveal', 'adjust-clothing'}	{'walk'}	-	{'look-at', 'de-escalate', 'walk'}	{'walk'}	{'identify', 'drop'}	{'walk'}	{'holster-gun', 'draw-gun', 'fire-gun', 'adjust-clothing'}	
+circle	-	-	{'walk'}	-	-	-	-	-	-	{'walk'}	-	-	
+docgun	-	-	{'fire-gun'}	-	-	-	-	-	-	{'holster-gun', 'draw-gun', 'fire-gun', 'adjust-clothing'}	-	-	

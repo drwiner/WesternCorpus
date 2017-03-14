@@ -1,0 +1,13 @@
+	rudd	tree	ruddcarriage	biblegun	road	ruddgun	ruddbiblepage	ruddbody	morgan	morgangun	ruddbible	morganbody
+rudd	-	-	{'ride', 'dismount'}	-	{'ride', 'dismount'}	{'draw-gun', 'fire-gun'}	-	{'get-shot'}	{'square-off', 'walk', 'look-at', 'assent', 'fire-gun', 'arrest', 'de-escalate', 'provoke', 'stare-at'}	{'fire-gun'}	{'open', 'look-at', 'pick-up', 'drop'}	-	
+tree	-	-	-	-	{'walk'}	-	-	-	{'walk'}	-	-	-	
+ruddcarriage	{'ride', 'dismount'}	-	-	-	{'ride', 'dismount'}	-	-	-	-	-	-	-	
+biblegun	-	-	-	-	-	-	-	-	-	-	-	-	
+road	{'ride', 'dismount'}	{'walk'}	{'ride', 'dismount'}	-	-	-	-	-	{'stand-up', 'walk'}	-	-	-	
+ruddgun	{'draw-gun', 'fire-gun'}	-	-	-	-	-	-	-	{'fire-gun'}	-	-	-	
+ruddbiblepage	-	-	-	-	-	-	-	-	-	-	-	-	
+ruddbody	{'get-shot'}	-	-	-	-	-	-	-	-	-	-	-	
+morgan	{'square-off', 'walk', 'look-at', 'assent', 'fire-gun', 'arrest', 'de-escalate', 'provoke', 'stare-at'}	{'walk'}	-	-	{'stand-up', 'walk'}	{'fire-gun'}	-	-	-	{'load-gun', 'draw-gun', 'fire-gun', 'holster-gun'}	{'look-at'}	{'get-shot'}	
+morgangun	{'fire-gun'}	-	-	-	-	-	-	-	{'load-gun', 'draw-gun', 'fire-gun', 'holster-gun'}	-	-	-	
+ruddbible	{'open', 'look-at', 'pick-up', 'drop'}	-	-	-	-	-	-	-	{'look-at'}	-	-	-	
+morganbody	-	-	-	-	-	-	-	-	{'get-shot'}	-	-	-	

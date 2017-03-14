@@ -1,0 +1,14 @@
+	street	_	jackbody	nessunocoat	nessuno	nessunogun	jackgun	assistant	crowd	camera	jack	cameraman	nessunohat
+street	-	-	-	-	-	-	-	{'walk'}	-	-	-	{'walk'}	-	
+_	-	-	-	-	-	-	-	-	-	-	-	-	-	
+jackbody	-	-	-	-	{'look-at'}	-	-	-	-	-	{'look-at', 'get-shot'}	-	-	
+nessunocoat	-	-	-	-	{'adjust-clothing'}	-	-	-	-	-	-	-	-	
+nessuno	-	-	{'look-at'}	{'adjust-clothing'}	-	{'draw-gun', 'fire-gun'}	-	-	{'look-at'}	-	{'square-off', 'face-at', 'taunt', 'look-at', 'fire-gun', 'stare-at'}	{'look-at', 'face-at', 'side-step'}	{'adjust-clothing'}	
+nessunogun	-	-	-	-	{'draw-gun', 'fire-gun'}	-	-	-	-	-	{'fire-gun'}	-	-	
+jackgun	-	-	-	-	-	-	-	-	-	-	{'draw-gun'}	-	-	
+assistant	{'walk'}	-	-	-	-	-	-	-	-	-	-	-	-	
+crowd	-	-	-	-	{'look-at'}	-	-	-	-	-	{'look-at'}	-	-	
+camera	-	-	-	-	-	-	-	-	-	-	-	-	-	
+jack	-	-	{'look-at', 'get-shot'}	-	{'square-off', 'face-at', 'taunt', 'look-at', 'fire-gun', 'stare-at'}	{'fire-gun'}	{'draw-gun'}	-	{'look-at'}	-	-	{'look-at', 'face-at'}	-	
+cameraman	{'walk'}	-	-	-	{'look-at', 'face-at', 'side-step'}	-	-	-	-	-	{'look-at', 'face-at'}	-	-	
+nessunohat	-	-	-	-	{'adjust-clothing'}	-	-	-	-	-	-	-	-	

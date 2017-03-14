@@ -1,9 +1,9 @@
-pick-up+drop	conductor_None	package_None	train_None	trainstation_None
 pick-up+drop	morgan_dueler
 pick-up+drop	biblegun_duel-weapon
 pick-up+drop	road_duel-location
 pick-up+drop	ruddbible_None
-pick-up+drop	zeke_bartender	samgun_duel-weapon	backbar_duel-location	sam_dueler
-pick-up+drop	zeke_bartender	samgun_duel-weapon	backbar_duel-location	sam_dueler
 pick-up+drop	bartender_bartender	bottles1&2_None	counter_None	bar_None
 pick-up+drop	bartender_bartender	bottles1&2_None	counter_None	bar_None
+pick-up+drop	zeke_bartender	samgun_duel-weapon	backbar_duel-location	sam_dueler
+pick-up+drop	zeke_bartender	samgun_duel-weapon	backbar_duel-location	sam_dueler
+pick-up+drop	conductor_None	package_None	train_None	trainstation_None

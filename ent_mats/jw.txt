@@ -1,0 +1,12 @@
+	huntergun	street	bartender	hunter	dog	josey	door	partner	crowd	saloon	joseygun
+huntergun	-	-	-	-	-	{'draw-gun'}	-	-	-	-	-	
+street	-	{'run'}	-	{'fall', 'walk'}	-	{'look-at'}	-	{'run'}	{'look-at'}	{'fall', 'walk'}	-	
+bartender	-	-	-	-	-	-	-	-	-	-	-	
+hunter	-	{'fall', 'walk'}	-	-	-	{'square-off', 'face-at', 'taunt', 'identify', 'assent', 'de-escalate', 'provoke', 'stare-at'}	{'open'}	{'look-at'}	{'look-at', 'stare-at'}	{'fall', 'walk'}	-	
+dog	-	-	-	-	-	-	-	-	-	-	-	
+josey	{'draw-gun'}	{'look-at'}	-	{'square-off', 'face-at', 'taunt', 'identify', 'assent', 'de-escalate', 'provoke', 'stare-at'}	-	-	-	-	-	-	{'lower-gun', 'draw-gun', 'fire-gun'}	
+door	-	-	-	{'open'}	-	-	-	-	{'look-at', 'stare-at'}	-	-	
+partner	-	{'run'}	-	{'look-at'}	-	-	-	-	-	-	-	
+crowd	-	{'look-at'}	-	{'look-at', 'stare-at'}	-	-	{'look-at', 'stare-at'}	-	-	-	-	
+saloon	-	{'fall', 'walk'}	-	{'fall', 'walk'}	-	-	-	-	-	-	-	
+joseygun	-	-	-	-	-	{'lower-gun', 'draw-gun', 'fire-gun'}	-	-	-	-	-	

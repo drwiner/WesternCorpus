@@ -1,0 +1,18 @@
+	bannister	saloon	tables	bar	street	bannisterchest	ohanlongun	sullivanshirt	bartender	peanut	sullivan	bannistergun	crowd	sullivanhand	salooncorner	o'hanlon	saloondoor
+bannister	-	-	-	-	-	{'get-shot'}	{'aim-gun'}	-	-	-	{'look-at', 'aim-gun'}	{'draw-gun', 'aim-gun'}	-	-	-	{'identify', 'aim-gun', 'square-off', 'provoke', 'stare-at'}	-	
+saloon	-	-	-	-	-	-	-	-	-	-	{'walk'}	-	-	-	{'walk'}	{'walk'}	{'walk'}	
+tables	-	-	-	{'walk'}	-	-	-	-	-	-	-	-	{'walk'}	-	-	-	-	
+bar	-	-	{'walk'}	-	-	-	-	-	-	-	{'walk'}	-	{'walk'}	-	{'walk'}	{'walk'}	{'walk'}	
+street	-	-	-	-	-	-	-	-	-	-	{'walk'}	-	-	-	-	{'walk'}	{'walk'}	
+bannisterchest	{'get-shot'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+ohanlongun	{'aim-gun'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'look-at', 'draw-gun', 'fire-gun', 'aim-gun'}	-	
+sullivanshirt	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+bartender	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'provoke'}	{'look-at'}	
+peanut	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+sullivan	{'look-at', 'aim-gun'}	{'walk'}	-	{'walk'}	{'walk'}	-	-	-	-	-	-	{'aim-gun'}	{'look-at'}	{'look-at'}	{'walk'}	{'look-at', 'pick-up', 'de-escalate', 'stare-at', 'face-at'}	{'face-at', 'walk'}	
+bannistergun	{'draw-gun', 'aim-gun'}	-	-	-	-	-	-	-	-	-	{'aim-gun'}	-	-	-	-	-	-	
+crowd	-	-	{'walk'}	{'walk'}	-	-	-	-	-	-	{'look-at'}	-	-	-	-	{'look-at'}	{'look-at'}	
+sullivanhand	-	-	-	-	-	-	-	-	-	-	{'look-at'}	-	-	-	-	-	-	
+salooncorner	-	{'walk'}	-	{'walk'}	-	-	-	-	-	-	{'walk'}	-	-	-	-	-	{'walk'}	
+o'hanlon	{'identify', 'aim-gun', 'square-off', 'provoke', 'stare-at'}	{'walk'}	-	{'walk'}	{'walk'}	-	{'look-at', 'draw-gun', 'fire-gun', 'aim-gun'}	-	{'provoke'}	-	{'look-at', 'pick-up', 'de-escalate', 'stare-at', 'face-at'}	-	{'look-at'}	-	-	-	{'open', 'face-at', 'walk'}	
+saloondoor	-	{'walk'}	-	{'walk'}	{'walk'}	-	-	-	{'look-at'}	-	{'face-at', 'walk'}	-	{'look-at'}	-	{'walk'}	{'open', 'face-at', 'walk'}	-	

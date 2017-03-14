@@ -1,0 +1,29 @@
+	guapo	german	nedbelt	jefe	dusty	guapocig	crowd	german2body	jefe&bandit2	german2	bandit2gun	knife	nedgun	pinata	_	bandit2	bandit3	lucky	ned	nedholster	germangun	bandit3body	stage	building	germanchest	bandit3gun	gate	german2gun
+guapo	{'stand-up'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'face-at'}	-	{'stare-at', 'face-at'}	-	-	-	-	-	-	-	-	-	
+german	-	-	-	-	-	-	{'look-at'}	-	-	-	{'fire-gun'}	-	-	{'look-at', 'fire-gun'}	-	-	-	-	{'square-off', 'face-at', 'walk', 'look-at', 'assent', 'fire-gun', 'stare-at'}	-	{'draw-gun', 'fire-gun', 'drop-gun'}	-	-	-	{'get-shot'}	-	{'face-at', 'walk'}	-	
+nedbelt	-	-	-	{'give'}	-	-	-	-	-	-	-	-	{'give'}	-	-	-	-	-	-	{'give'}	-	-	-	-	-	-	-	-	
+jefe	-	-	{'give'}	-	-	-	-	-	-	-	{'give'}	-	{'give'}	-	-	{'give', 'walk'}	-	-	{'look-at', 'give', 'taunt', 'walk'}	{'give'}	-	-	{'walk'}	-	-	-	-	-	
+dusty	-	-	-	-	-	-	-	-	{'look-at'}	-	-	{'look-at', 'pick-up'}	-	-	-	-	-	-	{'look-at'}	-	-	-	-	-	-	-	-	-	
+guapocig	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+crowd	-	{'look-at'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'look-at'}	-	-	-	-	-	-	-	-	-	
+german2body	-	-	-	-	-	-	-	-	-	{'get-shot'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+jefe&bandit2	-	-	-	-	{'look-at'}	-	-	-	-	-	-	-	-	-	-	-	-	-	{'walk'}	-	-	-	{'walk'}	-	-	-	-	-	
+german2	-	-	-	-	-	-	-	{'get-shot'}	-	-	{'fire-gun'}	-	-	-	-	-	-	{'fire-gun'}	{'stare-at'}	-	-	-	-	-	-	-	-	{'draw-gun', 'fire-gun', 'drop-gun'}	
+bandit2gun	-	{'fire-gun'}	-	{'give'}	-	-	-	-	-	{'fire-gun'}	-	-	-	-	-	{'give'}	-	{'give', 'fire-gun', 'raise-gun'}	{'holster-gun', 'give', 'fire-gun', 'drop-gun', 'draw-gun'}	-	-	-	-	-	-	-	-	-	
+knife	-	-	-	-	{'look-at', 'pick-up'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+nedgun	-	-	{'give'}	{'give'}	-	-	-	-	-	-	-	-	-	-	-	-	{'fire-gun'}	-	{'draw-gun', 'fire-gun'}	{'give'}	-	-	-	-	-	-	-	-	
+pinata	-	{'look-at', 'fire-gun'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'look-at'}	-	{'fire-gun'}	-	-	-	-	-	-	-	
+_	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+bandit2	-	-	-	{'give', 'walk'}	-	-	-	-	-	-	{'give'}	-	-	-	-	-	-	-	{'look-at', 'walk'}	-	-	-	-	-	-	-	-	-	
+bandit3	{'face-at'}	-	-	-	-	-	-	-	-	-	-	-	{'fire-gun'}	-	-	-	-	-	{'fire-gun', 'face-at'}	-	-	{'get-shot'}	-	-	-	{'drop-gun', 'aim-gun'}	-	-	
+lucky	-	-	-	-	-	-	-	-	-	{'fire-gun'}	{'give', 'fire-gun', 'raise-gun'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'fire-gun'}	
+ned	{'stare-at', 'face-at'}	{'square-off', 'face-at', 'walk', 'look-at', 'assent', 'fire-gun', 'stare-at'}	-	{'look-at', 'give', 'taunt', 'walk'}	{'look-at'}	-	{'look-at'}	-	{'walk'}	{'stare-at'}	{'holster-gun', 'give', 'fire-gun', 'drop-gun', 'draw-gun'}	-	{'draw-gun', 'fire-gun'}	{'look-at'}	-	{'look-at', 'walk'}	{'fire-gun', 'face-at'}	-	-	-	-	-	{'walk'}	-	-	-	{'face-at', 'walk'}	-	
+nedholster	-	-	{'give'}	{'give'}	-	-	-	-	-	-	-	-	{'give'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+germangun	-	{'draw-gun', 'fire-gun', 'drop-gun'}	-	-	-	-	-	-	-	-	-	-	-	{'fire-gun'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+bandit3body	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'get-shot'}	-	-	-	-	-	-	-	-	-	-	-	
+stage	-	-	-	{'walk'}	-	-	-	-	{'walk'}	-	-	-	-	-	-	-	-	-	{'walk'}	-	-	-	-	-	-	-	-	-	
+building	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+germanchest	-	{'get-shot'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+bandit3gun	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'drop-gun', 'aim-gun'}	-	-	-	-	-	-	-	-	-	-	-	
+gate	-	{'face-at', 'walk'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'face-at', 'walk'}	-	-	-	-	-	-	-	-	-	
+german2gun	-	-	-	-	-	-	-	-	-	{'draw-gun', 'fire-gun', 'drop-gun'}	-	-	-	-	-	-	-	{'fire-gun'}	-	-	-	-	-	-	-	-	-	-	

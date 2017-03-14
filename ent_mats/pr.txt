@@ -1,0 +1,23 @@
+	horse	barn	coy	thug	window	coybody	preacherhorse	thuggun	stockburngun	preacher	hullrifle	coyrifle	stockburnhead	stockburnchest	preacherhat	door2	crowd	preachergun1	stockburn	hull	preachergun2	door1
+horse	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+barn	-	-	-	-	-	-	{'ride'}	-	-	{'ride'}	-	-	-	-	-	-	-	-	-	-	-	-	
+coy	-	-	{'fall'}	-	{'walk'}	{'get-shot'}	-	-	-	{'look-at', 'aim-gun'}	{'fire-gun', 'aim-gun'}	{'aim-gun'}	-	-	-	-	-	-	{'look-at'}	{'look-at', 'aim-gun', 'fire-gun', 'walk'}	-	-	
+thug	-	-	-	-	-	-	{'walk'}	{'fire-gun'}	-	{'look-at'}	-	-	-	-	-	-	-	-	{'look-at'}	-	-	-	
+window	-	-	{'walk'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+coybody	-	-	{'get-shot'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+preacherhorse	-	{'ride'}	-	{'walk'}	-	-	-	-	-	{'ride'}	-	-	-	-	-	-	-	-	{'walk'}	-	-	-	
+thuggun	-	-	-	{'fire-gun'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+stockburngun	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'draw-gun'}	-	-	-	
+preacher	-	{'ride'}	{'look-at', 'aim-gun'}	{'look-at'}	-	-	{'ride'}	-	-	-	-	{'aim-gun'}	-	-	{'pick-up', 'adjust-clothing', 'walk'}	-	-	{'load-gun', 'draw-gun', 'fire-gun', 'aim-gun', 'holster-gun'}	{'square-off', 'walk', 'look-at', 'aim-gun', 'identify', 'fire-gun', 'stare-at'}	{'look-at'}	{'draw-gun', 'fire-gun', 'aim-gun'}	-	
+hullrifle	-	-	{'fire-gun', 'aim-gun'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'lower-gun', 'fire-gun', 'aim-gun'}	-	-	
+coyrifle	-	-	{'aim-gun'}	-	-	-	-	-	-	{'aim-gun'}	-	-	-	-	-	-	-	-	-	{'aim-gun'}	-	-	
+stockburnhead	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'get-shot'}	-	-	-	
+stockburnchest	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'get-shot'}	-	-	-	
+preacherhat	-	-	-	-	-	-	-	-	-	{'pick-up', 'adjust-clothing', 'walk'}	-	-	-	-	-	-	-	-	-	-	-	-	
+door2	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'open'}	-	-	
+crowd	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+preachergun1	-	-	-	-	-	-	-	-	-	{'load-gun', 'draw-gun', 'fire-gun', 'aim-gun', 'holster-gun'}	-	-	-	-	-	-	-	-	{'fire-gun', 'aim-gun'}	-	-	-	
+stockburn	-	-	{'look-at'}	{'look-at'}	-	-	{'walk'}	-	{'draw-gun'}	{'square-off', 'walk', 'look-at', 'aim-gun', 'identify', 'fire-gun', 'stare-at'}	-	-	{'get-shot'}	{'get-shot'}	-	-	-	{'fire-gun', 'aim-gun'}	-	{'look-at', 'walk'}	{'fire-gun'}	-	
+hull	-	-	{'look-at', 'aim-gun', 'fire-gun', 'walk'}	-	-	-	-	-	-	{'look-at'}	{'lower-gun', 'fire-gun', 'aim-gun'}	{'aim-gun'}	-	-	-	{'open'}	-	-	{'look-at', 'walk'}	-	-	-	
+preachergun2	-	-	-	-	-	-	-	-	-	{'draw-gun', 'fire-gun', 'aim-gun'}	-	-	-	-	-	-	-	-	{'fire-gun'}	-	-	-	
+door1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	

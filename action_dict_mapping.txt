@@ -13,7 +13,7 @@ cockgun 20 - cock-gun
 raisegun 13 - raise-gun
 drawgun 92 - draw-gun
 close 4 - close
-acquirev 8 - ask-for give
+acquirev 8 - ask-for+give
 health 2 - None
 indentityv 1 - identify
 read 2 - look-at
@@ -147,7 +147,7 @@ correct 1 - None
 lookfromto 136 - look-at
 lookatv 2 - look-at
 pay 2 - None
-tossgun 3 - drop-gun
+tossgun 3 - give
 deliverv 1 - None
 firegunv 16 - fire-gun
 adjustclothing 40 - adjust-clothing

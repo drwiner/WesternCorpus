@@ -1,0 +1,19 @@
+	jdbody	kanecoat	jdsaddle	_	street	crowd	alonzo	jdhorse	pole	kanegun	henchmen	jdrifle	building	jdgun	amy	henchman	kane	jd
+jdbody	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'get-shot'}	
+kanecoat	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'adjust-clothing'}	-	
+jdsaddle	-	-	-	-	-	-	{'open', 'face-at', 'close'}	-	-	-	-	-	-	-	-	-	-	{'face-at'}	
+_	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+street	-	-	-	-	-	-	{'drop-gun'}	-	-	-	-	{'drop-gun'}	{'walk'}	-	-	-	{'walk'}	-	
+crowd	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'look-at'}	{'look-at'}	
+alonzo	-	-	{'open', 'face-at', 'close'}	-	{'drop-gun'}	-	-	-	-	-	{'walk'}	{'look-at', 'give', 'walk', 'drop-gun', 'draw-gun'}	{'look-at'}	-	-	{'walk'}	{'identify', 'look-at'}	{'face-at', 'taunt', 'look-at', 'walk', 'give', 'provoke', 'stare-at'}	
+jdhorse	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+pole	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+kanegun	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'cock-gun', 'draw-gun', 'fire-gun', 'holster-gun'}	{'fire-gun'}	
+henchmen	-	-	-	-	-	-	{'walk'}	-	-	-	-	-	-	-	-	-	-	{'walk'}	
+jdrifle	-	-	-	-	{'drop-gun'}	-	{'look-at', 'give', 'walk', 'drop-gun', 'draw-gun'}	-	-	-	-	-	{'look-at'}	-	-	-	{'look-at'}	{'look-at', 'cock-gun', 'give', 'drop-gun', 'walk'}	
+building	-	-	-	-	{'walk'}	-	{'look-at'}	-	-	-	-	{'look-at'}	-	-	{'walk'}	-	{'walk'}	{'look-at'}	
+jdgun	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'fire-gun'}	{'lower-gun', 'draw-gun', 'fire-gun', 'drop-gun'}	
+amy	-	-	-	-	-	-	-	-	-	-	-	-	{'walk'}	-	-	-	{'walk'}	-	
+henchman	-	-	-	-	-	-	{'walk'}	-	-	-	-	-	-	-	-	-	{'look-at'}	{'look-at'}	
+kane	-	{'adjust-clothing'}	-	-	{'walk'}	{'look-at'}	{'identify', 'look-at'}	-	-	{'cock-gun', 'draw-gun', 'fire-gun', 'holster-gun'}	-	{'look-at'}	{'walk'}	{'fire-gun'}	{'walk'}	{'look-at'}	-	{'square-off', 'face-at', 'look-at', 'assent', 'fire-gun', 'de-escalate', 'provoke', 'stare-at'}	
+jd	{'get-shot'}	-	{'face-at'}	-	-	{'look-at'}	{'face-at', 'taunt', 'look-at', 'walk', 'give', 'provoke', 'stare-at'}	-	-	{'fire-gun'}	{'walk'}	{'look-at', 'cock-gun', 'give', 'drop-gun', 'walk'}	{'look-at'}	{'lower-gun', 'draw-gun', 'fire-gun', 'drop-gun'}	-	{'look-at'}	{'square-off', 'face-at', 'look-at', 'assent', 'fire-gun', 'de-escalate', 'provoke', 'stare-at'}	-	

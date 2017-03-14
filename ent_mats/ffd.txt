@@ -1,0 +1,23 @@
+	thugsbodies	crowda	crowdb	fence	undertaker	thugcoffin	john	mansion	joegun	thugbgun	saloon	thugcgun	antonio	thugagun	thugs	street	joeponcho	_	johnbadge	hotel	joe	coffin
+thugsbodies	{'get-shot'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+crowda	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'stare-at'}	-	
+crowdb	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'look-at', 'stare-at'}	-	
+fence	-	-	-	-	-	-	{'walk'}	{'walk'}	-	-	-	-	{'walk'}	-	{'walk'}	{'walk'}	-	-	-	-	-	-	
+undertaker	-	-	-	-	-	-	-	-	-	-	{'walk'}	-	-	-	-	-	-	-	-	-	{'look-at', 'stare-at'}	-	
+thugcoffin	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+john	-	-	-	{'walk'}	-	-	-	{'walk'}	-	-	-	-	-	-	-	-	-	-	{'reveal'}	-	{'square-off', 'taunt', 'look-at', 'reveal', 'aim-gun', 'identify', 'provoke', 'stare-at'}	-	
+mansion	-	-	-	{'walk'}	-	-	{'walk'}	-	-	-	-	-	{'walk'}	-	-	-	-	-	-	-	-	-	
+joegun	-	-	-	-	-	-	-	-	{'holster-gun'}	-	-	-	-	-	{'fire-gun'}	-	-	-	-	-	{'give', 'draw-gun', 'holster-gun', 'fire-gun', 'aim-gun'}	-	
+thugbgun	-	-	-	-	-	-	-	-	-	-	-	{'draw-gun'}	-	{'draw-gun'}	{'draw-gun', 'adjust-clothing'}	-	-	-	-	-	-	-	
+saloon	-	-	-	-	{'walk'}	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+thugcgun	-	-	-	-	-	-	-	-	-	{'draw-gun'}	-	-	-	{'draw-gun'}	{'draw-gun', 'adjust-clothing'}	-	-	-	-	-	-	-	
+antonio	-	-	-	{'walk'}	-	-	-	{'walk'}	-	-	-	-	-	-	-	-	-	-	-	-	{'look-at', 'stare-at'}	-	
+thugagun	-	-	-	-	-	-	-	-	-	{'draw-gun'}	-	{'draw-gun'}	-	-	{'draw-gun', 'adjust-clothing'}	-	-	-	-	-	-	-	
+thugs	-	-	-	{'walk'}	-	-	-	-	{'fire-gun'}	{'draw-gun', 'adjust-clothing'}	-	{'draw-gun', 'adjust-clothing'}	-	{'draw-gun', 'adjust-clothing'}	-	{'walk'}	-	-	-	{'walk'}	{'stare-at', 'fire-gun', 'provoke', 'leave', 'walk'}	-	
+street	-	-	-	{'walk'}	-	-	-	-	-	-	-	-	-	-	{'walk'}	-	-	-	-	-	-	-	
+joeponcho	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'adjust-clothing'}	-	
+_	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	
+johnbadge	-	-	-	-	-	-	{'reveal'}	-	-	-	-	-	-	-	-	-	-	-	-	-	{'reveal'}	-	
+hotel	-	-	-	-	-	-	-	-	-	-	-	-	-	-	{'walk'}	-	-	-	-	-	{'walk'}	-	
+joe	-	{'stare-at'}	{'look-at', 'stare-at'}	-	{'look-at', 'stare-at'}	-	{'square-off', 'taunt', 'look-at', 'reveal', 'aim-gun', 'identify', 'provoke', 'stare-at'}	-	{'give', 'draw-gun', 'holster-gun', 'fire-gun', 'aim-gun'}	-	-	-	{'look-at', 'stare-at'}	-	{'stare-at', 'fire-gun', 'provoke', 'leave', 'walk'}	-	{'adjust-clothing'}	-	{'reveal'}	{'walk'}	-	-	
+coffin	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	

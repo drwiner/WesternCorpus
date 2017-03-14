@@ -1,13 +1,69 @@
-walk	chisum_thug	porch_None	billy_dueler
-walk	chisum_thug	porch_None	billy_dueler
-walk	chisum_thug	porch_None	billy_dueler
-walk	chisum_thug	porch_None	doc_amigo
-walk	chisum_thug	porch_None	dave_amigo
-walk	chisum_thug	porch_None	chavez_amigo
-walk	thuga_dueler	chisum_thug
-walk	thugb_dueler	chisum_thug
-walk	chisum_thug	thuga_dueler
-walk	thuga_dueler	thugagun_duel-weapon
+walk	ranse_dueler	shop_None	liberty_dueler
+walk	liberty_dueler	ranse_dueler	liberty_dueler
+walk	ranse_dueler	shop_None	liberty_dueler
+walk	liberty_dueler	ranse_dueler	liberty_dueler
+walk	ranse_dueler	shop_None	liberty_dueler
+walk	ranse_dueler	shop_None	liberty_dueler
+walk	ranse_dueler	sidewalk_None	ransegun_duel-weapon
+walk	ranse_dueler	sidewalk_None	ransegun_duel-weapon
+walk	ranse_dueler	ransegun_duel-weapon	liberty_dueler
+walk	crowd_observer	building_None	liberty_dueler
+walk	ranse_dueler	sidewalk_None	street_duel-location
+walk	payden_dueler	townroada_None	townroadb_duel-location
+walk	payden_dueler	townroada_None
+walk	townroadb_duel-location
+walk	cobb_dueler	porcha_None	townroadb_duel-location
+walk	cobb_dueler	cobbhat_None	cobbhead_None	post_None
+walk	cobb_dueler	porcha_None	townroadb_duel-location
+walk	stella_observer	alley_None	porchb_None
+walk	hunter_dueler	street_duel-location	saloon_None
+walk	hunter_dueler	street_duel-location	saloon_None
+walk	hunter_dueler	saloon_None	street_duel-location
+walk	hunter_dueler	street_duel-location	saloon_None
+walk	shep_dueler	outside_None	saloon_duel-location
+walk	crowd_observer	table_None	barcorner_None
+walk	bartender_bartender	bar_None	barcorner_None
+walk	jubal_dueler	table_None	shep_dueler
+walk	red_amigo	table_None	shep_dueler
+walk	jubal_dueler	table_None	shep_dueler
+walk	red_amigo	table_None	shep_dueler
+walk	red_amigo	shep_dueler	jubalhat_None
+walk	red_amigo	shep_dueler	jubalhat_None
+walk	red_amigo	jubalhat_None	saloondoor_None
+walk	red_amigo	jubalhat_None	saloondoor_None
+walk	red_amigo	jubal_dueler	shep_dueler	saloondoor_None
+walk	jubal_dueler	shep_dueler	saloondoor_None
+walk	crowd_observer	barcorner_None	table_None
+walk	crowd_observer	table_None	saloondoor_None
+walk	crowd_observer	table_None	saloondoor_None
+walk	crowd_observer	saloondoor_None	horse_None
+walk	doc_None	spottedhorse_dueler
+walk	crowd_observer	cort_dueler
+walk	crowd_observer	spottedhorse_dueler
+walk	herod_observer	building_None	cort_dueler
+walk	marston_dueler	o'flynn_thug	quigleygun_duel-weapon
+walk	o'flynn_thug	marston_dueler	quigley_dueler
+walk	o'flynn_thug	marston_dueler	quigley_dueler
+walk	quigley_dueler	marston_dueler
+walk	quigley_dueler	marston_dueler
+walk	cameraman_observer	street_duel-location
+walk	assistant_None	street_duel-location
+walk	fighter_dueler	cross_amigo
+walk	fighter_dueler	tenneray_dueler
+walk	nora_observer	street_duel-location
+walk	bud_observer	street_duel-location
+walk	marshal_amigo	cross_amigo
+walk	marshal_amigo	tenneray_dueler
+walk	marshal_amigo	cross_amigo
+walk	marshal_amigo	tenneray_dueler
+walk	marshal_amigo	cross_amigo
+walk	marshal_amigo	tenneray_dueler
+walk	marshal_amigo	cross_amigo	fighter_dueler
+walk	marshal_amigo	tenneray_dueler	fighter_dueler
+walk	marshal_amigo	cross_amigo	fighter_dueler
+walk	marshal_amigo	tenneray_dueler	fighter_dueler
+walk	cross_amigo	marshal_amigo
+walk	tenneray_dueler	marshal_amigo
 walk	doc_dueler	trees_None	ringo_dueler
 walk	ringo_dueler	tree_None	doc_dueler
 walk	ringo_dueler	tree_None	doc_dueler
@@ -29,6 +85,28 @@ walk	doc_dueler	ringo_dueler	tree_None
 walk	doc_dueler	ringo_dueler	tree_None
 walk	wyatt_None	trees_None	doc_dueler
 walk	wyatt_None	trees_None	doc_dueler
+walk	thug_thug	preacherhorse_None
+walk	preacher_dueler	preacherhat_None
+walk	preacher_dueler	stockburn_dueler
+walk	preacher_dueler	stockburn_dueler
+walk	preacher_dueler	stockburn_dueler
+walk	preacher_dueler	stockburn_dueler
+walk	preacher_dueler	stockburn_dueler
+walk	preacher_dueler	stockburn_dueler
+walk	preacher_dueler	stockburn_dueler
+walk	preacher_dueler	stockburn_dueler
+walk	preacher_dueler	stockburn_dueler
+walk	preacher_dueler	stockburn_dueler
+walk	preacher_dueler	stockburn_dueler
+walk	preacher_dueler	stockburn_dueler
+walk	preacher_dueler	stockburn_dueler
+walk	coy_amigo	window_None
+walk	hull_thug	coy_amigo
+walk	hull_thug	stockburn_dueler
+walk	hull_thug	stockburn_dueler
+walk	hull_thug	stockburn_dueler
+walk	hull_thug	stockburn_dueler
+walk	preacherhorse_None	stockburn_dueler
 walk	jed_dueler	porch_None
 walk	jed_dueler	porch_None	horse_None
 walk	jed_dueler	horse_None	saloon_duel-location
@@ -55,177 +133,9 @@ walk	buck_dueler	waterhole_duel-location	rufus_amigo
 walk	rufus_amigo	buck_dueler
 walk	buck_dueler	waterhole_duel-location	rufus_amigo
 walk	buck_dueler	waterhole_duel-location	rufus_amigo
-walk	doc_None	spottedhorse_dueler
-walk	crowd_observer	cort_dueler
-walk	crowd_observer	spottedhorse_dueler
-walk	herod_observer	building_None	cort_dueler
-walk	german_dueler	ned_dueler	gate_None
-walk	german_dueler	ned_dueler	gate_None
-walk	jefe_thug	stage_None	ned_dueler
-walk	jefe_thug	stage_None	ned_dueler
-walk	german_dueler	ned_dueler	gate_None
-walk	bandit2_thug	ned_dueler
-walk	bandit2_thug	jefe_thug
-walk	jefe&bandit2_thug	ned_dueler	stage_None
-walk	jefe&bandit2_thug	ned_dueler	stage_None
-walk	jefe&bandit2_thug	ned_dueler	stage_None
-walk	marston_dueler	o'flynn_thug	quigleygun_duel-weapon
-walk	o'flynn_thug	marston_dueler	quigley_dueler
-walk	o'flynn_thug	marston_dueler	quigley_dueler
-walk	quigley_dueler	marston_dueler
-walk	quigley_dueler	marston_dueler
-walk	billy_dueler	street_duel-location
-walk	pestoso_dueler	billy_dueler
-walk	pestoso_dueler	billy_dueler
-walk	pestoso_dueler	billy_dueler
-walk	pestoso_dueler	billy_dueler
-walk	van_amigo	tower_None	billy_dueler
-walk	van_amigo	tower_None	billy_dueler
-walk	van_amigo	tower_None	billy_dueler
-walk	thugb_dueler	thuga_dueler	train_None	horses_None
-walk	thugb_dueler	thugc_dueler	train_None	horses_None
-walk	thugb_dueler	train_None	horses_None
-walk	thugb_dueler	train_None	horses_None
-walk	thuga_dueler	train_None	horses_None
-walk	thugc_dueler	train_None	horses_None
-walk	thugb_dueler	train_None	horses_None
-walk	thuga_dueler	train_None	horses_None
-walk	thugc_dueler	train_None	horses_None
-walk	fighter_dueler	cross_amigo
-walk	fighter_dueler	tenneray_dueler
-walk	nora_observer	street_duel-location
-walk	bud_observer	street_duel-location
-walk	marshal_amigo	cross_amigo
-walk	marshal_amigo	tenneray_dueler
-walk	marshal_amigo	cross_amigo
-walk	marshal_amigo	tenneray_dueler
-walk	marshal_amigo	cross_amigo
-walk	marshal_amigo	tenneray_dueler
-walk	marshal_amigo	cross_amigo	fighter_dueler
-walk	marshal_amigo	tenneray_dueler	fighter_dueler
-walk	marshal_amigo	cross_amigo	fighter_dueler
-walk	marshal_amigo	tenneray_dueler	fighter_dueler
-walk	cross_amigo	marshal_amigo
-walk	tenneray_dueler	marshal_amigo
-walk	jd_dueler	alonzo_amigo
-walk	henchman_thug	alonzo_amigo
-walk	kane_dueler	building_None	street_duel-location
-walk	kane_dueler	building_None	street_duel-location
-walk	jd_dueler	alonzo_amigo	jdrifle_None
-walk	jd_dueler	alonzo_amigo	jdrifle_None
-walk	jd_dueler	alonzo_amigo	jdrifle_None
-walk	amy_None	building_None	kane_dueler
-walk	henchmen_observer	alonzo_amigo	jd_dueler
-walk	indio_dueler	housewindow_None	mortimer_dueler
-walk	indio_dueler	housewindow_None	mortimer_dueler
-walk	indio_dueler	housewindow_None	mortimer_dueler
-walk	monco_amigo	mortimer_dueler
-walk	monco_amigo	mortimer_dueler
-walk	monco_amigo	mortimer_dueler
-walk	monco_amigo	mortimer_dueler
-walk	monco_amigo	mortimer_dueler
-walk	monco_amigo	circlerocks_None
-walk	monco_amigo	circlerocks_None
-walk	mortimer_dueler	indio_dueler
-walk	o'hanlon_dueler	street_None	saloondoor_None
-walk	sullivan_observer	street_None	saloondoor_None
-walk	o'hanlon_dueler	saloondoor_None	saloon_duel-location
-walk	sullivan_observer	saloondoor_None	saloon_duel-location
-walk	o'hanlon_dueler	saloondoor_None	bar_None
-walk	sullivan_observer	saloondoor_None	bar_None
-walk	sullivan_observer	bar_None	salooncorner_None
-walk	sullivan_observer	saloon_duel-location	salooncorner_None
-walk	crowd_observer	bar_None	tables_None
-walk	o'hanlon_dueler	bar_None	saloondoor_None
-walk	sullivan_observer	salooncorner_None	saloondoor_None
-walk	cameraman_observer	street_duel-location
-walk	assistant_None	street_duel-location
-walk	payden_dueler	townroada_None	townroadb_duel-location
-walk	payden_dueler	townroada_None
-walk	townroadb_duel-location
-walk	cobb_dueler	porcha_None	townroadb_duel-location
-walk	cobb_dueler	cobbhat_None	cobbhead_None	post_None
-walk	cobb_dueler	porcha_None	townroadb_duel-location
-walk	stella_observer	alley_None	porchb_None
-walk	shane_dueler	saloon_duel-location
-walk	shane_dueler	saloon_duel-location
-walk	shane_dueler	saloondoor_None	bar_None
-walk	patrons_None	table_None	saloondoor_None
-walk	shane_dueler	saloondoor_None	bar_None
-walk	jack_dueler	table_None	bar_None
-walk	jack_dueler	table_None	bar_None
-walk	jack_dueler	table_None	bar_None
-walk	dogb_None	bar_None	saloondoor_None
-walk	jack_dueler	table_None	bar_None
-walk	patrons_None	bar_None	saloondoor_None
-walk	shane_dueler	bar_None	rufus_thug
-walk	shane_dueler	bar_None	rufus_thug
-walk	shane_dueler	rufus_thug	saloondoor_None
-walk	shane_dueler	bar_None	saloondoor_None
-walk	shane_dueler	bar_None	saloondoor_None
-walk	shane_dueler	saloondoor_None	street_None
-walk	thug_dueler	street_duel-location	street_duel-location
-walk	thug_dueler	street_duel-location	street_duel-location
-walk	thug_dueler	buildinga_None	street_duel-location
-walk	stranger_dueler	street_duel-location	buildingb_None
-walk	thug_dueler	street_duel-location	street_duel-location
-walk	thug_dueler	street_duel-location	street_duel-location
-walk	thug_dueler	street_duel-location	street_duel-location
-walk	barman_thug	street_duel-location	street_duel-location
-walk	ben_dueler	wagon_None
-walk	ben_dueler	wagon_None	brazoshorse_None
-walk	bard_amigo	house_None	porch_None
-walk	bard_amigo	brazos_dueler
-walk	brazos_dueler	bard_amigo
-walk	bess_amigo	house_None	bard_amigo
-walk	bess_amigo	bard_amigo	mr.banner_None
-walk	brazos_dueler	bard_amigo	road_duel-location
-walk	hunter_dueler	street_duel-location	saloon_None
-walk	hunter_dueler	street_duel-location	saloon_None
-walk	hunter_dueler	saloon_None	street_duel-location
-walk	hunter_dueler	street_duel-location	saloon_None
-walk	shep_dueler	outside_None	saloon_duel-location
-walk	crowd_observer	table_None	barcorner_None
-walk	bartender_bartender	bar_None	barcorner_None
-walk	jubal_dueler	table_None	shep_dueler
-walk	red_amigo	table_None	shep_dueler
-walk	jubal_dueler	table_None	shep_dueler
-walk	red_amigo	table_None	shep_dueler
-walk	red_amigo	shep_dueler	jubalhat_None
-walk	red_amigo	shep_dueler	jubalhat_None
-walk	red_amigo	jubalhat_None	saloondoor_None
-walk	red_amigo	jubalhat_None	saloondoor_None
-walk	red_amigo	jubal_dueler	shep_dueler	saloondoor_None
-walk	jubal_dueler	shep_dueler	saloondoor_None
-walk	crowd_observer	barcorner_None	table_None
-walk	crowd_observer	table_None	saloondoor_None
-walk	crowd_observer	table_None	saloondoor_None
-walk	crowd_observer	saloondoor_None	horse_None
 walk	morgan_dueler	tree_None	road_duel-location
 walk	morgan_dueler	rudd_dueler
 walk	morgan_dueler	rudd_dueler
-walk	thuga_thug	gate_None
-walk	thugahorse_None	gate_None
-walk	thuga_thug	gate_None	andyhorse_None
-walk	thugahorse_None	gate_None	andyhorse_None
-walk	thuga_thug	gate_None	andyhorse_None
-walk	thugahorse_None	gate_None	andyhorse_None
-walk	joe_dueler	hotel_None	thugs_dueler
-walk	joe_dueler	hotel_None	thugs_dueler
-walk	undertaker_observer	saloon_None
-walk	thugs_dueler	fence_duel-location	street_duel-location
-walk	joe_dueler	hotel_None	thugs_dueler
-walk	thugs_dueler	fence_duel-location	street_duel-location
-walk	joe_dueler	hotel_None	thugs_dueler
-walk	thugs_dueler	fence_duel-location	street_duel-location
-walk	john_observer	mansion_None	fence_duel-location
-walk	antonio_None	mansion_None	fence_duel-location
-walk	zeke_bartender	bar_None	sam_dueler
-walk	soda_None	zeke_bartender	sam_dueler
-walk	crowd_observer	bar_None	tables_None
-walk	mchandles_dueler	door_None	bar_None
-walk	mchandles_dueler	mchandles_dueler	mchandles_dueler
-walk	sam_dueler	bar_None	mchandles_dueler
 walk	johnny_dueler	saloon_duel-location
 walk	ben_observer	saloon_duel-location
 walk	johnny_dueler	saloon_duel-location
@@ -244,36 +154,126 @@ walk	johnny_dueler	woodrow_dueler	bar_None
 walk	johnny_dueler	woodrow_dueler	bar_None
 walk	bartender_bartender	bottle3_None	counter_None	bar_None
 walk	thugb_thug	woodrow_dueler
-walk	ranse_dueler	shop_None	liberty_dueler
-walk	liberty_dueler	ranse_dueler	liberty_dueler
-walk	ranse_dueler	shop_None	liberty_dueler
-walk	liberty_dueler	ranse_dueler	liberty_dueler
-walk	ranse_dueler	shop_None	liberty_dueler
-walk	ranse_dueler	shop_None	liberty_dueler
-walk	ranse_dueler	sidewalk_None	ransegun_duel-weapon
-walk	ranse_dueler	sidewalk_None	ransegun_duel-weapon
-walk	ranse_dueler	ransegun_duel-weapon	liberty_dueler
-walk	crowd_observer	building_None	liberty_dueler
-walk	ranse_dueler	sidewalk_None	street_duel-location
-walk	thug_thug	preacherhorse_None
-walk	preacher_dueler	preacherhat_None
-walk	preacher_dueler	stockburn_dueler
-walk	preacher_dueler	stockburn_dueler
-walk	preacher_dueler	stockburn_dueler
-walk	preacher_dueler	stockburn_dueler
-walk	preacher_dueler	stockburn_dueler
-walk	preacher_dueler	stockburn_dueler
-walk	preacher_dueler	stockburn_dueler
-walk	preacher_dueler	stockburn_dueler
-walk	preacher_dueler	stockburn_dueler
-walk	preacher_dueler	stockburn_dueler
-walk	preacher_dueler	stockburn_dueler
-walk	preacher_dueler	stockburn_dueler
-walk	preacher_dueler	stockburn_dueler
-walk	coy_amigo	window_None
-walk	hull_thug	coy_amigo
-walk	hull_thug	stockburn_dueler
-walk	hull_thug	stockburn_dueler
-walk	hull_thug	stockburn_dueler
-walk	hull_thug	stockburn_dueler
-walk	preacherhorse_None	stockburn_dueler
+walk	zeke_bartender	bar_None	sam_dueler
+walk	soda_None	zeke_bartender	sam_dueler
+walk	crowd_observer	bar_None	tables_None
+walk	mchandles_dueler	door_None	bar_None
+walk	mchandles_dueler	mchandles_dueler	mchandles_dueler
+walk	sam_dueler	bar_None	mchandles_dueler
+walk	o'hanlon_dueler	street_None	saloondoor_None
+walk	sullivan_observer	street_None	saloondoor_None
+walk	o'hanlon_dueler	saloondoor_None	saloon_duel-location
+walk	sullivan_observer	saloondoor_None	saloon_duel-location
+walk	o'hanlon_dueler	saloondoor_None	bar_None
+walk	sullivan_observer	saloondoor_None	bar_None
+walk	sullivan_observer	bar_None	salooncorner_None
+walk	sullivan_observer	saloon_duel-location	salooncorner_None
+walk	crowd_observer	bar_None	tables_None
+walk	o'hanlon_dueler	bar_None	saloondoor_None
+walk	sullivan_observer	salooncorner_None	saloondoor_None
+walk	chisum_thug	porch_None	billy_dueler
+walk	chisum_thug	porch_None	billy_dueler
+walk	chisum_thug	porch_None	billy_dueler
+walk	chisum_thug	porch_None	doc_amigo
+walk	chisum_thug	porch_None	dave_amigo
+walk	chisum_thug	porch_None	chavez_amigo
+walk	thuga_dueler	chisum_thug
+walk	thugb_dueler	chisum_thug
+walk	chisum_thug	thuga_dueler
+walk	thuga_dueler	thugagun_duel-weapon
+walk	thuga_thug	gate_None
+walk	thugahorse_None	gate_None
+walk	thuga_thug	gate_None	andyhorse_None
+walk	thugahorse_None	gate_None	andyhorse_None
+walk	thuga_thug	gate_None	andyhorse_None
+walk	thugahorse_None	gate_None	andyhorse_None
+walk	ben_dueler	wagon_None
+walk	ben_dueler	wagon_None	brazoshorse_None
+walk	bard_amigo	house_None	porch_None
+walk	bard_amigo	brazos_dueler
+walk	brazos_dueler	bard_amigo
+walk	bess_amigo	house_None	bard_amigo
+walk	bess_amigo	bard_amigo	mr.banner_None
+walk	brazos_dueler	bard_amigo	road_duel-location
+walk	german_dueler	ned_dueler	gate_None
+walk	german_dueler	ned_dueler	gate_None
+walk	jefe_thug	stage_None	ned_dueler
+walk	jefe_thug	stage_None	ned_dueler
+walk	german_dueler	ned_dueler	gate_None
+walk	bandit2_thug	ned_dueler
+walk	bandit2_thug	jefe_thug
+walk	jefe&bandit2_thug	ned_dueler	stage_None
+walk	jefe&bandit2_thug	ned_dueler	stage_None
+walk	jefe&bandit2_thug	ned_dueler	stage_None
+walk	thugb_dueler	thuga_dueler	train_None	horses_None
+walk	thugb_dueler	thugc_dueler	train_None	horses_None
+walk	thugb_dueler	train_None	horses_None
+walk	thugb_dueler	train_None	horses_None
+walk	thuga_dueler	train_None	horses_None
+walk	thugc_dueler	train_None	horses_None
+walk	thugb_dueler	train_None	horses_None
+walk	thuga_dueler	train_None	horses_None
+walk	thugc_dueler	train_None	horses_None
+walk	joe_dueler	hotel_None	thugs_dueler
+walk	joe_dueler	hotel_None	thugs_dueler
+walk	undertaker_observer	saloon_None
+walk	thugs_dueler	fence_duel-location	street_duel-location
+walk	joe_dueler	hotel_None	thugs_dueler
+walk	thugs_dueler	fence_duel-location	street_duel-location
+walk	joe_dueler	hotel_None	thugs_dueler
+walk	thugs_dueler	fence_duel-location	street_duel-location
+walk	john_observer	mansion_None	fence_duel-location
+walk	antonio_None	mansion_None	fence_duel-location
+walk	thug_dueler	street_duel-location	street_duel-location
+walk	thug_dueler	street_duel-location	street_duel-location
+walk	thug_dueler	buildinga_None	street_duel-location
+walk	stranger_dueler	street_duel-location	buildingb_None
+walk	thug_dueler	street_duel-location	street_duel-location
+walk	thug_dueler	street_duel-location	street_duel-location
+walk	thug_dueler	street_duel-location	street_duel-location
+walk	barman_thug	street_duel-location	street_duel-location
+walk	billy_dueler	street_duel-location
+walk	pestoso_dueler	billy_dueler
+walk	pestoso_dueler	billy_dueler
+walk	pestoso_dueler	billy_dueler
+walk	pestoso_dueler	billy_dueler
+walk	van_amigo	tower_None	billy_dueler
+walk	van_amigo	tower_None	billy_dueler
+walk	van_amigo	tower_None	billy_dueler
+walk	shane_dueler	saloon_duel-location
+walk	shane_dueler	saloon_duel-location
+walk	shane_dueler	saloondoor_None	bar_None
+walk	patrons_None	table_None	saloondoor_None
+walk	shane_dueler	saloondoor_None	bar_None
+walk	jack_dueler	table_None	bar_None
+walk	jack_dueler	table_None	bar_None
+walk	jack_dueler	table_None	bar_None
+walk	dogb_None	bar_None	saloondoor_None
+walk	jack_dueler	table_None	bar_None
+walk	patrons_None	bar_None	saloondoor_None
+walk	shane_dueler	bar_None	rufus_thug
+walk	shane_dueler	bar_None	rufus_thug
+walk	shane_dueler	rufus_thug	saloondoor_None
+walk	shane_dueler	bar_None	saloondoor_None
+walk	shane_dueler	bar_None	saloondoor_None
+walk	shane_dueler	saloondoor_None	street_None
+walk	indio_dueler	housewindow_None	mortimer_dueler
+walk	indio_dueler	housewindow_None	mortimer_dueler
+walk	indio_dueler	housewindow_None	mortimer_dueler
+walk	monco_amigo	mortimer_dueler
+walk	monco_amigo	mortimer_dueler
+walk	monco_amigo	mortimer_dueler
+walk	monco_amigo	mortimer_dueler
+walk	monco_amigo	mortimer_dueler
+walk	monco_amigo	circlerocks_None
+walk	monco_amigo	circlerocks_None
+walk	mortimer_dueler	indio_dueler
+walk	jd_dueler	alonzo_amigo
+walk	henchman_thug	alonzo_amigo
+walk	kane_dueler	building_None	street_duel-location
+walk	kane_dueler	building_None	street_duel-location
+walk	jd_dueler	alonzo_amigo	jdrifle_None
+walk	jd_dueler	alonzo_amigo	jdrifle_None
+walk	jd_dueler	alonzo_amigo	jdrifle_None
+walk	amy_None	building_None	kane_dueler
+walk	henchmen_observer	alonzo_amigo	jd_dueler
