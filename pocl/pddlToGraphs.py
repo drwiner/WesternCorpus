@@ -65,6 +65,7 @@ def getSubFormulaGraph(formula, op_graph, parent=None, relationship=None, elemen
 			edges.add(Edge(parent, intend_lit, relationship))
 			goal = formula.children[1]
 			if goal.key == 'not':
+				goal = next(iter(formula.children))
 				lit, formula = makeLit(goal, intend_lit, 'goal-of', elements, edges, False)
 			else:
 				lit, formula = makeLit(goal, intend_lit, 'goal-of', elements, edges, True)
@@ -76,8 +77,13 @@ def getSubFormulaGraph(formula, op_graph, parent=None, relationship=None, elemen
 	elif formula.key == 'intends':
 		intend_lit = Literal(name='intends', num_args=2, truth=True)
 		edges.add(Edge(parent, intend_lit, relationship))
+		person_name = formula.children[0].key.name
+		arg = next(element for element in elements if person_name == element.arg_name)
+		edges.add(Edge(intend_lit, arg, GC.ARGLABELS[0]))
+		elements.add(intend_lit)
 		goal = formula.children[1]
 		if goal.key == 'not':
+			goal = next(iter(formula.children))
 			lit, formula = makeLit(goal, intend_lit, 'goal-of', elements, edges, False)
 		else:
 			lit, formula = makeLit(goal, intend_lit, 'goal-of', elements, edges, True)
@@ -91,10 +97,7 @@ def getSubFormulaGraph(formula, op_graph, parent=None, relationship=None, elemen
 
 	'''for each variable, find existing argument in action parameters and add Edge'''
 	for i, child in enumerate(formula.children):
-		try:
-			arg = next(element for element in elements if child.key.name == element.arg_name)
-		except:
-			print('check here')
+		arg = next(element for element in elements if child.key.name == element.arg_name)
 
 		if relationship == 'actor-of':
 			edges.add(Edge(parent, arg, 'actor-of'))

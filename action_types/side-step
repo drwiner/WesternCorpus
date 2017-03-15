@@ -1,3 +1,4 @@
+side-step	billy_dueler
 side-step	marston_dueler	dobkin_thug	quigley_dueler
 side-step	marston_dueler	o'flynn_thug	quigley_dueler
 side-step	marston_dueler	dobkin_thug	quigley_dueler
@@ -8,10 +9,9 @@ side-step	marston_dueler	dobkin_thug
 side-step	marston_dueler	o'flynn_thug
 side-step	marston_dueler	dobkin_thug
 side-step	marston_dueler	o'flynn_thug
-side-step	cameraman_observer	nessuno_dueler
-side-step	cameraman_observer	nessuno_dueler
-side-step	nessuno_dueler
-side-step	nessuno_dueler
-side-step	nessuno_dueler
-side-step	billy_dueler
 side-step	alonzo_amigo
+side-step	cameraman_observer	nessuno_dueler
+side-step	cameraman_observer	nessuno_dueler
+side-step	nessuno_dueler
+side-step	nessuno_dueler
+side-step	nessuno_dueler

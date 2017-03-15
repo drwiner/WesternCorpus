@@ -3,6 +3,7 @@ flee	crowd_observer
 flee	crowd_observer
 flee	crowd_observer
 flee	crowd_observer
+flee	thugc_thug	thugb_thug
 flee	crowd_observer
 flee	crowd_observer
 flee	crowd_observer
@@ -10,6 +11,11 @@ flee	crowd_observer
 flee	crowd_observer
 flee	crowd_observer
 flee	crowd_observer
+flee	crowd_observer
+flee	nino_None	house_None
+flee	nino_None	house_None
+flee	mortimer_dueler	rocks_None
+flee	mortimer_dueler	rocks_None
 flee	crowd_observer
 flee	bartender_bartender
 flee	crowd_None
@@ -17,9 +23,3 @@ flee	crowd_None
 flee	crowd_None
 flee	crowd_None
 flee	crowd_None
-flee	thugc_thug	thugb_thug
-flee	nino_None	house_None
-flee	nino_None	house_None
-flee	mortimer_dueler	rocks_None
-flee	mortimer_dueler	rocks_None
-flee	crowd_observer

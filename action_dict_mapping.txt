@@ -1,6 +1,6 @@
 wince 10 - wince
 spotv 2 - look-at
-runfrom 4 - flee
+runfrom 4 - leave
 defer 1 - de-escalate
 climbdown 3 - None
 chitchat 12 - None

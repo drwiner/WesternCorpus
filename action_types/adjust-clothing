@@ -1,22 +1,3 @@
-adjust-clothing	liberty_dueler
-adjust-clothing	cobb_dueler	cobbcoat_None
-adjust-clothing	spottedhorse_dueler	spottedhorsefacepain_None
-adjust-clothing	cort_dueler	cortcoat_None
-adjust-clothing	cort_dueler	cortcoat_None
-adjust-clothing	cort_dueler	cortshirt_None
-adjust-clothing	spottedhorse_dueler	spottedhorsegun_duel-weapon
-adjust-clothing	ratsy_amigo	cortcuffs_None
-adjust-clothing	herod_observer	cortcollar_None
-adjust-clothing	nessuno_dueler	nessunohat_None
-adjust-clothing	nessuno_dueler	nessunocoat_None
-adjust-clothing	nessuno_dueler	nessunocoat_None
-adjust-clothing	fighter_dueler	fighterhat_None
-adjust-clothing	fighter_dueler	fighterhat_None
-adjust-clothing	doc_dueler	coat_None	badge_None
-adjust-clothing	doc_dueler	docgun_duel-weapon
-adjust-clothing	preacher_dueler	preacherhat_None
-adjust-clothing	preacher_dueler	preacherhat_None
-adjust-clothing	preacher_dueler	preacherhat_None
 adjust-clothing	jed_dueler	jedneckerchief_None
 adjust-clothing	sentenza_dueler	sentenzagun_duel-weapon
 adjust-clothing	blondie_dueler	blondiegun_duel-weapon
@@ -24,24 +5,43 @@ adjust-clothing	blondie_dueler	blondiegun_duel-weapon
 adjust-clothing	sentenza_dueler	sentenzagun_duel-weapon
 adjust-clothing	sentenza_dueler	sentenzagun_duel-weapon
 adjust-clothing	blondie_dueler	blondiegun_duel-weapon
-adjust-clothing	johnny_dueler	johnnyhat_None
-adjust-clothing	ben_observer	benhat_None
-adjust-clothing	thugb_thug	thugbcoat_None
+adjust-clothing	ben_dueler	benbelt_None
+adjust-clothing	bard_amigo	bardbelt_None
 adjust-clothing	thuga_dueler	thugaholster_None
 adjust-clothing	thugb_dueler	thugbholster_None
 adjust-clothing	billy_dueler	billyholster_None
 adjust-clothing	billy_dueler
 adjust-clothing	thugb_dueler	thugbholster_None
+adjust-clothing	kane_dueler	kanecoat_None
+adjust-clothing	nessuno_dueler	nessunohat_None
+adjust-clothing	nessuno_dueler	nessunocoat_None
+adjust-clothing	nessuno_dueler	nessunocoat_None
 adjust-clothing	andy_dueler	andyholster_None
-adjust-clothing	ben_dueler	benbelt_None
-adjust-clothing	bard_amigo	bardbelt_None
-adjust-clothing	thugc_dueler	thugchat_None
-adjust-clothing	harmonica_dueler	harmonicaharmonica_None
-adjust-clothing	thugs_dueler	thugagun_duel-weapon
-adjust-clothing	thugs_dueler	thugbgun_duel-weapon
-adjust-clothing	thugs_dueler	thugcgun_duel-weapon
-adjust-clothing	john_observer
-adjust-clothing	joe_dueler	joeponcho_None
+adjust-clothing	fighter_dueler	fighterhat_None
+adjust-clothing	fighter_dueler	fighterhat_None
+adjust-clothing	liberty_dueler
+adjust-clothing	mortimer_dueler	mortimerchain_None
+adjust-clothing	mortimer_dueler	mortimerchain_None
+adjust-clothing	monco_amigo	moncobelt_None
+adjust-clothing	mortimer_dueler	mortimerbelt_None
+adjust-clothing	mortimer_dueler	moncobelt_None
+adjust-clothing	mortimer_dueler	moncobelt_None
+adjust-clothing	mortimer_dueler	mortimercoat_None
+adjust-clothing	preacher_dueler	preacherhat_None
+adjust-clothing	preacher_dueler	preacherhat_None
+adjust-clothing	preacher_dueler	preacherhat_None
+adjust-clothing	spottedhorse_dueler	spottedhorsefacepain_None
+adjust-clothing	cort_dueler	cortcoat_None
+adjust-clothing	cort_dueler	cortcoat_None
+adjust-clothing	cort_dueler	cortshirt_None
+adjust-clothing	spottedhorse_dueler	spottedhorsegun_duel-weapon
+adjust-clothing	ratsy_amigo	cortcuffs_None
+adjust-clothing	herod_observer	cortcollar_None
+adjust-clothing	doc_dueler	coat_None	badge_None
+adjust-clothing	doc_dueler	docgun_duel-weapon
+adjust-clothing	johnny_dueler	johnnyhat_None
+adjust-clothing	ben_observer	benhat_None
+adjust-clothing	thugb_thug	thugbcoat_None
 adjust-clothing	pestoso_dueler
 adjust-clothing	pestoso_dueler
 adjust-clothing	pestoso_dueler	pestosobelt_None
@@ -55,11 +55,11 @@ adjust-clothing	billy_dueler
 adjust-clothing	pestoso_dueler
 adjust-clothing	billy_dueler
 adjust-clothing	pestoso_dueler
-adjust-clothing	mortimer_dueler	mortimerchain_None
-adjust-clothing	mortimer_dueler	mortimerchain_None
-adjust-clothing	monco_amigo	moncobelt_None
-adjust-clothing	mortimer_dueler	mortimerbelt_None
-adjust-clothing	mortimer_dueler	moncobelt_None
-adjust-clothing	mortimer_dueler	moncobelt_None
-adjust-clothing	mortimer_dueler	mortimercoat_None
-adjust-clothing	kane_dueler	kanecoat_None
+adjust-clothing	thugs_dueler	thugagun_duel-weapon
+adjust-clothing	thugs_dueler	thugbgun_duel-weapon
+adjust-clothing	thugs_dueler	thugcgun_duel-weapon
+adjust-clothing	john_observer
+adjust-clothing	joe_dueler	joeponcho_None
+adjust-clothing	thugc_dueler	thugchat_None
+adjust-clothing	harmonica_dueler	harmonicaharmonica_None
+adjust-clothing	cobb_dueler	cobbcoat_None

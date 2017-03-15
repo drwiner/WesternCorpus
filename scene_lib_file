@@ -1,0 +1,2878 @@
+bc	0	load-gun	rufus_amigo	duelgun1_duel-weapon	1	1
+bc	0	give	rufus_amigo	duelgun1_duel-weapon	assistant_None	1	1
+bc	0	load-gun	rufus_amigo	duelgun2_duel-weapon	1	1
+bc	0	give	assistant_None	duelgun1_duel-weapon	rufus_amigo	1	1
+bc	0	stare-at	james_dueler	buck_dueler	1	1
+bc	0	stare-at	buck_dueler	james_dueler	1	1
+bc	0	none	rufus_amigo	crowd_observer	1	1
+bc	0	walk	rufus_amigo	wagon_None	james_dueler	1	1
+bc	0	walk	rufus_amigo	wagon_None	buck_dueler	1	1
+bc	0	assent	rufus_amigo	james_dueler	1	0
+bc	0	assent	rufus_amigo	buck_dueler	1	0
+bc	0	de-escalate	james_dueler	buck_dueler	1	1
+bc	0	give	buck_dueler	duelgun2_duel-weapon	1	1
+bc	0	give	james_dueler	duelgun1_duel-weapon	1	1
+bc	0	none	rufus_amigo	james_dueler	1	1
+bc	0	none	rufus_amigo	buck_dueler	1	1
+bc	0	face-at	buck_dueler	james_dueler	1	1
+bc	0	face-at	james_dueler	buck_dueler	1	1
+bc	0	provoke	buck_dueler	james_dueler	1	1
+bc	0	walk	rufus_amigo	james_dueler	wagon_None	1	1
+bc	0	walk	rufus_amigo	buck_dueler	wagon_None	1	1
+bc	0	none	rufus_amigo	wagon_None	1	1
+bc	1	assent	rufus_amigo	james_dueler	0	0
+bc	1	assent	rufus_amigo	buck_dueler	0	0
+bc	1	stare-at	jean_observer	james_dueler	1	1
+bc	1	stare-at	jean_observer	buck_dueler	1	1
+bc	2	assent	rufus_amigo	james_dueler	0	0
+bc	2	assent	rufus_amigo	buck_dueler	0	0
+bc	2	leave	james_dueler	buck_dueler	1	1
+bc	2	leave	buck_dueler	james_dueler	1	1
+bc	3	look-at	jean_observer	james_dueler	1	1
+bc	3	look-at	jean_observer	buck_dueler	1	1
+bc	4	assent	rufus_amigo	james_dueler	0	1
+bc	4	assent	rufus_amigo	buck_dueler	0	1
+bc	4	fire-gun	rufus_amigo	james_dueler	duelgun1_duel-weapon	1	0
+bc	4	fire-gun	rufus_amigo	james_dueler	duelgun2_duel-weapon	1	0
+bc	4	fire-gun	rufus_amigo	buck_dueler	duelgun1_duel-weapon	1	0
+bc	4	fire-gun	rufus_amigo	buck_dueler	duelgun2_duel-weapon	1	0
+bc	4	face-at	james_dueler	buck_dueler	1	1
+bc	4	face-at	buck_dueler	james_dueler	1	1
+bc	4	cock-gun	james_dueler	duelgun1_duel-weapon	1	1
+bc	5	stare-at	buck_dueler	james_dueler	1	0
+bc	6	stare-at	james_dueler	buck_dueler	1	0
+bc	7	stare-at	jean_observer	james_dueler	1	0
+bc	7	stare-at	jean_observer	buck_dueler	1	0
+bc	7	fire-gun	rufus_amigo	james_dueler	duelgun1_duel-weapon	0	0
+bc	7	fire-gun	rufus_amigo	james_dueler	duelgun2_duel-weapon	0	0
+bc	7	fire-gun	rufus_amigo	buck_dueler	duelgun1_duel-weapon	0	0
+bc	7	fire-gun	rufus_amigo	buck_dueler	duelgun2_duel-weapon	0	0
+bc	8	aim-gun	buck_dueler	duelgun2_duel-weapon	1	1
+bc	9	aim-gun	james_dueler	duelgun1_duel-weapon	1	1
+bc	10	look-at	rufus_amigo	buck_dueler	james_dueler	1	1
+bc	11	fire-gun	buck_dueler	duelgun2_duel-weapon	james_dueler	1	1
+bc	12	get-shot	james_dueler	jameshead_None	1	1
+bc	13	fire-gun	rufus_amigo	james_dueler	duelgun1_duel-weapon	0	1
+bc	13	fire-gun	rufus_amigo	james_dueler	duelgun2_duel-weapon	0	1
+bc	13	fire-gun	rufus_amigo	buck_dueler	duelgun1_duel-weapon	0	1
+bc	13	fire-gun	rufus_amigo	buck_dueler	duelgun2_duel-weapon	0	1
+bc	13	look-at	rufus_amigo	buck_dueler	1	1
+bc	14	look-at	jean_observer	james_dueler	buck_dueler	1	1
+bc	15	look-at	james_dueler	jameshead_None	1	0
+bc	16	stare-at	jean_observer	0	0
+bc	16	stare-at	james_dueler	0	0
+bc	16	stare-at	buck_dueler	0	0
+bc	17	look-at	james_dueler	jameshead_None	0	1
+bc	17	provoke	rufus_amigo	buck_dueler	1	1
+bc	17	de-escalate	james_dueler	rufus_amigo	1	0
+bc	18	de-escalate	james_dueler	rufus_amigo	0	1
+bc	19	aim-gun	buck_dueler	duelgun2_duel-weapon	1	1
+bc	19	look-at	buck_dueler	james_dueler	duelgun2_duel-weapon	1	1
+bc	19	look-at	buck_dueler	duelgun2_duel-weapon	james_dueler	1	1
+bc	20	look-at	rufus_amigo	buck_dueler	james_dueler	1	1
+bc	20	fire-gun	rufus_amigo	james_dueler	duelgun1_duel-weapon	1	0
+bc	21	stare-at	james_dueler	buck_dueler	1	0
+bc	22	stare-at	buck_dueler	james_dueler	1	1
+bc	23	stare-at	james_dueler	buck_dueler	0	1
+bc	24	raise-gun	james_dueler	duelgun1_duel-weapon	1	1
+bc	25	aim-gun	james_dueler	duelgun1_duel-weapon	1	0
+bc	26	look-at	buck_dueler	james_dueler	rufus_amigo	1	1
+bc	27	stare-at	rufus_amigo	buck_dueler	1	0
+bc	28	look-at	buck_dueler	rufus_amigo	james_dueler	1	1
+bc	29	aim-gun	james_dueler	duelgun1_duel-weapon	0	0
+bc	30	aim-gun	james_dueler	duelgun1_duel-weapon	0	0
+bc	31	none	buck_dueler	1	0
+bc	31	wince	buck_dueler	1	0
+bc	32	none	buck_dueler	0	1
+bc	32	wince	buck_dueler	0	0
+bc	33	stare-at	rufus_amigo	buck_dueler	0	1
+bc	33	wince	buck_dueler	0	1
+bc	34	none	buck_dueler	wagon_None	1	0
+bc	35	none	buck_dueler	wagon_None	0	1
+bc	35	none	buck_dueler	wagonwheel_None	1	0
+bc	36	aim-gun	james_dueler	duelgun1_duel-weapon	0	1
+bc	36	lower-gun	james_dueler	duelgun1_duel-weapon	1	1
+bc	37	look-at	rufus_amigo	buck_dueler	1	1
+bc	37	fire-gun	rufus_amigo	james_dueler	duelgun1_duel-weapon	0	1
+bc	38	look-at	james_dueler	rufus_amigo	1	1
+bc	39	look-at	james_dueler	duelgun1_duel-weapon	1	1
+bc	39	aim-gun	james_dueler	duelgun1_duel-weapon	1	1
+bc	39	fire-gun	james_dueler	duelgun1_duel-weapon	ground_None	1	1
+bc	39	give	james_dueler	duelgun1_duel-weapon	1	1
+bc	40	look-at	james_dueler	rufus_amigo	1	1
+bc	41	look-at	rufus_amigo	james_dueler	buck_dueler	1	1
+bc	42	none	rufus_amigo	wagon_None	1	1
+bc	42	arrive	rufus_amigo	buck_dueler	1	0
+bc	42	arrive	james_dueler	jean_observer	1	1
+bc	43	arrive	rufus_amigo	buck_dueler	0	1
+bc	43	none	buck_dueler	wagonwheel_None	0	0
+bc	43	look-at	buck_dueler	rufus_amigo	1	1
+bc	43	none	rufus_amigo	buck_dueler	1	0
+bc	44	none	rufus_amigo	buck_dueler	0	1
+bc	44	wince	buck_dueler	1	1
+bc	44	leave	rufus_amigo	buck_dueler	1	0
+bc	44	none	buck_dueler	wagonwheel_None	0	1
+bc	44	look-at	buck_dueler	james_dueler	1	1
+bc	44	look-at	buck_dueler	jean_observer	1	1
+bc	45	none	james_dueler	jean_observer	1	1
+bc	45	arrive	james_dueler	crowd_observer	1	1
+bc	45	arrive	jean_observer	crowd_observer	1	1
+bc	46	look-at	buck_dueler	james_dueler	assistant_None	1	1
+bc	46	look-at	buck_dueler	jean_observer	assistant_None	1	1
+bc	46	stand-up	buck_dueler	1	1
+bc	46	arrive	buck_dueler	assistant_None	1	1
+bc	46	draw-gun	buck_dueler	assistantgun_None	1	0
+bc	47	leave	rufus_amigo	buck_dueler	0	1
+bc	47	provoke	rufus_amigo	buck_dueler	1	1
+bc	48	look-at	james_dueler	buck_dueler	1	1
+bc	48	look-at	jean_observer	buck_dueler	1	1
+bc	49	draw-gun	rufus_amigo	assisstantgun_None	0	1
+bc	49	provoke	rufus_amigo	assistant_None	1	1
+bc	50	draw-gun	rufus_amigo	rufusgun_None	1	1
+bc	50	fire-gun	rufus_amigo	rufusgun_None	buck_dueler	1	1
+bc	51	get-shot	buck_dueler	buckchest_None	1	1
+bc	51	fall	buck_dueler	1	0
+bc	52	fall	buck_dueler	0	1
+bc	53	stare-at	james_dueler	buck_dueler	1	0
+bc	53	stare-at	jean_observer	buck_dueler	1	0
+bc	54	drop-gun	buck_dueler	assisstantgun_None	1	1
+bc	55	arrive	rufus_amigo	buck_dueler	1	0
+bc	56	look-at	buck_dueler	buckchest_None	1	1
+bc	56	none	buck_dueler	waterhole_duel-location	1	1
+bc	56	look-at	buck_dueler	rufus_amigo	1	1
+bc	56	wince	buck_dueler	1	1
+bc	56	walk	buck_dueler	waterhole_duel-location	rufus_amigo	1	0
+bc	57	arrive	rufus_amigo	buck_dueler	0	1
+bc	57	look-at	rufus_amigo	buck_dueler	1	1
+bc	58	walk	buck_dueler	waterhole_duel-location	rufus_amigo	0	0
+bc	59	walk	buck_dueler	waterhole_duel-location	rufus_amigo	0	1
+bc	59	de-escalate	rufus_amigo	buck_dueler	1	1
+bc	59	fall	buck_dueler	1	1
+bc	59	none	rufus_amigo	1	1
+bc	59	none	rufus_amigo	rufus_amigo	1	0
+bc	59	die	buck_dueler	1	1
+bc	60	stare-at	james_dueler	buck_dueler	0	1
+bc	60	stare-at	jean_observer	buck_dueler	0	1
+bc	61	none	rufus_amigo	buck_dueler	0	1
+hn2	0	arrive	jd_dueler	alonzo_amigo	1	1
+hn2	0	arrive	henchman_thug	alonzo_amigo	1	1
+hn2	0	ask-for+give	jd_dueler	alonzo_amigo	jdrifle_None	1	1
+hn2	0	look-at	jd_dueler	alonzo_amigo	building_None	1	1
+hn2	0	none	alonzo_amigo	jdhorse_None	1	1
+hn2	1	stare-at	alonzo_amigo	jd_dueler	1	1
+hn2	1	open	alonzo_amigo	jdsaddle_None	1	1
+hn2	1	draw-gun	alonzo_amigo	jdrifle_None	1	1
+hn2	1	close	alonzo_amigo	jdsaddle_None	1	1
+hn2	1	look-at	alonzo_amigo	jdrifle_None	1	1
+hn2	1	face-at	alonzo_amigo	jdsaddle_None	jd_dueler	1	1
+hn2	2	walk	kane_dueler	building_None	street_duel-location	1	0
+hn2	3	taunt	alonzo_amigo	jd_dueler	1	0
+hn2	4	taunt	alonzo_amigo	jd_dueler	0	0
+hn2	4	give	alonzo_amigo	jdrifle_None	street_duel-location	1	0
+hn2	4	look-at	jd_dueler	building_None	jdrifle_None	1	1
+hn2	5	give	alonzo_amigo	jdrifle_None	street_duel-location	0	1
+hn2	6	look-at	jd_dueler	jdrifle_None	alonzo_amigo	1	1
+hn2	6	provoke	jd_dueler	alonzo_amigo	1	1
+hn2	7	taunt	alonzo_amigo	jd_dueler	0	1
+hn2	7	identify	alonzo_amigo	kane_dueler	1	1
+hn2	8	look-at	jd_dueler	alonzo_amigo	kane_dueler	1	1
+hn2	9	flee	crowd_observer	1	1
+hn2	9	walk	kane_dueler	building_None	street_duel-location	0	1
+hn2	9	square-off	kane_dueler	jd_dueler	1	1
+hn2	10	look-at	jd_dueler	kane_dueler	jdrifle_None	1	1
+hn2	11	None		None	None
+hn2	12	walk	jd_dueler	alonzo_amigo	jdrifle_None	1	0
+hn2	12	de-escalate	jd_dueler	kane_dueler	1	0
+hn2	13	provoke	kane_dueler	jd_dueler	1	1
+hn2	14	walk	jd_dueler	alonzo_amigo	jdrifle_None	0	0
+hn2	15	stare-at	kane_dueler	jd_dueler	1	0
+hn2	15	assent	kane_dueler	jd_dueler	1	1
+hn2	16	walk	jd_dueler	alonzo_amigo	jdrifle_None	0	1
+hn2	16	de-escalate	jd_dueler	kane_dueler	0	1
+hn2	16	square-off	jd_dueler	kane_dueler	1	1
+hn2	17	stare-at	jd_dueler	kane_dueler	0	1
+hn2	18	look-at	crowd_observer	kane_dueler	1	0
+hn2	18	look-at	crowd_observer	jd_dueler	1	0
+hn2	19	look-at	crowd_observer	kane_dueler	0	1
+hn2	19	look-at	crowd_observer	jd_dueler	0	1
+hn2	20	side-step	alonzo_amigo	1	1
+hn2	20	look-at	henchman_thug	kane_dueler	1	1
+hn2	20	look-at	henchman_thug	jd_dueler	1	1
+hn2	20	look-at	alonzo_amigo	kane_dueler	1	1
+hn2	20	look-at	alonzo_amigo	jd_dueler	1	1
+hn2	21	assent	jd_dueler	kane_dueler	1	1
+hn2	22	adjust-clothing	kane_dueler	kanecoat_None	1	1
+hn2	23	draw-gun	jd_dueler	jdgun_duel-weapon	1	1
+hn2	24	draw-gun	kane_dueler	kanegun_duel-weapon	1	1
+hn2	24	fire-gun	kane_dueler	kanegun_duel-weapon	jd_dueler	1	1
+hn2	25	fire-gun	jd_dueler	jdgun_duel-weapon	kane_dueler	1	1
+hn2	25	get-shot	jd_dueler	jdbody_None	1	1
+hn2	25	lower-gun	jd_dueler	jdgun_duel-weapon	1	1
+hn2	25	fall	jd_dueler	1	0
+hn2	26	drop-gun	jd_dueler	jdgun_duel-weapon	1	1
+hn2	26	fall	jd_dueler	0	1
+hn2	26	give	jd_dueler	jdrifle_None	1	1
+hn2	26	stand-up	jd_dueler	1	1
+hn2	26	face-at	jd_dueler	kane_dueler	1	1
+hn2	26	cock-gun	jd_dueler	jdrifle_None	1	1
+hn2	26	fire-gun	kane_dueler	kanegun_duel-weapon	jd_dueler	1	1
+hn2	26	drop-gun	jd_dueler	jdrifle_None	1	1
+hn2	26	fall	jd_dueler	1	1
+hn2	26	die	jd_dueler	1	0
+hn2	27	look-at	kane_dueler	jd_dueler	1	1
+hn2	27	cock-gun	kane_dueler	kanegun_duel-weapon	1	1
+hn2	27	walk	amy_None	building_None	kane_dueler	1	1
+hn2	27	holster-gun	kane_dueler	kanegun_duel-weapon	1	1
+hn2	28	die	jd_dueler	0	1
+hn2	29	none	alonzo_amigo	pole_None	1	1
+hn2	29	look-at	alonzo_amigo	jd_dueler	1	1
+hn2	30	none	kane_dueler	amy_None	1	0
+hn2	31	none	kane_dueler	amy_None	0	1
+hn2	31	walk	henchmen_observer	alonzo_amigo	jd_dueler	1	1
+gfs	0	arrive	ben_dueler	wagon_None	1	1
+gfs	0	look-at	ben_dueler	brazoshorse_None	1	1
+gfs	1	None		None	None
+gfs	2	none	ben_dueler	1	1
+gfs	2	walk	ben_dueler	wagon_None	brazoshorse_None	1	1
+gfs	2	adjust-clothing	ben_dueler	benbelt_None	1	1
+gfs	2	identify	brazos_dueler	ben_dueler	1	1
+gfs	2	none	ben_dueler	benarms_None	1	1
+gfs	2	provoke	ben_dueler	brazos_dueler	1	1
+gfs	2	assent	brazos_dueler	ben_dueler	1	0
+gfs	2	face-at	ben_dueler	brazoshorse_None	brazos_dueler	1	0
+gfs	2	square-off	brazos_dueler	ben_dueler	1	1
+gfs	3	face-at	ben_dueler	brazoshorse_None	brazos_dueler	0	1
+gfs	3	look-at	ben_dueler	brazos_dueler	1	1
+gfs	4	stare-at	brazos_dueler	ben_dueler	1	1
+gfs	4	assent	brazos_dueler	ben_dueler	0	1
+gfs	5	stare-at	ben_dueler	brazos_dueler	1	1
+gfs	5	draw-gun	ben_dueler	bengun_duel-weapon	1	1
+gfs	5	get-shot	ben_dueler	benbody_None	1	1
+gfs	5	fall	ben_dueler	1	1
+gfs	5	die	ben_dueler	1	1
+gfs	6	open	bard_amigo	housedoor_None	1	1
+gfs	6	walk	bard_amigo	house_None	porch_None	1	1
+gfs	6	look-at	bard_amigo	brazos_dueler	1	1
+gfs	6	adjust-clothing	bard_amigo	bardbelt_None	1	1
+gfs	7	arrive	bard_amigo	brazos_dueler	1	1
+gfs	7	square-off	bard_amigo	brazos_dueler	1	1
+gfs	7	arrive	brazos_dueler	bard_amigo	1	1
+gfs	7	square-off	brazos_dueler	bard_amigo	1	1
+gfs	7	draw-gun	bard_amigo	bardgun_None	1	1
+gfs	7	draw-gun	brazos_dueler	brazosgun_duel-weapon	1	1
+gfs	7	fire-gun	bard_amigo	bardgun_None	brazos_dueler	1	1
+gfs	7	fire-gun	brazos_dueler	brazosgun_duel-weapon	bard_amigo	1	1
+gfs	7	get-shot	bard_amigo	bardbody_None	1	0
+gfs	8	get-shot	bard_amigo	bardbody_None	0	1
+gfs	8	fall	bard_amigo	1	1
+gfs	8	drop-gun	bard_amigo	bardgun_None	1	1
+gfs	9	give	bard_amigo	bardgun_None	1	1
+gfs	9	get-shot	bard_amigo	bardbody_None	1	1
+gfs	9	die	bard_amigo	1	1
+gfs	10	walk	bess_amigo	house_None	bard_amigo	1	1
+gfs	10	de-escalate	bess_amigo	mr.banner_None	1	1
+gfs	10	give	bess_amigo	bardgun_None	1	0
+gfs	11	give	bess_amigo	bardgun_None	0	1
+gfs	11	provoke	mr.banner_None	brazos_dueler	1	1
+gfs	11	look-at	brazos_dueler	bess_amigo	1	1
+gfs	11	fire-gun	bess_amigo	bardgun_None	mr.banner_None	1	1
+gfs	11	look-at	brazos_dueler	bess_amigo	1	1
+gfs	11	walk	bess_amigo	bard_amigo	mr.banner_None	1	1
+gfs	11	drop-gun	mr.banner_None	mrbannergun_thug	1	1
+gfs	11	none	bess_amigo	mr.banner_None	1	1
+gfs	11	none	mr.banner_None	bess_amigo	1	1
+gfs	12	look-at	brazos_dueler	bess&mrbanner_None	road_duel-location	1	1
+gfs	12	holster-gun	brazos_dueler	brazosgun_duel-weapon	1	1
+gfs	12	walk	brazos_dueler	bard_amigo	road_duel-location	1	1
+hpd	0	look-at	thug_dueler	unknown_None	1	1
+hpd	0	walk	thug_dueler	street_duel-location	street_duel-location	1	0
+hpd	1	none	unknown_None	lantern_None	unknownhand_None	1	0
+hpd	2	none	unknown_None	lantern_None	unknownhand_None	0	1
+hpd	2	walk	thug_dueler	street_duel-location	street_duel-location	0	1
+hpd	2	raise-gun	thug_dueler	thuggun_duel-weapon	1	1
+hpd	2	fire-gun	thug_dueler	thuggun_duel-weapon	lantern_None	1	1
+hpd	2	fire-gun	thug_dueler	thuggun_duel-weapon	lantern_None	1	1
+hpd	2	wince	thug_dueler	lantern_None	1	1
+hpd	2	run	thug_dueler	street_duel-location	buildinga_None	1	1
+hpd	2	fire-gun	thug_dueler	thuggun_duel-weapon	1	1
+hpd	2	fire-gun	thug_dueler	thuggun_duel-weapon	1	1
+hpd	3	none	unknown_None	thug_dueler	1	1
+hpd	3	stare-at	thug_dueler	darkness_None	1	0
+hpd	3	walk	thug_dueler	buildinga_None	street_duel-location	1	1
+hpd	3	load-gun	thug_dueler	thuggun_duel-weapon	1	0
+hpd	4	stare-at	thug_dueler	darkness_None	0	1
+hpd	4	load-gun	thug_dueler	thuggun_duel-weapon	0	1
+hpd	4	walk	stranger_dueler	street_duel-location	buildingb_None	1	1
+hpd	4	square-off	stranger_dueler	thug_dueler	1	1
+hpd	4	look-at	thug_dueler	stranger_dueler	1	1
+hpd	4	walk	thug_dueler	street_duel-location	street_duel-location	1	0
+hpd	5	walk	thug_dueler	street_duel-location	street_duel-location	0	0
+hpd	5	stare-at	stranger_dueler	thug_dueler	1	0
+hpd	6	stare-at	stranger_dueler	thug_dueler	0	0
+hpd	7	walk	thug_dueler	street_duel-location	street_duel-location	0	0
+hpd	8	reveal	stranger_dueler	1	1
+hpd	9	raise-gun	thug_dueler	thuggun_duel-weapon	1	1
+hpd	10	fire-gun	stranger_dueler	strangergun_duel-weapon	1	1
+hpd	10	drop-gun	thug_dueler	thuggun_duel-weapon	1	1
+hpd	11	identify	thug_dueler	stranger_dueler	1	1
+hpd	12	lower-gun	stranger_dueler	strangergun_duel-weapon	1	1
+hpd	12	cock-gun	stranger_dueler	strangergun_duel-weapon	1	1
+hpd	12	raise-gun	stranger_dueler	strangergun_duel-weapon	1	1
+hpd	13	fire-gun	stranger_dueler	strangergun_duel-weapon	thug_dueler	1	1
+hpd	13	get-shot	thug_dueler	thugchest_None	1	1
+hpd	13	fire-gun	stranger_dueler	strangergun_duel-weapon	thug_dueler	1	1
+hpd	13	get-shot	thug_dueler	thugchest_None	1	1
+hpd	13	fire-gun	stranger_dueler	strangergun_duel-weapon	thug_dueler	1	1
+hpd	13	get-shot	thug_dueler	thugchest_None	1	1
+hpd	14	lower-gun	stranger_dueler	strangergun_duel-weapon	1	1
+hpd	15	fall	thug_dueler	1	1
+hpd	15	identify	thug_dueler	stranger_dueler	1	1
+hpd	16	stare-at	stranger_dueler	0	0
+hpd	16	stare-at	thug_dueler	0	0
+hpd	17	fall	thug_dueler	thug_dueler	1	1
+hpd	18	stare-at	stranger_dueler	thug_dueler	0	1
+hpd	19	walk	barman_thug	street_duel-location	street_duel-location	1	1
+hpd	19	raise-gun	barman_thug	barmangun_None	1	0
+hpd	20	raise-gun	barman_thug	barmangun_None	0	1
+hpd	20	aim-gun	barman_thug	barmangun_None	1	1
+hpd	20	get-shot	barman_thug	barmanback_None	1	1
+hpd	20	fire-gun	unknown_None	unknowngun_None	1	1
+hpd	21	look-at	stranger_dueler	barman_thug	1	1
+hpd	22	fall	barman_thug	1	1
+hpd	22	die	barman_thug	1	1
+hpd	22	lower-gun	mordecai_amigo	mordecaigun_None	1	1
+hpd	22	look-at	mordecai_amigo	barman_thug	stranger_dueler	1	1
+hpd	23	look-at	stranger_dueler	mordecai_amigo	1	1
+hpd	23	none	stranger_dueler	1	1
+hpd	24	none	mordecai_amigo	1	1
+sil	0	walk	payden_dueler	townroada_None	townroadb_duel-location	1	0
+sil	1	walk	payden_dueler	townroada_None	0	1
+sil	1	walk	townroadb_duel-location	0	1
+sil	1	leave	payden_dueler	townroadb_duel-location	1	0
+sil	1	look-at	payden_dueler	cobb_dueler	1	1
+sil	2	none	cobb_dueler	cobbchair_None	1	1
+sil	2	look-at	cobb_dueler	payden_dueler	1	1
+sil	2	stare-at	cobb_dueler	payden_dueler	1	0
+sil	2	stand-up	cobb_dueler	1	1
+sil	3	leave	payden_dueler	townroadb_duel-location	0	0
+sil	3	stare-at	payden_dueler	cobb_dueler	1	0
+sil	4	stare-at	cobb_dueler	payden_dueler	0	1
+sil	4	look-at	cobb_dueler	payden_dueler	1	1
+sil	4	walk	cobb_dueler	porcha_None	townroadb_duel-location	1	0
+sil	4	walk	cobb_dueler	cobbhat_None	cobbhead_None	post_None	1	1
+sil	4	look-at	cobb_dueler	payden_dueler	1	1
+sil	5	leave	payden_dueler	townroadb_duel-location	0	0
+sil	6	walk	cobb_dueler	porcha_None	townroadb_duel-location	0	1
+sil	7	leave	payden_dueler	townroadb_duel-location	0	1
+sil	8	walk	stella_observer	alley_None	porchb_None	1	1
+sil	8	look-at	stella_observer	payden_dueler	1	1
+sil	8	look-at	stella_observer	payden_dueler	cobb_dueler	1	1
+sil	9	square-off	payden_dueler	cobb_dueler	1	1
+sil	10	none	cobb_dueler	payden_dueler	1	1
+sil	11	none	payden_dueler	cobb_dueler	1	1
+sil	12	look-at	stella_observer	payden_dueler	cobb_dueler	1	1
+sil	13	adjust-clothing	cobb_dueler	cobbcoat_None	1	1
+sil	14	assent	payden_dueler	cobb_dueler	1	1
+sil	15	assent	cobb_dueler	payden_dueler	1	1
+sil	16	stare-at	payden_dueler	cobb_dueler	0	0
+sil	17	stare-at	cobb_dueler	payden_dueler	0	0
+sil	18	draw-gun	payden_dueler	paydengun_duel-weapon	1	1
+sil	18	draw-gun	cobb_dueler	cobbgun_duel-weapon	1	1
+sil	18	fire-gun	payden_dueler	paydengun_duel-weapon	cobb_dueler	1	1
+sil	18	fire-gun	cobb_dueler	cobbgun_duel-weapon	payden_dueler	1	1
+sil	19	fall	cobb_dueler	1	1
+sil	19	die	cobb_dueler	1	1
+sil	20	look-at	stella_observer	cobb_dueler	payden_dueler	1	1
+sil	21	stare-at	payden_dueler	cobb_dueler	0	0
+sil	22	holster-gun	payden_dueler	paydengun_duel-weapon	1	1
+sil	23	stare-at	payden_dueler	cobb_dueler	0	1
+ed	0	none	billy_dueler	1	1
+ed	0	arrive	billy_dueler	street_duel-location	1	1
+ed	0	square-off	billy_dueler	pestoso_dueler	1	1
+ed	1	stare-at	pestoso_dueler	billy_dueler	1	0
+ed	1	taunt	pestoso_dueler	billy_dueler	1	0
+ed	1	provoke	pestoso_dueler	1	0
+ed	2	none	billy_dueler	spur_None	billycoat_None	billyrighthand_None	1	1
+ed	2	identify	billy_dueler	pestoso_dueler	spur_None	1	1
+ed	3	stare-at	pestoso_dueler	billy_dueler	0	0
+ed	3	identify	pestoso_dueler	billy_dueler	spur_None	1	1
+ed	4	none	billy_dueler	pestoso_dueler	eldiablo_None	1	1
+ed	5	identify	pestoso_dueler	billy_dueler	eldiablo_None	1	1
+ed	6	none	billy_dueler	pestoso_dueler	1	0
+ed	7	stare-at	pestoso_dueler	billy_dueler	0	0
+ed	7	taunt	pestoso_dueler	billy_dueler	0	0
+ed	8	identify	billy_dueler	eldiablo_None	1	1
+ed	9	stare-at	pestoso_dueler	billy_dueler	0	0
+ed	9	taunt	pestoso_dueler	billy_dueler	0	0
+ed	9	provoke	pestoso_dueler	0	0
+ed	10	stare-at	billy_dueler	pestoso_dueler	1	0
+ed	11	arrive	pestoso_dueler	billy_dueler	1	0
+ed	12	leave	billy_dueler	pestoso_dueler	1	0
+ed	13	arrive	pestoso_dueler	billy_dueler	0	0
+ed	13	provoke	pestoso_dueler	billy_dueler	1	1
+ed	14	leave	billy_dueler	pestoso_dueler	0	0
+ed	14	pick-up	billy_dueler	spur_None	billyrighthand_None	billycoat_None	1	1
+ed	15	arrive	pestoso_dueler	billy_dueler	0	0
+ed	16	leave	billy_dueler	pestoso_dueler	0	0
+ed	17	arrive	pestoso_dueler	billy_dueler	0	1
+ed	17	square-off	pestoso_dueler	billy_dueler	1	1
+ed	18	leave	billy_dueler	pestoso_dueler	0	1
+ed	19	stare-at	pestoso_dueler	billy_dueler	0	0
+ed	19	look-at	bystander_observer	pestoso_dueler	1	1
+ed	20	none	billy_dueler	1	0
+ed	20	stare-at	billy_dueler	pestoso_dueler	0	0
+ed	21	reveal	pestoso_dueler	1	1
+ed	21	reveal	billy_dueler	1	0
+ed	22	adjust-clothing	pestoso_dueler	1	0
+ed	22	reveal	billy_dueler	0	0
+ed	23	reveal	billy_dueler	0	1
+ed	24	adjust-clothing	pestoso_dueler	0	0
+ed	24	adjust-clothing	pestoso_dueler	pestosobelt_None	1	1
+ed	24	stare-at	pestoso_dueler	billy_dueler	0	0
+ed	25	none	billy_dueler	0	1
+ed	25	stare-at	billy_dueler	pestoso_dueler	0	0
+ed	26	adjust-clothing	pestoso_dueler	0	0
+ed	27	adjust-clothing	billy_dueler	1	0
+ed	28	adjust-clothing	pestoso_dueler	0	0
+ed	28	stare-at	pestoso_dueler	billy_dueler	0	0
+ed	29	adjust-clothing	billy_dueler	0	0
+ed	30	adjust-clothing	pestoso_dueler	0	0
+ed	31	adjust-clothing	billy_dueler	0	0
+ed	32	look-at	pestoso_dueler	pestosogun_duel-weapon	1	1
+ed	33	adjust-clothing	billy_dueler	0	0
+ed	33	adjust-clothing	pestoso_dueler	0	0
+ed	34	adjust-clothing	billy_dueler	0	1
+ed	34	adjust-clothing	pestoso_dueler	0	1
+ed	35	stare-at	billy_dueler	pestoso_dueler	0	0
+ed	36	stare-at	pestoso_dueler	billy_dueler	0	1
+ed	36	provoke	pestoso_dueler	0	0
+ed	37	stare-at	billy_dueler	pestoso_dueler	0	1
+ed	38	taunt	pestoso_dueler	billy_dueler	0	1
+ed	38	provoke	pestoso_dueler	0	1
+ed	39	draw-gun	pestoso_dueler	pestosogun_duel-weapon	1	1
+ed	39	draw-gun	billy_dueler	billygun_duel-weapon	1	0
+ed	40	draw-gun	billy_dueler	billygun_duel-weapon	0	0
+ed	41	draw-gun	billy_dueler	billygun_duel-weapon	0	1
+ed	41	fire-gun	billy_dueler	billygun_duel-weapon	pestoso_dueler	1	1
+ed	42	get-shot	pestoso_dueler	vangun_None	pestosohead_None	1	1
+ed	42	none	pestoso_dueler	1	0
+ed	43	look-at	billy_dueler	pestoso_dueler	1	0
+ed	44	none	pestoso_dueler	0	0
+ed	45	none	pestoso_dueler	0	0
+ed	46	walk	van_amigo	tower_None	billy_dueler	1	0
+ed	47	look-at	billy_dueler	pestoso_dueler	billygun_duel-weapon	1	1
+ed	47	none	billy_dueler	1	0
+ed	48	none	pestoso_dueler	0	0
+ed	48	none	billy_dueler	0	0
+ed	49	look-at	billy_dueler	pestoso_dueler	van_amigo	1	0
+ed	49	none	van_amigo	billy_dueler	1	0
+ed	50	none	billy_dueler	0	0
+ed	50	look-at	billy_dueler	pestoso_dueler	van_amigo	0	1
+ed	50	walk	van_amigo	tower_None	billy_dueler	0	0
+ed	51	none	billy_dueler	0	0
+ed	51	none	pestoso_dueler	0	0
+ed	52	look-at	billy_dueler	pestoso_dueler	0	1
+ed	52	walk	van_amigo	tower_None	billy_dueler	0	1
+ed	52	none	van_amigo	billy_dueler	0	1
+ed	52	none	van_amigo	pestoso_dueler	1	1
+ed	53	none	pestoso_dueler	0	1
+ed	53	fall	pestoso_dueler	1	1
+ed	53	die	pestoso_dueler	1	1
+ed	54	none	van_amigo	1	1
+ed	54	none	billy_dueler	1	1
+dis	0	drop	zeke_bartender	bottle_None	bar_None	1	1
+dis	0	drop	sam_dueler	samgun_duel-weapon	bar_None	zeke_bartender	1	1
+dis	0	pick-up	zeke_bartender	samgun_duel-weapon	zeke_bartender	backbar_duel-location	1	1
+dis	0	drop	zeke_bartender	soda_None	backbar_duel-location	sam_dueler	1	1
+dis	0	ask-for	sam_dueler	zeke_bartender	soda_None	1	1
+dis	0	none	zeke_bartender	sam_dueler	soda_None	1	1
+dis	0	walk	zeke_bartender	bar_None	sam_dueler	1	1
+dis	0	pick-up	sam_dueler	ringbox_None	shirtpocket_None	1	1
+dis	0	open	sam_dueler	ringbox_None	1	1
+dis	0	none	zeke_bartender	sam_dueler	1	1
+dis	0	drop	zeke_bartender	soda_None	bar_None	1	1
+dis	0	none	sam_dueler	zeke_bartender	1	1
+dis	0	reveal	sam_dueler	zeke_bartender	1	1
+dis	0	look-at	ring_None	zeke_bartender	1	1
+dis	0	ask-for	ring_None	sam_dueler	zeke_bartender	1	1
+dis	0	walk	soda_None	zeke_bartender	sam_dueler	1	1
+dis	0	none	bar_None	sam_dueler	1	1
+dis	0	none	crowd_observer	sam_dueler	1	1
+dis	0	provoke	mchandles_dueler	sam_dueler	1	0
+dis	0	walk	crowd_observer	bar_None	tables_None	1	1
+dis	0	walk	mchandles_dueler	door_None	bar_None	1	1
+dis	1	smokes	mchandles_dueler	cigarette_None	shirtpocket_None	mouth_None	0	1
+dis	1	provoke	mchandles_dueler	sam_dueler	0	0
+dis	2	drop	sam_dueler	soda_None	bar_None	1	1
+dis	2	de-escalate	sam_dueler	mchandles_dueler	1	0
+dis	2	look-at	sam_dueler	ring_None	1	1
+dis	2	provoke	mchandles_dueler	mchandles_dueler	0	0
+dis	2	de-escalate	sam_dueler	mchandles_dueler	0	0
+dis	3	provoke	mchandles_dueler	sam_dueler	0	0
+dis	4	de-escalate	sam_dueler	mchandles_dueler	0	0
+dis	4	stare-at	sam_dueler	mchandles_dueler	1	0
+dis	5	de-escalate	sam_dueler	mchandles_dueler	0	1
+dis	5	stare-at	sam_dueler	mchandles_dueler	0	0
+dis	5	provoke	mchandles_dueler	sam_dueler	0	0
+dis	6	provoke	mchandles_dueler	sam_dueler	0	1
+dis	7	square-off	sam_dueler	mchandles_dueler	1	1
+dis	8	draw-gun	sam_dueler	samgun_duel-weapon	1	1
+dis	9	assent	sam_dueler	mchandles_dueler	1	1
+dis	9	stare-at	sam_dueler	mchandles_dueler	0	1
+dis	10	taunt	mchandles_dueler	sam_dueler	1	1
+dis	10	walk	mchandles_dueler	mchandles_dueler	mchandles_dueler	1	1
+dis	10	square-off	mchandles_dueler	sam_dueler	1	1
+dis	10	walk	sam_dueler	bar_None	mchandles_dueler	1	1
+dis	10	pick-up+drop	zeke_bartender	samgun_duel-weapon	backbar_duel-location	sam_dueler	1	0
+dis	11	pick-up+drop	zeke_bartender	samgun_duel-weapon	backbar_duel-location	sam_dueler	0	1
+dis	11	none	sam_dueler	samgun_duel-weapon	1	1
+dis	12	draw-gun	mchandles_dueler	mchandlesgun_duel-weapon	1	1
+dis	12	fire-gun	mchandles_dueler	mchandlesgun_duel-weapon	sam_dueler	1	1
+dis	12	fire-gun	mchandles_dueler	mchandlesgun_duel-weapon	sam_dueler	1	1
+dis	12	fire-gun	mchandles_dueler	mchandlesgun_duel-weapon	sam_dueler	1	1
+dis	12	get-shot	sam_dueler	sambody_None	1	1
+dis	12	fall	sam_dueler	1	1
+dis	12	die	sam_dueler	1	1
+dis	13	drop	sam_dueler	ring_None	1	1
+dis	14	provoke	mchandles_dueler	crowd_observer	1	1
+dis	14	holster-gun	mchandles_dueler	mchandlesgun_duel-weapon	1	1
+qdu	0	identify	marston_dueler	marstonfinger_None	quigley_dueler	1	1
+qdu	0	walk	marston_dueler	o'flynn_thug	quigleygun_duel-weapon	1	1
+qdu	0	none	marston_dueler	o'flynn_thug	1	1
+qdu	0	walk	o'flynn_thug	marston_dueler	quigley_dueler	1	0
+qdu	0	aim-gun	dobkin_thug	dobkingun_None	quigley_dueler	1	0
+qdu	0	look-at	dobkin_thug	marston_dueler	1	1
+qdu	1	look-at	quigley_dueler	o'flynn_thug	1	1
+qdu	1	walk	o'flynn_thug	marston_dueler	quigley_dueler	0	1
+qdu	2	none	o'flynn_thug	quigleygun_duel-weapon	quigleybelt_None	1	1
+qdu	3	aim-gun	dobkin_thug	dobkingun_None	quigley_dueler	0	0
+qdu	3	draw-gun	o'flynn_thug	oflynngun_None	1	1
+qdu	3	cock-gun	o'flynn_thug	oflynngun_None	1	1
+qdu	3	aim-gun	o'flynn_thug	oflynngun_None	quigley_dueler	1	0
+qdu	3	provoke	marston_dueler	quigley_dueler	1	0
+qdu	3	look-at	o'flynn_thug	marston_dueler	1	1
+qdu	4	provoke	marston_dueler	quigley_dueler	0	0
+qdu	4	identify	marston_dueler	dobkin_thug	1	1
+qdu	4	identify	marston_dueler	marstonfinger_None	o'flynn_thug	1	1
+qdu	4	side-step	marston_dueler	dobkin_thug	quigley_dueler	1	0
+qdu	4	side-step	marston_dueler	o'flynn_thug	quigley_dueler	1	0
+qdu	5	side-step	marston_dueler	dobkin_thug	quigley_dueler	0	1
+qdu	5	side-step	marston_dueler	o'flynn_thug	quigley_dueler	0	1
+qdu	5	leave	dobkin_thug	quigley_dueler	1	1
+qdu	5	leave	o'flynn_thug	quigley_dueler	1	1
+qdu	5	side-step	marston_dueler	1	1
+qdu	5	side-step	marston_dueler	quigley_dueler	1	1
+qdu	6	look-at	quigley_dueler	marston_dueler	1	1
+qdu	6	side-step	marston_dueler	dobkin_thug	1	0
+qdu	6	side-step	marston_dueler	o'flynn_thug	1	0
+qdu	7	square-off	marston_dueler	quigley_dueler	1	1
+qdu	7	square-off	dobkin_thug	quigley_dueler	1	1
+qdu	7	square-off	o'flynn_thug	quigley_dueler	1	1
+qdu	7	side-step	marston_dueler	dobkin_thug	0	1
+qdu	7	side-step	marston_dueler	o'flynn_thug	0	1
+qdu	7	aim-gun	dobkin_thug	dobkingun_None	quigley_dueler	0	0
+qdu	7	aim-gun	o'flynn_thug	oflynngun_None	quigley_dueler	0	0
+qdu	8	provoke	marston_dueler	quigley_dueler	0	0
+qdu	8	look-at	quigley_dueler	marston_dueler	0	0
+qdu	9	reveal	marston_dueler	dobkin_thug	dobkingun_None	quigley_dueler	1	0
+qdu	9	aim-gun	o'flynn_thug	oflynngun_None	quigley_dueler	0	0
+qdu	10	reveal	marston_dueler	0	1
+qdu	10	none	marston_dueler	quigley_dueler	1	0
+qdu	11	none	marston_dueler	quigley_dueler	0	1
+qdu	12	look-at	quigley_dueler	marston_dueler	0	0
+qdu	13	assent	marston_dueler	quigley_dueler	0	1
+qdu	14	square-off	quigley_dueler	marston_dueler	1	1
+qdu	15	stare-at	o'flynn_thug	quigley_dueler	1	0
+qdu	16	stare-at	dobkin_thug	quigley_dueler	1	0
+qdu	17	none	quigley_dueler	quigleyglove_None	quigleyhand_None	1	0
+qdu	18	none	quigley_dueler	quigleyglove_None	quigleyhand_None	0	1
+qdu	18	assent	quigley_dueler	marston_dueler	1	1
+qdu	18	stare-at	quigley_dueler	marston_dueler	1	0
+qdu	19	stare-at	marston_dueler	quigley_dueler	1	0
+qdu	20	stare-at	marston_dueler	quigley_dueler	0	0
+qdu	20	stare-at	quigley_dueler	marston_dueler	0	0
+qdu	20	stare-at	o'flynn_thug	quigley_dueler	0	0
+qdu	20	stare-at	dobkin_thug	quigley_dueler	0	0
+qdu	21	stare-at	marston_dueler	quigley_dueler	0	0
+qdu	21	stare-at	quigley_dueler	marston_dueler	0	1
+qdu	21	stare-at	o'flynn_thug	quigley_dueler	0	1
+qdu	21	stare-at	dobkin_thug	quigley_dueler	0	1
+qdu	22	stare-at	marston_dueler	quigley_dueler	0	1
+qdu	23	draw-gun	marston_dueler	marstongun_duel-weapon	1	0
+qdu	24	draw-gun	quigley_dueler	quigleygun_duel-weapon	1	1
+qdu	24	fire-gun	quigley_dueler	quigleygun_duel-weapon	marston_dueler	1	0
+qdu	25	draw-gun	marston_dueler	marstongun_duel-weapon	0	1
+qdu	25	get-shot	marston_dueler	quigleygun_duel-weapon	marstonchest_None	1	1
+qdu	25	fire-gun	quigley_dueler	quigleygun_duel-weapon	0	0
+qdu	26	get-shot	dobkin_thug	quigleygun_duel-weapon	dobkinchest_None	1	1
+qdu	26	fire-gun	quigley_dueler	quigleygun_duel-weapon	0	0
+qdu	26	die	dobkin_thug	1	1
+qdu	27	get-shot	o'flynn_thug	quigleygun_duel-weapon	oflynnhead_None	1	1
+qdu	27	fire-gun	quigley_dueler	quigleygun_duel-weapon	0	1
+qdu	27	fall	o'flynn_thug	1	1
+qdu	27	die	o'flynn_thug	1	1
+qdu	28	look-at	quigley_dueler	marston_dueler	0	0
+qdu	29	fall	marston_dueler	1	1
+qdu	29	look-at	quigley_dueler	marston_dueler	0	0
+qdu	29	walk	quigley_dueler	marston_dueler	1	0
+qdu	29	aim-gun	quigley_dueler	marston_dueler	1	0
+qdu	30	look-at	quigley_dueler	marston_dueler	0	1
+qdu	30	aim-gun	quigley_dueler	marston_dueler	0	0
+qdu	30	arrive	quigley_dueler	marston_dueler	0	1
+qdu	31	look-at	marston_dueler	quigley_dueler	1	1
+qdu	32	taunt	quigley_dueler	marston_dueler	1	1
+qdu	33	provoke	marston_dueler	1	1
+qdu	34	aim-gun	quigley_dueler	marston_dueler	0	1
+qdu	34	holster-gun	quigley_dueler	quigleygun_duel-weapon	1	1
+qdu	35	die	marston_dueler	1	1
+qdu	35	drop-gun	marston_dueler	marstongun_duel-weapon	1	1
+hmh	0	arrive	jed_dueler	porch_None	1	1
+hmh	0	smokes	jed_dueler	1	0
+hmh	0	smokes	jedmatches_None	jedshirt_None	jedrighthand_None	jed_dueler	cig_None	1	1
+hmh	0	look-at	jed_dueler	horse_None	1	0
+hmh	1	None		None	None
+hmh	2	look-at	jed_dueler	horse_None	0	1
+hmh	2	walk	jed_dueler	porch_None	horse_None	1	1
+hmh	2	identify	jed_dueler	1	0
+hmh	2	identify	jedssaddle_None	1	0
+hmh	3	None		None	None
+hmh	4	look-at	jed_dueler	horse_None	saloon_duel-location	1	1
+hmh	4	walk	jed_dueler	horse_None	saloon_duel-location	1	0
+hmh	4	open	jed_dueler	saloondoor_None	1	0
+hmh	5	open	jed_dueler	saloondoor_None	0	1
+hmh	5	walk	jed_dueler	horse_None	saloon_duel-location	0	1
+hmh	5	walk	jed_dueler	saloondoor_None	bar_None	1	1
+hmh	5	give	reno_dueler	renoalcohol_None	bottle_None	renoglass_None	1	1
+hmh	5	none	reno_dueler	renoalcohol_None	1	1
+hmh	5	arrest	jed_dueler	reno_dueler	1	1
+hmh	6	provoke	reno_dueler	jed_dueler	1	1
+hmh	7	provoke	jed_dueler	reno_dueler	1	0
+hmh	8	de-escalate	reno_dueler	jed_dueler	1	0
+hmh	8	give	reno_dueler	renoalcohol_None	bottle_None	renoglass_None	1	0
+hmh	9	de-escalate	reno_dueler	jed_dueler	0	0
+hmh	9	provoke	jed_dueler	reno_dueler	0	1
+hmh	9	drop	jed_dueler	renoglass_None	1	0
+hmh	9	none	jed_dueler	renoglass_None	1	0
+hmh	10	de-escalate	reno_dueler	jed_dueler	0	1
+hmh	10	drop	jed_dueler	cig_None	jedmouth_None	renoglass_None	0	0
+hmh	11	drop	jed_dueler	cig_None	jedmouth_None	renoglass_None	0	1
+hmh	11	look-at	reno_dueler	renoglass_None	jed_dueler	1	1
+hmh	11	square-off	reno_dueler	jed_dueler	1	1
+hmh	12	assent	reno_dueler	jed_dueler	1	1
+hmh	13	identify	reno_dueler	jed_dueler	1	1
+hmh	14	none	reno_dueler	jed_dueler	1	1
+hmh	15	adjust-clothing	jed_dueler	jedneckerchief_None	1	1
+hmh	15	provoke	jed_dueler	reno_dueler	1	1
+hmh	16	identify	reno_dueler	jed_dueler	1	1
+hmh	17	stare-at	jed_dueler	reno_dueler	1	0
+hmh	18	stare-at	reno_dueler	jed_dueler	None	yes
+hmh	19	stare-at	jed_dueler	reno_dueler	0	0
+hmh	19	stare-at	reno_dueler	jed_dueler	0	0
+hmh	19	walk	reno_dueler	bar_None	barrels_None	1	0
+hmh	20	stare-at	jed_dueler	reno_dueler	0	0
+hmh	20	stare-at	reno_dueler	jed_dueler	0	0
+hmh	21	stare-at	jed_dueler	reno_dueler	0	1
+hmh	21	stare-at	reno_dueler	jed_dueler	0	1
+hmh	21	walk	reno_dueler	bar_None	barrels_None	0	1
+hmh	21	square-off	jed_dueler	reno_dueler	1	0
+hmh	22	square-off	jed_dueler	reno_dueler	0	1
+hmh	23	draw-gun	reno_dueler	renogun_duel-weapon	1	0
+hmh	24	draw-gun	reno_dueler	renogun_duel-weapon	0	0
+hmh	25	draw-gun	jed_dueler	jedgun_duel-weapon	1	1
+hmh	25	fire-gun	jed_dueler	jedgun_duel-weapon	reno_dueler	1	0
+hmh	25	draw-gun	reno_dueler	renogun_duel-weapon	0	1
+hmh	26	get-shot	reno_dueler	renobody_None	1	0
+hmh	26	fire-gun	jed_dueler	jedgun_duel-weapon	reno_dueler	0	0
+hmh	27	fire-gun	jed_dueler	jedgun_duel-weapon	reno_dueler	0	0
+hmh	27	fire-gun	jed_dueler	jedgun_duel-weapon	reno_dueler	0	0
+hmh	28	fire-gun	jed_dueler	jedgun_duel-weapon	reno_dueler	0	1
+hmh	28	get-shot	reno_dueler	renobody_None	0	1
+hmh	28	fall	reno_dueler	1	0
+hmh	29	fall	reno_dueler	0	1
+hmh	29	die	reno_dueler	1	1
+hmh	30	walk	jed_dueler	bar_None	reno_dueler	1	0
+hmh	31	walk	jed_dueler	bar_None	reno_dueler	0	1
+hmh	31	holster-gun	jed_dueler	jedgun_duel-weapon	1	1
+hmh	31	none	jed_dueler	reno_dueler	1	1
+hmh	31	none	jed_dueler	renowallet_None	reno_dueler	jedrighthand_None	1	1
+qad	0	adjust-clothing	spottedhorse_dueler	spottedhorsefacepain_None	1	1
+qad	0	taunt	spottedhorse_dueler	cort_dueler	1	1
+qad	1	load-gun	cort_dueler	cortgun_duel-weapon	1	1
+qad	1	cock-gun	cort_dueler	cortgun_duel-weapon	1	1
+qad	1	look-at	cort_dueler	cortgun_duel-weapon	1	1
+qad	1	holster-gun	cort_dueler	cortgun_duel-weapon	1	1
+qad	1	square-off	spottedhorse_dueler	cort_dueler	1	1
+qad	1	adjust-clothing	cort_dueler	cortcoat_None	1	0
+qad	2	adjust-clothing	cort_dueler	cortcoat_None	0	1
+qad	2	adjust-clothing	cort_dueler	cortshirt_None	1	1
+qad	3	look-at	herod_observer	cort_dueler	spottedhorse_dueler	1	1
+qad	4	stare-at	spottedhorse_dueler	cort_dueler	1	0
+qad	5	square-off	cort_dueler	spottedhorse_dueler	1	1
+qad	5	stare-at	spottedhorse_dueler	cort_dueler	0	0
+qad	6	stare-at	cort_dueler	spottedhorse_dueler	1	0
+qad	7	stare-at	spottedhorse_dueler	cort_dueler	0	0
+qad	8	stare-at	cort_dueler	spottedhorse_dueler	0	0
+qad	9	stare-at	spottedhorse_dueler	cort_dueler	0	0
+qad	10	stare-at	cort_dueler	spottedhorse_dueler	0	0
+qad	11	stare-at	crowd_observer	cort&spottedhorse_None	1	0
+qad	12	adjust-clothing	spottedhorse_dueler	spottedhorsegun_duel-weapon	1	1
+qad	12	stare-at	spottedhorse_dueler	cort_dueler	0	0
+qad	13	stare-at	cort_dueler	spottedhorse_dueler	0	0
+qad	14	None		None	None
+qad	15	stare-at	spottedhorse_dueler	cort_dueler	0	0
+qad	16	stare-at	cort_dueler	spottedhorse_dueler	0	0
+qad	17	None		None	None
+qad	18	stare-at	spottedhorse_dueler	cort_dueler	0	1
+qad	19	stare-at	cort_dueler	spottedhorse_dueler	0	0
+qad	20	none	clock_None	clockhand_None	11:59position_None	noonposition_None	1	1
+qad	21	ride	ellen_None	ellenhorse_None	town_None	1	0
+qad	21	fire-gun	cort_dueler	cortgun_duel-weapon	1	1
+qad	21	face-at	ellen_None	town_None	1	1
+qad	21	look-at	ellen_None	town_None	1	1
+qad	21	stare-at	ellen_None	town_None	1	0
+qad	22	stare-at	ellen_None	town_None	0	0
+qad	23	stare-at	ellen_None	town_None	0	1
+qad	23	ride	ellen_None	ellenhorse_None	town_None	0	1
+qad	24	arrive	doc_None	spottedhorse_dueler	1	1
+qad	24	none	doc_None	spottedhorse_dueler	1	1
+qad	24	stare-at	cort_dueler	spottedhorse_dueler	0	1
+qad	25	holster-gun	cort_dueler	cortgun_duel-weapon	1	1
+qad	25	arrive	crowd_observer	cort_dueler	1	1
+qad	25	face-at	cort_dueler	street_duel-location	1	1
+qad	25	face-at	cort_dueler	spottedhorse_dueler	1	1
+qad	25	look-at	cort_dueler	crowd_observer	spottedhorse_dueler	1	0
+qad	26	stand-up	spottedhorse_dueler	1	0
+qad	26	stand-up	spottedhorse_dueler	1	0
+qad	27	look-at	cort_dueler	crowd_observer	spottedhorse_dueler	0	1
+qad	27	draw-gun	cort_dueler	cortgun_duel-weapon	1	1
+qad	27	taunt	spottedhorse_dueler	cort_dueler	1	1
+qad	27	look-at	cort_dueler	cortgun_duel-weapon	1	0
+qad	28	look-at	cort_dueler	cortgun_duel-weapon	0	1
+qad	28	stand-up	spottedhorse_dueler	spottedhorse_dueler	0	0
+qad	29	ask-for+give	cort_dueler	herod_observer	cortbullet_None	1	1
+qad	30	fire-gun	herod_observer	cort_dueler	cortgun_duel-weapon	1	1
+qad	31	stand-up	spottedhorse_dueler	0	1
+qad	31	aim-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	1	1
+qad	32	stare-at	cort_dueler	spottedhorse_dueler	1	0
+qad	33	cock-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	1	1
+qad	33	aim-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	1	1
+qad	33	fire-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	cort_dueler	1	1
+qad	34	wince	cort_dueler	1	1
+qad	34	ask-for+give	cort_dueler	herod_observer	cort_dueler	1	1
+qad	35	none	herod_observer	1	1
+qad	36	fire-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	spottedhorsegun_duel-weapon	1	1
+qad	36	ask-for+give	cort_dueler	crowd_observer	cortbullet_None	1	1
+qad	36	stare-at	cort_dueler	spottedhorse_dueler	0	1
+qad	37	none	blindboy_amigo	cortbullet_None	1	0
+qad	38	look-at	cort_dueler	blindboy_amigo	1	1
+qad	39	none	blindboy_amigo	cortbullet_None	0	0
+qad	39	ask-for+give	spottedhorse_dueler	blindboy_amigo	cortbullet_None	1	1
+qad	40	none	blindboy_amigo	cortbullet_None	0	0
+qad	41	none	blindboy_amigo	cortbullet_None	0	0
+qad	41	taunt	herod_observer	cort_dueler	herod_observer	1	0
+qad	42	taunt	cort_dueler	herod_observer	cort_dueler	0	1
+qad	43	fire-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	cort_dueler	1	1
+qad	44	wince	cort_dueler	1	1
+qad	45	taunt	herod_observer	cort_dueler	1	1
+qad	46	cock-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	1	1
+qad	46	aim-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	1	1
+qad	47	fire-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	cort_dueler	1	1
+qad	47	ask-for+give	cort_dueler	blindboy_amigo	cortbullet_None	1	1
+qad	48	none	blindboy_amigo	cortbullet_None	0	0
+qad	49	none	blindboy_amigo	cortbullet_None	0	1
+qad	49	help-up	blindboy_amigo	cortbullet_None	box_None	cort_dueler	1	0
+qad	50	fire-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	cort_dueler	1	1
+qad	51	ask-for+give	cort_dueler	blindboy_amigo	cortbullet_None	1	1
+qad	52	give	blindboy_amigo	cortbullet_None	box_None	cort_dueler	0	0
+qad	53	give	blindboy_amigo	cortbullet_None	box_None	cort_dueler	0	0
+qad	54	look-at	cort_dueler	cortbullet_None	1	1
+qad	54	none	cort_dueler	1	0
+qad	55	give	blindboy_amigo	cortbullet_None	box_None	cort_dueler	0	0
+qad	56	aim-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	1	0
+qad	57	give	blindboy_amigo	cortbullet_None	box_None	cort_dueler	0	1
+qad	58	none	cort_dueler	0	1
+qad	58	look-at	cort_dueler	cortgun_duel-weapon	1	1
+qad	59	load-gun	cort_dueler	cortgun_duel-weapon	1	1
+qad	60	cock-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	1	1
+qad	60	aim-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	0	1
+qad	61	look-at	cort_dueler	spottedhorse_dueler	1	1
+qad	62	fire-gun	cort_dueler	cortgun_duel-weapon	spottedhorse_dueler	1	1
+qad	62	get-shot	spottedhorse_dueler	spottedhorsehead_None	1	1
+qad	63	fall	spottedhorse_dueler	1	1
+qad	64	stare-at	cort_dueler	spottedhorse_dueler	1	0
+qad	65	arrive	crowd_observer	spottedhorse_dueler	1	1
+qad	65	raise-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	1	1
+qad	66	stare-at	cort_dueler	spottedhorse_dueler	0	0
+qad	67	lower-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	1	1
+qad	67	die	spottedhorse_dueler	1	1
+qad	68	look-at	herod_observer	spottedhorse_dueler	cort_dueler	1	1
+qad	68	walk	herod_observer	building_None	cort_dueler	1	0
+qad	69	adjust-clothing	ratsy_amigo	cortcuffs_None	1	1
+qad	69	taunt	ratsy_amigo	cort_dueler	herod_observer	1	1
+qad	70	cheer	herod_observer	herod_observer	building_None	cort_dueler	0	1
+qad	70	none	herod_observer	crowd_observer	1	1
+qad	70	cheer	crowd_observer	1	1
+qad	70	adjust-clothing	herod_observer	cortcollar_None	1	1
+qad	70	taunt	herod_observer	cort_dueler	1	1
+csc	0	walk	o'hanlon_dueler	street_None	saloondoor_None	1	1
+csc	0	walk	sullivan_observer	street_None	saloondoor_None	1	1
+csc	0	de-escalate	sullivan_observer	o'hanlon_dueler	None	yes
+csc	0	pick-up	sullivan_observer	o'hanlon_dueler	1	0
+csc	1	de-escalate	sullivan_observer	o'hanlon_dueler	0	1
+csc	1	pick-up	sullivan_observer	o'hanlon_dueler	0	1
+csc	1	face-at	o'hanlon_dueler	sullivan_observer	saloondoor_None	1	1
+csc	1	open	o'hanlon_dueler	saloondoor_None	1	1
+csc	1	walk	o'hanlon_dueler	saloondoor_None	saloon_duel-location	1	0
+csc	1	walk	sullivan_observer	saloondoor_None	saloon_duel-location	1	0
+csc	2	walk	o'hanlon_dueler	saloondoor_None	bar_None	0	1
+csc	2	walk	sullivan_observer	saloondoor_None	bar_None	0	1
+csc	2	walk	sullivan_observer	bar_None	salooncorner_None	1	0
+csc	2	provoke	bartender_bartender	o'hanlon_dueler	1	1
+csc	3	provoke	o'hanlon_dueler	bannister_dueler	1	0
+csc	4	look-at	crowd_observer	o'hanlon_dueler	1	1
+csc	5	walk	sullivan_observer	saloon_duel-location	salooncorner_None	0	1
+csc	5	look-at	sullivan_observer	o'hanlon_dueler	1	1
+csc	6	provoke	o'hanlon_dueler	bannister_dueler	0	0
+csc	6	none	o'hanlon_dueler	1	1
+csc	7	walk	crowd_observer	bar_None	tables_None	1	1
+csc	8	look-at	sullivan_observer	crowd_observer	1	1
+csc	8	none	sullivan_observer	peanut_None	sullivanshirt_None	sullivanhand_None	1	1
+csc	9	look-at	o'hanlon_dueler	crowd_observer	1	1
+csc	10	square-off	bannister_dueler	o'hanlon_dueler	1	0
+csc	11	square-off	bannister_dueler	o'hanlon_dueler	0	1
+csc	11	identify	bannister_dueler	o'hanlon_dueler	1	1
+csc	12	look-at	sullivan_observer	bannister_dueler	1	1
+csc	13	stare-at	bannister_dueler	o'hanlon_dueler	1	1
+csc	14	provoke	o'hanlon_dueler	bannister_dueler	0	0
+csc	15	provoke	bannister_dueler	o'hanlon_dueler	1	0
+csc	16	square-off	o'hanlon_dueler	bannister_dueler	1	1
+csc	16	provoke	o'hanlon_dueler	bannister_dueler	0	0
+csc	17	provoke	bannister_dueler	o'hanlon_dueler	0	0
+csc	18	provoke	o'hanlon_dueler	bannister_dueler	0	0
+csc	19	provoke	bannister_dueler	o'hanlon_dueler	0	1
+csc	20	provoke	o'hanlon_dueler	bannister_dueler	0	1
+csc	20	draw-gun	o'hanlon_dueler	ohanlongun_duel-weapon	1	0
+csc	20	draw-gun	bannister_dueler	bannistergun_duel-weapon	1	0
+csc	21	none	sullivan_observer	peanut_None	1	1
+csc	22	draw-gun	bannister_dueler	bannistergun_duel-weapon	0	1
+csc	22	aim-gun	bannister_dueler	o'hanlon_dueler	1	1
+csc	22	aim-gun	bannister_dueler	bannistergun_duel-weapon	sullivan_observer	1	1
+csc	23	draw-gun	o'hanlon_dueler	ohanlongun_duel-weapon	0	1
+csc	23	aim-gun	o'hanlon_dueler	ohanlongun_duel-weapon	bannister_dueler	1	1
+csc	23	fire-gun	o'hanlon_dueler	ohanlongun_duel-weapon	1	1
+csc	24	get-shot	bannister_dueler	bannisterchest_None	1	1
+csc	24	fire-gun	o'hanlon_dueler	ohanlongun_duel-weapon	1	1
+csc	24	fall	bannister_dueler	1	1
+csc	24	die	bannister_dueler	1	1
+csc	25	look-at	sullivan_observer	bannister_dueler	1	1
+csc	25	look-at	sullivan_observer	sullivanhand_None	1	1
+csc	25	stare-at	sullivan_observer	o'hanlon_dueler	1	0
+csc	26	look-at	o'hanlon_dueler	ohanlongun_duel-weapon	1	1
+csc	27	stare-at	sullivan_observer	0	0
+csc	27	stare-at	o'hanlon_dueler	0	0
+csc	27	none	sullivan_observer	1	1
+csc	28	walk	o'hanlon_dueler	bar_None	saloondoor_None	1	1
+csc	28	open	o'hanlon_dueler	saloondoor_None	1	1
+csc	29	stare-at	sullivan_observer	o'hanlon_dueler	0	1
+csc	29	walk	sullivan_observer	salooncorner_None	saloondoor_None	1	1
+csc	29	look-at	crowd_observer	saloondoor_None	1	1
+csc	30	look-at	bartender_bartender	saloondoor_None	1	1
+csc	30	none	bartender_bartender	o'hanlon_dueler	1	1
+mnn	0	square-off	nessuno_dueler	jack_dueler	1	1
+mnn	0	flee	crowd_observer	1	0
+mnn	1	flee	crowd_observer	0	0
+mnn	2	flee	crowd_observer	0	0
+mnn	2	square-off	jack_dueler	nessuno_dueler	1	1
+mnn	3	flee	crowd_observer	0	1
+mnn	3	arrive	cameraman_observer	street_duel-location	1	1
+mnn	3	arrive	assistant_None	street_duel-location	1	1
+mnn	3	none	cameraman_observer	camera_None	1	1
+mnn	4	stare-at	jack_dueler	nessuno_dueler	1	0
+mnn	5	look-at	nessuno_dueler	crowd_observer	jack_dueler	1	1
+mnn	6	stare-at	jack_dueler	nessuno_dueler	0	0
+mnn	6	stare-at	nessuno_dueler	jack_dueler	1	0
+mnn	7	stare-at	nessuno_dueler	jack_dueler	0	0
+mnn	8	stare-at	jack_dueler	nessuno_dueler	0	0
+mnn	9	stare-at	jack_dueler	nessuno_dueler	0	0
+mnn	9	stare-at	nessuno_dueler	jack_dueler	0	0
+mnn	10	stare-at	jack_dueler	nessuno_dueler	0	0
+mnn	10	stare-at	nessuno_dueler	jack_dueler	0	1
+mnn	10	side-step	cameraman_observer	nessuno_dueler	1	0
+mnn	11	look-at	nessuno_dueler	jack_dueler	cameraman_observer	1	1
+mnn	12	side-step	cameraman_observer	nessuno_dueler	0	1
+mnn	13	none	cameraman_observer	nessuno_dueler	1	1
+mnn	13	side-step	nessuno_dueler	1	0
+mnn	14	none	cameraman_observer	1	1
+mnn	15	side-step	nessuno_dueler	0	0
+mnn	15	stare-at	jack_dueler	nessuno_dueler	0	0
+mnn	16	none	cameraman_observer	1	0
+mnn	17	side-step	nessuno_dueler	0	1
+mnn	18	none	cameraman_observer	0	0
+mnn	19	look-at	nessuno_dueler	cameraman_observer	jack_dueler	1	1
+mnn	19	adjust-clothing	nessuno_dueler	nessunohat_None	1	1
+mnn	19	stare-at	nessuno_dueler	jack_dueler	1	0
+mnn	20	reveal	jack_dueler	1	1
+mnn	20	stare-at	jack_dueler	nessuno_dueler	0	0
+mnn	21	stare-at	nessuno_dueler	jack_dueler	0	0
+mnn	21	adjust-clothing	nessuno_dueler	nessunocoat_None	1	0
+mnn	22	adjust-clothing	nessuno_dueler	nessunocoat_None	0	1
+mnn	22	stare-at	nessuno_dueler	jack_dueler	0	0
+mnn	22	stare-at	jack_dueler	nessuno_dueler	0	0
+mnn	23	look-at	crowd_observer	nessuno_dueler	jack_dueler	1	1
+mnn	24	stare-at	jack_dueler	nessuno_dueler	0	0
+mnn	25	look-at	crowd_observer	jack_dueler	1	1
+mnn	25	look-at	crowd_observer	nessuno_dueler	1	1
+mnn	26	stare-at	jack_dueler	nessuno_dueler	0	0
+mnn	26	stare-at	nessuno_dueler	jack_dueler	0	1
+mnn	27	stare-at	jack_dueler	nessuno_dueler	0	0
+mnn	28	look-at	nessuno_dueler	jack_dueler	cameraman_observer	1	1
+mnn	29	none	cameraman_observer	0	0
+mnn	30	look-at	nessuno_dueler	cameraman_observer	jack_dueler	1	1
+mnn	31	stare-at	jack_dueler	nessuno_dueler	0	0
+mnn	32	stare-at	nessuno_dueler	jack_dueler	1	0
+mnn	33	none	cameraman_observer	0	0
+mnn	34	stare-at	jack_dueler	nessuno_dueler	0	1
+mnn	34	stare-at	nessuno_dueler	jack_dueler	0	1
+mnn	34	draw-gun	nessuno_dueler	nessunogun_duel-weapon	1	1
+mnn	34	fire-gun	nessuno_dueler	nessunogun_duel-weapon	jack_dueler	1	1
+mnn	34	draw-gun	jack_dueler	jackgun_duel-weapon	1	1
+mnn	35	get-shot	jack_dueler	jackbody_None	1	1
+mnn	36	none	cameraman_observer	0	1
+mnn	37	none	cameraman_observer	camera_None	1	1
+mnn	38	look-at	jack_dueler	jackbody_None	nessuno_dueler	1	1
+mnn	39	taunt	nessuno_dueler	jack_dueler	1	1
+mnn	40	look-at	jack_dueler	nessuno_dueler	1	1
+mnn	40	face-at	jack_dueler	nessuno_dueler	cameraman_observer	1	0
+mnn	41	face-at	jack_dueler	nessuno_dueler	cameraman_observer	0	0
+mnn	42	none	cameraman_observer	1	0
+mnn	43	face-at	jack_dueler	nessuno_dueler	cameraman_observer	0	1
+mnn	43	fall	jack_dueler	1	1
+mnn	43	none	cameraman_observer	0	1
+mnn	43	look-at	nessuno_dueler	jack_dueler	1	1
+fdm	0	aim-gun	mortimer_dueler	mortimergun_duel-weapon	1	0
+fdm	1	open	nino_None	housedoor_None	1	1
+fdm	1	flee	nino_None	house_None	1	0
+fdm	2	aim-gun	mortimer_dueler	mortimergun_duel-weapon	0	1
+fdm	2	fire-gun	mortimer_dueler	mortimergun_duel-weapon	nino_None	1	1
+fdm	3	flee	nino_None	house_None	0	1
+fdm	3	get-shot	nino_None	mortimergun_duel-weapon	ninobody_None	1	1
+fdm	3	drop-gun	nino_None	ninogun_None	1	1
+fdm	3	fall	nino_None	1	1
+fdm	4	flee	mortimer_dueler	rocks_None	1	0
+fdm	4	look-at	mortimer_dueler	nino_None	1	1
+fdm	5	open	indio_dueler	horsewindow_None	1	1
+fdm	5	fire-gun	indio_dueler	indiogun_duel-weapon	mortimergun_duel-weapon	1	1
+fdm	6	flee	mortimer_dueler	rocks_None	0	1
+fdm	6	drop-gun	mortimer_dueler	mortimergun_duel-weapon	1	1
+fdm	6	look-at	mortimer_dueler	indio_dueler	1	1
+fdm	7	stare-at	indio_dueler	mortimer_dueler	1	0
+fdm	7	lower-gun	indio_dueler	indiogun_duel-weapon	1	1
+fdm	8	stare-at	mortimer_dueler	indio_dueler	1	0
+fdm	9	stare-at	indio_dueler	mortimer_dueler	0	0
+fdm	9	walk	indio_dueler	housewindow_None	mortimer_dueler	1	0
+fdm	10	stare-at	mortimer_dueler	indio_dueler	0	0
+fdm	11	stare-at	mortimer_dueler	indio_dueler	0	0
+fdm	11	walk	indio_dueler	housewindow_None	mortimer_dueler	0	0
+fdm	12	walk	indio_dueler	housewindow_None	mortimer_dueler	0	1
+fdm	12	holster-gun	indio_dueler	indiogun_duel-weapon	1	1
+fdm	12	assent	indio_dueler	mortimer_dueler	1	0
+fdm	13	assent	indio_dueler	mortimer_dueler	0	1
+fdm	13	stare-at	mortimer_dueler	indio_dueler	0	0
+fdm	14	provoke	indio_dueler	mortimer_dueler	1	0
+fdm	15	stare-at	mortimer_dueler	indio_dueler	0	0
+fdm	15	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	15	look-at	mortimer_dueler	indio_dueler	mortimergun_duel-weapon	1	1
+fdm	16	None		None	None
+fdm	17	look-at	mortimer_dueler	mortimergun_duel-weapon	indio_dueler	1	1
+fdm	17	stare-at	mortimer_dueler	indio_dueler	0	0
+fdm	17	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	18	stare-at	indio_dueler	mortimer_dueler	0	0
+fdm	18	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	18	none	indio_dueler	1	1
+fdm	18	look-at	indio_dueler	mortimer_dueler	indiolocket_None	1	0
+fdm	19	look-at	indio_dueler	mortimer_dueler	indiolocket_None	0	1
+fdm	19	look-at	indio_dueler	indiolocket_None	mortimer_dueler	1	1
+fdm	19	stare-at	mortimer_dueler	indio_dueler	0	0
+fdm	19	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	20	stare-at	mortimer_dueler	indio_dueler	0	0
+fdm	20	stare-at	indio_dueler	mortimer_dueler	0	0
+fdm	20	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	21	stare-at	mortimer_dueler	indio_dueler	0	0
+fdm	21	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	22	stare-at	indio_dueler	mortimer_dueler	0	0
+fdm	22	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	23	stare-at	mortimer_dueler	indio_dueler	0	0
+fdm	23	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	24	stare-at	indio_dueler	mortimer_dueler	0	0
+fdm	24	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	25	look-at	mortimer_dueler	indio_dueler	mortimergun_duel-weapon	1	1
+fdm	25	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	26	None		None	None
+fdm	27	look-at	mortimer_dueler	mortimergun_duel-weapon	indio_dueler	1	1
+fdm	27	stare-at	mortimer_dueler	indio_dueler	0	0
+fdm	27	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	28	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	29	stare-at	indio_dueler	mortimer_dueler	0	0
+fdm	29	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	30	give	indio_dueler	indiogun_duel-weapon	1	0
+fdm	31	stare-at	indio_dueler	mortimer_dueler	0	0
+fdm	31	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	31	provoke	monco_amigo	indio_dueler	1	0
+fdm	31	look-at	indio_dueler	monco_amigo	1	1
+fdm	32	look-at	mortimer_dueler	monco_amigo	1	1
+fdm	32	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	32	provoke	monco_amigo	indio_dueler	0	0
+fdm	33	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	33	provoke	monco_amigo	indio_dueler	0	0
+fdm	33	stare-at	mortimer_dueler	monco_amigo	1	0
+fdm	33	stare-at	indio_dueler	monco_amigo	1	0
+fdm	34	stare-at	mortimer_dueler	monco_amigo	0	0
+fdm	34	adjust-clothing	mortimer_dueler	mortimerchain_None	1	0
+fdm	34	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	34	provoke	monco_amigo	indio_dueler	0	0
+fdm	35	adjust-clothing	mortimer_dueler	mortimerchain_None	0	1
+fdm	35	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	35	provoke	monco_amigo	indio_dueler	0	0
+fdm	36	look-at	mortimer_dueler	mortimergun_duel-weapon	monco_amigo	1	1
+fdm	36	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	36	provoke	monco_amigo	indio_dueler	0	0
+fdm	37	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	37	provoke	monco_amigo	indio_dueler	0	0
+fdm	37	stare-at	monco_amigo	indio_dueler	1	0
+fdm	38	look-at	indio_dueler	monco_amigo	mortimer_dueler	1	1
+fdm	39	stare-at	mortimer_dueler	monco_amigo	0	0
+fdm	40	look-at	monco_amigo	mortimer_dueler	indio_dueler	1	1
+fdm	40	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	40	provoke	monco_amigo	indio_dueler	0	0
+fdm	40	arrive	monco_amigo	mortimer_dueler	1	0
+fdm	41	arrive	monco_amigo	mortimer_dueler	0	0
+fdm	41	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	41	provoke	monco_amigo	indio_dueler	0	0
+fdm	42	give	indio_dueler	indiogun_duel-weapon	0	0
+fdm	42	stare-at	indio_dueler	monco_amigo	0	0
+fdm	43	aim-gun	monco_amigo	moncorifle_None	1	0
+fdm	43	square-off	monco_amigo	indio_dueler	1	1
+fdm	43	arrive	monco_amigo	mortimer_dueler	0	0
+fdm	43	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	43	provoke	monco_amigo	indio_dueler	0	0
+fdm	44	give	indio_dueler	indiogun_duel-weapon	0	0
+fdm	44	stare-at	indio_dueler	monco_amigo	0	0
+fdm	45	aim-gun	monco_amigo	moncorifle_None	0	0
+fdm	45	look-at	monco_amigo	indio_dueler	mortimer_dueler	1	1
+fdm	45	provoke	indio_dueler	mortimer_dueler	0	0
+fdm	45	provoke	monco_amigo	indio_dueler	0	0
+fdm	45	taunt	monco_amigo	mortimer_dueler	1	1
+fdm	46	look-at	mortimer_dueler	monco_amigo	0	0
+fdm	47	aim-gun	monco_amigo	moncorifle_None	0	0
+fdm	47	look-at	monco_amigo	mortimer_dueler	indio_dueler	1	1
+fdm	47	provoke	indio_dueler	mortimer_dueler	0	1
+fdm	47	provoke	monco_amigo	indio_dueler	0	0
+fdm	47	arrive	monco_amigo	mortimer_dueler	0	0
+fdm	47	look-at	indio_dueler	monco_amigo	0	0
+fdm	48	aim-gun	monco_amigo	moncorifle_None	0	0
+fdm	48	provoke	monco_amigo	indio_dueler	0	0
+fdm	48	arrive	monco_amigo	mortimer_dueler	0	1
+fdm	48	look-at	mortimer_dueler	monco_amigo	indio_dueler	1	1
+fdm	49	stare-at	indio_dueler	monco_amigo	1	1
+fdm	49	stare-at	indio_dueler	mortimer_dueler	1	1
+fdm	50	aim-gun	monco_amigo	moncorifle_None	0	0
+fdm	50	adjust-clothing	monco_amigo	moncobelt_None	1	1
+fdm	50	adjust-clothing	mortimer_dueler	mortimerbelt_None	1	1
+fdm	50	give	monco_amigo	moncogun_None	mortimer_dueler	1	1
+fdm	50	give	monco_amigo	mortimer_dueler	moncobelt_None	1	1
+fdm	50	adjust-clothing	mortimer_dueler	moncobelt_None	1	1
+fdm	50	assent	monco_amigo	mortimer_dueler	1	1
+fdm	50	assent	monco_amigo	indio_dueler	1	1
+fdm	50	arrive	monco_amigo	circlerocks_None	1	0
+fdm	51	arrive	monco_amigo	circlerocks_None	0	1
+fdm	51	adjust-clothing	mortimer_dueler	moncobelt_None	0	1
+fdm	51	adjust-clothing	mortimer_dueler	mortimercoat_None	1	1
+fdm	51	stare-at	mortimer_dueler	indio_dueler	0	0
+fdm	51	stare-at	indio_dueler	mortimer_dueler	0	0
+fdm	51	none	monco_amigo	1	0
+fdm	51	aim-gun	monco_amigo	moncorifle_None	0	0
+fdm	52	none	monco_amigo	0	1
+fdm	52	aim-gun	monco_amigo	moncorifle_None	0	1
+fdm	52	look-at	monco_amigo	indio_dueler	moncolocket_None	1	1
+fdm	52	look-at	monco_amigo	moncolocket_None	indio_dueler	1	1
+fdm	52	look-at	monco_amigo	indio_dueler	mortimer_dueler	1	1
+fdm	52	look-at	monco_amigo	mortimer_dueler	indio_dueler	1	1
+fdm	53	stare-at	indio_dueler	mortimer_dueler	0	0
+fdm	54	stare-at	mortimer_dueler	indio_dueler	0	0
+fdm	55	stare-at	mortimer_dueler	indio_dueler	0	0
+fdm	56	stare-at	indio_dueler	mortimer_dueler	0	0
+fdm	57	stare-at	mortimer_dueler	indio_dueler	0	0
+fdm	58	stare-at	indio_dueler	mortimer_dueler	0	0
+fdm	59	look-at	monco_amigo	indio_dueler	moncolocket_None	1	1
+fdm	60	look-at	monco_amigo	moncolocket_None	1	1
+fdm	60	provoke	monco_amigo	indio_dueler	0	0
+fdm	61	look-at	monco_amigo	moncolocket_None	indio_dueler	1	1
+fdm	61	provoke	monco_amigo	indio_dueler	0	0
+fdm	62	stare-at	mortimer_dueler	indio_dueler	0	0
+fdm	62	stare-at	indio_dueler	mortimer_dueler	0	0
+fdm	62	provoke	monco_amigo	indio_dueler	0	0
+fdm	63	provoke	monco_amigo	indio_dueler	0	0
+fdm	63	stare-at	mortimer_dueler	indio_dueler	0	0
+fdm	63	stare-at	indio_dueler	mortimer_dueler	0	0
+fdm	64	stare-at	mortimer_dueler	indio_dueler	0	0
+fdm	64	provoke	monco_amigo	indio_dueler	0	0
+fdm	65	provoke	monco_amigo	indio_dueler	0	0
+fdm	65	look-at	monco_amigo	mortimer_dueler	indio_dueler	1	1
+fdm	66	provoke	monco_amigo	indio_dueler	0	0
+fdm	66	stare-at	indio_dueler	mortimer_dueler	0	0
+fdm	67	provoke	monco_amigo	indio_dueler	0	0
+fdm	67	stare-at	mortimer_dueler	indio_dueler	0	0
+fdm	68	provoke	monco_amigo	indio_dueler	0	0
+fdm	68	stare-at	indio_dueler	mortimer_dueler	0	0
+fdm	69	give	indio_dueler	indiogun_duel-weapon	0	0
+fdm	69	provoke	monco_amigo	indio_dueler	0	0
+fdm	70	provoke	monco_amigo	indio_dueler	0	0
+fdm	70	stare-at	indio_dueler	mortimer_dueler	0	1
+fdm	71	give	indio_dueler	indiogun_duel-weapon	0	0
+fdm	71	provoke	monco_amigo	indio_dueler	0	0
+fdm	72	provoke	monco_amigo	indio_dueler	0	0
+fdm	72	stare-at	mortimer_dueler	indio_dueler	0	0
+fdm	73	look-at	monco_amigo	indio_dueler	mortimer_dueler	1	1
+fdm	73	look-at	monco_amigo	mortimer_dueler	indio_dueler	1	1
+fdm	74	draw-gun	indio_dueler	indiogun_duel-weapon	1	1
+fdm	74	provoke	monco_amigo	indio_dueler	0	1
+fdm	75	draw-gun	mortimer_dueler	1	1
+fdm	75	draw-gun	moncogun_None	1	1
+fdm	75	fire-gun	mortimer_dueler	1	1
+fdm	75	fire-gun	mortimergun_duel-weapon	1	1
+fdm	75	fire-gun	indio_dueler	1	1
+fdm	76	get-shot	indio_dueler	indiobody_None	1	1
+fdm	76	fall	indio_dueler	1	0
+fdm	77	fall	indio_dueler	0	1
+fdm	78	stare-at	monco_amigo	indio_dueler	0	0
+fdm	79	aim-gun	indio_dueler	indiogun_duel-weapon	1	0
+fdm	80	stare-at	monco_amigo	indio_dueler	0	0
+fdm	81	cock-gun	mortimer_dueler	moncogun_None	1	1
+fdm	82	aim-gun	indio_dueler	indiogun_duel-weapon	0	1
+fdm	82	die	indio_dueler	1	1
+fdm	83	stare-at	mortimer_dueler	indio_dueler	0	1
+fdm	84	look-at	monco_amigo	indio_dueler	mortimer_dueler	1	1
+fdm	84	taunt	monco_amigo	mortimer_dueler	1	1
+fdm	85	look-at	mortimer_dueler	indio_dueler	monco_amigo	1	0
+fdm	86	look-at	mortimer_dueler	indio_dueler	monco_amigo	0	1
+fdm	86	holster-gun	mortimer_dueler	moncogun_None	1	1
+fdm	87	stare-at	monco_amigo	mortimer_dueler	1	0
+fdm	88	arrive	mortimer_dueler	indio_dueler	1	1
+fdm	89	stare-at	monco_amigo	mortimer_dueler	0	1
+bs	0	identify	taggart_dueler	bart_observer	1	1
+bs	0	identify	taggart_dueler	bart_observer	1	1
+bs	1	identify	bart_observer	taggart_dueler	1	1
+bs	1	de-escalate	bart_observer	taggart_dueler	1	1
+bs	1	identify	bart_observer	taggart_dueler	1	1
+bs	2	provoke	taggart_dueler	bart_observer	1	1
+bs	2	none	lyle_dueler	taggart_dueler	1	1
+bs	2	fire-gun	lyle_dueler	taggart_dueler	lylegun_duel-weapon	bart_observer	1	1
+bs	2	fire-gun	lyle_dueler	taggart_dueler	thugsgun_None	bart_observer	1	1
+bs	2	none	taggart_dueler	lyle_dueler	1	1
+bs	2	fire-gun	lyle_dueler	thugs_thug	thugsgun_None	bart_observer	1	0
+bs	2	draw-gun	lyle_dueler	lylegun_duel-weapon	1	1
+bs	3	de-escalate	jim_thug	lyle_dueler	1	1
+bs	3	de-escalate	jim_thug	thugs_thug	1	1
+bs	4	taunt	lyle_dueler	jim_thug	1	1
+bs	5	stare-at	jim_thug	lyle_dueler	1	0
+bs	5	stare-at	jim_thug	thugs_thug	1	0
+bs	5	square-off	jim_thug	lyle_dueler	1	1
+bs	5	square-off	jim_thug	thugs_thug	1	1
+bs	5	fire-gun	lyle_dueler	thugs_thug	thugsgun_None	bart_observer	0	0
+bs	6	aim-gun	lyle_dueler	lylegun_duel-weapon	1	0
+bs	6	aim-gun	lyle_dueler	thugsgun_None	1	0
+bs	6	aim-gun	thugs_thug	lylegun_duel-weapon	1	0
+bs	6	aim-gun	thugs_thug	thugsgun_None	1	0
+bs	6	fire-gun	lyle_dueler	thugs_thug	thugsgun_None	bart_observer	0	0
+bs	7	aim-gun	lyle_dueler	lylegun_duel-weapon	0	0
+bs	7	aim-gun	lyle_dueler	thugsgun_None	0	0
+bs	7	aim-gun	thugs_thug	lylegun_duel-weapon	0	0
+bs	7	aim-gun	thugs_thug	thugsgun_None	0	0
+bs	7	fire-gun	lyle_dueler	thugs_thug	thugsgun_None	bart_observer	0	0
+bs	7	cock-gun	lyle_dueler	1	0
+bs	7	cock-gun	thugs_thug	1	0
+bs	7	cock-gun	lylegun_duel-weapon	1	0
+bs	7	cock-gun	thugsgun_None	1	0
+bs	8	stare-at	jim_thug	0	1
+bs	8	stare-at	lyle_dueler	0	1
+bs	8	stare-at	thugs_thug	0	1
+bs	9	aim-gun	lyle_dueler	lylegun_duel-weapon	0	1
+bs	9	aim-gun	lyle_dueler	thugsgun_None	0	1
+bs	9	aim-gun	thugs_thug	lylegun_duel-weapon	0	1
+bs	9	aim-gun	thugs_thug	thugsgun_None	0	1
+bs	9	fire-gun	lyle_dueler	thugs_thug	thugsgun_None	bart_observer	0	1
+bs	9	cock-gun	lyle_dueler	lylegun_duel-weapon	0	1
+bs	9	cock-gun	lyle_dueler	thugsgun_None	0	1
+bs	9	cock-gun	thugs_thug	lylegun_duel-weapon	0	1
+bs	9	cock-gun	thugs_thug	thugsgun_None	0	1
+bs	10	draw-gun	jim_thug	jimgun_duel-weapon	1	1
+bs	11	fire-gun	jim_thug	jimgun_duel-weapon	lylegun_duel-weapon	1	1
+bs	11	fire-gun	jim_thug	jimgun_duel-weapon	thugsgun_None	1	1
+bs	11	fire-gun	jim_thug	jimgun_duel-weapon	lylegun_duel-weapon	1	1
+bs	11	fire-gun	jim_thug	jimgun_duel-weapon	thugsgun_None	1	1
+bs	11	fire-gun	jim_thug	jimgun_duel-weapon	lylegun_duel-weapon	1	1
+bs	11	fire-gun	jim_thug	jimgun_duel-weapon	thugsgun_None	1	1
+bs	11	fire-gun	jim_thug	jimgun_duel-weapon	lylegun_duel-weapon	1	1
+bs	11	fire-gun	jim_thug	jimgun_duel-weapon	thugsgun_None	1	1
+bs	11	fire-gun	jim_thug	jimgun_duel-weapon	lylegun_duel-weapon	1	1
+bs	11	fire-gun	jim_thug	jimgun_duel-weapon	thugsgun_None	1	1
+bs	11	fire-gun	jim_thug	jimgun_duel-weapon	lylegun_duel-weapon	1	1
+bs	11	fire-gun	jim_thug	jimgun_duel-weapon	thugsgun_None	1	1
+bs	11	drop-gun	thug_thug	thuggun_None	1	1
+bs	11	drop-gun	thug_thug	thuggun_None	1	1
+bs	11	drop-gun	thug_thug	thuggun_None	1	1
+bs	11	drop-gun	thug_thug	thuggun_None	1	1
+bs	11	drop-gun	thug_thug	thuggun_None	1	1
+bs	11	drop-gun	lyle_dueler	lylegun_duel-weapon	1	1
+bs	12	stare-at	jim_thug	lyle_dueler	1	1
+bs	12	stare-at	jim_thug	thugs_thug	1	1
+bs	13	wince	thugs_thug	1	1
+bs	13	wince	thugs_thug	1	1
+bs	13	wince	thugs_thug	1	1
+bs	14	wince	thugs_thug	1	1
+bs	14	wince	thugs_thug	1	1
+bs	14	wince	thugs_thug	1	1
+bs	15	none	jim_thug	crowd_observer	1	1
+bs	16	wince	lyle_dueler	1	1
+bs	16	none	bart_observer	taggart_dueler	1	0
+bs	16	none	bart_observer	lyle_dueler	1	0
+bs	16	none	bart_observer	thugs_thug	1	0
+bs	17	none	bart_observer	taggart_dueler	0	1
+bs	17	none	bart_observer	lyle_dueler	0	1
+bs	17	none	bart_observer	thugs_thug	0	1
+bs	17	draw-gun	bart_observer	bartgun_None	1	1
+bs	18	cheer	taggart_dueler	1	1
+ffd	0	walk	joe_dueler	hotel_None	thugs_dueler	1	0
+ffd	0	stare-at	crowda_observer	joe_dueler	1	0
+ffd	1	walk	joe_dueler	hotel_None	thugs_dueler	0	0
+ffd	1	none	undertaker_observer	coffin_None	1	1
+ffd	1	none	joe_dueler	undertaker_observer	thugcoffin_None	1	1
+ffd	1	look-at	undertaker_observer	joe_dueler	1	1
+ffd	1	stare-at	undertaker_observer	joe_dueler	1	0
+ffd	1	arrive	undertaker_observer	saloon_None	1	0
+ffd	2	walk	thugs_dueler	fence_duel-location	street_duel-location	1	0
+ffd	3	walk	joe_dueler	hotel_None	thugs_dueler	0	0
+ffd	3	look-at	crowdb_observer	joe_dueler	1	1
+ffd	3	stare-at	crowdb_observer	joe_dueler	1	0
+ffd	4	stare-at	crowda_observer	joe_dueler	0	0
+ffd	5	walk	thugs_dueler	fence_duel-location	street_duel-location	0	0
+ffd	6	walk	joe_dueler	hotel_None	thugs_dueler	0	1
+ffd	6	walk	thugs_dueler	fence_duel-location	street_duel-location	0	1
+ffd	6	provoke	thugs_dueler	joe_dueler	1	0
+ffd	7	provoke	thugs_dueler	joe_dueler	0	0
+ffd	8	provoke	thugs_dueler	joe_dueler	0	0
+ffd	8	provoke	joe_dueler	thugs_dueler	1	0
+ffd	9	provoke	joe_dueler	thugs_dueler	0	0
+ffd	9	provoke	thugs_dueler	joe_dueler	0	0
+ffd	10	provoke	joe_dueler	thugs_dueler	0	0
+ffd	11	stare-at	thugs_dueler	joe_dueler	1	0
+ffd	12	stare-at	thugs_dueler	joe_dueler	0	0
+ffd	13	provoke	thugs_dueler	joe_dueler	0	0
+ffd	14	provoke	thugs_dueler	joe_dueler	0	1
+ffd	14	provoke	joe_dueler	thugs_dueler	0	0
+ffd	15	provoke	thugs_dueler	1	0
+ffd	16	provoke	thugs_dueler	0	0
+ffd	17	provoke	thugs_dueler	joe_dueler	0	0
+ffd	18	provoke	thugs_dueler	0	0
+ffd	18	stare-at	thugs_dueler	joe_dueler	0	0
+ffd	19	stare-at	joe_dueler	thugs_dueler	1	0
+ffd	19	provoke	joe_dueler	thugs_dueler	0	0
+ffd	19	provoke	thugs_dueler	0	1
+ffd	20	stare-at	thugs_dueler	joe_dueler	0	0
+ffd	21	stare-at	thugs_dueler	joe_dueler	0	0
+ffd	22	stare-at	joe_dueler	thugs_dueler	0	0
+ffd	22	provoke	joe_dueler	thugs_dueler	0	0
+ffd	23	stare-at	thugs_dueler	joe_dueler	0	0
+ffd	24	adjust-clothing	thugs_dueler	thugagun_duel-weapon	1	1
+ffd	24	adjust-clothing	thugs_dueler	thugbgun_duel-weapon	1	1
+ffd	24	adjust-clothing	thugs_dueler	thugcgun_duel-weapon	1	1
+ffd	25	stare-at	thugs_dueler	joe_dueler	0	0
+ffd	26	stare-at	undertaker_observer	joe_dueler	0	0
+ffd	27	stare-at	crowdb_observer	joe_dueler	0	1
+ffd	28	stare-at	joe_dueler	thugs_dueler	0	0
+ffd	29	stare-at	thugs_dueler	joe_dueler	0	1
+ffd	29	none	thugs_dueler	1	1
+ffd	30	stare-at	joe_dueler	thugs_dueler	0	0
+ffd	31	draw-gun	thugs_dueler	thugagun_duel-weapon	thugbgun_duel-weapon	thugcgun_duel-weapon	1	0
+ffd	32	draw-gun	joe_dueler	joegun_duel-weapon	1	1
+ffd	32	draw-gun	thugs_dueler	thugagun_duel-weapon	thugbgun_duel-weapon	thugcgun_duel-weapon	0	1
+ffd	33	stare-at	joe_dueler	thugs_dueler	0	1
+ffd	34	fire-gun	joe_dueler	joegun_duel-weapon	thugs_dueler	1	1
+ffd	34	fire-gun	joe_dueler	joegun_duel-weapon	thugs_dueler	1	1
+ffd	34	fire-gun	joe_dueler	joegun_duel-weapon	thugs_dueler	1	1
+ffd	34	fire-gun	joe_dueler	joegun_duel-weapon	thugs_dueler	1	1
+ffd	34	fire-gun	joe_dueler	joegun_duel-weapon	thugs_dueler	1	1
+ffd	34	get-shot	thugsbodies_None	thugsbodies_None	1	1
+ffd	34	fall	thugs_dueler	1	1
+ffd	34	die	thugs_dueler	1	1
+ffd	34	holster-gun	joegun_duel-weapon	joegun_duel-weapon	1	1
+ffd	35	stare-at	undertaker_observer	joe_dueler	0	1
+ffd	36	walk	john_observer	mansion_None	fence_duel-location	1	1
+ffd	36	walk	antonio_None	mansion_None	fence_duel-location	1	1
+ffd	37	look-at	joe_dueler	john_observer	1	1
+ffd	37	look-at	joe_dueler	antonio_None	1	1
+ffd	37	give	joe_dueler	joegun_duel-weapon	1	1
+ffd	37	provoke	joe_dueler	john_observer	1	0
+ffd	38	stare-at	john_observer	joe_dueler	1	0
+ffd	38	stare-at	antonio_None	joe_dueler	1	0
+ffd	38	provoke	john_observer	joe_dueler	0	1
+ffd	39	draw-gun	joe_dueler	joegun_duel-weapon	1	1
+ffd	39	aim-gun	joe_dueler	joegun_duel-weapon	1	0
+ffd	39	identify	joe_dueler	john_observer	1	1
+ffd	40	square-off	john_observer	joe_dueler	1	1
+ffd	40	identify	john_observer	joe_dueler	1	1
+ffd	40	adjust-clothing	john_observer	1	1
+ffd	40	reveal	john_observer	joe_dueler	johnbadge_None	1	1
+ffd	41	aim-gun	john_observer	joe_dueler	0	1
+ffd	41	holster-gun	joe_dueler	joegun_duel-weapon	1	1
+ffd	41	taunt	joe_dueler	john_observer	1	1
+ffd	41	adjust-clothing	joe_dueler	joeponcho_None	1	1
+ffd	41	leave	joe_dueler	thugs_dueler	1	1
+ffd	42	stare-at	john_observer	joe_dueler	0	1
+ffd	42	stare-at	antonio_None	joe_dueler	0	1
+5cs	0	ride	rudd_dueler	ruddcarriage_None	road_duel-location	1	0
+5cs	1	load-gun	morgan_dueler	morgangun_duel-weapon	1	1
+5cs	1	holster-gun	morgan_dueler	morgangun_duel-weapon	1	1
+5cs	1	look-at	morgan_dueler	rudd_dueler	1	1
+5cs	1	walk	morgan_dueler	tree_None	road_duel-location	1	1
+5cs	2	ride	rudd_dueler	ruddcarriage_None	road_duel-location	0	0
+5cs	2	stand-up	morgan_dueler	road_duel-location	1	0
+5cs	3	stand-up	morgan_dueler	road_duel-location	0	1
+5cs	3	none	morgan_dueler	rudd_dueler	1	1
+5cs	3	ride	rudd_dueler	ruddcarriage_None	road_duel-location	0	1
+5cs	4	none	morgan_dueler	rudd_dueler	1	1
+5cs	4	dismount	rudd_dueler	ruddcarriage_None	road_duel-location	1	1
+5cs	4	drop	rudd_dueler	ruddbible_None	1	1
+5cs	4	none	rudd_dueler	1	1
+5cs	4	pick-up	rudd_dueler	ruddbible_None	1	1
+5cs	4	stand-up	rudd_dueler	1	1
+5cs	4	look-at	morgan_dueler	rudd_dueler	1	1
+5cs	5	none	rudd_dueler	ruddbible_None	1	0
+5cs	6	look-at	morgan_dueler	ruddbible_None	1	1
+5cs	6	none	rudd_dueler	morgan_dueler	1	0
+5cs	7	none	rudd_dueler	morgan_dueler	0	1
+5cs	8	provoke	morgan_dueler	rudd_dueler	1	0
+5cs	9	de-escalate	rudd_dueler	morgan_dueler	1	0
+5cs	10	provoke	morgan_dueler	rudd_dueler	0	0
+5cs	11	de-escalate	rudd_dueler	morgan_dueler	0	0
+5cs	12	provoke	morgan_dueler	rudd_dueler	0	0
+5cs	13	de-escalate	rudd_dueler	morgan_dueler	0	0
+5cs	14	provoke	morgan_dueler	rudd_dueler	0	0
+5cs	15	de-escalate	rudd_dueler	morgan_dueler	0	1
+5cs	15	provoke	morgan_dueler	rudd_dueler	0	1
+5cs	15	assent	rudd_dueler	morgan_dueler	1	0
+5cs	16	provoke	morgan_dueler	rudd_dueler	1	0
+5cs	17	assent	rudd_dueler	morgan_dueler	1	0
+5cs	18	provoke	morgan_dueler	rudd_dueler	0	0
+5cs	19	assent	rudd_dueler	morgan_dueler	0	1
+5cs	20	provoke	morgan_dueler	rudd_dueler	1	0
+5cs	21	assent	rudd_dueler	morgan_dueler	0	0
+5cs	22	provoke	morgan_dueler	rudd_dueler	0	0
+5cs	23	provoke	morgan_dueler	rudd_dueler	0	0
+5cs	23	stare-at	rudd_dueler	morgan_dueler	1	0
+5cs	24	provoke	morgan_dueler	rudd_dueler	0	0
+5cs	25	provoke	morgan_dueler	rudd_dueler	0	1
+5cs	25	stare-at	rudd_dueler	morgan_dueler	0	0
+5cs	26	arrest	morgan_dueler	rudd_dueler	1	1
+5cs	27	assent	rudd_dueler	morgan_dueler	0	0
+5cs	27	open	rudd_dueler	ruddbible_None	1	1
+5cs	27	look-at	rudd_dueler	morgan_dueler	ruddbible_None	1	1
+5cs	28	assent	rudd_dueler	morgan_dueler	0	1
+5cs	28	none	rudd_dueler	ruddbiblepage_None	1	1
+5cs	29	provoke	morgan_dueler	rudd_dueler	1	1
+5cs	30	look-at	rudd_dueler	ruddbible_None	morgan_dueler	1	1
+5cs	30	square-off	morgan_dueler	rudd_dueler	1	0
+5cs	31	square-off	morgan_dueler	rudd_dueler	0	1
+5cs	32	stare-at	rudd_dueler	morgan_dueler	1	1
+5cs	33	stare-at	morgan_dueler	rudd_dueler	1	1
+5cs	34	drop	rudd_dueler	ruddbible_None	1	1
+5cs	34	draw-gun	rudd_dueler	ruddgun_duel-weapon	1	0
+5cs	34	draw-gun	morgan_dueler	morgangun_duel-weapon	1	0
+5cs	35	draw-gun	morgan_dueler	morgangun_duel-weapon	0	1
+5cs	35	fire-gun	morgan_dueler	morgangun_duel-weapon	rudd_dueler	1	1
+5cs	35	fall	morgan_dueler	1	0
+5cs	35	draw-gun	rudd_dueler	ruddgun_duel-weapon	0	1
+5cs	35	fire-gun	rudd_dueler	ruddgun_duel-weapon	morgan_dueler	1	1
+5cs	35	fall	rudd_dueler	1	0
+5cs	35	get-shot	morgan_dueler	morganbody_None	1	1
+5cs	35	get-shot	rudd_dueler	ruddbody_None	1	1
+5cs	36	fall	morgan_dueler	0	1
+5cs	36	fall	rudd_dueler	0	1
+5cs	36	look-at	morgan_dueler	rudd_dueler	1	1
+5cs	36	stand-up	morgan_dueler	1	1
+5cs	36	arrive	morgan_dueler	rudd_dueler	1	0
+5cs	37	arrive	morgan_dueler	rudd_dueler	0	1
+5cs	37	look-at	morgan_dueler	rudd_dueler	ruddbible_None	1	1
+5cs	37	none	morgan_dueler	1	1
+5cs	38	pick-up	morgan_dueler	1	1
+5cs	38	pick-up	ruddbible_None	1	1
+5cs	38	pick-up	rudd_dueler	1	1
+5cs	38	pick-up+drop	morgan_dueler	1	1
+5cs	38	pick-up+drop	biblegun_duel-weapon	1	1
+5cs	38	pick-up+drop	road_duel-location	1	1
+5cs	38	pick-up+drop	ruddbible_None	1	1
+5cs	38	close	morgan_dueler	1	1
+5cs	38	close	ruddbible_None	1	1
+5cs	38	pick-up	morgan_dueler	1	1
+5cs	38	pick-up	ruddbible_None	1	1
+yg	0	give	chisum_thug	handkerchief_None	thuga_dueler	1	1
+yg	0	walk	chisum_thug	porch_None	billy_dueler	1	0
+yg	1	ride	billy_dueler	billy&ganghorses_None	chisum_thug	1	0
+yg	1	ride	billy_dueler	billy&ganghorses_None	chisum_thug	1	0
+yg	1	ride	doc_amigo	billy&ganghorses_None	chisum_thug	1	0
+yg	1	ride	dave_amigo	billy&ganghorses_None	chisum_thug	1	0
+yg	1	ride	chavez_amigo	billy&ganghorses_None	chisum_thug	1	0
+yg	2	taunt	chisum_thug	billy_dueler	1	0
+yg	2	walk	chisum_thug	porch_None	billy_dueler	0	0
+yg	2	walk	chisum_thug	porch_None	billy_dueler	0	0
+yg	2	walk	chisum_thug	porch_None	doc_amigo	0	0
+yg	2	walk	chisum_thug	porch_None	dave_amigo	0	0
+yg	2	walk	chisum_thug	porch_None	chavez_amigo	0	0
+yg	3	taunt	chisum_thug	billy_dueler	0	0
+yg	3	ride	billy_dueler	billy&ganghorses_None	chisum_thug	0	1
+yg	3	ride	billy_dueler	billy&ganghorses_None	chisum_thug	0	1
+yg	3	ride	doc_amigo	billy&ganghorses_None	chisum_thug	0	1
+yg	3	ride	dave_amigo	billy&ganghorses_None	chisum_thug	0	1
+yg	3	ride	chavez_amigo	billy&ganghorses_None	chisum_thug	0	1
+yg	4	taunt	chisum_thug	billy_dueler	0	1
+yg	5	provoke	billy_dueler	1	0
+yg	5	provoke	chisum_thug	1	0
+yg	6	stare-at	chavez_amigo	billy_dueler	1	0
+yg	6	provoke	billy_dueler	chisum_thug	0	0
+yg	7	look-at	billy_dueler	chisum_thug	1	0
+yg	8	look-at	billy_dueler	chisum_thug	0	1
+yg	8	stare-at	chisum_thug	billy_dueler	1	1
+yg	8	provoke	chisum_thug	billy_dueler	1	0
+yg	9	provoke	billy_dueler	chisum_thug	0	0
+yg	10	provoke	chisum_thug	billy_dueler	0	0
+yg	10	none	chisum_thug	1	1
+yg	11	provoke	chisum_thug	billy_dueler	0	0
+yg	11	stare-at	billy_dueler	chisum_thug	1	1
+yg	12	provoke	chisum_thug	billy_dueler	0	1
+yg	13	none	dave_amigo	chisum_thug	1	1
+yg	14	look-at	chisum_thug	dave_amigo	doc_amigo	1	1
+yg	14	de-escalate	doc_amigo	chisum_thug	1	0
+yg	15	de-escalate	doc_amigo	chisum_thug	0	0
+yg	16	de-escalate	doc_amigo	chisum_thug	0	0
+yg	16	stare-at	chisum_thug	doc_amigo	1	0
+yg	17	de-escalate	doc_amigo	chisum_thug	0	1
+yg	18	taunt	chisum_thug	doc_amigo	1	1
+yg	18	provoke	chisum_thug	billy_dueler	1	0
+yg	18	provoke	chisum_thug	doc_amigo	1	0
+yg	18	provoke	chisum_thug	dave_amigo	1	0
+yg	18	provoke	chisum_thug	chavez_amigo	1	0
+yg	19	provoke	chisum_thug	billy_dueler	0	1
+yg	19	provoke	chisum_thug	doc_amigo	0	1
+yg	19	provoke	chisum_thug	dave_amigo	0	1
+yg	19	provoke	chisum_thug	chavez_amigo	0	1
+yg	19	provoke	hendry_amigo	chisum_thug	1	0
+yg	19	look-at	billy_dueler	chisum_thug	hendry_amigo	1	1
+yg	19	look-at	billy_dueler	hendry_amigo	chisum_thug	1	1
+yg	20	stare-at	chisum_thug	hendry_amigo	1	1
+yg	21	identify	hendry_amigo	chisum_thug	1	1
+yg	21	provoke	hendry_amigo	chisum_thug	0	0
+yg	22	arrive	thuga_dueler	chisum_thug	1	1
+yg	22	arrive	thugb_dueler	chisum_thug	1	1
+yg	22	look-at	chisum_thug	billy_dueler	thuga_dueler	1	1
+yg	22	look-at	chisum_thug	billy_dueler	thugb_dueler	1	1
+yg	22	look-at	chisum_thug	billy_dueler	thuga_dueler	1	1
+yg	22	look-at	chisum_thug	billy_dueler	thugb_dueler	1	1
+yg	22	look-at	chisum_thug	doc_amigo	thuga_dueler	1	1
+yg	22	look-at	chisum_thug	doc_amigo	thugb_dueler	1	1
+yg	22	look-at	chisum_thug	dave_amigo	thuga_dueler	1	1
+yg	22	look-at	chisum_thug	dave_amigo	thugb_dueler	1	1
+yg	22	look-at	chisum_thug	chavez_amigo	thuga_dueler	1	1
+yg	22	look-at	chisum_thug	chavez_amigo	thugb_dueler	1	1
+yg	22	look-at	chisum_thug	thuga_dueler	billy_dueler	1	1
+yg	22	look-at	chisum_thug	thuga_dueler	billy_dueler	1	1
+yg	22	look-at	chisum_thug	thuga_dueler	doc_amigo	1	1
+yg	22	look-at	chisum_thug	thuga_dueler	dave_amigo	1	1
+yg	22	look-at	chisum_thug	thuga_dueler	chavez_amigo	1	1
+yg	22	look-at	chisum_thug	thugb_dueler	billy_dueler	1	1
+yg	22	look-at	chisum_thug	thugb_dueler	billy_dueler	1	1
+yg	22	look-at	chisum_thug	thugb_dueler	doc_amigo	1	1
+yg	22	look-at	chisum_thug	thugb_dueler	dave_amigo	1	1
+yg	22	look-at	chisum_thug	thugb_dueler	chavez_amigo	1	1
+yg	22	provoke	chisum_thug	hendry_amigo	0	0
+yg	23	provoke	hendry_amigo	chisum_thug	0	1
+yg	24	none	thuga_dueler	chisum_thug	1	1
+yg	24	face-at	chisum_thug	thuga_dueler	1	1
+yg	25	de-escalate	chisum_thug	thuga_dueler	1	1
+yg	25	arrive	chisum_thug	thuga_dueler	1	1
+yg	25	face-at	chisum_thug	thuga_dueler	billy_dueler	1	1
+yg	25	face-at	chisum_thug	thuga_dueler	billy_dueler	1	1
+yg	25	face-at	chisum_thug	thuga_dueler	doc_amigo	1	1
+yg	25	face-at	chisum_thug	thuga_dueler	dave_amigo	1	1
+yg	25	face-at	chisum_thug	thuga_dueler	chavez_amigo	1	1
+yg	25	provoke	billy_dueler	thuga_dueler	1	0
+yg	25	provoke	billy_dueler	thugb_dueler	1	0
+yg	25	face-at	thuga_dueler	house_None	1	1
+yg	26	draw-gun	billy_dueler	billygun_duel-weapon	1	1
+yg	26	cock-gun	billy_dueler	billygun_duel-weapon	1	1
+yg	26	aim-gun	billy_dueler	billygun_duel-weapon	thuga_dueler	1	0
+yg	26	provoke	billy_dueler	thuga_dueler	0	0
+yg	26	provoke	billy_dueler	thugb_dueler	0	0
+yg	27	stare-at	thuga_dueler	billy_dueler	1	0
+yg	27	provoke	billy_dueler	thuga_dueler	0	0
+yg	27	provoke	billy_dueler	thugb_dueler	0	0
+yg	28	provoke	billy_dueler	thuga_dueler	0	0
+yg	28	provoke	billy_dueler	thugb_dueler	0	0
+yg	28	draw-gun	dave_amigo	daveshotgun_None	1	1
+yg	28	aim-gun	dave_amigo	daveshotgun_None	thuga_dueler	1	1
+yg	28	aim-gun	dave_amigo	daveshotgun_None	thugb_dueler	1	1
+yg	29	de-escalate	chisum_thug	billy_dueler	1	0
+yg	30	assent	thugb_dueler	1	1
+yg	30	assent	billy_dueler	1	1
+yg	31	face-at	thuga_dueler	billy_dueler	thugb_dueler	1	1
+yg	31	drop-gun	billy_dueler	thuga_dueler	thug_thug	1	0
+yg	32	drop-gun	billy_dueler	thuga_dueler	thugagun_duel-weapon	0	0
+yg	32	de-escalate	chisum_thug	billy_dueler	0	0
+yg	32	aim-gun	billy_dueler	billygun_duel-weapon	thuga_dueler	0	0
+yg	33	drop-gun	billy_dueler	thuga_dueler	thugagun_duel-weapon	0	1
+yg	33	none	thuga_dueler	1	1
+yg	33	adjust-clothing	thuga_dueler	thugaholster_None	1	1
+yg	33	drop-gun	thuga_dueler	thugagun_duel-weapon	1	1
+yg	34	aim-gun	billy_dueler	billygun_duel-weapon	thuga_dueler	0	1
+yg	34	holster-gun	billy_dueler	billygun_duel-weapon	1	1
+yg	34	dismount	billy_dueler	billyhorse_None	1	1
+yg	34	provoke	billy_dueler	chisum_thug	0	0
+yg	34	leave	billy_dueler	billyhorse_None	1	1
+yg	35	look-at	chisum_thug	billy_dueler	thugb_dueler	1	1
+yg	35	provoke	billy_dueler	chisum_thug	0	0
+yg	36	stare-at	thugb_dueler	billy_dueler	1	0
+yg	36	provoke	billy_dueler	chisum_thug	0	0
+yg	37	adjust-clothing	thugb_dueler	thugbholster_None	1	0
+yg	37	provoke	billy_dueler	chisum_thug	0	0
+yg	38	provoke	billy_dueler	chisum_thug	0	1
+yg	38	adjust-clothing	billy_dueler	billyholster_None	1	1
+yg	38	none	billy_dueler	1	1
+yg	38	drop-gun	billy_dueler	billygun_duel-weapon	1	1
+yg	38	side-step	billy_dueler	1	1
+yg	39	look-at	thugb_dueler	billygun_duel-weapon	billy_dueler	1	1
+yg	40	assent	billy_dueler	thugb_dueler	1	0
+yg	40	adjust-clothing	billy_dueler	1	1
+yg	41	adjust-clothing	thugb_dueler	thugbholster_None	0	1
+yg	42	assent	billy_dueler	thugb_dueler	0	1
+yg	43	assent	thugb_dueler	billy_dueler	1	1
+yg	44	fire-gun	billy_dueler	dave_amigo	daveshotgun_None	1	1
+yg	45	fire-gun	dave_amigo	daveshotgun_None	thugb_dueler	1	1
+yg	46	get-shot	thugb_dueler	thugbbody_None	1	1
+yg	46	fall	thugb_dueler	1	1
+yg	46	die	thugb_dueler	1	1
+yg	47	look-at	chisum_thug	thugb_dueler	1	1
+yg	48	wince	chisum_thug	1	1
+yg	49	taunt	billy_dueler	chisum_thug	1	0
+yg	50	stare-at	thuga_dueler	billy_dueler	1	0
+yg	51	look-at	dave_amigo	thuga_dueler	1	1
+yg	52	stare-at	thuga_dueler	billy_dueler	0	1
+yg	52	arrive	thuga_dueler	thugagun_duel-weapon	1	1
+yg	52	none	thuga_dueler	1	1
+yg	53	fire-gun	billy_dueler	hendry_amigo	hendrygun_None	1	0
+yg	54	draw-gun	hendry_amigo	hendryrifle_None	1	0
+yg	55	draw-gun	thuga_dueler	thugagun_duel-weapon	hendry_amigo	1	0
+yg	56	wince	hendry_amigo	0	1
+yg	56	look-at	billy_dueler	hendry_amigo	1	1
+yg	57	draw-gun	hendry_amigo	hendryrifle_None	0	1
+yg	57	draw-gun	hendry_amigo	hendrygun_None	1	1
+yg	58	look-at	dave_amigo	hendry_amigo	1	1
+yg	58	fire-gun	billy_dueler	hendry_amigo	hendrygun_None	0	1
+yg	59	draw-gun	thuga_dueler	thugagun_duel-weapon	0	1
+yg	60	stare-at	billy_dueler	1	1
+yg	60	stare-at	thuga_dueler	1	1
+yg	61	look-at	thuga_dueler	billy_dueler	1	1
+yg	61	raise-gun	thuga_dueler	thugagun_duel-weapon	1	1
+yg	62	fire-gun	doc_amigo	docrifle_None	thuga_dueler	1	0
+yg	63	fire-gun	doc_amigo	docrifle_None	thuga_dueler	0	1
+yg	64	get-shot	thuga_dueler	thugachest_None	1	1
+yg	64	fall	thuga_dueler	1	0
+yg	65	fall	thuga_dueler	0	1
+yg	65	die	thuga_dueler	1	1
+yg	65	raise-gun	doc_amigo	docrifle_None	1	1
+yg	66	look-at	billy_dueler	doc_amigo	1	1
+yg	67	look-at	doc_amigo	billy_dueler	1	1
+yg	67	look-at	doc_amigo	billy_dueler	chisum_thug	1	1
+yg	68	taunt	billy_dueler	chisum_thug	0	1
+yg	68	provoke	chisum_thug	billy_dueler	1	1
+yg	69	drop-gun	doc_amigo	docrifle_None	1	1
+yg	70	ride	doc_amigo	dochorse_None	chisum_thug	1	1
+gbu	0	square-off	blondie_dueler	sentenza_dueler	1	1
+gbu	0	square-off	blondie_dueler	tuco_dueler	1	1
+gbu	0	square-off	sentenza_dueler	1	1
+gbu	0	square-off	sentenza_dueler	tuco_dueler	1	1
+gbu	0	square-off	tuco_dueler	blondie_dueler	1	1
+gbu	0	square-off	tuco_dueler	sentenza_dueler	1	1
+gbu	1	look-at	tuco_dueler	blondie_dueler	sentenza_dueler	1	1
+gbu	2	look-at	sentenza_dueler	tuco_dueler	blondie_dueler	1	1
+gbu	3	look-at	blondie_dueler	sentenza_dueler	tuco_dueler	1	1
+gbu	4	stare-at	blondie_dueler	tuco_dueler	1	1
+gbu	4	stare-at	tuco_dueler	blondie_dueler	1	1
+gbu	5	look-at	tuco_dueler	blondie_dueler	sentenza_dueler	1	1
+gbu	6	look-at	sentenza_dueler	tuco_dueler	blondie_dueler	1	1
+gbu	7	adjust-clothing	sentenza_dueler	sentenzagun_duel-weapon	1	1
+gbu	8	adjust-clothing	blondie_dueler	blondiegun_duel-weapon	1	0
+gbu	9	none	tuco_dueler	1	1
+gbu	10	look-at	tuco_dueler	sentenza_dueler	blondie_dueler	1	1
+gbu	11	look-at	blondie_dueler	tuco_dueler	sentenza_dueler	1	1
+gbu	12	look-at	sentenza_dueler	tuco_dueler	blondie_dueler	1	1
+gbu	13	stare-at	blondie_dueler	sentenza_dueler	1	1
+gbu	14	stare-at	sentenza_dueler	blondie_dueler	1	1
+gbu	15	look-at	tuco_dueler	blondie_dueler	1	1
+gbu	15	look-at	tuco_dueler	sentenza_dueler	1	1
+gbu	16	draw-gun	tuco_dueler	tucogun_duel-weapon	1	1
+gbu	17	look-at	sentenza_dueler	blondie_dueler	tuco_dueler	1	1
+gbu	18	stare-at	tuco_dueler	sentenza_dueler	1	1
+gbu	19	none	tuco_dueler	1	1
+gbu	20	look-at	blondie_dueler	sentenza_dueler	tuco_dueler	1	1
+gbu	21	look-at	tuco_dueler	sentenza_dueler	blondie_dueler	1	1
+gbu	22	stare-at	blondie_dueler	tuco_dueler	1	1
+gbu	23	look-at	tuco_dueler	blondie_dueler	1	1
+gbu	23	look-at	tuco_dueler	sentenza_dueler	1	1
+gbu	24	adjust-clothing	blondie_dueler	blondiegun_duel-weapon	0	0
+gbu	25	look-at	sentenza_dueler	blondie_dueler	tuco_dueler	1	1
+gbu	26	none	tuco_dueler	1	1
+gbu	27	look-at	sentenza_dueler	tuco_dueler	blondie_dueler	1	1
+gbu	28	adjust-clothing	sentenza_dueler	sentenzagun_duel-weapon	1	0
+gbu	29	look-at	blondie_dueler	tuco_dueler	sentenza_dueler	1	1
+gbu	30	adjust-clothing	sentenza_dueler	sentenzagun_duel-weapon	0	1
+gbu	31	stare-at	sentenza_dueler	blondie_dueler	1	1
+gbu	32	stare-at	blondie_dueler	sentenza_dueler	1	1
+gbu	33	look-at	tuco_dueler	blondie_dueler	1	1
+gbu	33	look-at	tuco_dueler	sentenza_dueler	1	1
+gbu	34	look-at	blondie_dueler	sentenza_dueler	tuco_dueler	1	1
+gbu	35	look-at	sentenza_dueler	1	1
+gbu	35	look-at	sentenza_dueler	tuco_dueler	1	1
+gbu	36	draw-gun	sentenza_dueler	sentenzagun_duel-weapon	1	0
+gbu	37	stare-at	sentenza_dueler	blondie_dueler	1	1
+gbu	38	stare-at	blondie_dueler	tuco_dueler	1	1
+gbu	39	stare-at	tuco_dueler	blondie_dueler	1	1
+gbu	40	stare-at	sentenza_dueler	blondie_dueler	1	1
+gbu	41	draw-gun	sentenza_dueler	sentenzagun_duel-weapon	0	0
+gbu	42	look-at	sentenza_dueler	blondie_dueler	tuco_dueler	1	1
+gbu	43	stare-at	tuco_dueler	blondie_dueler	1	1
+gbu	44	look-at	sentenza_dueler	tuco_dueler	blondie_dueler	1	1
+gbu	45	draw-gun	sentenza_dueler	sentenzagun_duel-weapon	0	0
+gbu	46	stare-at	sentenza_dueler	blondie_dueler	1	1
+gbu	47	stare-at	blondie_dueler	tuco_dueler	1	1
+gbu	48	stare-at	tuco_dueler	blondie_dueler	1	1
+gbu	49	draw-gun	sentenza_dueler	sentenzagun_duel-weapon	0	0
+gbu	50	stare-at	sentenza_dueler	blondie_dueler	1	1
+gbu	51	stare-at	blondie_dueler	tuco_dueler	1	1
+gbu	52	stare-at	tuco_dueler	blondie_dueler	1	1
+gbu	53	adjust-clothing	blondie_dueler	blondiegun_duel-weapon	0	0
+gbu	54	draw-gun	sentenza_dueler	sentenzagun_duel-weapon	0	0
+gbu	55	none	tuco_dueler	1	1
+gbu	56	stare-at	blondie_dueler	tuco_dueler	1	1
+gbu	57	look-at	tuco_dueler	blondie_dueler	sentenza_dueler	1	1
+gbu	58	stare-at	sentenza_dueler	blondie_dueler	1	1
+gbu	59	draw-gun	sentenza_dueler	sentenzagun_duel-weapon	1	1
+gbu	60	stare-at	tuco_dueler	sentenza_dueler	1	1
+gbu	61	draw-gun	tuco_dueler	tucogun_duel-weapon	1	1
+gbu	62	draw-gun	blondie_dueler	blondiegun_duel-weapon	blondie_dueler	blondiegun_duel-weapon	1	1
+gbu	63	fire-gun	tuco_dueler	tucogun_duel-weapon	1	1
+gbu	63	get-shot	sentenza_dueler	sentenzabody_None	1	1
+gbu	63	fall	sentenza_dueler	1	0
+gbu	64	fall	sentenza_dueler	0	1
+gbu	65	fire-gun	tuco_dueler	tucogun_duel-weapon	1	1
+gbu	65	look-at	tuco_dueler	tucogun_duel-weapon	1	1
+gbu	66	cock-gun	blondie_dueler	blondiegun_duel-weapon	1	1
+gbu	66	aim-gun	blondie_dueler	blondiegun_duel-weapon	sentenza_dueler	1	1
+gbu	67	wince	tuco_dueler	1	1
+gbu	68	stare-at	sentenza_dueler	blondie_dueler	1	1
+gbu	68	aim-gun	sentenza_dueler	sentenzagun_duel-weapon	1	1
+gbu	69	fire-gun	blondie_dueler	blondiegun_duel-weapon	1	1
+gbu	70	get-shot	sentenza_dueler	sentenzabody_None	1	1
+gbu	70	fall	sentenza_dueler	1	0
+gbu	71	fall	sentenza_dueler	0	1
+gbu	71	drop-gun	sentenza_dueler	sentenzagun_duel-weapon	1	1
+gbu	71	die	sentenza_dueler	1	1
+gbu	72	look-at	tuco_dueler	sentenza_dueler	blondie_dueler	1	1
+gbu	73	stare-at	blondie_dueler	sentenza_dueler	1	1
+gbu	74	lower-gun	blondie_dueler	blondiegun_duel-weapon	1	1
+gbu	74	arrive	blondie_dueler	stone_None	1	0
+gbu	74	look-at	blondie_dueler	sentenza_dueler	1	1
+gbu	74	fire-gun	blondie_dueler	blondiegun_duel-weapon	1	1
+gbu	75	drop	blondiebullet_None	sentenzahat_None	ground_None	grave_None	1	1
+gbu	76	look-at	tuco_dueler	sentenza_dueler	blondie_dueler	1	1
+gbu	77	arrive	blondie_dueler	stone_None	0	0
+gbu	77	fire-gun	blondie_dueler	blondiegun_duel-weapon	1	1
+gbu	78	drop	blondiebullet_None	sentenzagun_duel-weapon	ground_None	grave_None	1	1
+gbu	79	lower-gun	blondie_dueler	blondiegun_duel-weapon	blondie_dueler	stone_None	1	1
+gbu	79	look-at	blondie_dueler	stone_None	tuco_dueler	1	1
+3a	0	square-off	ned_dueler	german_dueler	1	0
+3a	0	stare-at	german_dueler	ned_dueler	1	0
+3a	1	stare-at	guapo_thug	ned_dueler	1	1
+3a	1	square-off	ned_dueler	german_dueler	0	0
+3a	2	square-off	ned_dueler	german_dueler	0	1
+3a	2	stare-at	german_dueler	ned_dueler	0	1
+3a	2	draw-gun	german_dueler	germangun_duel-weapon	1	1
+3a	3	fire-gun	german_dueler	germangun_duel-weapon	pinata_None	1	0
+3a	3	none	ned_dueler	german_dueler	1	1
+3a	4	fire-gun	german_dueler	germangun_duel-weapon	pinata_None	0	1
+3a	5	none	dusty_amigo	pinata_None	1	1
+3a	6	none	guapo_thug	pinata_None	1	1
+3a	7	look-at	ned_dueler	pinata_None	german_dueler	1	1
+3a	8	assent	german_dueler	ned_dueler	1	0
+3a	9	stare-at	ned_dueler	german_dueler	1	1
+3a	9	face-at	german_dueler	ned_dueler	1	1
+3a	9	walk	german_dueler	ned_dueler	gate_None	1	0
+3a	10	walk	german_dueler	ned_dueler	gate_None	0	0
+3a	11	stand-up	jefe_thug	1	1
+3a	11	walk	jefe_thug	stage_None	ned_dueler	1	0
+3a	12	look-at	ned_dueler	jefe_thug	1	1
+3a	12	walk	jefe_thug	stage_None	ned_dueler	0	1
+3a	12	none	jefe_thug	ned_dueler	1	1
+3a	13	none	jefe_thug	ned_dueler	building_None	1	0
+3a	14	walk	german_dueler	ned_dueler	gate_None	0	1
+3a	15	face-at	german_dueler	gate_None	ned_dueler	1	1
+3a	15	square-off	german_dueler	ned_dueler	1	1
+3a	16	none	jefe_thug	ned_dueler	building_None	0	0
+3a	16	look-at	ned_dueler	dusty_amigo	1	0
+3a	17	look-at	dusty_amigo	ned_dueler	1	1
+3a	17	none	dusty_amigo	ned_dueler	1	1
+3a	18	look-at	ned_dueler	dusty_amigo	0	1
+3a	18	none	jefe_thug	ned_dueler	building_None	0	1
+3a	19	none	guapo_thug	guapocig_None	1	1
+3a	19	stare-at	german_dueler	ned_dueler	1	1
+3a	19	stare-at	german2_thug	ned_dueler	1	1
+3a	20	look-at	ned_dueler	bandit2_thug	1	1
+3a	20	arrive	bandit2_thug	ned_dueler	1	1
+3a	20	arrive	bandit2_thug	jefe_thug	1	1
+3a	20	give	bandit2_thug	bandit2gun_None	jefe_thug	1	1
+3a	20	taunt	jefe_thug	ned_dueler	1	0
+3a	21	taunt	jefe_thug	ned_dueler	0	1
+3a	21	assent	german_dueler	ned_dueler	0	0
+3a	22	assent	german_dueler	ned_dueler	0	1
+3a	23	give	jefe_thug	nedgun_duel-weapon	nedholster_None	nedbelt_None	1	1
+3a	23	give	jefe_thug	bandit2gun_None	ned_dueler	1	1
+3a	23	drop-gun	ned_dueler	bandit2gun_None	1	0
+3a	24	drop-gun	ned_dueler	bandit2gun_None	0	1
+3a	24	holster-gun	ned_dueler	bandit2gun_None	1	0
+3a	25	none	bandit2_thug	ned_dueler	1	1
+3a	25	holster-gun	ned_dueler	bandit2gun_None	0	1
+3a	25	taunt	jefe_thug	ned_dueler	1	0
+3a	26	taunt	jefe_thug	ned_dueler	0	0
+3a	27	taunt	jefe_thug	ned_dueler	0	1
+3a	27	look-at	ned_dueler	jefe_thug	1	1
+3a	28	provoke	jefe_thug	1	0
+3a	29	provoke	jefe_thug	0	1
+3a	29	none	jefe_thug	bandit2_thug	1	1
+3a	29	walk	jefe&bandit2_thug	ned_dueler	stage_None	1	0
+3a	30	look-at	dusty_amigo	jefe&bandit2_thug	1	1
+3a	30	walk	jefe&bandit2_thug	ned_dueler	stage_None	0	0
+3a	30	none	dusty_amigo	1	1
+3a	31	walk	jefe&bandit2_thug	ned_dueler	stage_None	0	1
+3a	31	none	jefe_thug	1	1
+3a	32	square-off	ned_dueler	german_dueler	1	1
+3a	33	stare-at	german_dueler	ned_dueler	1	0
+3a	34	stare-at	german_dueler	ned_dueler	0	0
+3a	34	stare-at	ned_dueler	german_dueler	1	0
+3a	34	look-at	crowd_observer	ned_dueler	german_dueler	1	1
+3a	35	stare-at	german_dueler	ned_dueler	0	0
+3a	36	none	german_dueler	1	1
+3a	37	none	ned_dueler	1	1
+3a	38	stare-at	guapo_thug	ned_dueler	1	1
+3a	39	None		None	None
+3a	40	stare-at	german_dueler	ned_dueler	0	0
+3a	41	stare-at	ned_dueler	german_dueler	0	0
+3a	42	stare-at	german_dueler	ned_dueler	0	1
+3a	43	stare-at	ned_dueler	german_dueler	0	1
+3a	44	draw-gun	german_dueler	germangun_duel-weapon	1	1
+3a	45	draw-gun	ned_dueler	bandit2gun_None	1	1
+3a	46	fire-gun	ned_dueler	bandit2gun_None	german_dueler	1	1
+3a	47	get-shot	german_dueler	germanchest_None	1	1
+3a	47	drop-gun	german_dueler	germangun_duel-weapon	1	1
+3a	47	fall	german_dueler	1	1
+3a	48	none	ned_dueler	1	0
+3a	49	none	ned_dueler	0	1
+3a	49	drop-gun	ned_dueler	bandit2gun_None	1	0
+3a	50	drop-gun	ned_dueler	bandit2gun_None	0	1
+3a	50	give	lucky_amigo	bandit2gun_None	1	1
+3a	51	stand-up	german2_thug	1	0
+3a	51	draw-gun	german2_thug	german2gun_None	1	0
+3a	52	raise-gun	lucky_amigo	bandit2gun_None	1	0
+3a	53	stand-up	german2_thug	0	1
+3a	53	draw-gun	german2_thug	german2gun_None	0	1
+3a	53	fire-gun	german2_thug	german2gun_None	lucky_amigo	1	1
+3a	54	raise-gun	lucky_amigo	bandit2gun_None	0	1
+3a	54	fire-gun	lucky_amigo	bandit2gun_None	german2_thug	1	1
+3a	55	get-shot	german2_thug	german2body_None	1	1
+3a	55	drop-gun	german2_thug	german2gun_None	1	1
+3a	55	fall	german2_thug	1	1
+3a	55	die	german2_thug	1	1
+3a	55	stand-up	german_dueler	1	1
+3a	55	draw-gun	german_dueler	germangun_duel-weapon	1	1
+3a	56	look-at	dusty_amigo	knife_None	1	1
+3a	56	none	dusty_amigo	1	1
+3a	56	pick-up	dusty_amigo	knife_None	1	0
+3a	57	pick-up	dusty_amigo	knife_None	0	1
+3a	58	none	dusty_amigo	knife_None	german_dueler	1	0
+3a	59	none	dusty_amigo	knife_None	german_dueler	0	1
+3a	60	none	dusty_amigo	bandit3_thug	1	1
+3a	61	aim-gun	bandit3_thug	bandit3gun_None	1	1
+3a	62	draw-gun	ned_dueler	nedgun_duel-weapon	1	1
+3a	63	none	guapo_thug	bandit3_thug	1	1
+3a	64	fire-gun	ned_dueler	nedgun_duel-weapon	bandit3_thug	1	1
+3a	65	get-shot	bandit3_thug	bandit3body_None	1	1
+3a	65	drop-gun	bandit3_thug	bandit3gun_None	1	1
+3a	65	fall	bandit3_thug	1	1
+3a	66	face-at	ned_dueler	bandit3_thug	guapo_thug	1	1
+3a	67	stand-up	guapo_thug	guapo_thug	1	1
+pr	0	arrive	thug_thug	preacherhorse_None	1	1
+pr	0	none	thug_thug	preacher_dueler	1	1
+pr	0	none	preacher_dueler	thug_thug	1	0
+pr	1	none	preacher_dueler	thug_thug	0	1
+pr	1	fire-gun	thug_thug	thuggun_None	1	1
+pr	1	fall	thug_thug	1	1
+pr	2	none	preacher_dueler	thug_thug	horse_None	1	1
+pr	2	none	horse_None	thug_thug	1	0
+pr	2	look-at	preacher_dueler	thug_thug	1	1
+pr	3	none	horse_None	thug_thug	0	0
+pr	4	none	horse_None	thug_thug	0	1
+pr	4	look-at	stockburn_dueler	thug_thug	1	0
+pr	5	arrive	preacher_dueler	preacherhat_None	1	1
+pr	5	none	preacher_dueler	1	1
+pr	5	pick-up	preacher_dueler	preacherhat_None	1	1
+pr	5	stand-up	preacher_dueler	1	1
+pr	5	look-at	stockburn_dueler	thug_thug	0	0
+pr	6	adjust-clothing	preacher_dueler	preacherhat_None	1	0
+pr	6	look-at	stockburn_dueler	thug_thug	0	1
+pr	6	look-at	stockburn_dueler	thug_thug	preacher_dueler	1	0
+pr	7	look-at	stockburn_dueler	thug_thug	preacher_dueler	0	1
+pr	8	adjust-clothing	preacher_dueler	preacherhat_None	0	0
+pr	9	square-off	stockburn_dueler	preacher_dueler	1	1
+pr	10	adjust-clothing	preacher_dueler	preacherhat_None	0	1
+pr	10	square-off	preacher_dueler	stockburn_dueler	1	1
+pr	11	reveal	stockburn_dueler	1	1
+pr	12	arrive	preacher_dueler	stockburn_dueler	1	0
+pr	13	stare-at	stockburn_dueler	preacher_dueler	1	0
+pr	14	arrive	preacher_dueler	stockburn_dueler	0	0
+pr	14	load-gun	preacher_dueler	preachergun1_duel-weapon	1	0
+pr	15	arrive	preacher_dueler	stockburn_dueler	0	0
+pr	16	load-gun	preacher_dueler	preachergun1_duel-weapon	0	0
+pr	16	arrive	preacher_dueler	stockburn_dueler	0	0
+pr	17	stare-at	stockburn_dueler	preacher_dueler	0	0
+pr	18	load-gun	preacher_dueler	preachergun1_duel-weapon	0	0
+pr	18	arrive	preacher_dueler	stockburn_dueler	0	0
+pr	19	stare-at	preacher_dueler	stockburn_dueler	1	0
+pr	19	arrive	preacher_dueler	stockburn_dueler	0	0
+pr	20	load-gun	preacher_dueler	preachergun1_duel-weapon	0	1
+pr	20	arrive	preacher_dueler	stockburn_dueler	0	0
+pr	20	flee	crowd_observer	1	1
+pr	21	stare-at	stockburn_dueler	preacher_dueler	0	0
+pr	22	look-at	coy_amigo	preacher_dueler	1	1
+pr	22	arrive	preacher_dueler	stockburn_dueler	0	0
+pr	23	arrive	preacher_dueler	stockburn_dueler	0	0
+pr	23	stare-at	preacher_dueler	stockburn_dueler	0	0
+pr	24	arrive	preacher_dueler	stockburn_dueler	0	0
+pr	25	arrive	preacher_dueler	stockburn_dueler	0	0
+pr	25	holster-gun	preacher_dueler	preachergun1_duel-weapon	1	1
+pr	26	arrive	preacher_dueler	stockburn_dueler	0	0
+pr	27	arrive	preacher_dueler	stockburn_dueler	0	1
+pr	28	stare-at	stockburn_dueler	preacher_dueler	0	1
+pr	29	stare-at	preacher_dueler	stockburn_dueler	0	0
+pr	30	identify	stockburn_dueler	preacher_dueler	1	0
+pr	31	stare-at	preacher_dueler	stockburn_dueler	0	0
+pr	32	draw-gun	stockburn_dueler	stockburngun_duel-weapon	1	0
+pr	33	draw-gun	preacher_dueler	preachergun1_duel-weapon	1	1
+pr	33	aim-gun	preacher_dueler	preachergun1_duel-weapon	stockburn_dueler	1	0
+pr	34	draw-gun	stockburn_dueler	stockburngun_duel-weapon	0	0
+pr	34	aim-gun	preacher_dueler	preachergun1_duel-weapon	stockburn_dueler	0	0
+pr	35	aim-gun	preacher_dueler	preachergun1_duel-weapon	0	1
+pr	36	identify	stockburn_dueler	preacher_dueler	0	1
+pr	37	stare-at	preacher_dueler	stockburn_dueler	0	1
+pr	38	draw-gun	stockburn_dueler	stockburngun_duel-weapon	0	0
+pr	39	fire-gun	preacher_dueler	preachergun1_duel-weapon	stockburn_dueler	1	1
+pr	40	fire-gun	preacher_dueler	preachergun1_duel-weapon	stockburn_dueler	1	1
+pr	41	fire-gun	preacher_dueler	preachergun1_duel-weapon	stockburn_dueler	1	1
+pr	42	get-shot	stockburn_dueler	stockburnchest_None	1	1
+pr	43	get-shot	stockburn_dueler	stockburnchest_None	1	1
+pr	43	fire-gun	preacher_dueler	preachergun1_duel-weapon	stockburn_dueler	1	1
+pr	43	fall	stockburn_dueler	1	0
+pr	44	fall	stockburn_dueler	0	0
+pr	45	draw-gun	preacher_dueler	preachergun2_None	1	1
+pr	46	draw-gun	stockburn_dueler	stockburngun_duel-weapon	0	1
+pr	47	look-at	preacher_dueler	stockburn_dueler	1	0
+pr	48	look-at	stockburn_dueler	preacher_dueler	1	1
+pr	49	aim-gun	preacher_dueler	preachergun2_None	1	1
+pr	49	fire-gun	preacher_dueler	preachergun2_None	stockburn_dueler	1	0
+pr	50	fire-gun	preacher_dueler	preachergun2_None	stockburn_dueler	0	1
+pr	50	get-shot	stockburn_dueler	stockburnhead_None	1	1
+pr	50	fall	stockburn_dueler	0	1
+pr	50	die	stockburn_dueler	1	1
+pr	51	look-at	preacher_dueler	stockburn_dueler	0	0
+pr	52	arrive	coy_amigo	window_None	1	1
+pr	52	look-at	preacher_dueler	stockburn_dueler	0	0
+pr	52	aim-gun	coy_amigo	coyrifle_None	preacher_dueler	1	1
+pr	53	none	hull_thug	door1_None	1	1
+pr	54	look-at	coy_amigo	preacher_dueler	hull_thug	1	1
+pr	55	arrive	hull_thug	coy_amigo	1	1
+pr	55	aim-gun	hull_thug	hullrifle_None	coy_amigo	1	1
+pr	56	aim-gun	coy_amigo	coyrifle_None	hull_thug	1	1
+pr	56	look-at	preacher_dueler	stockburn_dueler	0	0
+pr	57	fire-gun	hull_thug	hullrifle_None	coy_amigo	1	1
+pr	58	get-shot	coy_amigo	coybody_None	1	1
+pr	59	look-at	preacher_dueler	stockburn_dueler	0	1
+pr	59	look-at	preacher_dueler	stockburn_dueler	coy_amigo	1	1
+pr	60	fall	coy_amigo	1	0
+pr	61	fall	coy_amigo	coy_amigo	0	1
+pr	62	look-at	preacher_dueler	coy_amigo	1	1
+pr	63	lower-gun	hull_thug	hullrifle_None	1	1
+pr	63	arrive	hull_thug	stockburn_dueler	1	0
+pr	63	open	hull_thug	door2_None	1	1
+pr	64	arrive	hull_thug	stockburn_dueler	0	0
+pr	65	arrive	hull_thug	stockburn_dueler	0	0
+pr	66	arrive	hull_thug	stockburn_dueler	0	0
+pr	67	ride	preacher_dueler	preacherhorse_None	barn_None	1	0
+pr	68	ride	preacher_dueler	preacherhorse_None	barn_None	0	0
+pr	68	arrive	preacherhorse_None	stockburn_dueler	0	1
+pr	69	ride	preacher_dueler	preacherhorse_None	barn_None	0	0
+pr	70	look-at	hull_thug	preacher_dueler	1	1
+pr	71	look-at	preacher_dueler	hull_thug	1	1
+pr	72	look-at	hull_thug	preacher_dueler	stockburn_dueler	1	1
+pr	73	None		None	None
+pr	74	look-at	hull_thug	stockburn_dueler	preacher_dueler	1	1
+pr	75	none	preacher_dueler	hull_thug	1	1
+pr	76	none	hull_thug	preacher_dueler	1	1
+pr	77	ride	preacher_dueler	preacherhorse_None	barn_None	0	1
+mslv	0	walk	ranse_dueler	shop_None	liberty_dueler	1	0
+mslv	0	stare-at	ranse_dueler	liberty_dueler	1	0
+mslv	0	none	liberty_dueler	pole_None	1	0
+mslv	1	none	liberty_dueler	pole_None	0	0
+mslv	1	adjust-clothing	liberty_dueler	1	1
+mslv	1	walk	liberty_dueler	ranse_dueler	liberty_dueler	1	0
+mslv	2	walk	ranse_dueler	shop_None	liberty_dueler	0	0
+mslv	2	stare-at	ranse_dueler	liberty_dueler	0	0
+mslv	3	walk	liberty_dueler	ranse_dueler	liberty_dueler	0	1
+mslv	4	walk	ranse_dueler	shop_None	liberty_dueler	0	0
+mslv	4	stare-at	ranse_dueler	liberty_dueler	0	0
+mslv	5	draw-gun	liberty_dueler	libertygun_duel-weapon	1	1
+mslv	5	fire-gun	liberty_dueler	libertygun_duel-weapon	pot_None	1	1
+mslv	6	wince	ranse_dueler	1	1
+mslv	6	look-at	ranse_dueler	pot_None	1	1
+mslv	6	provoke	liberty_dueler	1	0
+mslv	7	provoke	liberty_dueler	0	1
+mslv	7	lower-gun	liberty_dueler	libertygun_duel-weapon	1	1
+mslv	8	walk	ranse_dueler	shop_None	liberty_dueler	0	1
+mslv	8	stare-at	ranse_dueler	liberty_dueler	0	0
+mslv	8	square-off	ranse_dueler	liberty_dueler	1	1
+mslv	9	stare-at	liberty_dueler	ranse_dueler	ranse_dueler	shop_None	liberty_dueler	1	1
+mslv	10	fire-gun	liberty_dueler	1	1
+mslv	11	fire-gun	libertygun_duel-weapon	ransearm_None	1	1
+mslv	12	get-shot	ranse_dueler	ransearm_None	1	1
+mslv	12	drop-gun	ranse_dueler	ransegun_duel-weapon	1	1
+mslv	12	stare-at	ranse_dueler	liberty_dueler	0	0
+mslv	13	provoke	liberty_dueler	0	1
+mslv	13	lower-gun	liberty_dueler	libertygun_duel-weapon	1	1
+mslv	14	stare-at	ranse_dueler	liberty_dueler	0	0
+mslv	14	walk	ranse_dueler	sidewalk_None	ransegun_duel-weapon	1	0
+mslv	15	stare-at	liberty_dueler	ranse_dueler	1	1
+mslv	16	stare-at	ranse_dueler	liberty_dueler	0	0
+mslv	16	walk	ranse_dueler	sidewalk_None	ransegun_duel-weapon	0	1
+mslv	16	taunt	liberty_dueler	ranse_dueler	1	1
+mslv	16	none	ranse_dueler	ransegun_duel-weapon	1	0
+mslv	16	draw-gun	ranse_dueler	ransegun_duel-weapon	1	0
+mslv	16	fire-gun	liberty_dueler	libertygun_duel-weapon	ransegun_duel-weapon	1	1
+mslv	17	none	ranse_dueler	ransegun_duel-weapon	0	0
+mslv	17	draw-gun	ranse_dueler	ransegun_duel-weapon	0	0
+mslv	18	none	ranse_dueler	ransegun_duel-weapon	0	1
+mslv	18	draw-gun	ranse_dueler	ransegun_duel-weapon	0	1
+mslv	18	give	ranse_dueler	ransegun_duel-weapon	1	1
+mslv	18	stand-up	ranse_dueler	1	1
+mslv	18	walk	ranse_dueler	ransegun_duel-weapon	liberty_dueler	1	0
+mslv	18	square-off	liberty_dueler	ranse_dueler	1	1
+mslv	19	raise-gun	liberty_dueler	libertygun_duel-weapon	1	1
+mslv	19	cock-gun	liberty_dueler	libertygun_duel-weapon	1	1
+mslv	19	taunt	liberty_dueler	ranse_dueler	1	1
+mslv	19	aim-gun	liberty_dueler	libertygun_duel-weapon	ransehead_None	1	1
+mslv	20	raise-gun	ranse_dueler	ransegun_duel-weapon	1	1
+mslv	20	fire-gun	ranse_dueler	ransegun_duel-weapon	liberty_dueler	1	1
+mslv	20	fire-gun	liberty_dueler	libertygun_duel-weapon	ranse_dueler	1	1
+mslv	20	fall	liberty_dueler	sidewalk_None	street_duel-location	1	1
+mslv	20	die	liberty_dueler	1	1
+mslv	20	open	crowd_observer	door_None	1	1
+mslv	20	none	crowd_observer	1	1
+mslv	20	walk	crowd_observer	building_None	liberty_dueler	1	1
+mslv	20	run	crowd_observer	street_duel-location	liberty_dueler	1	0
+mslv	21	run	crowd_observer	street_duel-location	liberty_dueler	0	1
+mslv	21	walk	ranse_dueler	sidewalk_None	street_duel-location	1	1
+hg	0	look-at	andy_dueler	wyatt_dueler	1	1
+hg	0	look-at	andy_dueler	doc_observer	1	1
+hg	0	look-at	andy_dueler	rider3_amigo	1	1
+hg	0	look-at	andy_dueler	rider4_amigo	1	1
+hg	0	look-at	andy_dueler	rider5_amigo	1	1
+hg	1	look-at	thugb_thug	wyatt_dueler	thugc_thug	1	1
+hg	1	look-at	thugb_thug	doc_observer	thugc_thug	1	1
+hg	1	look-at	thugb_thug	rider3_amigo	thugc_thug	1	1
+hg	1	look-at	thugb_thug	rider4_amigo	thugc_thug	1	1
+hg	1	look-at	thugb_thug	rider5_amigo	thugc_thug	1	1
+hg	1	flee	thugc_thug	thugb_thug	1	1
+hg	1	none	thugb_thug	1	1
+hg	1	none	thugc_thug	1	1
+hg	1	ride	wyatt_dueler	pen_duel-location	1	0
+hg	1	ride	doc_observer	pen_duel-location	1	0
+hg	1	ride	rider3_amigo	pen_duel-location	1	0
+hg	1	ride	rider4_amigo	pen_duel-location	1	0
+hg	1	ride	rider5_amigo	pen_duel-location	1	0
+hg	2	face-at	andy_dueler	wyatt_dueler	1	1
+hg	2	face-at	andy_dueler	doc_observer	1	1
+hg	2	face-at	andy_dueler	rider3_amigo	1	1
+hg	2	face-at	andy_dueler	rider4_amigo	1	1
+hg	2	face-at	andy_dueler	rider5_amigo	1	1
+hg	3	aim-gun	rider4_amigo	ride4rifle_None	thugb_thug	1	1
+hg	3	aim-gun	rider4_amigo	ride4rifle_None	thugc_thug	1	1
+hg	3	stand-up	thugb_thug	1	1
+hg	3	stand-up	thugc_thug	1	1
+hg	4	ride	wyatt_dueler	pen_duel-location	0	1
+hg	4	ride	doc_observer	pen_duel-location	0	1
+hg	4	ride	rider3_amigo	pen_duel-location	0	1
+hg	4	ride	rider4_amigo	pen_duel-location	0	1
+hg	4	ride	rider5_amigo	pen_duel-location	0	1
+hg	4	none	andy_dueler	1	1
+hg	4	arrest	rider3_amigo	andy_dueler	1	1
+hg	4	provoke	andy_dueler	rider3_amigo	1	0
+hg	4	none	rider3_amigo	thuga_thug	andyhorse_None	1	0
+hg	5	none	rider3_amigo	thuga_thug	andyhorse_None	0	1
+hg	5	dismount	thuga_thug	thugahorse_None	1	1
+hg	5	arrive	thuga_thug	gate_None	1	1
+hg	5	arrive	thugahorse_None	gate_None	1	1
+hg	5	open	thuga_thug	gate_None	1	1
+hg	5	walk	thuga_thug	gate_None	andyhorse_None	1	0
+hg	5	walk	thugahorse_None	gate_None	andyhorse_None	1	0
+hg	5	provoke	andy_dueler	rider3_amigo	0	1
+hg	6	walk	thuga_thug	gate_None	andyhorse_None	0	1
+hg	6	walk	thugahorse_None	gate_None	andyhorse_None	0	1
+hg	6	arrest	wyatt_dueler	andy_dueler	1	1
+hg	6	face-at	andy_dueler	wyatt_dueler	1	1
+hg	6	adjust-clothing	andy_dueler	andyholster_None	1	1
+hg	6	none	andy_dueler	1	0
+hg	6	provoke	wyatt_dueler	andy_dueler	1	0
+hg	7	none	andy_dueler	wyatt_dueler	0	0
+hg	8	provoke	wyatt_dueler	andy_dueler	0	0
+hg	9	none	andy_dueler	wyatt_dueler	0	0
+hg	10	none	andy_dueler	wyatt_dueler	0	0
+hg	10	provoke	wyatt_dueler	andy_dueler	0	0
+hg	11	none	andy_dueler	wyatt_dueler	0	0
+hg	12	provoke	wyatt_dueler	andy_dueler	0	0
+hg	13	none	andy_dueler	wyatt_dueler	0	0
+hg	14	provoke	wyatt_dueler	andy_dueler	0	1
+hg	15	none	andy_dueler	wyatt_dueler	0	0
+hg	16	assent	wyatt_dueler	andy_dueler	1	0
+hg	17	none	andy_dueler	1	1
+hg	18	none	doc_observer	1	1
+hg	18	none	rider3_amigo	1	1
+hg	19	dismount	wyatt_dueler	wyatthorse_None	1	0
+hg	20	none	andy_dueler	pen_duel-location	1	0
+hg	21	dismount	wyatt_dueler	wyatthorse_None	0	1
+hg	21	none	andy_dueler	pen_duel-location	0	1
+hg	21	square-off	wyatt_dueler	andy_dueler	1	1
+hg	21	square-off	andy_dueler	wyatt_dueler	1	1
+hg	21	assent	wyatt_dueler	andy_dueler	0	0
+hg	21	square-off	andy_dueler	wyatt_dueler	1	0
+hg	22	assent	wyatt_dueler	andy_dueler	0	0
+hg	22	look-at	andy_dueler	doc_observer	wyatt_dueler	1	1
+hg	22	look-at	andy_dueler	rider3_amigo	wyatt_dueler	1	1
+hg	23	assent	wyatt_dueler	andy_dueler	0	0
+hg	23	de-escalate	rider3_amigo	wyatt_dueler	1	0
+hg	24	de-escalate	rider3_amigo	wyatt_dueler	0	0
+hg	25	provoke	wyatt_dueler	andy_dueler	1	0
+hg	26	de-escalate	rider5_amigo	wyatt_dueler	0	0
+hg	26	stare-at	andy_dueler	wyatt_dueler	1	0
+hg	27	de-escalate	rider5_amigo	wyatt_dueler	0	1
+hg	27	provoke	wyatt_dueler	andy_dueler	1	0
+hg	28	square-off	andy_dueler	wyatt_dueler	0	1
+hg	28	none	andy_dueler	wyatt_dueler	0	1
+hg	28	none	andy_dueler	1	1
+hg	29	assent	wyatt_dueler	andy_dueler	0	0
+hg	30	stare-at	andy_dueler	wyatt_dueler	1	1
+hg	30	assent	wyatt_dueler	andy_dueler	0	0
+hg	31	assent	wyatt_dueler	andy_dueler	0	1
+hg	31	draw-gun	andy_dueler	andygun_duel-weapon	1	1
+hg	31	draw-gun	wyatt_dueler	wyattgun_duel-weapon	1	1
+hg	31	fire-gun	wyatt_dueler	wyattgun_duel-weapon	andy_dueler	1	1
+hg	31	fire-gun	andy_dueler	andygun_duel-weapon	wyatt_dueler	1	1
+hg	31	get-shot	andy_dueler	andybody_None	1	0
+hg	31	fire-gun	wyatt_dueler	wyattgun_duel-weapon	andy_dueler	1	1
+hg	31	fall	andy_dueler	1	0
+hg	32	get-shot	andy_dueler	andybody_None	1	0
+hg	32	fire-gun	wyatt_dueler	wyattgun_duel-weapon	andy_dueler	1	1
+hg	32	none	andy_dueler	0	1
+hg	32	fall	andy_dueler	1	1
+hg	32	pick-up	andy_dueler	gate_None	1	1
+hg	33	fire-gun	wyatt_dueler	wyattgun_duel-weapon	andy_dueler	1	1
+hg	34	fire-gun	wyatt_dueler	wyattgun_duel-weapon	andy_dueler	1	1
+hg	34	get-shot	andy_dueler	andybody_None	0	0
+hg	34	fall	andy_dueler	1	1
+hg	35	fire-gun	wyatt_dueler	wyattgun_duel-weapon	andy_dueler	1	1
+hg	36	get-shot	andy_dueler	andybody_None	0	1
+hg	36	die	andy_dueler	1	1
+hg	37	look-at	doc_observer	andy_dueler	wyatt_dueler	1	1
+hg	38	none	wyatt_dueler	unknown_None	andy_dueler	1	1
+outw	0	none	thuga_dueler	thugb_dueler	1	1
+outw	1	look-at	thuga_dueler	train_None	thugb_dueler	1	1
+outw	2	look-at	thugb_dueler	train_None	thugc_dueler	1	1
+outw	3	open	conductor_None	traindoor_None	1	1
+outw	4	look-at	thuga_dueler	train_None	1	1
+outw	5	give	thuga_dueler	thugagun_duel-weapon	1	1
+outw	6	look-at	thugb_dueler	train_None	1	1
+outw	7	pick-up+drop	conductor_None	package_None	train_None	trainstation_None	1	1
+outw	8	give	thugc_dueler	thugcgun_duel-weapon	1	1
+outw	9	stare-at	thugc_dueler	train_None	1	1
+outw	10	close	conductor_None	traindoor_None	1	1
+outw	10	look-at	thugb_dueler	traindoor_None	1	1
+outw	10	look-at	thuga_dueler	traindoor_None	1	1
+outw	11	look-at	thuga_dueler	train_None	thugb_dueler	1	1
+outw	12	look-at	thugb_dueler	thuga_dueler	train_None	1	1
+outw	13	give	thugb_dueler	thugbgun_duel-weapon	1	1
+outw	14	look-at	thugb_dueler	train_None	thuga_dueler	1	1
+outw	14	walk	thugb_dueler	thuga_dueler	train_None	horses_None	1	1
+outw	14	walk	thugb_dueler	thugc_dueler	train_None	horses_None	1	1
+outw	14	walk	thugb_dueler	train_None	horses_None	1	0
+outw	15	walk	thugb_dueler	train_None	horses_None	0	0
+outw	15	walk	thuga_dueler	train_None	horses_None	1	1
+outw	15	walk	thugc_dueler	train_None	horses_None	1	1
+outw	15	provoke	harmonica_dueler	thugb_dueler	1	0
+outw	15	provoke	harmonica_dueler	thuga_dueler	1	0
+outw	15	provoke	harmonica_dueler	thugc_dueler	1	0
+outw	16	walk	thugb_dueler	train_None	horses_None	0	1
+outw	16	walk	thuga_dueler	train_None	horses_None	0	1
+outw	16	walk	thugc_dueler	train_None	horses_None	0	1
+outw	16	provoke	harmonica_dueler	thugb_dueler	0	0
+outw	16	provoke	harmonica_dueler	thuga_dueler	0	0
+outw	16	provoke	harmonica_dueler	thugc_dueler	0	0
+outw	16	adjust-clothing	thugc_dueler	thugchat_None	1	1
+outw	16	look-at	thugb_dueler	harmonica_dueler	1	1
+outw	16	look-at	thuga_dueler	harmonica_dueler	1	1
+outw	16	look-at	thuga_dueler	harmonica_dueler	thugb_dueler	1	1
+outw	16	look-at	thugb_dueler	harmonica_dueler	thuga_dueler	1	1
+outw	16	face-at	thugb_dueler	thuga_dueler	horses_None	harmonica_dueler	1	1
+outw	16	face-at	thugb_dueler	thugc_dueler	horses_None	harmonica_dueler	1	1
+outw	17	provoke	harmonica_dueler	thugb_dueler	0	0
+outw	17	provoke	harmonica_dueler	thuga_dueler	0	0
+outw	17	provoke	harmonica_dueler	thugc_dueler	0	0
+outw	17	stare-at	harmonica_dueler	thugb_dueler	1	1
+outw	17	stare-at	harmonica_dueler	thuga_dueler	1	1
+outw	17	stare-at	harmonica_dueler	thugc_dueler	1	1
+outw	18	provoke	thugb_dueler	harmonica_dueler	0	0
+outw	18	provoke	thuga_dueler	harmonica_dueler	0	0
+outw	18	provoke	thugc_dueler	harmonica_dueler	0	0
+outw	18	stare-at	thugb_dueler	harmonica_dueler	1	0
+outw	18	stare-at	thuga_dueler	harmonica_dueler	1	0
+outw	18	stare-at	thugc_dueler	harmonica_dueler	1	0
+outw	19	provoke	harmonica_dueler	thugb_dueler	0	0
+outw	19	provoke	harmonica_dueler	thuga_dueler	0	0
+outw	19	provoke	harmonica_dueler	thugc_dueler	0	0
+outw	19	stare-at	thugb_dueler	harmonica_dueler	0	0
+outw	19	stare-at	thuga_dueler	harmonica_dueler	0	0
+outw	19	stare-at	thugc_dueler	harmonica_dueler	0	0
+outw	20	provoke	harmonica_dueler	thugb_dueler	0	1
+outw	20	provoke	harmonica_dueler	thuga_dueler	0	1
+outw	20	provoke	harmonica_dueler	thugc_dueler	0	1
+outw	20	stare-at	harmonica_dueler	thugb_dueler	0	1
+outw	20	stare-at	harmonica_dueler	thuga_dueler	0	1
+outw	20	stare-at	harmonica_dueler	thugc_dueler	0	1
+outw	20	adjust-clothing	harmonica_dueler	harmonicaharmonica_None	1	1
+outw	20	identify	harmonica_dueler	thugb_dueler	1	1
+outw	21	stare-at	thugb_dueler	harmonica_dueler	0	0
+outw	21	stare-at	thuga_dueler	harmonica_dueler	0	0
+outw	21	stare-at	thugc_dueler	harmonica_dueler	0	0
+outw	21	identify	thugb_dueler	harmonica_dueler	thugb_dueler	1	1
+outw	21	identify	thugb_dueler	harmonica_dueler	thuga_dueler	1	1
+outw	21	identify	thugb_dueler	harmonica_dueler	thugc_dueler	1	1
+outw	22	look-at	harmonica_dueler	thugb_dueler	horses_None	1	1
+outw	22	look-at	harmonica_dueler	thuga_dueler	horses_None	1	1
+outw	22	look-at	harmonica_dueler	thugc_dueler	horses_None	1	1
+outw	22	ask-for+give	harmonica_dueler	thugb_dueler	harmonicahorse_None	1	1
+outw	23	look-at	thuga_dueler	harmonica_dueler	thugb_dueler	1	1
+outw	24	look-at	thugb_dueler	horses_None	harmonica_dueler	1	1
+outw	24	taunt	thugb_dueler	harmonica_dueler	1	1
+outw	25	provoke	thuga_dueler	1	1
+outw	25	stare-at	harmonica_dueler	thugb_dueler	0	0
+outw	25	stare-at	harmonica_dueler	thuga_dueler	0	0
+outw	25	stare-at	harmonica_dueler	thugc_dueler	0	0
+outw	25	provoke	harmonica_dueler	thugb_dueler	1	1
+outw	25	provoke	harmonica_dueler	thuga_dueler	1	1
+outw	25	provoke	harmonica_dueler	thugc_dueler	1	1
+outw	26	stare-at	thugb_dueler	harmonica_dueler	0	0
+outw	26	stare-at	thuga_dueler	harmonica_dueler	0	0
+outw	26	stare-at	thugc_dueler	harmonica_dueler	0	0
+outw	27	stare-at	thugb_dueler	harmonica_dueler	0	0
+outw	27	stare-at	thuga_dueler	harmonica_dueler	0	0
+outw	27	stare-at	thugc_dueler	harmonica_dueler	0	0
+outw	28	stare-at	thugb_dueler	harmonica_dueler	0	0
+outw	28	stare-at	thuga_dueler	harmonica_dueler	0	0
+outw	28	stare-at	thugc_dueler	harmonica_dueler	0	0
+outw	28	stare-at	harmonica_dueler	thugb_dueler	0	0
+outw	28	stare-at	harmonica_dueler	thuga_dueler	0	0
+outw	28	stare-at	harmonica_dueler	thugc_dueler	0	0
+outw	29	stare-at	harmonica_dueler	thugb_dueler	0	1
+outw	29	stare-at	harmonica_dueler	thuga_dueler	0	1
+outw	29	stare-at	harmonica_dueler	thugc_dueler	0	1
+outw	30	stare-at	harmonica_dueler	thugb_dueler	0	1
+outw	30	stare-at	harmonica_dueler	thuga_dueler	0	1
+outw	30	stare-at	harmonica_dueler	thugc_dueler	0	1
+outw	30	draw-gun	thugb_dueler	thugbgun_duel-weapon	1	0
+outw	31	draw-gun	harmonica_dueler	harmonicagun_duel-weapon	1	1
+outw	31	fire-gun	harmonica_dueler	harmonicagun_duel-weapon	thugc_dueler	1	1
+outw	31	get-shot	thugc_dueler	thugcbody_None	1	1
+outw	31	fire-gun	harmonica_dueler	harmonicagun_duel-weapon	thugb_dueler	1	1
+outw	31	get-shot	thugb_dueler	thugbbody_None	1	1
+outw	31	fire-gun	harmonica_dueler	harmonicagun_duel-weapon	thuga_dueler	1	1
+outw	31	get-shot	thuga_dueler	thugabody_None	1	1
+outw	31	fall	thugb_dueler	1	1
+outw	31	fall	thugc_dueler	1	1
+outw	31	draw-gun	thuga_dueler	thugagun_duel-weapon	1	1
+outw	32	fire-gun	thuga_dueler	thugagun_duel-weapon	harmonica_dueler	1	1
+outw	33	get-shot	harmonica_dueler	thugagun_duel-weapon	harmonicachest_None	1	1
+outw	33	fall	harmonica_dueler	1	0
+outw	34	fall	harmonica_dueler	0	1
+outw	34	fall	thuga_dueler	1	1
+outw	34	die	thugb_dueler	1	1
+outw	34	die	thuga_dueler	1	1
+agf	0	none	cross_amigo	1	1
+agf	0	none	tenneray_dueler	1	1
+agf	1	none	photographer_None	1	1
+agf	1	arrive	fighter_dueler	cross_amigo	1	1
+agf	1	arrive	fighter_dueler	tenneray_dueler	1	1
+agf	1	none	fighter_dueler	cross_amigo	1	1
+agf	1	none	fighter_dueler	tenneray_dueler	1	1
+agf	2	identify	citizen_None	cross_amigo	1	1
+agf	2	identify	citizen_None	tenneray_dueler	1	1
+agf	3	adjust-clothing	fighter_dueler	fighterhat_None	1	0
+agf	3	none	fighter_dueler	cross_amigo	1	1
+agf	3	none	fighter_dueler	tenneray_dueler	1	1
+agf	4	none	cross_amigo	fighter_dueler	1	1
+agf	4	none	tenneray_dueler	fighter_dueler	1	1
+agf	5	adjust-clothing	fighter_dueler	fighterhat_None	0	1
+agf	5	assent	fighter_dueler	cross_amigo	1	0
+agf	5	assent	fighter_dueler	tenneray_dueler	1	0
+agf	6	stare-at	tenneray_dueler	fighter_dueler	1	0
+agf	7	arrive	nora_observer	street_duel-location	1	1
+agf	7	arrive	bud_observer	street_duel-location	1	1
+agf	8	look-at	cross_amigo	fighter_dueler	1	0
+agf	9	flee	crowd_observer	1	0
+agf	9	assent	fighter_dueler	cross_amigo	0	0
+agf	9	assent	fighter_dueler	tenneray_dueler	0	0
+agf	10	flee	crowd_observer	0	0
+agf	10	stare-at	tenneray_dueler	fighter_dueler	0	0
+agf	10	stare-at	cross_amigo	fighter_dueler	0	1
+agf	11	flee	crowd_observer	0	0
+agf	11	arrive	marshal_amigo	cross_amigo	1	0
+agf	11	arrive	marshal_amigo	tenneray_dueler	1	0
+agf	12	flee	crowd_observer	0	0
+agf	13	flee	crowd_observer	0	0
+agf	14	look-at	nora_observer	tenneray_dueler	1	1
+agf	14	look-at	bud_observer	tenneray_dueler	1	1
+agf	15	flee	crowd_observer	0	0
+agf	15	stare-at	tenneray_dueler	fighter_dueler	0	0
+agf	15	stare-at	cross_amigo	fighter_dueler	0	0
+agf	16	flee	crowd_observer	0	1
+agf	16	none	photographer1_None	photographer1_None	photographer2_None	1	1
+agf	17	arrive	marshal_amigo	cross_amigo	0	0
+agf	17	arrive	marshal_amigo	tenneray_dueler	0	0
+agf	17	look-at	marshal_amigo	cross_amigo	1	1
+agf	17	look-at	marshal_amigo	tenneray_dueler	1	1
+agf	18	None		None	None
+agf	19	stare-at	tenneray_dueler	fighter_dueler	0	0
+agf	19	de-escalate	cross_amigo	fighter_dueler	1	0
+agf	20	look-at	fighter_dueler	cross_amigo	1	1
+agf	21	de-escalate	cross_amigo	fighter_dueler	0	1
+agf	21	stare-at	tenneray_dueler	fighter_dueler	0	1
+agf	22	assent	fighter_dueler	cross_amigo	0	0
+agf	22	assent	fighter_dueler	tenneray_dueler	0	0
+agf	23	de-escalate	tenneray_dueler	fighter_dueler	1	1
+agf	24	assent	fighter_dueler	cross_amigo	0	1
+agf	24	assent	fighter_dueler	tenneray_dueler	0	1
+agf	25	arrive	marshal_amigo	cross_amigo	0	1
+agf	25	arrive	marshal_amigo	tenneray_dueler	0	1
+agf	25	de-escalate	marshal_amigo	fighter_dueler	1	0
+agf	26	look-at	cross_amigo	fighter_dueler	marshal_amigo	1	1
+agf	26	look-at	tenneray_dueler	fighter_dueler	marshal_amigo	1	1
+agf	27	look-at	marshal_amigo	cross_amigo	fighter_dueler	1	1
+agf	27	look-at	marshal_amigo	tenneray_dueler	fighter_dueler	1	1
+agf	27	de-escalate	marshal_amigo	fighter_dueler	0	1
+agf	28	look-at	fighter_dueler	marshal_amigo	1	1
+agf	28	de-escalate	fighter_dueler	marshal_amigo	1	0
+agf	29	look-at	marshal_amigo	fighter_dueler	1	1
+agf	30	look-at	cross_amigo	fighter_dueler	1	1
+agf	30	look-at	tenneray_dueler	fighter_dueler	1	1
+agf	31	de-escalate	fighter_dueler	marshal_amigo	0	0
+agf	32	provoke	marshal_amigo	fighter_dueler	1	0
+agf	33	stare-at	fighter_dueler	marshal_amigo	1	0
+agf	34	de-escalate	tenneray_dueler	marshal_amigo	1	1
+agf	34	provoke	marshal_amigo	cross_amigo	1	0
+agf	34	provoke	marshal_amigo	tenneray_dueler	1	0
+agf	35	provoke	marshal_amigo	cross_amigo	0	1
+agf	35	provoke	marshal_amigo	tenneray_dueler	0	1
+agf	36	look-at	marshal_amigo	cross_amigo	fighter_dueler	1	1
+agf	36	look-at	marshal_amigo	tenneray_dueler	fighter_dueler	1	1
+agf	36	provoke	marshal_amigo	fighter_dueler	0	0
+agf	37	stare-at	fighter_dueler	marshal_amigo	0	1
+agf	38	provoke	marshal_amigo	fighter_dueler	0	0
+agf	38	walk	marshal_amigo	cross_amigo	fighter_dueler	1	0
+agf	38	walk	marshal_amigo	tenneray_dueler	fighter_dueler	1	0
+agf	38	square-off	fighter_dueler	marshal_amigo	1	0
+agf	39	square-off	fighter_dueler	marshal_amigo	0	1
+agf	40	provoke	marshal_amigo	fighter_dueler	0	1
+agf	40	walk	marshal_amigo	cross_amigo	fighter_dueler	0	1
+agf	40	walk	marshal_amigo	tenneray_dueler	fighter_dueler	0	1
+agf	40	draw-gun	fighter_dueler	fightergun_duel-location	1	1
+agf	40	fire-gun	fighter_dueler	fightergun_duel-location	marshal_amigo	1	1
+agf	41	get-shot	marshal_amigo	marshalshoulder_None	1	1
+agf	41	fall	marshal_amigo	1	1
+agf	41	none	cross_amigo	marshal_amigo	1	1
+agf	41	none	tenneray_dueler	marshal_amigo	1	1
+agf	41	arrive	cross_amigo	marshal_amigo	1	1
+agf	41	arrive	tenneray_dueler	marshal_amigo	1	1
+agf	42	none	crowd_observer	marshal_amigo	1	0
+agf	43	look-at	nora_observer	bud_observer	cross_amigo	1	1
+agf	43	look-at	nora_observer	bud_observer	tenneray_dueler	1	1
+agf	44	none	crowd_observer	marshal_amigo	0	1
+agf	45	help-up	cross_amigo	marshal_amigo	1	1
+agf	45	help-up	tenneray_dueler	marshal_amigo	1	1
+agf	45	none	marshal_amigo	1	1
+agf	45	none	cross_amigo	cross_amigo	street_duel-location	1	0
+agf	45	none	cross_amigo	tenneray_dueler	street_duel-location	1	0
+agf	45	stare-at	tenneray_dueler	fighter_dueler	1	0
+agf	46	raise-gun	fighter_dueler	fightergun_duel-location	1	0
+agf	47	stare-at	tenneray_dueler	fighter_dueler	0	0
+agf	48	raise-gun	fighter_dueler	fightergun_duel-location	0	1
+agf	49	flee	crowd_observer	1	1
+agf	50	stare-at	tenneray_dueler	fighter_dueler	0	0
+agf	51	stare-at	fighter_dueler	tenneray_dueler	1	0
+agf	51	de-escalate	fighter_dueler	tenneray_dueler	1	1
+agf	52	stare-at	tenneray_dueler	fighter_dueler	0	0
+agf	53	none	cross_amigo	marshal_amigo	cross_amigo	0	1
+agf	53	none	cross_amigo	marshal_amigo	tenneray_dueler	0	1
+agf	53	look-at	cross_amigo	tenneray_dueler	1	1
+agf	53	look-at	cross_amigo	fighter_dueler	1	1
+agf	54	holster-gun	fighter_dueler	fightergun_duel-location	1	1
+agf	55	stare-at	tenneray_dueler	fighter_dueler	0	0
+agf	56	assent	fighter_dueler	tenneray_dueler	1	1
+agf	57	assent	tenneray_dueler	fighter_dueler	1	1
+agf	58	stare-at	fighter_dueler	tenneray_dueler	0	0
+agf	59	look-at	nora_observer	tenneray_dueler	1	1
+agf	59	look-at	nora_observer	fighter_dueler	1	1
+agf	59	look-at	bud_observer	tenneray_dueler	1	1
+agf	59	look-at	bud_observer	fighter_dueler	1	1
+agf	60	look-at	cross_amigo	tenneray_dueler	1	1
+agf	61	stare-at	tenneray_dueler	fighter_dueler	0	1
+agf	62	stare-at	fighter_dueler	tenneray_dueler	0	1
+agf	62	draw-gun	fighter_dueler	fightergun_duel-location	1	1
+agf	63	draw-gun	tenneray_dueler	tenneraygun_duel-weapon	1	1
+agf	63	fire-gun	tenneray_dueler	tenneraygun_duel-weapon	fighter_dueler	1	1
+agf	64	get-shot	fighter_dueler	fighterchest_None	1	1
+agf	64	fall	fighter_dueler	1	1
+agf	65	look-at	tenneray_dueler	fighter_dueler	1	1
+agf	66	none	nora_observer	tenneray_dueler	1	1
+agf	66	none	bud_observer	tenneray_dueler	1	1
+agf	67	die	fighter_dueler	1	1
+agf	68	look-at	tenneray_dueler	fighter_dueler	cross_amigo	1	1
+agf	69	look-at	cross_amigo	tenneray_dueler	1	1
+agf	70	raise-gun	tenneray_dueler	tenneraygun_duel-weapon	1	1
+agf	71	None		None	None
+agf	72	look-at	cross_amigo	tenneray_dueler	1	1
+agf	73	holster-gun	tenneray_dueler	tenneraygun_duel-weapon	1	1
+agf	73	none	crowd_observer	tenneray_dueler	1	1
+agf	73	leave	tenneray_dueler	fighter_dueler	1	1
+agf	74	look-at	cross_amigo	fighter_dueler	1	1
+agf	74	leave	cross_amigo	street_duel-location	1	1
+tout	0	arrive	johnny_dueler	saloon_duel-location	1	0
+tout	0	arrive	ben_observer	saloon_duel-location	1	0
+tout	0	none	johnny_dueler	ben_observer	1	0
+tout	1	arrive	johnny_dueler	saloon_duel-location	0	1
+tout	1	arrive	ben_observer	saloon_duel-location	0	1
+tout	1	none	johnny_dueler	ben_observer	0	1
+tout	1	none	ben_observer	johnny_dueler	1	1
+tout	1	none	johnny_dueler	ben_observer	1	1
+tout	1	adjust-clothing	johnny_dueler	johnnyhat_None	1	1
+tout	1	walk	johnny_dueler	saloon_duel-location	bar_None	1	1
+tout	1	walk	ben_observer	saloon_duel-location	saloonwall_None	1	1
+tout	1	adjust-clothing	ben_observer	benhat_None	1	1
+tout	1	arrive	woodrow_dueler	saloon_duel-location	1	0
+tout	1	look-at	ben_observer	woodrow_dueler	1	1
+tout	2	arrive	woodrow_dueler	saloon_duel-location	0	1
+tout	2	stare-at	woodrow_dueler	ben_observer	1	0
+tout	3	look-at	ben_observer	woodrow_dueler	1	0
+tout	4	stare-at	woodrow_dueler	ben_observer	0	1
+tout	4	walk	woodrow_dueler	saloon_duel-location	bar_None	1	0
+tout	5	walk	woodrow_dueler	saloon_duel-location	bar_None	0	1
+tout	5	look-at	ben_observer	woodrow_dueler	0	1
+tout	5	provoke	woodrow_dueler	ben_observer	1	1
+tout	6	walk	ben_observer	saloonwall_None	saloonwindow_None	1	1
+tout	7	ask-for	johnny_dueler	bartender_bartender	bottles1&2_None	1	1
+tout	8	pick-up+drop	bartender_bartender	bottles1&2_None	counter_None	bar_None	1	0
+tout	9	pick-up+drop	bartender_bartender	bottles1&2_None	counter_None	bar_None	0	1
+tout	9	none	johnny_dueler	bartender_bartender	1	1
+tout	9	look-at	johnny_dueler	bartender_bartender	1	0
+tout	10	look-at	bartender_bartender	johnny_dueler	woodrow_dueler	1	1
+tout	11	look-at	johnny_dueler	bartender_bartender	1	1
+tout	12	look-at	bartender_bartender	johnny_dueler	1	1
+tout	12	flee	bartender_bartender	1	1
+tout	12	face-at	johnny_dueler	bar_None	woodrow_dueler	1	0
+tout	13	face-at	johnny_dueler	bar_None	woodrow_dueler	0	0
+tout	13	stare-at	woodrow_dueler	johnny_dueler	1	0
+tout	14	face-at	johnny_dueler	bar_None	woodrow_dueler	0	1
+tout	14	none	johnny_dueler	bar_None	1	1
+tout	14	none	johnny_dueler	bottle1_None	1	1
+tout	14	stare-at	johnny_dueler	woodrow_dueler	1	1
+tout	14	taunt	johnny_dueler	woodrow_dueler	1	1
+tout	15	stare-at	woodrow_dueler	johnny_dueler	0	0
+tout	15	flee	crowd_None	1	0
+tout	16	stare-at	johnny_dueler	woodrow_dueler	0	0
+tout	17	stare-at	woodrow_dueler	johnny_dueler	0	0
+tout	18	reveal	woodrow_dueler	0	1
+tout	19	flee	crowd_None	0	0
+tout	20	flee	crowd_None	0	1
+tout	20	stare-at	woodrow_dueler	johnny_dueler	0	1
+tout	21	stare-at	johnny_dueler	woodrow_dueler	0	1
+tout	22	draw-gun	woodrow_dueler	woodrowgun_duel-weapon	1	1
+tout	23	none	johnny_dueler	bottle2_None	woodrowhead_None	1	1
+tout	23	drop-gun	woodrow_dueler	woodrowgun_duel-weapon	1	1
+tout	24	none	johnny_dueler	woodrowgun_duel-weapon	1	1
+tout	24	walk	johnny_dueler	bar_None	woodrow_dueler	1	0
+tout	25	walk	johnny_dueler	bar_None	woodrow_dueler	0	1
+tout	25	pick-up	johnny_dueler	woodrowshirt_None	1	1
+tout	25	flee	crowd_None	1	0
+tout	26	stare-at	ben_observer	johnny_dueler	1	0
+tout	26	flee	crowd_None	0	1
+tout	27	pick-up	johnny_dueler	woodrowshirt_None	1	0
+tout	27	square-off	johnny_dueler	woodrow_dueler	1	0
+tout	28	square-off	johnny_dueler	woodrow_dueler	0	1
+tout	28	pick-up	johnny_dueler	woodrow_dueler	woodrow_dueler	0	1
+tout	29	stare-at	johnny_dueler	1	1
+tout	30	stare-at	woodrow_dueler	1	1
+tout	30	walk	johnny_dueler	woodrow_dueler	bar_None	1	0
+tout	31	stare-at	ben_observer	johnny_dueler	0	1
+tout	31	leave	ben_observer	window_None	1	1
+tout	32	walk	johnny_dueler	woodrow_dueler	bar_None	0	0
+tout	32	ask-for	johnny_dueler	bartender_bartender	bottle3_None	1	1
+tout	32	none	johnny_dueler	bottle1_None	1	0
+tout	33	walk	johnny_dueler	woodrow_dueler	bar_None	0	1
+tout	33	none	johnny_dueler	bottle1_None	0	1
+tout	33	drop	johnny_dueler	bottle1_None	bar_None	1	1
+tout	33	stand-up	bartender_bartender	1	1
+tout	33	walk	bartender_bartender	bottle3_None	counter_None	bar_None	1	0
+tout	34	look-at	woodrow_dueler	thugb_thug	1	1
+tout	35	look-at	thugb_thug	woodrow_dueler	1	1
+tout	35	adjust-clothing	thugb_thug	thugbcoat_None	1	1
+tout	36	drop	bartender_bartender	bottle3_None	counter_None	bar_None	0	1
+tout	37	none	johnny_dueler	bartender_bartender	1	1
+tout	37	draw-gun	thugb_thug	thugbgun_None	1	1
+tout	37	none	thugb_thug	1	1
+tout	37	arrive	thugb_thug	woodrow_dueler	1	1
+tout	37	draw-gun	woodrow_dueler	thugbgun_None	1	0
+tout	37	give	thugb_thug	thugbgun_None	woodrow_dueler	1	0
+tout	38	draw-gun	woodrow_dueler	thugbgun_None	0	1
+tout	38	give	thugb_thug	thugbgun_None	woodrow_dueler	0	1
+tout	38	stand-up	woodrow_dueler	1	0
+tout	39	stand-up	woodrow_dueler	0	0
+tout	39	look-at	johnny_dueler	woodrow_dueler	1	1
+tout	40	stand-up	woodrow_dueler	0	1
+tout	40	raise-gun	woodrow_dueler	thugbgun_None	1	1
+tout	41	none	bartender_bartender	1	1
+tout	41	face-at	johnny_dueler	bar_None	woodrow_dueler	1	1
+tout	41	none	johnny_dueler	1	1
+tout	41	draw-gun	johnny_dueler	johnnygun_duel-weapon	1	1
+tout	41	fire-gun	johnny_dueler	johnnygun_duel-weapon	woodrow_dueler	1	1
+tout	42	get-shot	woodrow_dueler	woodrowchest_None	1	1
+tout	42	drop-gun	woodrow_dueler	thugbgun_None	1	1
+tout	42	fall	woodrow_dueler	1	0
+tout	42	none	woodrow_dueler	piano_None	1	1
+tout	43	look-at	rebecca_observer	johnny_dueler	1	1
+tout	43	look-at	ben_observer	johnny_dueler	1	1
+tout	44	raise-gun	johnny_dueler	johnnygun_duel-weapon	1	0
+tout	44	stand-up	johnny_dueler	1	1
+tout	45	fall	woodrow_dueler	0	1
+tout	45	die	woodrow_dueler	1	1
+tout	46	look-at	rebecca_observer	woodrow_dueler	1	1
+tout	47	look-at	johnny_dueler	woodrow_dueler	1	1
+tout	47	raise-gun	johnny_dueler	johnnygun_duel-weapon	0	0
+tout	48	look-at	thugb_thug	woodrow_dueler	johnny_dueler	1	1
+tout	49	look-at	johnny_dueler	woodrow_dueler	thugb_thug	1	1
+tout	50	square-off	thugb_thug	johnny_dueler	1	1
+tout	51	raise-gun	johnny_dueler	johnnygun_duel-weapon	0	1
+tout	51	holster-gun	johnny_dueler	johnnygun_duel-weapon	1	0
+tout	52	holster-gun	johnny_dueler	johnnygun_duel-weapon	0	1
+tout	52	face-at	johnny_dueler	woodrow_dueler	saloonwindow_None	1	1
+tout	53	look-at	rebecca_observer	johnny_dueler	1	1
+tout	54	none	johnny_dueler	1	1
+tout	55	leave	rebecca_observer	window_None	1	1
+tout	55	leave	ben_observer	window_None	1	1
+tout	56	look-at	johnny_dueler	window_None	1	1
+sh	0	arrive	shane_dueler	saloon_duel-location	1	0
+sh	0	open	shane_dueler	saloondoor_None	1	0
+sh	1	arrive	shane_dueler	saloon_duel-location	0	1
+sh	1	open	shane_dueler	saloondoor_None	0	0
+sh	1	look-at	shane_dueler	jack_dueler	1	1
+sh	1	stare-at	shane_dueler	jack_dueler	1	0
+sh	2	look-at	jack_dueler	shane_dueler	1	1
+sh	2	stare-at	jack_dueler	shane_dueler	1	0
+sh	3	stare-at	jack_dueler	shane_dueler	0	0
+sh	3	look-at	shane_dueler	jack_dueler	rufus_thug	1	1
+sh	3	open	shane_dueler	saloondoor_None	0	0
+sh	4	stare-at	rufus_thug	shane_dueler	1	0
+sh	4	stare-at	bartender_bartender	shane_dueler	1	0
+sh	5	look-at	shane_dueler	rufus_thug	patrons_None	1	1
+sh	5	open	shane_dueler	saloondoor_None	0	0
+sh	6	look-at	patrons_None	shane_dueler	1	1
+sh	7	open	shane_dueler	saloondoor_None	0	1
+sh	7	look-at	shane_dueler	patrons_None	1	1
+sh	7	walk	shane_dueler	saloondoor_None	bar_None	1	0
+sh	7	walk	patrons_None	table_None	saloondoor_None	1	1
+sh	7	look-at	shane_dueler	patrons_None	1	1
+sh	7	look-at	shane_dueler	patrons_None	jack_dueler	1	1
+sh	8	none	jack_dueler	kettle_None	1	1
+sh	9	walk	shane_dueler	saloondoor_None	bar_None	0	1
+sh	9	look-at	shane_dueler	jack_dueler	rufus_thug	1	1
+sh	9	none	shane_dueler	1	1
+sh	10	none	boy_observer	1	1
+sh	10	look-at	boy_observer	shane_dueler	jack_dueler	1	1
+sh	10	look-at	dogb_None	shane_dueler	jack_dueler	1	1
+sh	11	provoke	shane_dueler	rufus_thug	1	0
+sh	11	de-escalate	rufus_thug	shane_dueler	1	0
+sh	12	look-at	boy_observer	shane_dueler	1	1
+sh	12	look-at	dogb_None	shane_dueler	1	1
+sh	13	provoke	shane_dueler	rufus_thug	0	0
+sh	13	de-escalate	rufus_thug	shane_dueler	0	0
+sh	13	look-at	bartender_bartender	rufus_thug	1	1
+sh	14	look-at	boy_observer	shane_dueler	jack_dueler	1	1
+sh	14	look-at	dogb_None	shane_dueler	jack_dueler	1	1
+sh	14	de-escalate	rufus_thug	shane_dueler	0	0
+sh	15	look-at	jack_dueler	shane_dueler	0	0
+sh	15	de-escalate	rufus_thug	shane_dueler	0	0
+sh	16	provoke	shane_dueler	rufus_thug	0	0
+sh	16	de-escalate	rufus_thug	shane_dueler	0	0
+sh	16	none	rifleman_thug	1	0
+sh	17	provoke	shane_dueler	rufus_thug	0	0
+sh	17	de-escalate	rufus_thug	shane_dueler	0	0
+sh	17	look-at	patrons_None	rufus_thug	1	1
+sh	18	look-at	boy_observer	shane_dueler	jack_dueler	1	1
+sh	18	look-at	dogb_None	shane_dueler	jack_dueler	1	1
+sh	18	de-escalate	rufus_thug	shane_dueler	0	0
+sh	19	look-at	jack_dueler	shane_dueler	0	0
+sh	19	de-escalate	rufus_thug	shane_dueler	0	0
+sh	20	provoke	shane_dueler	rufus_thug	0	1
+sh	20	de-escalate	rufus_thug	shane_dueler	0	0
+sh	20	look-at	shane_dueler	rufus_thug	jack_dueler	1	1
+sh	20	provoke	shane_dueler	jack_dueler	1	0
+sh	21	drop	jack_dueler	jackmug_None	jackmouth_None	table_None	1	1
+sh	21	stare-at	jack_dueler	shane_dueler	1	1
+sh	21	de-escalate	jack_dueler	shane_dueler	1	0
+sh	21	stand-up	jack_dueler	1	1
+sh	21	walk	jack_dueler	table_None	bar_None	1	0
+sh	22	look-at	bartender_bartender	jack_dueler	1	0
+sh	22	stare-at	shane_dueler	jack_dueler	1	0
+sh	22	walk	jack_dueler	table_None	bar_None	0	0
+sh	22	look-at	dogb_None	jack_dueler	1	1
+sh	23	walk	jack_dueler	table_None	bar_None	0	0
+sh	24	walk	dogb_None	bar_None	saloondoor_None	1	1
+sh	24	look-at	bartender_bartender	jack_dueler	0	0
+sh	24	stare-at	shane_dueler	jack_dueler	0	0
+sh	24	walk	jack_dueler	table_None	bar_None	0	1
+sh	24	square-off	jack_dueler	shane_dueler	1	1
+sh	25	stand-up	patrons_None	1	1
+sh	25	walk	patrons_None	bar_None	saloondoor_None	1	1
+sh	25	stare-at	shane_dueler	jack_dueler	0	0
+sh	25	look-at	bartender_bartender	jack_dueler	0	0
+sh	25	look-at	rufus_thug	shane_dueler	1	1
+sh	26	de-escalate	jack_dueler	shane_dueler	0	0
+sh	26	stare-at	jack_dueler	shane_dueler	1	0
+sh	27	stare-at	shane_dueler	jack_dueler	0	0
+sh	27	provoke	shane_dueler	jack_dueler	0	0
+sh	28	de-escalate	jack_dueler	shane_dueler	0	0
+sh	29	de-escalate	rufus_thug	shane_dueler	0	1
+sh	29	stare-at	shane_dueler	jack_dueler	0	0
+sh	29	look-at	rufus_thug	bartender_bartender	shane_dueler	1	0
+sh	29	look-at	rufus_thug	bartender_bartender	jack_dueler	1	0
+sh	30	look-at	rufus_thug	bartender_bartender	shane_dueler	0	1
+sh	30	look-at	rufus_thug	bartender_bartender	jack_dueler	0	1
+sh	30	look-at	bartender_bartender	rufus_thug	1	1
+sh	30	stare-at	shane_dueler	jack_dueler	0	0
+sh	30	identify	shane_dueler	jack_dueler	1	1
+sh	31	de-escalate	jack_dueler	shane_dueler	0	0
+sh	32	provoke	shane_dueler	jack_dueler	0	0
+sh	32	look-at	rufus_thug	rufus_thug	1	1
+sh	32	stare-at	shane_dueler	jack_dueler	0	0
+sh	33	de-escalate	jack_dueler	shane_dueler	0	1
+sh	34	square-off	shane_dueler	jack_dueler	1	0
+sh	35	stare-at	jack_dueler	shane_dueler	0	0
+sh	36	square-off	shane_dueler	jack_dueler	0	1
+sh	36	provoke	shane_dueler	jack_dueler	0	1
+sh	37	look-at	boy_observer	shane_dueler	jack_dueler	1	1
+sh	37	look-at	dogb_None	shane_dueler	jack_dueler	1	1
+sh	38	stare-at	jack_dueler	shane_dueler	0	1
+sh	38	none	jack_dueler	1	1
+sh	39	stare-at	shane_dueler	jack_dueler	0	0
+sh	40	assent	jack_dueler	shane_dueler	1	1
+sh	41	stare-at	shane_dueler	jack_dueler	0	1
+sh	42	draw-gun	jack_dueler	jackgun_duel-weapon	1	1
+sh	43	draw-gun	shane_dueler	shanegun_duel-weapon	1	1
+sh	43	fire-gun	shane_dueler	shanegun_duel-weapon	jack_dueler	1	1
+sh	44	get-shot	jack_dueler	jackbody_None	1	1
+sh	44	fire-gun	jack_dueler	jackgun_duel-weapon	shane_dueler	1	1
+sh	44	fall	jack_dueler	1	0
+sh	45	fire-gun	shane_dueler	shanegun_duel-weapon	jack_dueler	1	1
+sh	45	draw-gun	rufus_thug	rufusgun_None	1	1
+sh	45	face-at	shane_dueler	jack_dueler	rufus_thug	1	1
+sh	45	fire-gun	rufus_thug	rufusgun_None	shane_dueler	1	1
+sh	45	fire-gun	shane_dueler	shanegun_duel-weapon	rufus_thug	1	1
+sh	45	get-shot	rufus_thug	rufusbody_None	1	1
+sh	46	fall	jack_dueler	0	1
+sh	46	fire-gun	jack_dueler	jackgun_duel-weapon	1	1
+sh	46	die	jack_dueler	1	1
+sh	47	none	rifleman_thug	1	1
+sh	48	lower-gun	shane_dueler	shanegun_duel-weapon	1	1
+sh	48	walk	shane_dueler	bar_None	rufus_thug	1	0
+sh	49	look-at	rifleman_thug	shane_dueler	shane_dueler	bar_None	rufus_thug	1	1
+sh	50	walk	shane_dueler	bar_None	rufus_thug	0	1
+sh	50	look-at	shane_dueler	rufus_thug	1	1
+sh	51	die	rufus_thug	1	1
+sh	52	look-at	shane_dueler	rufus_thug	bartender_bartender	1	1
+sh	53	look-at	bartender_bartender	shane_dueler	1	1
+sh	54	holster-gun	shane_dueler	shanegun_duel-weapon	1	1
+sh	55	stare-at	boy_observer	shane_dueler	1	1
+sh	55	stare-at	dogb_None	shane_dueler	1	1
+sh	56	walk	shane_dueler	rufus_thug	saloondoor_None	1	1
+sh	57	aim-gun	rifleman_thug	riflemangun_None	1	0
+sh	58	look-at	boy_observer	rifleman_thug	1	1
+sh	58	look-at	dogb_None	rifleman_thug	1	1
+sh	59	aim-gun	rifleman_thug	riflemangun_None	0	1
+sh	60	look-at	boy_observer	shane_dueler	rifleman_thug	1	1
+sh	61	face-at	shane_dueler	door_None	rifleman_thug	1	1
+sh	61	draw-gun	shane_dueler	shanegun_duel-weapon	1	1
+sh	61	fire-gun	rifleman_thug	riflemangun_None	shane_dueler	1	1
+sh	61	fire-gun	shane_dueler	shanegun_duel-weapon	rifleman_thug	1	1
+sh	61	none	shane_dueler	1	1
+sh	62	get-shot	rifleman_thug	riflemanbody_None	1	1
+sh	62	fall	rifleman_thug	1	0
+sh	63	look-at	shane_dueler	rifleman_thug	1	1
+sh	64	fall	rifleman_thug	0	0
+sh	65	fall	rifleman_thug	0	0
+sh	66	fall	rifleman_thug	0	1
+sh	67	stare-at	boy_observer	rifleman_thug	1	1
+sh	67	stare-at	dogb_None	rifleman_thug	1	1
+sh	68	holster-gun	shane_dueler	shanegun_duel-weapon	1	1
+sh	68	look-at	bartender_bartender	shane_dueler	1	1
+sh	68	walk	shane_dueler	bar_None	saloondoor_None	0	0
+sh	69	stare-at	boy_observer	shane_dueler	1	1
+sh	69	stare-at	dogb_None	shane_dueler	1	1
+sh	70	stand-up	boy_observer	1	1
+sh	71	walk	shane_dueler	bar_None	saloondoor_None	0	1
+sh	71	look-at	shane_dueler	jack_dueler	1	1
+sh	72	None		None	None
+sh	73	look-at	shane_dueler	jack_dueler	rifleman_thug	1	1
+sh	74	open	shane_dueler	saloondoor_None	1	1
+sh	74	walk	shane_dueler	saloondoor_None	street_None	1	1
+ts	0	walk	doc_dueler	trees_None	ringo_dueler	1	0
+ts	1	look-at	ringo_dueler	doc_dueler	1	1
+ts	1	taunt	ringo_dueler	doc_dueler	1	0
+ts	2	walk	ringo_dueler	tree_None	doc_dueler	1	0
+ts	3	taunt	ringo_dueler	doc_dueler	0	0
+ts	3	walk	ringo_dueler	tree_None	doc_dueler	0	0
+ts	4	identify	doc_dueler	doc_dueler	1	1
+ts	4	walk	doc_dueler	tree_None	ringo_dueler	0	0
+ts	5	identify	ringo_dueler	doc_dueler	1	1
+ts	5	walk	ringo_dueler	tree_None	doc_dueler	0	1
+ts	6	provoke	doc_dueler	ringo_dueler	1	0
+ts	6	walk	doc_dueler	trees_None	ringo_dueler	0	1
+ts	7	square-off	ringo_dueler	doc_dueler	1	0
+ts	8	provoke	doc_dueler	ringo_dueler	0	0
+ts	9	square-off	ringo_dueler	doc_dueler	0	0
+ts	10	provoke	doc_dueler	ringo_dueler	0	0
+ts	11	stare-at	ringo_dueler	doc_dueler	1	0
+ts	11	provoke	doc_dueler	ringo_dueler	0	0
+ts	12	stare-at	doc_dueler	ringo_dueler	1	0
+ts	13	adjust-clothing	doc_dueler	coat_None	badge_None	1	1
+ts	13	reveal	doc_dueler	ringo_dueler	badge_None	1	1
+ts	13	provoke	doc_dueler	ringo_dueler	0	0
+ts	14	look-at	ringo_dueler	badge_None	1	1
+ts	15	stare-at	doc_dueler	ringo_dueler	0	0
+ts	16	assent	ringo_dueler	doc_dueler	1	1
+ts	17	arrive	doc_dueler	circle_None	1	0
+ts	18	arrive	ringo_dueler	circle_None	1	0
+ts	18	arrive	doc_dueler	circle_None	0	0
+ts	19	arrive	ringo_dueler	circle_None	0	0
+ts	19	arrive	doc_dueler	circle_None	0	0
+ts	20	arrive	doc_dueler	circle_None	0	0
+ts	20	arrive	ringo_dueler	circle_None	0	0
+ts	21	arrive	ringo_dueler	circle_None	0	1
+ts	21	arrive	doc_dueler	circle_None	0	0
+ts	22	arrive	doc_dueler	circle_None	0	1
+ts	23	square-off	ringo_dueler	doc_dueler	1	1
+ts	24	stare-at	doc_dueler	ringo_dueler	0	0
+ts	25	stare-at	ringo_dueler	doc_dueler	0	0
+ts	26	provoke	doc_dueler	ringo_dueler	0	1
+ts	27	stare-at	doc_dueler	ringo_dueler	0	0
+ts	27	stare-at	ringo_dueler	doc_dueler	0	0
+ts	28	stare-at	ringo_dueler	doc_dueler	0	0
+ts	29	draw-gun	ringo_dueler	ringogun_duel-weapon	1	0
+ts	30	none	doc_dueler	1	1
+ts	31	adjust-clothing	doc_dueler	docgun_duel-weapon	1	1
+ts	32	stare-at	doc_dueler	ringo_dueler	0	1
+ts	33	stare-at	ringo_dueler	doc_dueler	0	0
+ts	34	draw-gun	ringo_dueler	ringogun_duel-weapon	0	1
+ts	35	draw-gun	doc_dueler	docgun_duel-weapon	1	1
+ts	36	fire-gun	doc_dueler	docgun_duel-weapon	ringo_dueler	1	1
+ts	37	get-shot	doc_dueler	ringohead_None	1	1
+ts	38	none	doc_dueler	doc_dueler	1	0
+ts	39	holster-gun	doc_dueler	docgun_duel-weapon	1	1
+ts	40	taunt	doc_dueler	ringo_dueler	1	0
+ts	40	none	ringo_dueler	1	0
+ts	40	walk	doc_dueler	ringo_dueler	tree_None	1	0
+ts	41	taunt	doc_dueler	ringo_dueler	0	0
+ts	41	walk	doc_dueler	ringo_dueler	tree_None	1	0
+ts	42	none	ringo_dueler	1	0
+ts	43	fire-gun	ringo_dueler	ringogun_duel-weapon	1	0
+ts	44	none	ringo_dueler	1	0
+ts	45	taunt	doc_dueler	ringo_dueler	0	0
+ts	45	walk	doc_dueler	ringo_dueler	tree_None	0	0
+ts	46	taunt	doc_dueler	ringo_dueler	0	0
+ts	46	fall	ringo_dueler	1	1
+ts	46	die	ringo_dueler	1	1
+ts	47	taunt	doc_dueler	ringo_dueler	0	1
+ts	47	drop	doc_dueler	badge_None	doc_dueler	ringo_dueler	1	1
+ts	47	look-at	doc_dueler	wyatt_None	1	1
+ts	47	draw-gun	doc_dueler	docgun_duel-weapon	1	1
+ts	48	run	wyatt_None	forest_duel-location	trees_None	1	1
+ts	49	look-at	wyatt_None	doc_dueler	1	0
+ts	49	walk	wyatt_None	trees_None	doc_dueler	1	0
+ts	50	de-escalate	doc_dueler	wyatt_None	1	1
+ts	50	walk	wyatt_None	trees_None	doc_dueler	0	1
+ts	51	look-at	wyatt_None	doc_dueler	0	1
+jw	0	walk	hunter_dueler	street_duel-location	saloon_None	1	0
+jw	1	none	dog_None	hunter_dueler	1	1
+jw	2	look-at	josey_dueler	street_duel-location	1	1
+jw	3	open	hunter_dueler	door_None	1	1
+jw	3	walk	hunter_dueler	street_duel-location	saloon_None	0	1
+jw	4	none	bartender_bartender	hunter_dueler	1	1
+jw	5	none	hunter_dueler	josey_dueler	1	1
+jw	6	look-at	crowd_observer	hunter_dueler	1	1
+jw	7	look-at	crowd_observer	hunter_dueler	1	1
+jw	8	look-at	crowd_observer	hunter_dueler	1	1
+jw	9	identify	josey_dueler	hunter_dueler	1	1
+jw	10	face-at	hunter_dueler	josey_dueler	1	1
+jw	10	square-off	hunter_dueler	josey_dueler	1	1
+jw	10	provoke	hunter_dueler	josey_dueler	1	0
+jw	11	taunt	josey_dueler	hunter_dueler	1	1
+jw	12	stare-at	hunter_dueler	josey_dueler	1	0
+jw	13	identify	josey_dueler	hunter_dueler	1	1
+jw	14	identify	hunter_dueler	josey_dueler	1	1
+jw	15	de-escalate	josey_dueler	hunter_dueler	1	1
+jw	16	stare-at	hunter_dueler	josey_dueler	0	0
+jw	17	square-off	josey_dueler	hunter_dueler	1	1
+jw	18	stare-at	hunter_dueler	josey_dueler	0	0
+jw	19	stare-at	josey_dueler	hunter_dueler	1	0
+jw	20	stare-at	hunter_dueler	josey_dueler	0	1
+jw	20	walk	hunter_dueler	saloon_None	street_duel-location	1	1
+jw	20	open	hunter_dueler	door_None	1	1
+jw	21	stare-at	josey_dueler	hunter_dueler	0	0
+jw	22	look-at	crowd_observer	door_None	1	1
+jw	23	look-at	crowd_observer	door_None	1	1
+jw	24	stare-at	crowd_observer	door_None	1	1
+jw	25	stare-at	crowd_observer	door_None	1	1
+jw	26	stare-at	josey_dueler	hunter_dueler	0	0
+jw	27	open	hunter_dueler	door_None	1	1
+jw	27	walk	hunter_dueler	street_duel-location	saloon_None	1	1
+jw	27	square-off	hunter_dueler	josey_dueler	1	1
+jw	28	stare-at	crowd_observer	hunter_dueler	0	1
+jw	29	look-at	crowd_observer	hunter_dueler	1	1
+jw	30	look-at	crowd_observer	hunter_dueler	1	1
+jw	31	look-at	crowd_observer	hunter_dueler	1	1
+jw	32	look-at	crowd_observer	hunter_dueler	1	1
+jw	33	look-at	crowd_observer	hunter_dueler	1	1
+jw	34	assent	hunter_dueler	josey_dueler	1	1
+jw	35	assent	josey_dueler	hunter_dueler	1	1
+jw	36	draw-gun	josey_dueler	huntergun_duel-weapon	1	1
+jw	37	draw-gun	josey_dueler	joseygun_duel-weapon	1	1
+jw	37	fire-gun	josey_dueler	joseygun_duel-weapon	1	1
+jw	38	fall	hunter_dueler	saloon_None	street_duel-location	1	0
+jw	39	fall	hunter_dueler	saloon_None	street_duel-location	0	1
+jw	39	die	hunter_dueler	1	1
+jw	40	look-at	partner_thug	hunter_dueler	1	1
+jw	40	run	partner_thug	street_duel-location	street_duel-location	1	1
+jw	41	look-at	josey_dueler	street_duel-location	1	1
+jw	41	lower-gun	josey_dueler	joseygun_duel-weapon	1	1
+jw	42	look-at	crowd_observer	street_duel-location	1	1
+jw	43	look-at	crowd_observer	hunter_dueler	1	1
+ju	0	open	shep_dueler	saloondoor_None	1	1
+ju	0	walk	shep_dueler	outside_None	saloon_duel-location	1	1
+ju	1	look-at	crowd_observer	shep_dueler	1	1
+ju	1	walk	crowd_observer	table_None	barcorner_None	1	1
+ju	1	walk	bartender_bartender	bar_None	barcorner_None	1	1
+ju	1	look-at	jubal_dueler	shep_dueler	1	1
+ju	1	look-at	red_amigo	shep_dueler	1	1
+ju	1	aim-gun	shep_dueler	shepgun_duel-location	1	0
+ju	1	stand-up	shep_dueler	jubal_dueler	1	0
+ju	2	stand-up	shep_dueler	jubal_dueler	0	1
+ju	2	stare-at	shep_dueler	jubal_dueler	1	1
+ju	3	cock-gun	shep_dueler	shepgun_duel-location	1	1
+ju	3	stand-up	jubal_dueler	1	0
+ju	4	stand-up	jubal_dueler	0	1
+ju	4	stand-up	red_amigo	1	1
+ju	4	square-off	jubal_dueler	shep_dueler	1	1
+ju	4	de-escalate	jubal_dueler	shep_dueler	1	0
+ju	5	square-off	shep_dueler	jubal_dueler	1	1
+ju	5	provoke	shep_dueler	jubal_dueler	1	1
+ju	6	stare-at	jubal_dueler	shep_dueler	1	1
+ju	7	fire-gun	shep_dueler	shepgun_duel-location	jubal_dueler	1	1
+ju	7	wince	jubal_dueler	1	1
+ju	7	wince	red_amigo	1	1
+ju	7	load-gun	shep_dueler	shepgun_duel-location	1	0
+ju	8	load-gun	shep_dueler	shepgun_duel-location	0	1
+ju	8	none	crowd_observer	1	1
+ju	8	de-escalate	jubal_dueler	shep_dueler	0	0
+ju	8	de-escalate	red_amigo	shep_dueler	1	1
+ju	9	none	shep_dueler	red_amigo	1	1
+ju	9	fire-gun	shep_dueler	shepgun_duel-location	jubal_dueler	1	1
+ju	9	wince	jubal_dueler	1	1
+ju	9	wince	red_amigo	1	1
+ju	10	de-escalate	jubal_dueler	shep_dueler	0	1
+ju	11	assent	shep_dueler	jubal_dueler	1	1
+ju	12	help-up	red_amigo	table1_None	table2_None	shep_dueler	1	0
+ju	13	none	red_amigo	table1_None	table2_None	shep_dueler	0	1
+ju	13	wince	shep_dueler	1	0
+ju	14	wince	shep_dueler	0	1
+ju	15	give	red_amigo	redgun_duel-weapon	jubal_dueler	1	0
+ju	16	give	red_amigo	redgun_duel-weapon	jubal_dueler	0	1
+ju	16	give	jubal_dueler	redgun_duel-weapon	1	1
+ju	16	cock-gun	jubal_dueler	redgun_duel-weapon	1	1
+ju	16	fire-gun	jubal_dueler	redgun_duel-weapon	shep_dueler	1	1
+ju	17	get-shot	shep_dueler	shepbody_None	1	1
+ju	17	none	shep_dueler	1	1
+ju	18	look-at	crowd_observer	shep_dueler	1	1
+ju	19	fall	shep_dueler	1	1
+ju	19	die	shep_dueler	1	1
+ju	19	lower-gun	jubal_dueler	redgun_duel-weapon	1	1
+ju	19	stand-up	crowd_observer	1	1
+ju	19	look-at	red_amigo	shep_dueler	1	1
+ju	19	walk	jubal_dueler	table_None	shep_dueler	1	0
+ju	19	walk	red_amigo	table_None	shep_dueler	1	0
+ju	20	walk	jubal_dueler	table_None	shep_dueler	0	1
+ju	20	walk	red_amigo	table_None	shep_dueler	0	1
+ju	20	look-at	jubal_dueler	shep_dueler	red_amigo	1	1
+ju	20	none	jubal_dueler	1	0
+ju	20	pick-up	jubal_dueler	shep_dueler	1	0
+ju	21	none	jubal_dueler	0	1
+ju	21	pick-up	jubal_dueler	shep_dueler	0	1
+ju	21	none	red_amigo	1	1
+ju	21	look-at	jubal_dueler	shep_dueler	red_amigo	1	1
+ju	21	none	red_amigo	jubal_dueler	1	1
+ju	21	walk	red_amigo	shep_dueler	jubalhat_None	1	0
+ju	22	walk	red_amigo	shep_dueler	jubalhat_None	0	1
+ju	22	none	red_amigo	1	1
+ju	22	pick-up	red_amigo	jubalhat_None	1	1
+ju	22	stand-up	red_amigo	1	1
+ju	22	de-escalate	red_amigo	crowd_observer	1	1
+ju	23	look-at	crowd_observer	red_amigo	1	1
+ju	24	walk	red_amigo	jubalhat_None	saloondoor_None	1	0
+ju	25	look-at	jubal_dueler	red_amigo	shep_dueler	1	1
+ju	25	walk	red_amigo	jubalhat_None	saloondoor_None	0	1
+ju	25	walk	red_amigo	jubal_dueler	shep_dueler	saloondoor_None	1	1
+ju	26	stand-up	jubal_dueler	1	1
+ju	26	walk	jubal_dueler	shep_dueler	saloondoor_None	1	1
+ju	26	walk	crowd_observer	barcorner_None	table_None	1	1
+ju	27	none	crowd_observer	1	1
+ju	27	walk	crowd_observer	table_None	saloondoor_None	1	0
+ju	28	walk	crowd_observer	table_None	saloondoor_None	0	1
+ju	29	walk	crowd_observer	saloondoor_None	horse_None	1	1
+ju	29	ride	crowd_observer	crowdhorse_None	saloon_duel-location	1	1

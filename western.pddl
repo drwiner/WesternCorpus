@@ -70,6 +70,12 @@
 	:effect (at ?person ?p)
 	:agents (?person))
 
+  (:action run
+    :parameters (?person - char ?from - place ?to - place)
+    :precondition(and (at ?person ?from) (alive ?person))
+    :effect (and (not (at ?person ?from)) (at ?person ?to))
+    :agents (?person))
+
   (:action arrest
 	:parameters (?sheriff - sheriff ?c - char ?p - place)
 	:precondition (and (at ?sheriff ?p) (at ?c ?p) (alive ?sheriff) (alive ?c))
@@ -338,11 +344,17 @@
 	:precondition(and (has ?c1 ?g) (at ?c1 ?p) (not (at ?g ?p))) 
 	:effect (and (not (has ?c1 ?g)) (at ?g ?p))
 	:agents (?c1))
+
+  (:action pick-up
+    :parameters (?c - char ?thing - item ?p - place)
+    :precondition (and (alive ?c) (at ?thing ?p) (at ?c ?p))
+    :effect (has ?c ?thing)
+    :agent (?c))
 	
   (:action pickup-gun
 	:parameters (?c1 - char ?g - gun ?p - place)
 	:precondition (and 
-			(at ?g ?p) (at ?c1 ?p))
+			(at ?g ?p) (at ?c1 ?p) (alive ?c1))
 	:effect (and
 		(has ?c1 ?g) (not (holstered ?g)))
 	:agents (?c1)

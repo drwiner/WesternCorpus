@@ -3,7 +3,7 @@ from SceneDataStructs import readCorpus, parse
 from SceneDataStructs import Scene, Shot, Action, ActionType, SceneLib
 from Entities import Entity, assignRoles
 from Actions import assignActionTypes, analyzeActions, temporalizeActions
-from plot_induction import induce_plot
+from plot_induction import induce_plots
 # from NLP import readSentences
 
 
@@ -24,7 +24,8 @@ def readAndSaveFromScratch():
 	assignRoles(scene_lib)
 	temporalizeActions(scene_lib)
 	byactiontype_dic(scene_lib)
-	induce_plot('scene_lib_file')
+	write_to_file(scene_lib)
+	# induce_plots('scene_lib_file')
 	# readSentences(scene_lib)  - no nlp today
 	SDS.save_scenes(scene_lib)
 
@@ -54,7 +55,7 @@ def write_to_file(scene_lib):
 	scene_lib_file.close()
 
 if __name__ == '__main__':
-	# readAndSaveFromScratch()
-	scene_lib = SDS.load()
-	print('inspect')
+	readAndSaveFromScratch()
+	# scene_lib = SDS.load()
+	# print('inspect')
 	# byactiontype_dic(scene_lib)

@@ -27,6 +27,9 @@ class ActionObs:
 			return True
 		return False
 
+	def __hash__(self):
+		return hash(self._name) ^ hash(self._id)
+
 	def __repr__(self):
 		return self._name + '\tid={}\t'.format(str(self._id)) + '\t'.join(arg for arg in self._args)
 
