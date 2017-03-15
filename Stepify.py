@@ -18,7 +18,6 @@ import SceneDataStructs as SDS
 		for each existing step in plan, determine if causal link possible, add ALL possible causal links, no flaws
 """
 
-
 # Operators, DOperators, objects, GC.object_types, init, goal
 # print('check these out')
 
