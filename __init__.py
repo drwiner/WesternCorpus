@@ -4,6 +4,7 @@ from SceneDataStructs import Scene, Shot, Action, ActionType, SceneLib
 from Entities import Entity, assignRoles
 from Actions import assignActionTypes, analyzeActions, temporalizeActions
 from plot_induction import induce_plots
+from Stepify import plannify
 # from NLP import readSentences
 
 
@@ -25,6 +26,7 @@ def readAndSaveFromScratch():
 	temporalizeActions(scene_lib)
 	byactiontype_dic(scene_lib)
 	write_to_file(scene_lib)
+	plannify(scene_lib)
 	# induce_plots('scene_lib_file')
 	# readSentences(scene_lib)  - no nlp today
 	SDS.save_scenes(scene_lib)

@@ -1,26 +1,7 @@
-drop-gun	buck_dueler	assisstantgun_None
-drop-gun	sentenza_dueler	sentenzagun_duel-weapon
-drop-gun	bard_amigo	bardgun_None
-drop-gun	mr.banner_None	mrbannergun_thug
-drop-gun	billy_dueler	thuga_dueler	thug_thug
-drop-gun	billy_dueler	thuga_dueler	thugagun_duel-weapon
-drop-gun	billy_dueler	thuga_dueler	thugagun_duel-weapon
-drop-gun	thuga_dueler	thugagun_duel-weapon
-drop-gun	billy_dueler	billygun_duel-weapon
-drop-gun	doc_amigo	docrifle_None
-drop-gun	thug_dueler	thuggun_duel-weapon
-drop-gun	thug_thug	thuggun_None
-drop-gun	thug_thug	thuggun_None
-drop-gun	thug_thug	thuggun_None
-drop-gun	thug_thug	thuggun_None
-drop-gun	thug_thug	thuggun_None
-drop-gun	lyle_dueler	lylegun_duel-weapon
-drop-gun	marston_dueler	marstongun_duel-weapon
+drop-gun	alonzo_amigo	jdrifle_None	street_duel-location
+drop-gun	alonzo_amigo	jdrifle_None	street_duel-location
 drop-gun	jd_dueler	jdgun_duel-weapon
 drop-gun	jd_dueler	jdrifle_None
-drop-gun	ranse_dueler	ransegun_duel-weapon
-drop-gun	nino_None	ninogun_None
-drop-gun	mortimer_dueler	mortimergun_duel-weapon
 drop-gun	ned_dueler	bandit2gun_None
 drop-gun	ned_dueler	bandit2gun_None
 drop-gun	german_dueler	germangun_duel-weapon
@@ -28,5 +9,27 @@ drop-gun	ned_dueler	bandit2gun_None
 drop-gun	ned_dueler	bandit2gun_None
 drop-gun	german2_thug	german2gun_None
 drop-gun	bandit3_thug	bandit3gun_None
+drop-gun	bard_amigo	bardgun_None
+drop-gun	mr.banner_None	mrbannergun_thug
+drop-gun	marston_dueler	marstongun_duel-weapon
+drop-gun	thug_thug	thuggun_None
+drop-gun	thug_thug	thuggun_None
+drop-gun	thug_thug	thuggun_None
+drop-gun	thug_thug	thuggun_None
+drop-gun	thug_thug	thuggun_None
+drop-gun	lyle_dueler	lylegun_duel-weapon
 drop-gun	woodrow_dueler	woodrowgun_duel-weapon
 drop-gun	woodrow_dueler	thugbgun_None
+drop-gun	nino_None	ninogun_None
+drop-gun	mortimer_dueler	mortimergun_duel-weapon
+drop-gun	billy_dueler	thuga_dueler	thug_thug
+drop-gun	billy_dueler	thuga_dueler	thugagun_duel-weapon
+drop-gun	billy_dueler	thuga_dueler	thugagun_duel-weapon
+drop-gun	thuga_dueler	thugagun_duel-weapon
+drop-gun	billy_dueler	billygun_duel-weapon
+drop-gun	doc_amigo	docrifle_None
+drop-gun	ranse_dueler	ransegun_duel-weapon
+drop-gun	thug_dueler	thuggun_duel-weapon
+drop-gun	james_dueler	duelgun1_duel-weapon
+drop-gun	buck_dueler	assisstantgun_None
+drop-gun	sentenza_dueler	sentenzagun_duel-weapon

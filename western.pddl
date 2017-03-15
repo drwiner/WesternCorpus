@@ -43,7 +43,6 @@
 			   
 			   ;physical states
 			   (alive ?char - char)
-			   (sitting ?c1 - char)
 			   (standing ?c1 - char)
 			   (on-ground ?c - char)
 			   (squared-off ?c - char ?c2 - char)
@@ -104,11 +103,30 @@
 					)
 	:effect (and (looking ?looker ?lookee))
 	:agents (?looker))
+
+  (:action look-from-to
+    :parameters (?looker - char ?former-targ - object ?new-targ - object ?p - place)
+    :precondition (and (at ?looker ?p) (at ?former-targ ?p) (at ?new-targ ?p) (alive ?looker)
+        (looking ?looker ?former-targ))
+    :effect (and (looking ?looker ?new-targ) (not (looking ?looker ?former-targ)))
+    :agents (?looker))
+	
+  (:action carry-from-to
+	:parameters (?carrier - char ?item - item ?p1 - place ?p2 - place)
+	:precondition (and (alive ?carrier) (at ?carrier ?p1) (at ?item ?p1))
+	:effect (and (at ?carrier ?p2) (not (at ?carrier ?p1)) (at ?item ?p2) (not (at ?item ?p1)))
+	:agents (?carrier))
 	
   (:action face-at
 	:parameters (?facer - char ?facee - object)
 	:precondition(alive ?facer)
 	:effect (and (facing ?facer ?facee))
+	:agents (?facer))
+	
+  (:action face-from-to
+	:parameters (?facer - char ?former-targ - object ?new-targ - object)
+	:precondition(and (alive ?facer) (facing ?facer ?former-targ))
+	:effect (and (facing ?facer ?new-targ) (not (facing ?facer ?former-targ)))
 	:agents (?facer))
 	
   (:action draw-gun
@@ -259,9 +277,14 @@
 	:effect (drinking ?drinker)
 	:agents (?drinker))
 
+  (:action drink-with
+	:parameters (?drinker - char ?other - char ?p - place)
+	:precondition(and (alive ?drinker) (alive ?other) (drinking ?drinker) (at ?drinker ?p) (at ?other ?p))
+	:effect (bel-char ?other (drunk ?drinker))
+	:agents(?drinker))
   
   (:action assent
-	:parameters (?ger - char ?gee - char ?loc - place ?duel-place - place)
+	:parameters (?ger - char ?gee - char ?loc - place)
 	:precondition (and  (alive ?ger) (provoked ?ger) (provoked ?gee)
 						(alive ?gee) 
 						(at ?ger ?loc) 
@@ -293,6 +316,12 @@
 	:effect (closed ?d)
 	:agents (?c1))
 	
+  (:action fall-from-to
+	:parameters (?faller - char ?from - place ?to - place)
+	:precondition (at ?faller ?from)
+	:effect (and (at ?faller ?to) (not (at ?faller ?from)) (on-ground ?faller))
+	:agents())
+	
   (:action ask-for
 	:parameters (?asker - char ?haser - char ?item - item ?p - place)
 	:precondition (and (alive ?asker) (alive ?haser) (has ?haser ?item)
@@ -303,7 +332,7 @@
   (:action identify
 	:parameters (?identifier - char ?recipient - char ?p - place)
 	:precondition (and (alive ?identifier) (at ?identifier ?p) (alive ?recipient) (at ?recipient ?p))
-	:effect ()
+	:effect (bel-char ?identifier (at ?recipient ?p))
 	:agents (?identifier))
 	
   (:action give
@@ -313,6 +342,12 @@
 	:effect (and (has ?taker ?item) (not (has ?giver ?item)))
 	:agents (?giver ?taker)
 	)
+	
+  (:action take-gun
+	:parameters (?taker - char ?gun - gun ?takee - char ?p - place)
+	:precondition(and (alive ?taker) (has ?takee ?gun) (at ?taker ?p) (at ?takee ?P))
+	:effect (and (has ?taker ?gun) (not (has ?takee ?gun)))
+	:agents (?taker))
 
   (:action aim-gun 
 	:parameters (?c1 - char ?t - object ?p - place ?g - gun)
@@ -322,8 +357,8 @@
 
   (:action stand-up
 	:parameters (?c1 - char)
-	:precondition (and (alive ?c1) (sitting ?c1))
-	:effect (standing ?c1)
+	:precondition (and (alive ?c1) (not (standing ?c1)))
+	:effect (and (standing ?c1) (not (on-ground ?c1)))
 	:agents(?c1))
 	
   (:action lower-gun

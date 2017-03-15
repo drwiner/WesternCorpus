@@ -51,6 +51,21 @@ def getNonEquals(formula, op_graph, elements, edges):
 	op_graph.nonequals.add((i1, i2))
 
 
+def nested_lit(status, parent, formula, elements, edges, lit_name, relationship, lit_relationship):
+	_lit = Literal(name=lit_name, num_args=2, truth=status)
+	edges.add(Edge(parent, _lit, relationship))
+	person_name = formula.children[0].key.name
+	arg = next(element for element in elements if person_name == element.arg_name)
+	edges.add(Edge(_lit, arg, GC.ARGLABELS[0]))
+	elements.add(_lit)
+	symb_ = formula.children[1]
+	if symb_.key == 'not':
+		symb_ = next(iter(formula.children))
+		return makeLit(symb_, _lit, lit_relationship, elements, edges, False)
+	else:
+		return makeLit(symb_, _lit, lit_relationship, elements, edges, True)
+
+
 def getSubFormulaGraph(formula, op_graph, parent=None, relationship=None, elements=None, edges=None):
 	if elements is None:
 		elements = set()
@@ -61,33 +76,19 @@ def getSubFormulaGraph(formula, op_graph, parent=None, relationship=None, elemen
 	if formula.key == 'not':
 		formula = next(iter(formula.children))
 		if formula.key == 'intends':
-			intend_lit = Literal(name='intends', num_args=2, truth=False)
-			edges.add(Edge(parent, intend_lit, relationship))
-			goal = formula.children[1]
-			if goal.key == 'not':
-				goal = next(iter(formula.children))
-				lit, formula = makeLit(goal, intend_lit, 'goal-of', elements, edges, False)
-			else:
-				lit, formula = makeLit(goal, intend_lit, 'goal-of', elements, edges, True)
+			lit, formula = nested_lit(False, parent, formula, elements, edges, 'intends', relationship, 'goal-of')
 		elif formula.key in {'equals', '=', 'equal'}:
 			getNonEquals(formula, op_graph, elements, edges)
 			return
+		elif formula.key == 'bel-char':
+			lit, formula = nested_lit(False, parent, formula, elements, edges, 'bel-char', relationship, 'bel-of')
 		else:
 			lit, formula = makeLit(formula, parent, relationship, elements, edges, False)
 	elif formula.key == 'intends':
-		intend_lit = Literal(name='intends', num_args=2, truth=True)
-		edges.add(Edge(parent, intend_lit, relationship))
-		person_name = formula.children[0].key.name
-		arg = next(element for element in elements if person_name == element.arg_name)
-		edges.add(Edge(intend_lit, arg, GC.ARGLABELS[0]))
-		elements.add(intend_lit)
-		goal = formula.children[1]
-		if goal.key == 'not':
-			goal = next(iter(formula.children))
-			lit, formula = makeLit(goal, intend_lit, 'goal-of', elements, edges, False)
-		else:
-			lit, formula = makeLit(goal, intend_lit, 'goal-of', elements, edges, True)
+		lit, formula = nested_lit(True, parent, formula, elements, edges, 'intends', relationship, 'goal-of')
 		# raise NameError('no intends yet')
+	elif formula.key == 'bel-char':
+		lit, formula = nested_lit(True, parent, formula, elements, edges, 'bel-char', relationship, 'bel-of')
 	elif formula.key == 'for-all' or formula.key == 'forall':
 		raise NameError('no for-all yet')
 	elif formula.type > 0:
@@ -97,7 +98,11 @@ def getSubFormulaGraph(formula, op_graph, parent=None, relationship=None, elemen
 
 	'''for each variable, find existing argument in action parameters and add Edge'''
 	for i, child in enumerate(formula.children):
-		arg = next(element for element in elements if child.key.name == element.arg_name)
+		try:
+			arg = next(element for element in elements if child.key.name == element.arg_name)
+		except:
+			print('error: ' + str(child.key) + ' ' + str(parent) + ' ' + str(relationship))
+			raise AssertionError(child.key.name + ' ' + str(parent) + ' ' + relationship + ' ' + str(op_graph.root))
 
 		if relationship == 'actor-of':
 			edges.add(Edge(parent, arg, 'actor-of'))

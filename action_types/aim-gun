@@ -1,3 +1,64 @@
+aim-gun	bandit3_thug	bandit3gun_None
+aim-gun	rifleman_thug	riflemangun_None
+aim-gun	rifleman_thug	riflemangun_None
+aim-gun	dobkin_thug	dobkingun_None	quigley_dueler
+aim-gun	dobkin_thug	dobkingun_None	quigley_dueler
+aim-gun	o'flynn_thug	oflynngun_None	quigley_dueler
+aim-gun	dobkin_thug	dobkingun_None	quigley_dueler
+aim-gun	o'flynn_thug	oflynngun_None	quigley_dueler
+aim-gun	o'flynn_thug	oflynngun_None	quigley_dueler
+aim-gun	quigley_dueler	marston_dueler
+aim-gun	quigley_dueler	marston_dueler
+aim-gun	quigley_dueler	marston_dueler
+aim-gun	joe_dueler	joegun_duel-weapon
+aim-gun	john_observer	joe_dueler
+aim-gun	bannister_dueler	o'hanlon_dueler
+aim-gun	bannister_dueler	bannistergun_duel-weapon	sullivan_observer
+aim-gun	o'hanlon_dueler	ohanlongun_duel-weapon	bannister_dueler
+aim-gun	lyle_dueler	lylegun_duel-weapon
+aim-gun	lyle_dueler	thugsgun_None
+aim-gun	thugs_thug	lylegun_duel-weapon
+aim-gun	thugs_thug	thugsgun_None
+aim-gun	lyle_dueler	lylegun_duel-weapon
+aim-gun	lyle_dueler	thugsgun_None
+aim-gun	thugs_thug	lylegun_duel-weapon
+aim-gun	thugs_thug	thugsgun_None
+aim-gun	lyle_dueler	lylegun_duel-weapon
+aim-gun	lyle_dueler	thugsgun_None
+aim-gun	thugs_thug	lylegun_duel-weapon
+aim-gun	thugs_thug	thugsgun_None
+aim-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon
+aim-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon
+aim-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon
+aim-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon
+aim-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon
+aim-gun	rider4_amigo	ride4rifle_None	thugb_thug
+aim-gun	rider4_amigo	ride4rifle_None	thugc_thug
+aim-gun	mortimer_dueler	mortimergun_duel-weapon
+aim-gun	mortimer_dueler	mortimergun_duel-weapon
+aim-gun	monco_amigo	moncorifle_None
+aim-gun	monco_amigo	moncorifle_None
+aim-gun	monco_amigo	moncorifle_None
+aim-gun	monco_amigo	moncorifle_None
+aim-gun	monco_amigo	moncorifle_None
+aim-gun	monco_amigo	moncorifle_None
+aim-gun	monco_amigo	moncorifle_None
+aim-gun	indio_dueler	indiogun_duel-weapon
+aim-gun	indio_dueler	indiogun_duel-weapon
+aim-gun	billy_dueler	billygun_duel-weapon	thuga_dueler
+aim-gun	dave_amigo	daveshotgun_None	thuga_dueler
+aim-gun	dave_amigo	daveshotgun_None	thugb_dueler
+aim-gun	billy_dueler	billygun_duel-weapon	thuga_dueler
+aim-gun	billy_dueler	billygun_duel-weapon	thuga_dueler
+aim-gun	liberty_dueler	libertygun_duel-weapon	ransehead_None
+aim-gun	preacher_dueler	preachergun1_duel-weapon	stockburn_dueler
+aim-gun	preacher_dueler	preachergun1_duel-weapon	stockburn_dueler
+aim-gun	preacher_dueler	preachergun1_duel-weapon
+aim-gun	preacher_dueler	preachergun2_None
+aim-gun	coy_amigo	coyrifle_None	preacher_dueler
+aim-gun	hull_thug	hullrifle_None	coy_amigo
+aim-gun	coy_amigo	coyrifle_None	hull_thug
+aim-gun	barman_thug	barmangun_None
 aim-gun	buck_dueler	duelgun2_duel-weapon
 aim-gun	james_dueler	duelgun1_duel-weapon
 aim-gun	buck_dueler	duelgun2_duel-weapon
@@ -8,65 +69,4 @@ aim-gun	james_dueler	duelgun1_duel-weapon
 aim-gun	james_dueler	duelgun1_duel-weapon
 aim-gun	blondie_dueler	blondiegun_duel-weapon	sentenza_dueler
 aim-gun	sentenza_dueler	sentenzagun_duel-weapon
-aim-gun	billy_dueler	billygun_duel-weapon	thuga_dueler
-aim-gun	dave_amigo	daveshotgun_None	thuga_dueler
-aim-gun	dave_amigo	daveshotgun_None	thugb_dueler
-aim-gun	billy_dueler	billygun_duel-weapon	thuga_dueler
-aim-gun	billy_dueler	billygun_duel-weapon	thuga_dueler
-aim-gun	barman_thug	barmangun_None
-aim-gun	lyle_dueler	lylegun_duel-weapon
-aim-gun	lyle_dueler	thugsgun_None
-aim-gun	thugs_thug	lylegun_duel-weapon
-aim-gun	thugs_thug	thugsgun_None
-aim-gun	lyle_dueler	lylegun_duel-weapon
-aim-gun	lyle_dueler	thugsgun_None
-aim-gun	thugs_thug	lylegun_duel-weapon
-aim-gun	thugs_thug	thugsgun_None
-aim-gun	lyle_dueler	lylegun_duel-weapon
-aim-gun	lyle_dueler	thugsgun_None
-aim-gun	thugs_thug	lylegun_duel-weapon
-aim-gun	thugs_thug	thugsgun_None
-aim-gun	dobkin_thug	dobkingun_None	quigley_dueler
-aim-gun	dobkin_thug	dobkingun_None	quigley_dueler
-aim-gun	o'flynn_thug	oflynngun_None	quigley_dueler
-aim-gun	dobkin_thug	dobkingun_None	quigley_dueler
-aim-gun	o'flynn_thug	oflynngun_None	quigley_dueler
-aim-gun	o'flynn_thug	oflynngun_None	quigley_dueler
-aim-gun	quigley_dueler	marston_dueler
-aim-gun	quigley_dueler	marston_dueler
-aim-gun	quigley_dueler	marston_dueler
-aim-gun	rider4_amigo	ride4rifle_None	thugb_thug
-aim-gun	rider4_amigo	ride4rifle_None	thugc_thug
-aim-gun	bannister_dueler	o'hanlon_dueler
-aim-gun	bannister_dueler	bannistergun_duel-weapon	sullivan_observer
-aim-gun	o'hanlon_dueler	ohanlongun_duel-weapon	bannister_dueler
-aim-gun	liberty_dueler	libertygun_duel-weapon	ransehead_None
-aim-gun	mortimer_dueler	mortimergun_duel-weapon
-aim-gun	mortimer_dueler	mortimergun_duel-weapon
-aim-gun	monco_amigo	moncorifle_None
-aim-gun	monco_amigo	moncorifle_None
-aim-gun	monco_amigo	moncorifle_None
-aim-gun	monco_amigo	moncorifle_None
-aim-gun	monco_amigo	moncorifle_None
-aim-gun	monco_amigo	moncorifle_None
-aim-gun	monco_amigo	moncorifle_None
-aim-gun	indio_dueler	indiogun_duel-weapon
-aim-gun	indio_dueler	indiogun_duel-weapon
 aim-gun	shep_dueler	shepgun_duel-location
-aim-gun	preacher_dueler	preachergun1_duel-weapon	stockburn_dueler
-aim-gun	preacher_dueler	preachergun1_duel-weapon	stockburn_dueler
-aim-gun	preacher_dueler	preachergun1_duel-weapon
-aim-gun	preacher_dueler	preachergun2_None
-aim-gun	coy_amigo	coyrifle_None	preacher_dueler
-aim-gun	hull_thug	hullrifle_None	coy_amigo
-aim-gun	coy_amigo	coyrifle_None	hull_thug
-aim-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon
-aim-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon
-aim-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon
-aim-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon
-aim-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon
-aim-gun	bandit3_thug	bandit3gun_None
-aim-gun	rifleman_thug	riflemangun_None
-aim-gun	rifleman_thug	riflemangun_None
-aim-gun	joe_dueler	joegun_duel-weapon
-aim-gun	john_observer	joe_dueler

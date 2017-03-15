@@ -67,9 +67,9 @@ def order_steps(plan, obs_step_dict, ais):
 		og.elements.add(step)
 		for ordered_step in list(og.elements):
 			ai_ord = obs_step_dict[ordered_step.ID]
-			if end_dict[ai_step] < start_dict[ai_ord]:
+			if end_dict[ai_step] <= start_dict[ai_ord]:
 				og.addOrdering(step, ordered_step)
-			elif end_dict[ai_ord] < start_dict[ai_step]:
+			if end_dict[ai_ord] <= start_dict[ai_step]:
 				og.addOrdering(ordered_step, step)
 
 
@@ -124,12 +124,11 @@ def topoSort(ordering_graph):
 				S.add(m_edge.sink)
 	return L
 
-if __name__ == '__main__':
-	operators, dops, objects, object_types, ia, ga = parseDomAndProb('western.pddl', 'generic_western_problem.pddl')
-	op_dict = {op.name:op for op in operators}
-	scene_lib = SDS.load()
-	plot_ais_dict = induce_plots('scene_lib_file')
-	scene_plans_dict = dict()
+
+def plannify(scene_lib, domain='western.pddl', problem='generic_western_problem.pddl', scene_file='scene_lib_file'):
+	operators, dops, objects, object_types, ia, ga = parseDomAndProb(domain, problem)
+	op_dict = {op.name: op for op in operators}
+	plot_ais_dict = induce_plots(scene_file)
 	for sc_name, scene in scene_lib.items():
 		if sc_name in SDS.EXCLUDE_SCENES:
 			continue
@@ -147,25 +146,15 @@ if __name__ == '__main__':
 				sps.write(str(edge) + '\n')
 			sps.write('\n')
 			for i, step in enumerate(steps_in_list):
+				# skip
+				if i == 0:
+					continue
 				sps.write('{}\t{}\n'.format(str(i), str(step)))
 	print('here')
+
+
+if __name__ == '__main__':
+	plannify()
+
 	# now, we would somehow check if our scene_plans_dict has any merit.
 	# put in topological order and output to scene files
-
-
-"""
-FlawLib.non_static_preds = preprocessDomain(operators)
-	obtypes = obTypesDict(object_types)
-
-	Argument.object_types = obtypes
-	planner = PlanSpacePlanner(operators, objects, initAction, goalAction)
-	#planner.story_GL = GLib(operators, story_objs, obtypes, initAction, goalAction)
-
-	results = planner.POCL(1)
-
-	for result in results:
-		totOrdering = topoSort(result)
-		print('\n\n\n')
-		for step in topoSort(result):
-			print(Action.subgraph(result, step))
-			"""

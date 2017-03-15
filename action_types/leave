@@ -1,21 +1,52 @@
+leave	crowd_observer
+leave	dobkin_thug	quigley_dueler
+leave	o'flynn_thug	quigley_dueler
+leave	joe_dueler	thugs_dueler
+leave	ellen_None	ellenhorse_None	town_None
+leave	ellen_None	ellenhorse_None	town_None
+leave	bartender_bartender
+leave	crowd_None
+leave	crowd_None
+leave	crowd_None
+leave	crowd_None
+leave	crowd_None
+leave	ben_observer	window_None
+leave	rebecca_observer	window_None
+leave	ben_observer	window_None
+leave	crowd_observer
+leave	crowd_observer
+leave	crowd_observer
+leave	crowd_observer
+leave	nino_None	house_None
+leave	nino_None	house_None
+leave	mortimer_dueler	rocks_None
+leave	mortimer_dueler	rocks_None
+leave	billy_dueler	billyhorse_None
+leave	doc_amigo	dochorse_None	chisum_thug
+leave	crowd_observer
+leave	crowd_observer
+leave	crowd_observer
+leave	crowd_observer
+leave	crowd_observer
+leave	crowd_observer
+leave	crowd_observer
+leave	crowd_observer
+leave	tenneray_dueler	fighter_dueler
+leave	cross_amigo	street_duel-location
+leave	crowd_observer
+leave	preacher_dueler	preacherhorse_None	barn_None
+leave	preacher_dueler	preacherhorse_None	barn_None
+leave	preacher_dueler	preacherhorse_None	barn_None
+leave	preacher_dueler	preacherhorse_None	barn_None
+leave	payden_dueler	townroadb_duel-location
+leave	payden_dueler	townroadb_duel-location
+leave	payden_dueler	townroadb_duel-location
+leave	payden_dueler	townroadb_duel-location
+leave	billy_dueler	pestoso_dueler
+leave	billy_dueler	pestoso_dueler
+leave	billy_dueler	pestoso_dueler
+leave	billy_dueler	pestoso_dueler
 leave	james_dueler	buck_dueler
 leave	buck_dueler	james_dueler
 leave	rufus_amigo	buck_dueler
 leave	rufus_amigo	buck_dueler
-leave	billy_dueler	billyhorse_None
-leave	dobkin_thug	quigley_dueler
-leave	o'flynn_thug	quigley_dueler
-leave	tenneray_dueler	fighter_dueler
-leave	cross_amigo	street_duel-location
-leave	ben_observer	window_None
-leave	rebecca_observer	window_None
-leave	ben_observer	window_None
-leave	billy_dueler	pestoso_dueler
-leave	billy_dueler	pestoso_dueler
-leave	billy_dueler	pestoso_dueler
-leave	billy_dueler	pestoso_dueler
-leave	joe_dueler	thugs_dueler
-leave	payden_dueler	townroadb_duel-location
-leave	payden_dueler	townroadb_duel-location
-leave	payden_dueler	townroadb_duel-location
-leave	payden_dueler	townroadb_duel-location

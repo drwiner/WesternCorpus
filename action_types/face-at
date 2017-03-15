@@ -1,42 +1,18 @@
-face-at	buck_dueler	james_dueler
-face-at	james_dueler	buck_dueler
-face-at	james_dueler	buck_dueler
-face-at	buck_dueler	james_dueler
-face-at	ben_dueler	brazoshorse_None	brazos_dueler
-face-at	ben_dueler	brazoshorse_None	brazos_dueler
-face-at	chisum_thug	thuga_dueler
-face-at	chisum_thug	thuga_dueler	billy_dueler
-face-at	chisum_thug	thuga_dueler	billy_dueler
-face-at	chisum_thug	thuga_dueler	doc_amigo
-face-at	chisum_thug	thuga_dueler	dave_amigo
-face-at	chisum_thug	thuga_dueler	chavez_amigo
-face-at	thuga_dueler	house_None
-face-at	thuga_dueler	billy_dueler	thugb_dueler
-face-at	alonzo_amigo	jdsaddle_None	jd_dueler
 face-at	jd_dueler	kane_dueler
-face-at	jack_dueler	nessuno_dueler	cameraman_observer
-face-at	jack_dueler	nessuno_dueler	cameraman_observer
-face-at	jack_dueler	nessuno_dueler	cameraman_observer
+face-at	german_dueler	ned_dueler
+face-at	hunter_dueler	josey_dueler
+face-at	ellen_None	town_None
+face-at	cort_dueler	street_duel-location
+face-at	cort_dueler	spottedhorse_dueler
 face-at	andy_dueler	wyatt_dueler
 face-at	andy_dueler	doc_observer
 face-at	andy_dueler	rider3_amigo
 face-at	andy_dueler	rider4_amigo
 face-at	andy_dueler	rider5_amigo
 face-at	andy_dueler	wyatt_dueler
-face-at	o'hanlon_dueler	sullivan_observer	saloondoor_None
-face-at	hunter_dueler	josey_dueler
-face-at	ellen_None	town_None
-face-at	cort_dueler	street_duel-location
-face-at	cort_dueler	spottedhorse_dueler
-face-at	german_dueler	ned_dueler
-face-at	german_dueler	gate_None	ned_dueler
-face-at	ned_dueler	bandit3_thug	guapo_thug
-face-at	johnny_dueler	bar_None	woodrow_dueler
-face-at	johnny_dueler	bar_None	woodrow_dueler
-face-at	johnny_dueler	bar_None	woodrow_dueler
-face-at	johnny_dueler	bar_None	woodrow_dueler
-face-at	johnny_dueler	woodrow_dueler	saloonwindow_None
-face-at	shane_dueler	jack_dueler	rufus_thug
-face-at	shane_dueler	door_None	rifleman_thug
-face-at	thugb_dueler	thuga_dueler	horses_None	harmonica_dueler
-face-at	thugb_dueler	thugc_dueler	horses_None	harmonica_dueler
+face-at	chisum_thug	thuga_dueler
+face-at	thuga_dueler	house_None
+face-at	buck_dueler	james_dueler
+face-at	james_dueler	buck_dueler
+face-at	james_dueler	buck_dueler
+face-at	buck_dueler	james_dueler

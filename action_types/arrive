@@ -1,28 +1,76 @@
-arrive	rufus_amigo	buck_dueler
-arrive	james_dueler	jean_observer
-arrive	rufus_amigo	buck_dueler
-arrive	james_dueler	crowd_observer
-arrive	jean_observer	crowd_observer
-arrive	buck_dueler	assistant_None
-arrive	rufus_amigo	buck_dueler
-arrive	rufus_amigo	buck_dueler
-arrive	jed_dueler	porch_None
-arrive	blondie_dueler	stone_None
-arrive	blondie_dueler	stone_None
+arrive	jd_dueler	alonzo_amigo
+arrive	henchman_thug	alonzo_amigo
+arrive	bandit2_thug	ned_dueler
+arrive	bandit2_thug	jefe_thug
 arrive	ben_dueler	wagon_None
 arrive	bard_amigo	brazos_dueler
 arrive	brazos_dueler	bard_amigo
+arrive	shane_dueler	saloon_duel-location
+arrive	shane_dueler	saloon_duel-location
+arrive	quigley_dueler	marston_dueler
+arrive	undertaker_observer	saloon_None
+arrive	doc_None	spottedhorse_dueler
+arrive	crowd_observer	cort_dueler
+arrive	crowd_observer	spottedhorse_dueler
+arrive	johnny_dueler	saloon_duel-location
+arrive	ben_observer	saloon_duel-location
+arrive	johnny_dueler	saloon_duel-location
+arrive	ben_observer	saloon_duel-location
+arrive	woodrow_dueler	saloon_duel-location
+arrive	woodrow_dueler	saloon_duel-location
+arrive	thugb_thug	woodrow_dueler
+arrive	wyatt_dueler	pen_duel-location
+arrive	doc_observer	pen_duel-location
+arrive	rider3_amigo	pen_duel-location
+arrive	rider4_amigo	pen_duel-location
+arrive	rider5_amigo	pen_duel-location
+arrive	wyatt_dueler	pen_duel-location
+arrive	doc_observer	pen_duel-location
+arrive	rider3_amigo	pen_duel-location
+arrive	rider4_amigo	pen_duel-location
+arrive	rider5_amigo	pen_duel-location
+arrive	thuga_thug	gate_None
+arrive	thugahorse_None	gate_None
+arrive	cameraman_observer	street_duel-location
+arrive	assistant_None	street_duel-location
+arrive	monco_amigo	mortimer_dueler
+arrive	monco_amigo	mortimer_dueler
+arrive	monco_amigo	mortimer_dueler
+arrive	monco_amigo	mortimer_dueler
+arrive	monco_amigo	mortimer_dueler
+arrive	monco_amigo	circlerocks_None
+arrive	monco_amigo	circlerocks_None
+arrive	mortimer_dueler	indio_dueler
+arrive	doc_dueler	circle_None
+arrive	ringo_dueler	circle_None
+arrive	doc_dueler	circle_None
+arrive	ringo_dueler	circle_None
+arrive	doc_dueler	circle_None
+arrive	doc_dueler	circle_None
+arrive	ringo_dueler	circle_None
+arrive	ringo_dueler	circle_None
+arrive	doc_dueler	circle_None
+arrive	doc_dueler	circle_None
+arrive	billy_dueler	billy&ganghorses_None	chisum_thug
+arrive	billy_dueler	billy&ganghorses_None	chisum_thug
+arrive	doc_amigo	billy&ganghorses_None	chisum_thug
+arrive	dave_amigo	billy&ganghorses_None	chisum_thug
+arrive	chavez_amigo	billy&ganghorses_None	chisum_thug
+arrive	billy_dueler	billy&ganghorses_None	chisum_thug
+arrive	billy_dueler	billy&ganghorses_None	chisum_thug
+arrive	doc_amigo	billy&ganghorses_None	chisum_thug
+arrive	dave_amigo	billy&ganghorses_None	chisum_thug
+arrive	chavez_amigo	billy&ganghorses_None	chisum_thug
 arrive	thuga_dueler	chisum_thug
 arrive	thugb_dueler	chisum_thug
 arrive	chisum_thug	thuga_dueler
 arrive	thuga_dueler	thugagun_duel-weapon
-arrive	quigley_dueler	marston_dueler
-arrive	jd_dueler	alonzo_amigo
-arrive	henchman_thug	alonzo_amigo
-arrive	cameraman_observer	street_duel-location
-arrive	assistant_None	street_duel-location
-arrive	thuga_thug	gate_None
-arrive	thugahorse_None	gate_None
+arrive	jed_dueler	porch_None
+arrive	rudd_dueler	ruddcarriage_None	road_duel-location
+arrive	rudd_dueler	ruddcarriage_None	road_duel-location
+arrive	rudd_dueler	ruddcarriage_None	road_duel-location
+arrive	morgan_dueler	rudd_dueler
+arrive	morgan_dueler	rudd_dueler
 arrive	fighter_dueler	cross_amigo
 arrive	fighter_dueler	tenneray_dueler
 arrive	nora_observer	street_duel-location
@@ -35,14 +83,6 @@ arrive	marshal_amigo	cross_amigo
 arrive	marshal_amigo	tenneray_dueler
 arrive	cross_amigo	marshal_amigo
 arrive	tenneray_dueler	marshal_amigo
-arrive	monco_amigo	mortimer_dueler
-arrive	monco_amigo	mortimer_dueler
-arrive	monco_amigo	mortimer_dueler
-arrive	monco_amigo	mortimer_dueler
-arrive	monco_amigo	mortimer_dueler
-arrive	monco_amigo	circlerocks_None
-arrive	monco_amigo	circlerocks_None
-arrive	mortimer_dueler	indio_dueler
 arrive	thug_thug	preacherhorse_None
 arrive	preacher_dueler	preacherhat_None
 arrive	preacher_dueler	stockburn_dueler
@@ -65,35 +105,18 @@ arrive	hull_thug	stockburn_dueler
 arrive	hull_thug	stockburn_dueler
 arrive	hull_thug	stockburn_dueler
 arrive	preacherhorse_None	stockburn_dueler
-arrive	doc_None	spottedhorse_dueler
-arrive	crowd_observer	cort_dueler
-arrive	crowd_observer	spottedhorse_dueler
-arrive	bandit2_thug	ned_dueler
-arrive	bandit2_thug	jefe_thug
-arrive	doc_dueler	circle_None
-arrive	ringo_dueler	circle_None
-arrive	doc_dueler	circle_None
-arrive	ringo_dueler	circle_None
-arrive	doc_dueler	circle_None
-arrive	doc_dueler	circle_None
-arrive	ringo_dueler	circle_None
-arrive	ringo_dueler	circle_None
-arrive	doc_dueler	circle_None
-arrive	doc_dueler	circle_None
-arrive	johnny_dueler	saloon_duel-location
-arrive	ben_observer	saloon_duel-location
-arrive	johnny_dueler	saloon_duel-location
-arrive	ben_observer	saloon_duel-location
-arrive	woodrow_dueler	saloon_duel-location
-arrive	woodrow_dueler	saloon_duel-location
-arrive	thugb_thug	woodrow_dueler
 arrive	billy_dueler	street_duel-location
 arrive	pestoso_dueler	billy_dueler
 arrive	pestoso_dueler	billy_dueler
 arrive	pestoso_dueler	billy_dueler
 arrive	pestoso_dueler	billy_dueler
-arrive	shane_dueler	saloon_duel-location
-arrive	shane_dueler	saloon_duel-location
-arrive	morgan_dueler	rudd_dueler
-arrive	morgan_dueler	rudd_dueler
-arrive	undertaker_observer	saloon_None
+arrive	rufus_amigo	buck_dueler
+arrive	james_dueler	jean_observer
+arrive	rufus_amigo	buck_dueler
+arrive	james_dueler	crowd_observer
+arrive	jean_observer	crowd_observer
+arrive	buck_dueler	assistant_None
+arrive	rufus_amigo	buck_dueler
+arrive	rufus_amigo	buck_dueler
+arrive	blondie_dueler	stone_None
+arrive	blondie_dueler	stone_None

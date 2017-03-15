@@ -174,10 +174,17 @@ def get_last_timestep(end_dict):
 def write_ais(sc_name, ais):
 	start_dict = {ai.starts: ai for ai in ais}
 	end_dict = {ai.finishes: ai for ai in ais}
+
 	with open('plot_inductions//' + sc_name, 'w') as pisc:
 		for i in range(int(get_last_timestep(end_dict))):
+
 			if i in start_dict.keys():
-				pisc.write(str(start_dict[i]) + '\t' + '\t'.join(str(sn) for sn in start_dict[i].shot_nums) + '\n')
+				pisc.write(str(start_dict[i]) + '\tstarts\t' + '\t'.join(str(sn) for sn in start_dict[i].shot_nums) + '\n')
+
+			if i in end_dict.keys():
+				pisc.write(str(end_dict[i]) + '\tends\t' + '\t'.join(str(sn) for sn in end_dict[i].shot_nums) + '\n')
+
+
 
 def induce_plots(scene_lib_file_name):
 	scene_dict = defaultdict(list)
