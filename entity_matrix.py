@@ -97,6 +97,7 @@ def loadColNames(pd):
 			cols.append(p_name + str(i))
 	return cols
 
+
 def entMat(scene_lib):
 	# one entMat per scene
 	entity_matrices = {sc_name: defaultdict(set) for sc_name, scene in scene_lib.items() if sc_name not in SDS.EXCLUDE_SCENES}
