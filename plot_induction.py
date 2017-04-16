@@ -5,7 +5,7 @@
 # 		for action in scene_actions:
 # 			# find earliest appearance of
 
-import math
+
 from collections import defaultdict
 
 class ActionObs:
@@ -32,6 +32,7 @@ class ActionObs:
 
 	def __repr__(self):
 		return self._name + '\tid={}\t'.format(str(self._id)) + '\t'.join(arg for arg in self._args)
+
 
 def parseActionInstances(obs_shot_zip):
 
@@ -82,12 +83,14 @@ def parseActionInstances(obs_shot_zip):
 		ai.finishes = timestep
 	return action_instances
 
+
 def arg_intersect(arg_list_1, arg_list_2):
 	for a1 in arg_list_1:
 		for a2 in arg_list_2:
 			if a1 == a2:
 				return True
 	return False
+
 
 def max_o_same_arg(a, action_instances):
 	if a.observed_at:
@@ -114,6 +117,7 @@ def max_o_same_arg(a, action_instances):
 	if max_seen == -1:
 		return first_seen
 	return max_seen
+
 
 def min_o_same_arg(a, action_instances):
 	if a.observed_at:
@@ -142,12 +146,14 @@ def min_o_same_arg(a, action_instances):
 		return last_seen
 	return min_seen
 
+
 def find_interval_span(a, action_instances):
 
 	if a.starts == 'phi':
 		a.starts = max_o_same_arg(a, action_instances) + 1
 	if a.finishes == 'psi':
 		a.finishes = min_o_same_arg(a, action_instances) - 1
+
 
 def induce_intervals(shot_dict):
 
@@ -170,6 +176,7 @@ def induce_intervals(shot_dict):
 
 def get_last_timestep(end_dict):
 	return sorted(list(end_dict.keys()))[-1]
+
 
 def write_ais(sc_name, ais):
 	start_dict = {ai.starts: ai for ai in ais}

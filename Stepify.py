@@ -124,6 +124,21 @@ def topoSort(ordering_graph):
 	return L
 
 
+def plannify_scenes(scene_lib, domain='western.pddl', problem='generic_western_problem.pddl', scene_file='scene_lib_file'):
+	operators, dops, objects, object_types, ia, ga = parseDomAndProb(domain, problem)
+	op_dict = {op.name: op for op in operators}
+	plot_ais_dict = induce_plots(scene_file)
+	plans = []
+	for sc_name, scene in scene_lib.items():
+		if sc_name in SDS.EXCLUDE_SCENES:
+			continue
+		p, og, clg = scene_to_plan(op_dict, scene, plot_ais_dict[sc_name])
+		# print(sc_name)
+		steps_in_list = topoSort(og)
+		plans.append((steps_in_list, og, clg))
+	return plans
+
+
 def plannify(scene_lib, domain='western.pddl', problem='generic_western_problem.pddl', scene_file='scene_lib_file'):
 	operators, dops, objects, object_types, ia, ga = parseDomAndProb(domain, problem)
 	op_dict = {op.name: op for op in operators}
@@ -153,7 +168,7 @@ def plannify(scene_lib, domain='western.pddl', problem='generic_western_problem.
 
 
 if __name__ == '__main__':
-	plannify()
+	plannify(SDS.load())
 
 	# now, we would somehow check if our scene_plans_dict has any merit.
 	# put in topological order and output to scene files

@@ -4,7 +4,7 @@ import collections
 
 
 def dotDistance(s1, s2):
-	return math.sqrt(np.dot(s1.point - s2.point, s1.point - s2.point))
+	return np.sqrt(np.dot(s1.point - s2.point, s1.point - s2.point))
 
 
 def Gonzales(X, k):
@@ -32,7 +32,7 @@ def Gonzales(X, k):
 				phi[j] = i
 	return C, phi
 
-
+# this is Kmeans++ btw, for finding good staring centers
 def kMeans(X, k):
 	n = len(X)
 	C = collections.defaultdict()
@@ -59,12 +59,12 @@ def weightedChoice(choices):
 			return c
 		upto += w
 	assert False, "shouldn't get here"
-import math
+
 
 
 def threeMeansCost(x, C, phi):
 	sig = sum(dotDistance(elm, C[phi[i]])**2 for i, elm in enumerate(x))
-	cost_3means = math.sqrt((1/len(x)) * sig)
+	cost_3means = np.sqrt((1/len(x)) * sig)
 	return cost_3means
 
 
@@ -95,7 +95,7 @@ def readC2():
 # Clusters = [Cluster(i,  for i, c in C)]
 
 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 def runKmeans_hw():
 	colours = ['r', 'g', 'b', 'y']
@@ -128,7 +128,7 @@ def Lloyds(X, C, phi, k):
 		for i, c in enumerate(C):
 			for j, x in enumerate(X):
 				closest = C[phi[j]]
-				if dotDistance(x, c) < dotDistance(x, closest):
+				if dotDistance(x, C[c]) < dotDistance(x, closest):
 					phi[j] = i
 
 		for i, c in enumerate(C):
@@ -136,6 +136,7 @@ def Lloyds(X, C, phi, k):
 			subset = [x.point for j, x in enumerate(X) if phi[j] == i]
 			s = sum(subset)
 			avg = s / len(subset)
+
 			n = NamedPoint('c' + str(i), avg)
 			diff = C[i].point - avg
 			for q in range(len(diff)):
@@ -144,88 +145,88 @@ def Lloyds(X, C, phi, k):
 					C[i] = n
 					break
 
-		print('new round')
+		# print('new round')
 	return C, phi
 
 
-def run_Lloyds_hw(x, gC, gPhi):
-	# problem a
-	k = 3
-	Clusters = x[0:k]
-	Clusters, closest_centers_map = Lloyds(x, Clusters, [0 for i in range(len(x))], k)
-	# phi = closestToPhi(Clusters, x, closest_centers_map)
-	print('dude')
-
-	colours = ['r', 'g', 'b', 'y']
-	s1 = list(Clusters)
-	print('you are looking at lloyds {1,2,3}')
-	for i in range(k):
-		rel_points = [p for j, p in enumerate(x) if closest_centers_map[j] == i]
-		xes = [p.point[0] for p in rel_points]
-		yes = [p.point[1] for p in rel_points]
-		plt.scatter(xes, yes, c=colours[i])
-		plt.scatter(Clusters[i].point[0], Clusters[i].point[1], c='y')
-
-	plt.show()
-
-	for p in Clusters:
-		print(p.point)
-	lloyds_a_3means = threeMeansCost(x, Clusters, closest_centers_map)
-	print(lloyds_a_3means)
-
-	#C is the gonzales output before
-	Clusters, closest_centers_map = Lloyds(x, list(gC.values()), gPhi, k)
-	colours = ['r', 'g', 'b', 'y']
-	s1 = list(Clusters)
-	for i in range(k):
-		rel_points = [p for j, p in enumerate(x) if closest_centers_map[j] == i]
-		xes = [p.point[0] for p in rel_points]
-		yes = [p.point[1] for p in rel_points]
-		plt.scatter(xes, yes, c=colours[i])
-		plt.scatter(Clusters[i].point[0], Clusters[i].point[1], c='y')
-	#
-	plt.show()
-	#
-	for p in Clusters:
-		print(p.point)
-	lloyds_a_3means = threeMeansCost(x, Clusters, closest_centers_map)
-	print(lloyds_a_3means)
-
-	tmc = []
-	sames = 0
-	d = 40
-	z = range(d)
-	allclusters = list()
-	for i in z:
-		C_kmeans, phi_kmeans = kMeans(x, k)
-		clusters, phi = Lloyds(x, list(C_kmeans.values()), phi_kmeans, k)
-		if clusters in allclusters:
-			sames += 1
-		else:
-			allclusters.append(clusters)
-		tmc_value = threeMeansCost(x, clusters, phi)
-		tmc.append(tmc_value)
-		# for i in range(k):
-		# 	rel_points = [p for p in x if phi[p] == i]
-		# 	xes = [p.point[0] for p in rel_points]
-		# 	yes = [p.point[1] for p in rel_points]
-		# 	plt.scatter(xes, yes, c=colours[i])
-		# 	plt.scatter(clusters[i].point[0], clusters[i].point[1], c='y')
-		# plt.show()
-	print(tmc)
-	print('same time: ' + str(sames/d))
-	#
-	from collections import Counter
-
-	TC = Counter([math.floor(t) for t in tmc])
-
-	cu_dict = dict()
-	cu = 0
-	for i in range(max(TC.keys())):
-		cu += TC[i]/d
-		cu_dict.update({i: cu})
-	plt.scatter(list(cu_dict.keys()), list(cu_dict.values()))
-	plt.show()
+# def run_Lloyds_hw(x, gC, gPhi):
+# 	# problem a
+# 	k = 3
+# 	Clusters = x[0:k]
+# 	Clusters, closest_centers_map = Lloyds(x, Clusters, [0 for i in range(len(x))], k)
+# 	# phi = closestToPhi(Clusters, x, closest_centers_map)
+# 	print('dude')
+#
+# 	colours = ['r', 'g', 'b', 'y']
+# 	s1 = list(Clusters)
+# 	print('you are looking at lloyds {1,2,3}')
+# 	for i in range(k):
+# 		rel_points = [p for j, p in enumerate(x) if closest_centers_map[j] == i]
+# 		xes = [p.point[0] for p in rel_points]
+# 		yes = [p.point[1] for p in rel_points]
+# 		plt.scatter(xes, yes, c=colours[i])
+# 		plt.scatter(Clusters[i].point[0], Clusters[i].point[1], c='y')
+#
+# 	plt.show()
+#
+# 	for p in Clusters:
+# 		print(p.point)
+# 	lloyds_a_3means = threeMeansCost(x, Clusters, closest_centers_map)
+# 	print(lloyds_a_3means)
+#
+# 	#C is the gonzales output before
+# 	Clusters, closest_centers_map = Lloyds(x, list(gC.values()), gPhi, k)
+# 	colours = ['r', 'g', 'b', 'y']
+# 	s1 = list(Clusters)
+# 	for i in range(k):
+# 		rel_points = [p for j, p in enumerate(x) if closest_centers_map[j] == i]
+# 		xes = [p.point[0] for p in rel_points]
+# 		yes = [p.point[1] for p in rel_points]
+# 		plt.scatter(xes, yes, c=colours[i])
+# 		plt.scatter(Clusters[i].point[0], Clusters[i].point[1], c='y')
+# 	#
+# 	plt.show()
+# 	#
+# 	for p in Clusters:
+# 		print(p.point)
+# 	lloyds_a_3means = threeMeansCost(x, Clusters, closest_centers_map)
+# 	print(lloyds_a_3means)
+#
+# 	tmc = []
+# 	sames = 0
+# 	d = 40
+# 	z = range(d)
+# 	allclusters = list()
+# 	for i in z:
+# 		C_kmeans, phi_kmeans = kMeans(x, k)
+# 		clusters, phi = Lloyds(x, list(C_kmeans.values()), phi_kmeans, k)
+# 		if clusters in allclusters:
+# 			sames += 1
+# 		else:
+# 			allclusters.append(clusters)
+# 		tmc_value = threeMeansCost(x, clusters, phi)
+# 		tmc.append(tmc_value)
+# 		# for i in range(k):
+# 		# 	rel_points = [p for p in x if phi[p] == i]
+# 		# 	xes = [p.point[0] for p in rel_points]
+# 		# 	yes = [p.point[1] for p in rel_points]
+# 		# 	plt.scatter(xes, yes, c=colours[i])
+# 		# 	plt.scatter(clusters[i].point[0], clusters[i].point[1], c='y')
+# 		# plt.show()
+# 	print(tmc)
+# 	print('same time: ' + str(sames/d))
+# 	#
+# 	from collections import Counter
+#
+# 	TC = Counter([math.floor(t) for t in tmc])
+#
+# 	cu_dict = dict()
+# 	cu = 0
+# 	for i in range(max(TC.keys())):
+# 		cu += TC[i]/d
+# 		cu_dict.update({i: cu})
+# 	plt.scatter(list(cu_dict.keys()), list(cu_dict.values()))
+# 	plt.show()
 
 # x, C, phi = readC2()
 # run_Lloyds_hw(x, C, phi)

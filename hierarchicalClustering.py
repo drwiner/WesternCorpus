@@ -20,6 +20,7 @@ class NamedPoint:
 	def __add__(self, other):
 		return self.point + other.point
 
+
 class Cluster:
 	def __init__(self, int_id, points):
 		self.int_id = int_id
@@ -115,59 +116,59 @@ def h_clustering(clusters, k, dist_method):
 	return clusts
 
 
-def output(k):
-	k = 4
-	sl_clusts = h_clustering(singleLink_clusters, k, singleLink)
-	print('Shortest Link:\n')
-	for clust in sl_clusts:
-		print(clust)
-		for point in clust:
-			print(point.int_id,point.point)
-	print('\n')
-	print('Complete Link:\n')
-	cl_clusts = h_clustering(completeLink_clusters, k, completeLink)
-	for clust in cl_clusts:
-		print(clust)
-		for point in clust:
-			print(point.int_id, point.point)
-	print('\n')
-	print('Mean Link:\n')
-	ml_clusts = h_clustering(meanLink_clusters, k, meanLink)
-	for clust in ml_clusts:
-		print(clust)
-		for point in clust:
-			print(point.int_id, point.point)
-	print('\n')
-
-	import matplotlib.pyplot as plt
-
-	colours = ['r', 'g', 'y', 'b']
-	s1 = list(sl_clusts)
-
-	for i in range(k):
-		x = [p.point[0] for p in s1[i]]
-		y = [p.point[1] for p in s1[i]]
-		plt.scatter(x, y, c=colours[i])
-
-	plt.show()
-
-	s1 = list(cl_clusts)
-
-	for i in range(k):
-		x = [p.point[0] for p in s1[i]]
-		y = [p.point[1] for p in s1[i]]
-		plt.scatter(x, y, c=colours[i])
-
-	plt.show()
-
-	s1 = list(ml_clusts)
-
-	for i in range(k):
-		x = [p.point[0] for p in s1[i]]
-		y = [p.point[1] for p in s1[i]]
-		plt.scatter(x, y, c=colours[i])
-
-	plt.show()
+# def output(k):
+# 	k = 4
+# 	sl_clusts = h_clustering(singleLink_clusters, k, singleLink)
+# 	print('Shortest Link:\n')
+# 	for clust in sl_clusts:
+# 		print(clust)
+# 		for point in clust:
+# 			print(point.int_id,point.point)
+# 	print('\n')
+# 	print('Complete Link:\n')
+# 	cl_clusts = h_clustering(completeLink_clusters, k, completeLink)
+# 	for clust in cl_clusts:
+# 		print(clust)
+# 		for point in clust:
+# 			print(point.int_id, point.point)
+# 	print('\n')
+# 	print('Mean Link:\n')
+# 	ml_clusts = h_clustering(meanLink_clusters, k, meanLink)
+# 	for clust in ml_clusts:
+# 		print(clust)
+# 		for point in clust:
+# 			print(point.int_id, point.point)
+# 	print('\n')
+#
+# 	import matplotlib.pyplot as plt
+#
+# 	colours = ['r', 'g', 'y', 'b']
+# 	s1 = list(sl_clusts)
+#
+# 	for i in range(k):
+# 		x = [p.point[0] for p in s1[i]]
+# 		y = [p.point[1] for p in s1[i]]
+# 		plt.scatter(x, y, c=colours[i])
+#
+# 	plt.show()
+#
+# 	s1 = list(cl_clusts)
+#
+# 	for i in range(k):
+# 		x = [p.point[0] for p in s1[i]]
+# 		y = [p.point[1] for p in s1[i]]
+# 		plt.scatter(x, y, c=colours[i])
+#
+# 	plt.show()
+#
+# 	s1 = list(ml_clusts)
+#
+# 	for i in range(k):
+# 		x = [p.point[0] for p in s1[i]]
+# 		y = [p.point[1] for p in s1[i]]
+# 		plt.scatter(x, y, c=colours[i])
+#
+# 	plt.show()
 
 # initialLoading(45)
 # initClusters()
