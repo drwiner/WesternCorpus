@@ -63,7 +63,8 @@ def predicate_dict():
 	return pred_dict
 
 
-def entity_by_arg(scene_lib):
+def entity_by_arg(pd, scene_lib):
+	import SceneDataStructs as SDS
 	# one entMat per scene
 	entity_dict = defaultdict(set)
 	arg_positions = []
@@ -117,7 +118,7 @@ def unnormalized_laplacian(mat):
 
 
 def normalized_laplacian(mat):
-	d = np.array([v**-.5 for v in degree_diag(mat)])
+	d = np.array([v**-.5 if v != 0. else 0 for v in degree_diag(mat)])
 	D = np.diag(d)
 	I = np.identity(len(mat))
 	W = np.array(mat)
@@ -155,17 +156,17 @@ def spectral_clustering(mat, k, normalized=False):
 	clusters, phi = Gonzales(x, k)
 	clusters, phi = Lloyds(x, clusters, phi, k)
 	tmc = threeMeansCost(x, clusters, phi)
-	print(tmc)
+	# print(tmc)
 
 
-	for i in range(k):
-		for j in range(len(phi)):
-			if phi[j] == i:
-				p = list(x[j].point.real)
-				x_0 = p[1]
-				y_0 = p[2]
-				with open('points.txt', 'a') as point_file:
-					point_file.write('{}\t{}\t{}\n'.format(str(i), str(x_0), str(y_0)))
+	# for i in range(k):
+	# 	for j in range(len(phi)):
+	# 		if phi[j] == i:
+	# 			p = list(x[j].point.real)
+	# 			x_0 = p[1]
+	# 			y_0 = p[2]
+	# 			with open('points.txt', 'a') as point_file:
+	# 				point_file.write('{}\t{}\t{}\n'.format(str(i), str(x_0), str(y_0)))
 
 	return clusters, phi, tmc
 
@@ -256,17 +257,34 @@ def collect_ent_role_keys(scene_lib):
 	return ent_roles
 
 
-def get_cluster(k):
+def cluster_this(items, mat, k):
+
+	clusters, phi, cost = spectral_clustering(mat, k, normalized=True)
+	m = []
+	for i in range(k):
+		c = []
+		for j in range(len(phi)):
+			if phi[j] == i:
+				c.append(items[j])
+		m.append(c)
+
+		print('cluster: ')
+		for z in c:
+			print(z)
+	return m
+
+
+def get_clusters(k, scene_lib):
 	import SceneDataStructs as SDS
 
 	# load scenes from memory
-	scene_lib = SDS.load()
+	# scene_lib = SDS.load()
 
 	# make dictionary of action predicates
 	pd = predicate_dict()
 
 	# exact entities and corresponding arg positions
-	ent_dict, arg_pos_list = entity_by_arg(scene_lib)
+	ent_dict, arg_pos_list = entity_by_arg(pd, scene_lib)
 
 	# an E by E matrix whose values are the number of types entites share arg position in action class
 	ents = list(ent_dict.keys())
@@ -282,7 +300,7 @@ def get_cluster(k):
 		ent_map.append(ent_clust)
 		# print('cluster: ')
 		# print(ent_clust)
-	return ent_map
+	return ent_map, pd
 
 
 if __name__ == '__main__':
@@ -295,7 +313,7 @@ if __name__ == '__main__':
 	pd = predicate_dict()
 
 	# exact entities and corresponding arg positions
-	ent_dict, arg_pos_list = entity_by_arg(scene_lib)
+	ent_dict, arg_pos_list = entity_by_arg(pd, scene_lib)
 
 	# an E by E matrix whose values are the number of types entites share arg position in action class
 	ents = list(ent_dict.keys())

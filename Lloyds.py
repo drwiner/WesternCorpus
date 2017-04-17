@@ -134,6 +134,7 @@ def Lloyds(X, C, phi, k):
 		for i, c in enumerate(C):
 
 			subset = [x.point for j, x in enumerate(X) if phi[j] == i]
+
 			s = sum(subset)
 			avg = s / len(subset)
 

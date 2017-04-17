@@ -135,7 +135,7 @@ def plannify_scenes(scene_lib, domain='western.pddl', problem='generic_western_p
 		p, og, clg = scene_to_plan(op_dict, scene, plot_ais_dict[sc_name])
 		# print(sc_name)
 		steps_in_list = topoSort(og)
-		plans.append((steps_in_list, og, clg))
+		plans.append((sc_name, steps_in_list, og, clg))
 	return plans
 
 

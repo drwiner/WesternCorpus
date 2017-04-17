@@ -15,7 +15,7 @@ class NamedPoint:
 		return hash(self.int_id)
 
 	def __repr__(self):
-		return 'named_point: ' + str(self.int_id)
+		return 'named_point: ' + str(self.int_id) + ' ' + str(self.point)
 
 	def __add__(self, other):
 		return self.point + other.point
@@ -24,7 +24,7 @@ class NamedPoint:
 class Cluster:
 	def __init__(self, int_id, points):
 		self.int_id = int_id
-		self.points = list(points)
+		self.points = [points]
 
 	def absorb(self, cluster):
 		self.points.extend(cluster.points)
