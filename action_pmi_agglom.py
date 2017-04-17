@@ -277,23 +277,25 @@ def member_pmi_fit(event_d, e, cluster):
 # 	return mino
 
 
-def singleLink(event_d, S1, S2):
+def singleLink(event_d, link_d, S1, S2):
 	S_prod = list(itertools.product(S1.points, S2.points))
 	mino = float("inf")
 	for e1, e2, in S_prod:
-		s = pmi_dist_2(event_d=event_d, a=e1, b=e2)
+		s = cpmi(event_d=event_d, link_d=link_d, a=e1, b=e2)
 		if s < mino:
 			mino = s
 	return mino
 
 
+def completeLink(event_d, link_d, S1, S2):
+	S_prod = list(itertools.product(S1.points, S2.points))
+	maxi = -1
+	for e1, e2, in S_prod:
+		s = cpmi(event_d=event_d, link_d=link_d, a=e1, b=e2)
+		if s > maxi:
+			maxi = s
+	return maxi
 
-
-
-# @clock
-def completeLink(event_d, S1, S2):
-	S_prod = set(itertools.product(S1, S2))
-	return max(pmi_val(event_d, e1, e2, v1) for (e1, v1), (e2, v2) in S_prod if v1 == v2)
 
 # # @clock
 # def meanLink(S1, S2):
@@ -324,11 +326,15 @@ def pmi_dist_2(event_d, a, b):
 
 
 def cpmi(event_d, link_d, a, b):
-	event_pmi = pmi_dist2(event_d, a, b)
+	print('cpmi')
+	# event_pmi = pmi_dist_2(event_d, a, b)
 	numer = jointcountlinks(link_d, a, b) / all_count_links(link_d)
 	denom = prob_e_in_link(link_d, a) * prob_e_in_link(link_d, b)
+	if denom == 0:
+		# print(0)
+		return 0
 	print(numer/denom)
-	return event_pmi + numer/denom
+	return numer/denom
 
 
 def event_matrix(points, d_method):
@@ -356,8 +362,10 @@ if __name__ == '__main__':
 	print('getting clusters')
 	entity_cluster_map, pd = get_clusters(k, scene_lib)
 
+
 	print('collecting events')
 	ent_clusters_dict = {c: i for i, cluster in enumerate(entity_cluster_map) for c in cluster}
+	print(len(ent_clusters_dict.keys()))
 
 	# events = collect_events(pd, scene_lib)
 
@@ -406,7 +414,8 @@ if __name__ == '__main__':
 	# h_clusters = [Cluster(i, Event(p, j)) for i, (p, j) in enumerate(initial_cluster_items)]
 	# event_types
 	h_clusters = [Cluster(i, e) for i, e in enumerate(event_types)]
-	final_clusts = agglom_pmi_clustering(h_clusters, 8, partial(singleLink, event_d=event_d, link_d))
+	print(len(event_types))
+	final_clusts = agglom_pmi_clustering(h_clusters, 6, partial(completeLink, event_d=event_d, link_d=link_d))
 
 	for clust in final_clusts:
 		print('cluster:')
@@ -416,3 +425,5 @@ if __name__ == '__main__':
 
 	print('check')
 	# for each event,
+
+	# now, only use the link_d actions to cluster entities

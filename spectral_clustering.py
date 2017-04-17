@@ -66,7 +66,7 @@ def predicate_dict():
 def entity_by_arg(pd, scene_lib):
 	import SceneDataStructs as SDS
 	# one entMat per scene
-	entity_dict = defaultdict(set)
+	entity_dict = defaultdict(list)
 	arg_positions = []
 
 	for sc_name, scene in scene_lib.items():
@@ -87,7 +87,7 @@ def entity_by_arg(pd, scene_lib):
 					if arg is None or str(arg).lower() == 'none' is None or arg.name.lower() == 'none':
 						continue
 					arg_pos = (str(action._type), str(i))
-					entity_dict[arg.name].add(arg_pos)
+					entity_dict[arg.name].append(arg_pos)
 					if arg_pos not in arg_positions:
 						arg_positions.append(arg_pos)
 	return entity_dict, arg_positions
