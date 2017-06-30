@@ -72,8 +72,8 @@ def toNumber(s):
 	num_array = [int(i) for i in s if i.isdigit()]
 	return int(''.join(str(i) for i in num_array))
 
-def save_scenes(scene_lib):
-	output = open('scenelib.pkl', 'wb')
+def save_scenes(scene_lib, file_name):
+	output = open(file_name, 'wb')
 	pickle.dump(dict(scene_lib), output, protocol=pickle.HIGHEST_PROTOCOL)
 	output.close()
 

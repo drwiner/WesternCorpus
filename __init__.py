@@ -8,9 +8,12 @@ from Stepify import plannify
 # from NLP import readSentences
 
 
-def readAndSaveFromScratch():
+def readAndSaveFromScratch(text_name=None):
 	print('reading corpus')
-	rc = readCorpus()
+	if text_name is not None:
+		rc = readCorpus(text_name)
+	else:
+		rc = readCorpus()
 	scene_lib = parse(rc)
 
 	""" PIPELINE
@@ -29,7 +32,7 @@ def readAndSaveFromScratch():
 	plannify(scene_lib)
 	# induce_plots('scene_lib_file')
 	# readSentences(scene_lib)  - no nlp today
-	SDS.save_scenes(scene_lib)
+	SDS.save_scenes(scene_lib, text_name[0:-4] + '.pkl')
 
 import collections
 def byactiontype_dic(scene_lib):
@@ -57,7 +60,8 @@ def write_to_file(scene_lib):
 	scene_lib_file.close()
 
 if __name__ == '__main__':
-	readAndSaveFromScratch()
-	# scene_lib = SDS.load()
-	# print('inspect')
+
+	# readAndSaveFromScratch()
+	scene_lib = SDS.load()
+	print('inspect')
 	# byactiontype_dic(scene_lib)
