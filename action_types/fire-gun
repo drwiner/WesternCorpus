@@ -1,39 +1,3 @@
-fire-gun	kane_dueler	kanegun_duel-weapon	jd_dueler
-fire-gun	jd_dueler	jdgun_duel-weapon	kane_dueler
-fire-gun	kane_dueler	kanegun_duel-weapon	jd_dueler
-fire-gun	german_dueler	germangun_duel-weapon	pinata_None
-fire-gun	german_dueler	germangun_duel-weapon	pinata_None
-fire-gun	ned_dueler	bandit2gun_None	german_dueler
-fire-gun	german2_thug	german2gun_None	lucky_amigo
-fire-gun	lucky_amigo	bandit2gun_None	german2_thug
-fire-gun	ned_dueler	nedgun_duel-weapon	bandit3_thug
-fire-gun	bard_amigo	bardgun_None	brazos_dueler
-fire-gun	brazos_dueler	brazosgun_duel-weapon	bard_amigo
-fire-gun	bess_amigo	bardgun_None	mr.banner_None
-fire-gun	shane_dueler	shanegun_duel-weapon	jack_dueler
-fire-gun	jack_dueler	jackgun_duel-weapon	shane_dueler
-fire-gun	shane_dueler	shanegun_duel-weapon	jack_dueler
-fire-gun	rufus_thug	rufusgun_None	shane_dueler
-fire-gun	shane_dueler	shanegun_duel-weapon	rufus_thug
-fire-gun	jack_dueler	jackgun_duel-weapon
-fire-gun	rifleman_thug	riflemangun_None	shane_dueler
-fire-gun	shane_dueler	shanegun_duel-weapon	rifleman_thug
-fire-gun	josey_dueler	joseygun_duel-weapon
-fire-gun	quigley_dueler	quigleygun_duel-weapon	marston_dueler
-fire-gun	quigley_dueler	quigleygun_duel-weapon
-fire-gun	quigley_dueler	quigleygun_duel-weapon
-fire-gun	quigley_dueler	quigleygun_duel-weapon
-fire-gun	joe_dueler	joegun_duel-weapon	thugs_dueler
-fire-gun	joe_dueler	joegun_duel-weapon	thugs_dueler
-fire-gun	joe_dueler	joegun_duel-weapon	thugs_dueler
-fire-gun	joe_dueler	joegun_duel-weapon	thugs_dueler
-fire-gun	joe_dueler	joegun_duel-weapon	thugs_dueler
-fire-gun	o'hanlon_dueler	ohanlongun_duel-weapon
-fire-gun	o'hanlon_dueler	ohanlongun_duel-weapon
-fire-gun	harmonica_dueler	harmonicagun_duel-weapon	thugc_dueler
-fire-gun	harmonica_dueler	harmonicagun_duel-weapon	thugb_dueler
-fire-gun	harmonica_dueler	harmonicagun_duel-weapon	thuga_dueler
-fire-gun	thuga_dueler	thugagun_duel-weapon	harmonica_dueler
 fire-gun	lyle_dueler	taggart_dueler	lylegun_duel-weapon	bart_observer
 fire-gun	lyle_dueler	taggart_dueler	thugsgun_None	bart_observer
 fire-gun	lyle_dueler	thugs_thug	thugsgun_None	bart_observer
@@ -53,54 +17,15 @@ fire-gun	jim_thug	jimgun_duel-weapon	lylegun_duel-weapon
 fire-gun	jim_thug	jimgun_duel-weapon	thugsgun_None
 fire-gun	jim_thug	jimgun_duel-weapon	lylegun_duel-weapon
 fire-gun	jim_thug	jimgun_duel-weapon	thugsgun_None
-fire-gun	cort_dueler	cortgun_duel-weapon
-fire-gun	herod_observer	cort_dueler	cortgun_duel-weapon
-fire-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	cort_dueler
-fire-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	spottedhorsegun_duel-weapon
-fire-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	cort_dueler
-fire-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	cort_dueler
-fire-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	cort_dueler
-fire-gun	cort_dueler	cortgun_duel-weapon	spottedhorse_dueler
-fire-gun	johnny_dueler	johnnygun_duel-weapon	woodrow_dueler
-fire-gun	wyatt_dueler	wyattgun_duel-weapon	andy_dueler
-fire-gun	andy_dueler	andygun_duel-weapon	wyatt_dueler
-fire-gun	wyatt_dueler	wyattgun_duel-weapon	andy_dueler
-fire-gun	wyatt_dueler	wyattgun_duel-weapon	andy_dueler
-fire-gun	wyatt_dueler	wyattgun_duel-weapon	andy_dueler
-fire-gun	wyatt_dueler	wyattgun_duel-weapon	andy_dueler
-fire-gun	wyatt_dueler	wyattgun_duel-weapon	andy_dueler
-fire-gun	nessuno_dueler	nessunogun_duel-weapon	jack_dueler
-fire-gun	mortimer_dueler	mortimergun_duel-weapon	nino_None
-fire-gun	indio_dueler	indiogun_duel-weapon	mortimergun_duel-weapon
-fire-gun	mortimer_dueler
-fire-gun	mortimergun_duel-weapon
-fire-gun	indio_dueler
-fire-gun	doc_dueler	docgun_duel-weapon	ringo_dueler
-fire-gun	ringo_dueler	ringogun_duel-weapon
-fire-gun	billy_dueler	dave_amigo	daveshotgun_None
-fire-gun	dave_amigo	daveshotgun_None	thugb_dueler
-fire-gun	billy_dueler	hendry_amigo	hendrygun_None
-fire-gun	billy_dueler	hendry_amigo	hendrygun_None
-fire-gun	doc_amigo	docrifle_None	thuga_dueler
-fire-gun	doc_amigo	docrifle_None	thuga_dueler
-fire-gun	jed_dueler	jedgun_duel-weapon	reno_dueler
-fire-gun	jed_dueler	jedgun_duel-weapon	reno_dueler
-fire-gun	jed_dueler	jedgun_duel-weapon	reno_dueler
-fire-gun	jed_dueler	jedgun_duel-weapon	reno_dueler
-fire-gun	jed_dueler	jedgun_duel-weapon	reno_dueler
-fire-gun	mchandles_dueler	mchandlesgun_duel-weapon	sam_dueler
-fire-gun	mchandles_dueler	mchandlesgun_duel-weapon	sam_dueler
-fire-gun	mchandles_dueler	mchandlesgun_duel-weapon	sam_dueler
-fire-gun	liberty_dueler	libertygun_duel-weapon	pot_None
-fire-gun	liberty_dueler
-fire-gun	libertygun_duel-weapon	ransearm_None
-fire-gun	liberty_dueler	libertygun_duel-weapon	ransegun_duel-weapon
-fire-gun	ranse_dueler	ransegun_duel-weapon	liberty_dueler
-fire-gun	liberty_dueler	libertygun_duel-weapon	ranse_dueler
+fire-gun	kane_dueler	kanegun_duel-weapon	jd_dueler
+fire-gun	jd_dueler	jdgun_duel-weapon	kane_dueler
+fire-gun	kane_dueler	kanegun_duel-weapon	jd_dueler
 fire-gun	morgan_dueler	morgangun_duel-weapon	rudd_dueler
 fire-gun	rudd_dueler	ruddgun_duel-weapon	morgan_dueler
-fire-gun	fighter_dueler	fightergun_duel-location	marshal_amigo
-fire-gun	tenneray_dueler	tenneraygun_duel-weapon	fighter_dueler
+fire-gun	quigley_dueler	quigleygun_duel-weapon	marston_dueler
+fire-gun	quigley_dueler	quigleygun_duel-weapon
+fire-gun	quigley_dueler	quigleygun_duel-weapon
+fire-gun	quigley_dueler	quigleygun_duel-weapon
 fire-gun	thug_thug	thuggun_None
 fire-gun	preacher_dueler	preachergun1_duel-weapon	stockburn_dueler
 fire-gun	preacher_dueler	preachergun1_duel-weapon	stockburn_dueler
@@ -109,6 +34,15 @@ fire-gun	preacher_dueler	preachergun1_duel-weapon	stockburn_dueler
 fire-gun	preacher_dueler	preachergun2_None	stockburn_dueler
 fire-gun	preacher_dueler	preachergun2_None	stockburn_dueler
 fire-gun	hull_thug	hullrifle_None	coy_amigo
+fire-gun	wyatt_dueler	wyattgun_duel-weapon	andy_dueler
+fire-gun	andy_dueler	andygun_duel-weapon	wyatt_dueler
+fire-gun	wyatt_dueler	wyattgun_duel-weapon	andy_dueler
+fire-gun	wyatt_dueler	wyattgun_duel-weapon	andy_dueler
+fire-gun	wyatt_dueler	wyattgun_duel-weapon	andy_dueler
+fire-gun	wyatt_dueler	wyattgun_duel-weapon	andy_dueler
+fire-gun	wyatt_dueler	wyattgun_duel-weapon	andy_dueler
+fire-gun	fighter_dueler	fightergun_duel-location	marshal_amigo
+fire-gun	tenneray_dueler	tenneraygun_duel-weapon	fighter_dueler
 fire-gun	thug_dueler	thuggun_duel-weapon	lantern_None
 fire-gun	thug_dueler	thuggun_duel-weapon	lantern_None
 fire-gun	thug_dueler	thuggun_duel-weapon
@@ -118,31 +52,97 @@ fire-gun	stranger_dueler	strangergun_duel-weapon	thug_dueler
 fire-gun	stranger_dueler	strangergun_duel-weapon	thug_dueler
 fire-gun	stranger_dueler	strangergun_duel-weapon	thug_dueler
 fire-gun	unknown_None	unknowngun_None
-fire-gun	payden_dueler	paydengun_duel-weapon	cobb_dueler
-fire-gun	cobb_dueler	cobbgun_duel-weapon	payden_dueler
-fire-gun	billy_dueler	billygun_duel-weapon	pestoso_dueler
-fire-gun	rufus_amigo	james_dueler	duelgun1_duel-weapon
-fire-gun	rufus_amigo	james_dueler	duelgun2_duel-weapon
-fire-gun	rufus_amigo	buck_dueler	duelgun1_duel-weapon
-fire-gun	rufus_amigo	buck_dueler	duelgun2_duel-weapon
-fire-gun	rufus_amigo	james_dueler	duelgun1_duel-weapon
-fire-gun	rufus_amigo	james_dueler	duelgun2_duel-weapon
-fire-gun	rufus_amigo	buck_dueler	duelgun1_duel-weapon
-fire-gun	rufus_amigo	buck_dueler	duelgun2_duel-weapon
-fire-gun	buck_dueler	duelgun2_duel-weapon	james_dueler
-fire-gun	rufus_amigo	james_dueler	duelgun1_duel-weapon
-fire-gun	rufus_amigo	james_dueler	duelgun2_duel-weapon
-fire-gun	rufus_amigo	buck_dueler	duelgun1_duel-weapon
-fire-gun	rufus_amigo	buck_dueler	duelgun2_duel-weapon
-fire-gun	rufus_amigo	james_dueler	duelgun1_duel-weapon
-fire-gun	rufus_amigo	james_dueler	duelgun1_duel-weapon
-fire-gun	james_dueler	duelgun1_duel-weapon	ground_None
-fire-gun	rufus_amigo	rufusgun_None	buck_dueler
-fire-gun	tuco_dueler	tucogun_duel-weapon
-fire-gun	tuco_dueler	tucogun_duel-weapon
-fire-gun	blondie_dueler	blondiegun_duel-weapon
-fire-gun	blondie_dueler	blondiegun_duel-weapon
-fire-gun	blondie_dueler	blondiegun_duel-weapon
 fire-gun	shep_dueler	shepgun_duel-location	jubal_dueler
 fire-gun	shep_dueler	shepgun_duel-location	jubal_dueler
 fire-gun	jubal_dueler	redgun_duel-weapon	shep_dueler
+fire-gun	billy_dueler	billygun_duel-weapon	pestoso_dueler
+fire-gun	jed_dueler	jedgun_duel-weapon	reno_dueler
+fire-gun	jed_dueler	jedgun_duel-weapon	reno_dueler
+fire-gun	jed_dueler	jedgun_duel-weapon	reno_dueler
+fire-gun	jed_dueler	jedgun_duel-weapon	reno_dueler
+fire-gun	jed_dueler	jedgun_duel-weapon	reno_dueler
+fire-gun	rufus_amigo	james_dueler	duelguna_None
+fire-gun	rufus_amigo	james_dueler	duelgunb_None
+fire-gun	rufus_amigo	buck_dueler	duelguna_None
+fire-gun	rufus_amigo	buck_dueler	duelgunb_None
+fire-gun	rufus_amigo	james_dueler	duelguna_None
+fire-gun	rufus_amigo	james_dueler	duelgunb_None
+fire-gun	rufus_amigo	buck_dueler	duelguna_None
+fire-gun	rufus_amigo	buck_dueler	duelgunb_None
+fire-gun	buck_dueler	duelgunb_None	james_dueler
+fire-gun	rufus_amigo	james_dueler	duelguna_None
+fire-gun	rufus_amigo	james_dueler	duelgunb_None
+fire-gun	rufus_amigo	buck_dueler	duelguna_None
+fire-gun	rufus_amigo	buck_dueler	duelgunb_None
+fire-gun	rufus_amigo	james_dueler	duelguna_None
+fire-gun	rufus_amigo	james_dueler	duelguna_None
+fire-gun	james_dueler	duelguna_None	ground_None
+fire-gun	rufus_amigo	rufusgun_None	buck_dueler
+fire-gun	johnny_dueler	johnnygun_duel-weapon	woodrow_dueler
+fire-gun	shane_dueler	shanegun_duel-weapon	jack_dueler
+fire-gun	jack_dueler	jackgun_duel-weapon	shane_dueler
+fire-gun	shane_dueler	shanegun_duel-weapon	jack_dueler
+fire-gun	rufus_thug	rufusgun_None	shane_dueler
+fire-gun	shane_dueler	shanegun_duel-weapon	rufus_thug
+fire-gun	jack_dueler	jackgun_duel-weapon
+fire-gun	rifleman_thug	riflemangun_None	shane_dueler
+fire-gun	shane_dueler	shanegun_duel-weapon	rifleman_thug
+fire-gun	josey_dueler	joseygun_duel-weapon
+fire-gun	german_dueler	germangun_duel-weapon	pinata_None
+fire-gun	german_dueler	germangun_duel-weapon	pinata_None
+fire-gun	ned_dueler	bandit2gun_None	german_dueler
+fire-gun	german2_thug	german2gun_None	lucky_amigo
+fire-gun	lucky_amigo	bandit2gun_None	german2_thug
+fire-gun	ned_dueler	nedgun_duel-weapon	bandit3_thug
+fire-gun	harmonica_dueler	harmonicagun_duel-weapon	thugc_dueler
+fire-gun	harmonica_dueler	harmonicagun_duel-weapon	thugb_dueler
+fire-gun	harmonica_dueler	harmonicagun_duel-weapon	thuga_dueler
+fire-gun	thuga_dueler	thugagun_duel-weapon	harmonica_dueler
+fire-gun	billy_dueler	dave_amigo	daveshotgun_None
+fire-gun	dave_amigo	daveshotgun_None	thugb_dueler
+fire-gun	billy_dueler	hendry_amigo	hendrygun_None
+fire-gun	billy_dueler	hendry_amigo	hendrygun_None
+fire-gun	doc_amigo	docrifle_None	thuga_dueler
+fire-gun	doc_amigo	docrifle_None	thuga_dueler
+fire-gun	mortimer_dueler	mortimergun_duel-weapon	nino_None
+fire-gun	indio_dueler	indiogun_duel-weapon	mortimergun_duel-weapon
+fire-gun	mortimer_dueler
+fire-gun	mortimergun_duel-weapon
+fire-gun	indio_dueler
+fire-gun	bard_amigo	bardgun_None	brazos_dueler
+fire-gun	brazos_dueler	brazosgun_duel-weapon	bard_amigo
+fire-gun	bess_amigo	bardgun_None	mr.banner_None
+fire-gun	payden_dueler	paydengun_duel-weapon	cobb_dueler
+fire-gun	cobb_dueler	cobbgun_duel-weapon	payden_dueler
+fire-gun	liberty_dueler	libertygun_duel-weapon	pot_None
+fire-gun	liberty_dueler
+fire-gun	libertygun_duel-weapon	ransearm_None
+fire-gun	liberty_dueler	libertygun_duel-weapon	ransegun_duel-weapon
+fire-gun	ranse_dueler	ransegun_duel-weapon	liberty_dueler
+fire-gun	liberty_dueler	libertygun_duel-weapon	ranse_dueler
+fire-gun	cort_dueler	cortgun_duel-weapon
+fire-gun	herod_observer	cort_dueler	cortgun_duel-weapon
+fire-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	cort_dueler
+fire-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	spottedhorsegun_duel-weapon
+fire-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	cort_dueler
+fire-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	cort_dueler
+fire-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon	cort_dueler
+fire-gun	cort_dueler	cortgun_duel-weapon	spottedhorse_dueler
+fire-gun	o'hanlon_dueler	ohanlongun_duel-weapon
+fire-gun	o'hanlon_dueler	ohanlongun_duel-weapon
+fire-gun	joe_dueler	joegun_duel-weapon	thugs_dueler
+fire-gun	joe_dueler	joegun_duel-weapon	thugs_dueler
+fire-gun	joe_dueler	joegun_duel-weapon	thugs_dueler
+fire-gun	joe_dueler	joegun_duel-weapon	thugs_dueler
+fire-gun	joe_dueler	joegun_duel-weapon	thugs_dueler
+fire-gun	mchandles_dueler	mchandlesgun_duel-weapon	sam_dueler
+fire-gun	mchandles_dueler	mchandlesgun_duel-weapon	sam_dueler
+fire-gun	mchandles_dueler	mchandlesgun_duel-weapon	sam_dueler
+fire-gun	nessuno_dueler	nessunogun_duel-weapon	jack_dueler
+fire-gun	tuco_dueler	tucogun_duel-weapon
+fire-gun	tuco_dueler	tucogun_duel-weapon
+fire-gun	blondie_dueler	blondiegun_duel-weapon
+fire-gun	blondie_dueler	blondiegun_duel-weapon
+fire-gun	blondie_dueler	blondiegun_duel-weapon
+fire-gun	doc_dueler	docgun_duel-weapon	ringo_dueler
+fire-gun	ringo_dueler	ringogun_duel-weapon

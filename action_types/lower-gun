@@ -1,15 +1,15 @@
 lower-gun	jd_dueler	jdgun_duel-weapon
-lower-gun	shane_dueler	shanegun_duel-weapon
-lower-gun	josey_dueler	joseygun_duel-weapon
-lower-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon
-lower-gun	indio_dueler	indiogun_duel-weapon
-lower-gun	liberty_dueler	libertygun_duel-weapon
-lower-gun	liberty_dueler	libertygun_duel-weapon
 lower-gun	hull_thug	hullrifle_None
 lower-gun	stranger_dueler	strangergun_duel-weapon
 lower-gun	stranger_dueler	strangergun_duel-weapon
 lower-gun	mordecai_amigo	mordecaigun_None
-lower-gun	james_dueler	duelgun1_duel-weapon
+lower-gun	jubal_dueler	redgun_duel-weapon
+lower-gun	james_dueler	duelguna_None
+lower-gun	shane_dueler	shanegun_duel-weapon
+lower-gun	josey_dueler	joseygun_duel-weapon
+lower-gun	indio_dueler	indiogun_duel-weapon
+lower-gun	liberty_dueler	libertygun_duel-weapon
+lower-gun	liberty_dueler	libertygun_duel-weapon
+lower-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon
 lower-gun	blondie_dueler	blondiegun_duel-weapon
 lower-gun	blondie_dueler	blondiegun_duel-weapon	blondie_dueler	stone_None
-lower-gun	jubal_dueler	redgun_duel-weapon

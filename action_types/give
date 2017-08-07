@@ -1,33 +1,33 @@
 give	jd_dueler	jdrifle_None
+give	red_amigo	redgun_duel-weapon	jubal_dueler
+give	red_amigo	redgun_duel-weapon	jubal_dueler
+give	reno_dueler	renoalcohol_None	bottle_None	renoglass_None
+give	reno_dueler	renoalcohol_None	bottle_None	renoglass_None
+give	rufus_amigo	duelguna_None	assistant_None
+give	assistant_None	duelguna_None	rufus_amigo
+give	buck_dueler	duelgunb_None
+give	james_dueler	duelguna_None
+give	thugb_thug	thugbgun_None	woodrow_dueler
+give	thugb_thug	thugbgun_None	woodrow_dueler
 give	bandit2_thug	bandit2gun_None	jefe_thug
 give	jefe_thug	nedgun_duel-weapon	nedholster_None	nedbelt_None
 give	jefe_thug	bandit2gun_None	ned_dueler
-give	bard_amigo	bardgun_None
-give	bess_amigo	bardgun_None
-give	bess_amigo	bardgun_None
-give	joe_dueler	joegun_duel-weapon
 give	thuga_dueler	thugagun_duel-weapon
 give	thugc_dueler	thugcgun_duel-weapon
 give	thugb_dueler	thugbgun_duel-weapon
-give	blindboy_amigo	cortbullet_None	box_None	cort_dueler
-give	blindboy_amigo	cortbullet_None	box_None	cort_dueler
-give	blindboy_amigo	cortbullet_None	box_None	cort_dueler
-give	blindboy_amigo	cortbullet_None	box_None	cort_dueler
-give	thugb_thug	thugbgun_None	woodrow_dueler
-give	thugb_thug	thugbgun_None	woodrow_dueler
+give	chisum_thug	handkerchief_None	thuga_dueler
 give	indio_dueler	indiogun_duel-weapon
 give	indio_dueler	indiogun_duel-weapon
 give	indio_dueler	indiogun_duel-weapon
 give	monco_amigo	moncogun_None	mortimer_dueler
 give	indio_dueler	indiogun_duel-weapon
 give	indio_dueler	indiogun_duel-weapon
-give	chisum_thug	handkerchief_None	thuga_dueler
-give	reno_dueler	renoalcohol_None	bottle_None	renoglass_None
-give	reno_dueler	renoalcohol_None	bottle_None	renoglass_None
+give	bard_amigo	bardgun_None
+give	bess_amigo	bardgun_None
+give	bess_amigo	bardgun_None
 give	ranse_dueler	ransegun_duel-weapon
-give	rufus_amigo	duelgun1_duel-weapon	assistant_None
-give	assistant_None	duelgun1_duel-weapon	rufus_amigo
-give	buck_dueler	duelgun2_duel-weapon
-give	james_dueler	duelgun1_duel-weapon
-give	red_amigo	redgun_duel-weapon	jubal_dueler
-give	red_amigo	redgun_duel-weapon	jubal_dueler
+give	blindboy_amigo	cortbullet_None	box_None	cort_dueler
+give	blindboy_amigo	cortbullet_None	box_None	cort_dueler
+give	blindboy_amigo	cortbullet_None	box_None	cort_dueler
+give	blindboy_amigo	cortbullet_None	box_None	cort_dueler
+give	joe_dueler	joegun_duel-weapon

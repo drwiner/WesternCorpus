@@ -1,5 +1,3 @@
-load-gun	cort_dueler	cortgun_duel-weapon
-load-gun	cort_dueler	cortgun_duel-weapon
 load-gun	morgan_dueler	morgangun_duel-weapon
 load-gun	preacher_dueler	preachergun1_duel-weapon
 load-gun	preacher_dueler	preachergun1_duel-weapon
@@ -7,7 +5,9 @@ load-gun	preacher_dueler	preachergun1_duel-weapon
 load-gun	preacher_dueler	preachergun1_duel-weapon
 load-gun	thug_dueler	thuggun_duel-weapon
 load-gun	thug_dueler	thuggun_duel-weapon
-load-gun	rufus_amigo	duelgun1_duel-weapon
-load-gun	rufus_amigo	duelgun2_duel-weapon
 load-gun	shep_dueler	shepgun_duel-location
 load-gun	shep_dueler	shepgun_duel-location
+load-gun	rufus_amigo	duelguna_None
+load-gun	rufus_amigo	duelgunb_None
+load-gun	cort_dueler	cortgun_duel-weapon
+load-gun	cort_dueler	cortgun_duel-weapon

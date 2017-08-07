@@ -112,6 +112,9 @@ class ActionType:
 		if self.type_name in new_quant_data.keys():
 			self.num_appearances = int(new_quant_data[self.type_name])
 
+	def asDict(self):
+		return self.__dict__
+
 	def __repr__(self):
 		return str(self.type_name)
 
@@ -124,6 +127,14 @@ class Action:
 		self.finishes = kwargs['conclusionstatus']
 		for key in kwargs:
 			setattr(self, key, kwargs[key])
+
+	def asDict(self):
+		self._args = [arg.asDict() for arg in self._args if type(arg) is not str and arg is not None]
+		# self._type = self._type.asDict()
+		if type(self._type) is not str and self._type is not None:
+			self._type = self._type.asDict()
+
+		return self.__dict__
 
 	def appendArg(self, arg):
 		self._args.append(arg)
@@ -177,6 +188,10 @@ class Shot:
 		self.orig_sentence = sentence
 		self.nlp_sentence = None
 		self.assignSpatial()
+
+	def asDict(self):
+		self.actions = [action.asDict() for action in self.actions]
+		return self.__dict__
 
 	def assignSpatial(self):
 		spatial_start = figure_split_machine(self.__dict__['figureobjs(shotstart)'])
@@ -282,6 +297,12 @@ class Scene:
 	def __getitem__(self, item):
 		return self._shots[item]
 
+	def asDict(self):
+
+		self._shots = [shot.asDict() for shot in self._shots]
+		self.entities = [ent.asDict() for ent in self.entities if type(ent) is not str]
+		return self.__dict__
+
 	def append(self, item):
 		self._shots.append(item)
 
@@ -370,6 +391,9 @@ class SceneLib:
 	def items(self):
 		return self._scenes.items()
 
+	def asDict(self):
+		return {key: value.asDict() for key, value in self._scenes.items()}
+
 	def __repr__(self):
 		members = ['\n' + str(value) for value in self.values()]
 		return 'All Scenes: ' + '\n' + ''.join(['{}'.format(scene) for scene in members])
@@ -445,13 +469,15 @@ def parse(ws):
 	# save_scenes(scene_lib)
 	return scene_lib
 
-def readCorpus(file_name='Western_duel_corpus.xlsx'):
+def readCorpus(file_name='Western_duel_corpus_edited.xlsx'):
 	print('loading workbook')
 	wb = load_workbook(filename=file_name, data_only=True)
 	return wb.worksheets[0]
 
 if __name__ == '__main__':
-	rc = readCorpus()
+	old_file_name = 'Western_duel_corpus_edited.xlsx'
+	master_file_name = 'WESTERN_DUEL_CROPUS_MASTER_update.xlsx'
+	rc = readCorpus(file_name=master_file_name)
 	parse(rc)
 
 

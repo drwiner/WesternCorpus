@@ -13,6 +13,9 @@ class Entity:
 		# # keys are shot numbers, value is pair of spatial positions (shotstart, shotend)
 		# self.spatial_dict = dict()
 
+	def asDict(self):
+		return self.__dict__
+
 	def __hash__(self):
 		return hash(str(self.name) + str(self.role))
 

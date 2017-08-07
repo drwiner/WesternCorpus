@@ -3,6 +3,9 @@ waterhole - duel-location
 jameshead
 duelgun1 - duel-weapon
 duelgun1&2
+duelguna&b
+duelguna
+duelgunb
 wagon
 assistantgun
 wagonwheel
@@ -21,5 +24,6 @@ assistant
 
 _
 duelgun1&2 = duelgun1 duelgun2
+duelguna&b = duelguna duelgunb
 james&buck = james buck
 james&jean = james jean

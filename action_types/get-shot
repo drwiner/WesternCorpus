@@ -1,54 +1,54 @@
 get-shot	jd_dueler	jdbody_None
-get-shot	german_dueler	germanchest_None
-get-shot	german2_thug	german2body_None
-get-shot	bandit3_thug	bandit3body_None
-get-shot	ben_dueler	benbody_None
-get-shot	bard_amigo	bardbody_None
-get-shot	bard_amigo	bardbody_None
-get-shot	bard_amigo	bardbody_None
-get-shot	jack_dueler	jackbody_None
-get-shot	rufus_thug	rufusbody_None
-get-shot	rifleman_thug	riflemanbody_None
+get-shot	morgan_dueler	morganbody_None
+get-shot	rudd_dueler	ruddbody_None
 get-shot	marston_dueler	quigleygun_duel-weapon	marstonchest_None
 get-shot	dobkin_thug	quigleygun_duel-weapon	dobkinchest_None
 get-shot	o'flynn_thug	quigleygun_duel-weapon	oflynnhead_None
-get-shot	thugsbodies_None	thugsbodies_None
-get-shot	bannister_dueler	bannisterchest_None
-get-shot	thugc_dueler	thugcbody_None
-get-shot	thugb_dueler	thugbbody_None
-get-shot	thuga_dueler	thugabody_None
-get-shot	harmonica_dueler	thugagun_duel-weapon	harmonicachest_None
-get-shot	spottedhorse_dueler	spottedhorsehead_None
-get-shot	woodrow_dueler	woodrowchest_None
-get-shot	andy_dueler	andybody_None
-get-shot	andy_dueler	andybody_None
-get-shot	andy_dueler	andybody_None
-get-shot	andy_dueler	andybody_None
-get-shot	jack_dueler	jackbody_None
-get-shot	nino_None	mortimergun_duel-weapon	ninobody_None
-get-shot	indio_dueler	indiobody_None
-get-shot	doc_dueler	ringohead_None
-get-shot	thugb_dueler	thugbbody_None
-get-shot	thuga_dueler	thugachest_None
-get-shot	reno_dueler	renobody_None
-get-shot	reno_dueler	renobody_None
-get-shot	sam_dueler	sambody_None
-get-shot	ranse_dueler	ransearm_None
-get-shot	morgan_dueler	morganbody_None
-get-shot	rudd_dueler	ruddbody_None
-get-shot	marshal_amigo	marshalshoulder_None
-get-shot	fighter_dueler	fighterchest_None
 get-shot	stockburn_dueler	stockburnchest_None
 get-shot	stockburn_dueler	stockburnchest_None
 get-shot	stockburn_dueler	stockburnhead_None
 get-shot	coy_amigo	coybody_None
+get-shot	andy_dueler	andybody_None
+get-shot	andy_dueler	andybody_None
+get-shot	andy_dueler	andybody_None
+get-shot	andy_dueler	andybody_None
+get-shot	marshal_amigo	marshalshoulder_None
+get-shot	fighter_dueler	fighterchest_None
 get-shot	thug_dueler	thugchest_None
 get-shot	thug_dueler	thugchest_None
 get-shot	thug_dueler	thugchest_None
 get-shot	barman_thug	barmanback_None
+get-shot	shep_dueler	shepbody_None
 get-shot	pestoso_dueler	vangun_None	pestosohead_None
+get-shot	reno_dueler	renobody_None
+get-shot	reno_dueler	renobody_None
 get-shot	james_dueler	jameshead_None
 get-shot	buck_dueler	buckchest_None
+get-shot	woodrow_dueler	woodrowchest_None
+get-shot	jack_dueler	jackbody_None
+get-shot	rufus_thug	rufusbody_None
+get-shot	rifleman_thug	riflemanbody_None
+get-shot	german_dueler	germanchest_None
+get-shot	german2_thug	german2body_None
+get-shot	bandit3_thug	bandit3body_None
+get-shot	thugc_dueler	thugcbody_None
+get-shot	thugb_dueler	thugbbody_None
+get-shot	thuga_dueler	thugabody_None
+get-shot	harmonica_dueler	thugagun_duel-weapon	harmonicachest_None
+get-shot	thugb_dueler	thugbbody_None
+get-shot	thuga_dueler	thugachest_None
+get-shot	nino_None	mortimergun_duel-weapon	ninobody_None
+get-shot	indio_dueler	indiobody_None
+get-shot	ben_dueler	benbody_None
+get-shot	bard_amigo	bardbody_None
+get-shot	bard_amigo	bardbody_None
+get-shot	bard_amigo	bardbody_None
+get-shot	ranse_dueler	ransearm_None
+get-shot	spottedhorse_dueler	spottedhorsehead_None
+get-shot	bannister_dueler	bannisterchest_None
+get-shot	thugsbodies_None	thugsbodies_None
+get-shot	sam_dueler	sambody_None
+get-shot	jack_dueler	jackbody_None
 get-shot	sentenza_dueler	sentenzabody_None
 get-shot	sentenza_dueler	sentenzabody_None
-get-shot	shep_dueler	shepbody_None
+get-shot	doc_dueler	ringohead_None
