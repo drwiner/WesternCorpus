@@ -93,16 +93,17 @@ def write_to_json(scene_lib):
 if __name__ == '__main__':
 	old_file_name = 'Western_duel_corpus_edited.xlsx'
 	master_file_name = 'WESTERN_DUEL_CORPUS_MASTER_update.xlsx'
-	# rc = readCorpus(file_name=master_file_name)
-	# parse(rc)
-
-	# start pipeline
-	# scene_lib = readAndSaveFromScratch(text_name=master_file_name)
-
-	# SDS.save_scenes(scene_lib, master_file_name[0:-4] + '.pkl')
-	RELOAD = 1
+	# master_file_name = 'WESTERN_DUEL_CORPUS_MASTER_last_update.xlsx'
+	rc = readCorpus(file_name=master_file_name)
+	parse(rc)
+	#
+	# # start pipeline
+	scene_lib = readAndSaveFromScratch(text_name=master_file_name)
+	#
+	SDS.save_scenes(scene_lib, master_file_name[0:-4] + '.pkl')
+	RELOAD = 0
 	if RELOAD:
-		scene_lib = SDS.load()
+		scene_lib = SDS.load('WESTERN_DUEL_CORPUS_MASTERt_update..pkl')
 		# SDS.save_scenes(scene_lib, 'scenelib.pkl')
 		write_to_json(scene_lib)
 	# print('inspect')

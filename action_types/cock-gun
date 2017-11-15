@@ -1,3 +1,15 @@
+cock-gun	blondie_dueler	blondiegun_duel-weapon
+cock-gun	james_dueler	duelguna_None
+cock-gun	cort_dueler	cortgun_duel-weapon
+cock-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon
+cock-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon
+cock-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon
+cock-gun	shep_dueler	shepgun_duel-location
+cock-gun	jubal_dueler	redgun_duel-weapon
+cock-gun	jd_dueler	jdrifle_None
+cock-gun	kane_dueler	kanegun_duel-weapon
+cock-gun	billy_dueler	billygun_duel-weapon
+cock-gun	stranger_dueler	strangergun_duel-weapon
 cock-gun	lyle_dueler
 cock-gun	thugs_thug
 cock-gun	lylegun_duel-weapon
@@ -6,18 +18,6 @@ cock-gun	lyle_dueler	lylegun_duel-weapon
 cock-gun	lyle_dueler	thugsgun_None
 cock-gun	thugs_thug	lylegun_duel-weapon
 cock-gun	thugs_thug	thugsgun_None
-cock-gun	jd_dueler	jdrifle_None
-cock-gun	kane_dueler	kanegun_duel-weapon
-cock-gun	o'flynn_thug	oflynngun_None
-cock-gun	stranger_dueler	strangergun_duel-weapon
-cock-gun	shep_dueler	shepgun_duel-location
-cock-gun	jubal_dueler	redgun_duel-weapon
-cock-gun	james_dueler	duelguna_None
-cock-gun	billy_dueler	billygun_duel-weapon
-cock-gun	mortimer_dueler	moncogun_None
 cock-gun	liberty_dueler	libertygun_duel-weapon
-cock-gun	cort_dueler	cortgun_duel-weapon
-cock-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon
-cock-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon
-cock-gun	spottedhorse_dueler	spottedhorsegun_duel-weapon
-cock-gun	blondie_dueler	blondiegun_duel-weapon
+cock-gun	mortimer_dueler	moncogun_None
+cock-gun	o'flynn_thug	oflynngun_None

@@ -1,17 +1,17 @@
-drop	rudd_dueler	ruddbible_None
-drop	rudd_dueler	ruddbible_None
-drop	jed_dueler	renoglass_None
-drop	jed_dueler	cig_None	jedmouth_None	renoglass_None
-drop	jed_dueler	cig_None	jedmouth_None	renoglass_None
-drop	johnny_dueler	bottle1_None	bar_None
-drop	bartender_bartender	bottle3_None	counter_None	bar_None
-drop	jack_dueler	jackmug_None	jackmouth_None	table_None
+drop	blondiebullet_None	sentenzahat_None	ground_None	grave_None
+drop	blondiebullet_None	sentenzagun_duel-weapon	ground_None	grave_None
 drop	zeke_bartender	bottle_None	bar_None
 drop	sam_dueler	samgun_duel-weapon	bar_None	zeke_bartender
 drop	zeke_bartender	soda_None	backbar_duel-location	sam_dueler
 drop	zeke_bartender	soda_None	bar_None
 drop	sam_dueler	soda_None	bar_None
 drop	sam_dueler	ring_None
-drop	blondiebullet_None	sentenzahat_None	ground_None	grave_None
-drop	blondiebullet_None	sentenzagun_duel-weapon	ground_None	grave_None
+drop	johnny_dueler	bottle1_None	bar_None
+drop	bartender_bartender	bottle3_None	counter_None	bar_None
+drop	jack_dueler	jackmug_None	jackmouth_None	table_None
+drop	rudd_dueler	ruddbible_None
+drop	rudd_dueler	ruddbible_None
+drop	jed_dueler	renoglass_None
+drop	jed_dueler	cig_None	jedmouth_None	renoglass_None
+drop	jed_dueler	cig_None	jedmouth_None	renoglass_None
 drop	doc_dueler	badge_None	doc_dueler	ringo_dueler

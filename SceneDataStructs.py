@@ -199,12 +199,30 @@ class Shot:
 		spatials = spatial_start + spatial_end
 		self.foreground = []
 		self.background = []
+		already_seen_ents = set()
+		bkgrnd = {'background', 'back', 'behind', 'backgrond', 'bck', 'bbackground'}
 		for ent in spatials:
+
+			if len(ent) < 2:
+				continue
+
+			# if ent[0] == 'null':
+			# 	continue
+			#
+			# try:
+			if ent[1] in already_seen_ents:
+				continue
+			# except:
+			# 	print('here')
+			# 	continue
 			ground = ent[-1].split('-')[-1]
-			if ground == 'foreground':
-				self.foreground.append(ent[1:])
-			elif ground == 'background':
+
+			if ground in bkgrnd:
 				self.background.append(ent[1:])
+			else:
+				self.foreground.append(ent[1:])
+
+			already_seen_ents.add(ent[1])
 
 
 	def update(self, row_values):
@@ -226,8 +244,11 @@ class Shot:
 			ent_dict[ent.name.split('_')[0]] = ent
 
 		for ent in self.foreground:
-			if ent[0] in ent_dict.keys():
-				ent[0] = ent_dict[ent[0]]
+			try:
+				if ent[0] in ent_dict.keys():
+					ent[0] = ent_dict[ent[0]]
+			except:
+				print('here')
 		for ent in self.background:
 			if ent[0] in ent_dict.keys():
 				ent[0] = ent_dict[ent[0]]

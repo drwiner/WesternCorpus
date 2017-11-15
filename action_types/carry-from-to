@@ -1,9 +1,9 @@
+carry-from-to	zeke_bartender	samgun_duel-weapon	backbar_duel-location	sam_dueler
+carry-from-to	zeke_bartender	samgun_duel-weapon	backbar_duel-location	sam_dueler
+carry-from-to	bartender_bartender	bottles1&2_None	counter_None	bar_None
+carry-from-to	bartender_bartender	bottles1&2_None	counter_None	bar_None
+carry-from-to	conductor_None	package_None	train_None	trainstation_None
 carry-from-to	morgan_dueler
 carry-from-to	biblegun_duel-weapon
 carry-from-to	road_duel-location
 carry-from-to	ruddbible_None
-carry-from-to	bartender_bartender	bottles1&2_None	counter_None	bar_None
-carry-from-to	bartender_bartender	bottles1&2_None	counter_None	bar_None
-carry-from-to	conductor_None	package_None	train_None	trainstation_None
-carry-from-to	zeke_bartender	samgun_duel-weapon	backbar_duel-location	sam_dueler
-carry-from-to	zeke_bartender	samgun_duel-weapon	backbar_duel-location	sam_dueler

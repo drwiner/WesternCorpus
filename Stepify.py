@@ -169,6 +169,6 @@ def plannify(scene_lib, domain='western.pddl', problem='generic_western_problem.
 
 if __name__ == '__main__':
 	plannify(SDS.load())
-
+	# print('here')
 	# now, we would somehow check if our scene_plans_dict has any merit.
 	# put in topological order and output to scene files
